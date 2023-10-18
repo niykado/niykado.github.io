@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /catalogsearch/result/index/
+
+User-Agent: *
+Disallow: /catalogsearch/
+
+User-agent: Uptimebot
+Allow: /
