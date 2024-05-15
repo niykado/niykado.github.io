@@ -1,0 +1,36 @@
+/* FormStyles.css */
+
+.form-container {
+    margin-bottom: 20px; /* Add space below the form */
+  }
+  
+  .btn-center {
+    display: block;
+    margin: 20px auto; /* Center align the button and add space around it */
+    border-radius: 20px; /* Make the button rounded */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    border: none; /* Remove border */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .btn-center:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  
+  .link-button {
+    color: #007bff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .link-button:hover {
+    text-decoration: underline; /* Underline text on hover */
+  }
+
+.forgot-link {
+    position: absolute;
+    margin-top: -10px;
+}
