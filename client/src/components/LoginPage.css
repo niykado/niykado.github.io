@@ -1,0 +1,66 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* Add relative positioning */
+}
+
+.login-page .row-divider {
+  width: 2px;
+  background-color: #ccc;
+}
+
+.login-page .left-info,
+.login-page .right-info {
+  width: 300px; /* Adjust width as needed */
+  height: 300px; /* Height equal to width to make it a square */
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.login-page .left-info {
+  margin-right: 10px; /* Adjust spacing between squares */
+}
+
+.login-page .right-info {
+  margin-left: 10px; /* Adjust spacing between squares */
+}
+
+.login-page .tab-buttons {
+  position: absolute; /* Add absolute positioning */
+  top: 0; /* Align tabs to the top */
+  left: 0; /* Align tabs to the left */
+  display: flex;
+}
+
+.login-page .tab-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.login-page .tab-button.active {
+  background-color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.switch-link {
+  position: absolute;
+  margin-top: 13px;
+}
+
+
+.switch-btn {
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
