@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/niykado.github.io/static/css/main.0bddcd5c.css",
+    "main.js": "/niykado.github.io/static/js/main.da66b72c.js",
+    "static/js/453.45c174f6.chunk.js": "/niykado.github.io/static/js/453.45c174f6.chunk.js",
+    "index.html": "/niykado.github.io/index.html",
+    "main.0bddcd5c.css.map": "/niykado.github.io/static/css/main.0bddcd5c.css.map",
+    "main.da66b72c.js.map": "/niykado.github.io/static/js/main.da66b72c.js.map",
+    "453.45c174f6.chunk.js.map": "/niykado.github.io/static/js/453.45c174f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bddcd5c.css",
+    "static/js/main.da66b72c.js"
+  ]
+}
