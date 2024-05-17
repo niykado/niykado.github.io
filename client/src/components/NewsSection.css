@@ -1,0 +1,22 @@
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .news-block {
+    width: 200px; /* Adjust size as needed */
+  }
+  .news-block img {
+    width: 100%;
+  }
+  .news-block h2 {
+    font-size: 18px;
+  }
+  .news-block p {
+    font-size: 14px;
+  }
+  .news-block .read-more {
+    text-decoration: none;
+    color: blue;
+  }
+  

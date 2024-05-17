@@ -42,7 +42,7 @@ function Navbar() {
               <Link className="nav-link" to="/contactus">Contact Us</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/news">News</Link>
+              <Link className="nav-link" to="/newssection">News</Link>
             </li>
             <li>
               <Link className="btn btnpreorder" to="/login">Login</Link>

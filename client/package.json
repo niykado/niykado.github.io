@@ -1,4 +1,4 @@
-{  "homepage": "https://Ebin746.github.io/niykado.github.io",
+{"homepage": "https://niykado.github.io/niykado.github.io",
   "name": "niykado",
   "version": "0.1.0",
   "private": true,
@@ -11,12 +11,13 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d -m main build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
