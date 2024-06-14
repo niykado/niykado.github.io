@@ -1,0 +1,106 @@
+/* LoginPage.css */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+  transition: background 0.5s ease-in-out;
+}
+
+.login-page-row {
+  display: flex;
+  flex-direction: column; /* Adjusted to stack columns on smaller screens */
+  width: 80%;
+  max-width: 800px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.login-page-col {
+  flex: 1;
+  padding: 40px;
+  transition: all 0.5s ease-in-out;
+}
+
+.login-page-left-info {
+  text-align: center;
+  animation: loginFadeInLeft 0.5s;
+}
+
+.login-page-right-info {
+  text-align: center;
+  animation: loginFadeInRight 0.5s;
+}
+
+.login-page-switch-link {
+  margin-top: 20px;
+  animation: loginFadeIn 0.5s;
+}
+
+.login-page-switch-btn,
+.login-page-forgot-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+}
+
+.login-page-switch-btn:hover,
+.login-page-forgot-btn:hover {
+  color: #0056b3;
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  font-size: large;
+  font-weight: 800;
+}
+
+/* Animations */
+@keyframes loginFadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes loginFadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes loginFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Media Queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  .login-page-row {
+    width: 90%; /* Adjusted width for smaller screens */
+  }
+
+  .login-page-col {
+    padding: 20px; /* Adjusted padding for smaller screens */
+  }
+}

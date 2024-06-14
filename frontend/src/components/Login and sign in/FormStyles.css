@@ -1,0 +1,54 @@
+/* Base styles for all devices */
+.form-container {
+  margin-bottom: 20px; /* Adds space below the form */
+ 
+  display: flex;
+flex-direction: column;
+  align-items: center;
+
+}
+.form-group{
+  max-width: 300px;
+  border: 2px soild black;
+}
+.btn-center,.link-button {
+  display: block; /* Makes the button and link appear as blocks */
+  margin: 20px auto; /* Centers the button and link horizontally and adds vertical space */
+  border-radius: 20px; /* Rounds the corners of the button and link */
+  padding: 10px 20px; /* Adds padding inside the button and link */
+  background-color:#007bff; /* Sets the background color */
+  color: #fff; /* Sets the text color */
+  border: none; /* Removes the border */
+  text-decoration: none; /* Removes the underline */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* Adds a smooth transition for the background color */
+}
+
+.btn-center:hover,.link-button:hover {
+  background-color: #013a76;
+  color: #fff /* Changes the background color on hover */
+}
+
+/* Styles for smaller devices (mobile-first approach) */
+@media (max-width: 767px) {
+ .btn-center,.link-button {
+    padding: 8px 16px; /* Reduces padding for smaller screens */
+    font-size: 14px; /* Reduces font size for better readability */
+  }
+
+ .form-container {
+    margin-bottom: 10px; /* Reduces space below the form for smaller screens */
+  }
+}
+
+/* Additional styles for larger devices (optional) */
+@media (min-width: 1024px) {
+ .btn-center,.link-button {
+    padding: 12px 24px; /* Increases padding for larger screens */
+    font-size: 16px; /* Increases font size for better readability */
+  }
+
+ .form-container {
+    margin-bottom: 30px; /* Increases space below the form for larger screens */
+  }
+}

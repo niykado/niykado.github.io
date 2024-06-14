@@ -1,0 +1,44 @@
+/* BookedCustomerDetails.css */
+
+.user-details-container {
+    margin: 20px;
+  }
+  
+  .user-details-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-details {
+    margin-bottom: 20px;
+  }
+  
+  .user-details p {
+    margin-bottom: 10px;
+  }
+  
+  .prebooked-items {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .prebooked-items h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-details {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+ 
+  }
+  
+  .product-details p {
+    margin-bottom: 5px;
+
+  }
+  
+  /* Customize styles as needed */
+  
