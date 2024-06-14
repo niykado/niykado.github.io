@@ -1,0 +1,43 @@
+/* Existing CSS for positioning */
+.carousel {
+  position: relative;
+  top: -85px;
+  z-index: 0;
+}
+
+/* Ensuring images cover the full width and height without shrinking */
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Adjust carousel height for different devices */
+.carousel-item {
+  height: 600px; /* Default height for larger screens */
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 400px; /* Smaller height for tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item {
+    height: 300px; /* Smaller height for mobile phones */
+  }
+}
+
+/* Ensuring carousel controls are visible on smaller screens */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-indicators button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
