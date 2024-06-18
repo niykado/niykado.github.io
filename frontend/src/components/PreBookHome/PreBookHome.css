@@ -1,0 +1,174 @@
+
+
+.pre-order-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+
+  overflow-x: hidden; /* Hide overflow */
+}
+
+.pre-order-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.pre-order-slider {
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 250px; /* Increased height */
+}
+
+.pre-order-slides {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+
+
+}
+
+.pre-order-slide {
+  flex: 0 0 auto;
+  width: 150px; /* Reduced width */
+  margin: 0 20px; /* Increased margin between elements */
+  opacity: 0.8; 
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.pre-order-slide:first-child {
+  margin-left: 30px; /* Add extra margin to the first slide */
+}
+
+.pre-order-slide:last-child {
+  margin-right: 30px; /* Add extra margin to the last slide */
+}
+
+.pre-order-slide:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.pre-order-placeholder-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+  border-radius: 15px; /* Rounded corners */
+}
+
+.pre-order-item-label {
+  margin-top: 10px;
+  transition: transform 0.5s ease;
+}
+
+.pre-order-slide:hover .pre-order-placeholder-image,
+.pre-order-slide:hover .pre-order-item-label {
+  transform: scale(1.1);
+}
+
+.pre-order-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.pre-order-current-item {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.pre-order-nav-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.pre-order-nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #000;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slide-in 0.5s forwards;
+}
+
+/* New CSS for responsiveness */
+@media (max-width: 840px) {
+  .pre-order-slide {
+    max-width: 300px;
+
+    margin: 1rem;
+    transform: translateX(0); /* Reset transform for mobile */
+  }
+
+  .pre-order-nav {
+    position: relative; /* Add position relative to handle absolute children */
+    padding-bottom: 50px; /* Add padding to avoid content overlap */
+  }
+  
+  .pre-order-nav-buttons {
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    padding: 0 20px;
+  }
+  
+  .pre-order-nav-button {
+    font-size: 1.5em;
+    margin: 0 20px; /* Add margin between navigation buttons */
+  }
+
+  .pre-order-current-item {
+    font-size: 1em;
+    margin-bottom: 5px;
+  }
+}
+
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust height as needed */
+}
+
+.spinner {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  border-radius: 50%;
+  border: 5px solid #ccc;
+  border-top-color: #333;
+  animation: spin 1s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

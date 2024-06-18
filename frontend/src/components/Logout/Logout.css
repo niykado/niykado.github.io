@@ -1,0 +1,31 @@
+/* src/Logout.css */
+.containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7; /* AliceBlue color */
+  }
+  
+  .headings {
+    color: #000000; /* DodgerBlue color */
+    font-size: 2rem;
+  }
+  
+  .messages{
+    color: #000000; /* DodgerBlue color */
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    background-color: #0280ff; /* DodgerBlue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

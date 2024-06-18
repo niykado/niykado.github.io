@@ -1,0 +1,80 @@
+/* Footer styles */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 40px 0;
+}
+
+/* Logo styling */
+.footer-logo {
+  width: 100px;
+  height: auto;
+ 
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Footer title styling */
+.footer-title {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+/* Footer heading styling */
+.footer-heading {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+
+/* Social media icon styling */
+.social-media-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* Footer item styling */
+.footer-item {
+  margin-bottom: 10px;
+}
+
+/* Footer link styling */
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #adb5bd;
+}
+
+/* Footer address styling */
+.footer-address {
+  font-style: normal;
+}
+
+/* Footer divider styling */
+.footer-divider {
+  border-color: #495057;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer-title, .footer-heading {
+    text-align: center;
+  }
+
+  .footer-link {
+    justify-content: center;
+  }
+  .footer-address {
+   text-align: center;
+  }
+  
+}
