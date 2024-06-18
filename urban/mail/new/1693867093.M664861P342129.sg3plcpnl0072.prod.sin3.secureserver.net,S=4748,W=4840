@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id /faRJVVc9mRxOAUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 04 Sep 2023 15:38:13 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 04 Sep 2023 15:38:13 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qdICz-001R07-IC
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Mon, 04 Sep 2023 15:38:13 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qdICr-001Qyv-OV@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1693867093-eximdsn-1636224218
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qdICz-001R07-IC@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 04 Sep 2023 15:38:13 -0700
+
+--1693867093-eximdsn-1636224218
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 dICzqzRSwQC9l :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RdFWSXhv c=1 sm=1 tr=0 ts=64f65c55 p=WHk_Cl4LNCgGJfCi1dMA:9 p=wJRajvhilT8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=1dEyUgRvuMgA:10 a=pGLkceISAAAA:8 a=0rb50ihEpPIA:10 a=r-eo6PEAI_-q1pjuFpE-:22 a=wExtcIH06fSd5doaf15m:22 a=5WXwxYStDJFuYRuZHuqg:22 a=Uz9EnhuHEG25YKoRyM-d:22 ::
+    100.00
+
+--1693867093-eximdsn-1636224218
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 dICzqzRSwQC9l :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RdFWSXhv c=1 sm=1 tr=0 ts=64f65c55 p=WHk_Cl4LNCgGJfCi1dMA:9 p=wJRajvhilT8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=zNV7Rl7Rt7sA:10 a=x7bEGLp0ZPQA:10 a=1dEyUgRvuMgA:10 a=pGLkceISAAAA:8 a=0rb50ihEpPIA:10 a=r-eo6PEAI_-q1pjuFpE-:22 a=wExtcIH06fSd5doaf15m:22 a=5WXwxYStDJFuYRuZHuqg:22 a=Uz9EnhuHEG25YKoRyM-d:22 :: 100.00
+
+--1693867093-eximdsn-1636224218
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qdICr-001Qyv-OV
+	for info@yoursite.com;
+	Mon, 04 Sep 2023 15:38:13 -0700
+To: info@yoursite.com
+Subject: New contact from Andrew Jackson
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 192.241.111.108
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 192.241.111.108
+From: Andrew Jackson <andrewjacksonoi872@gmail.com>
+Message-Id: <E1qdICr-001Qyv-OV@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 04 Sep 2023 15:38:05 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-sh
+X-ENVIRONMENT: prod
+
+Name: Andrew Jackson
+Email: andrewjacksonoi872@gmail.com
+
+Subject: New contact from Andrew Jackson
+
+Message:
+Hi there! 
+
+Does your company have a mobile app? I'm an experienced app developer who works across many platforms (Android, iOs, etc). Your company can benefit from various mobile apps in terms of marketing, operational effectiveness, or both. Nowadays, potential customers feel more at ease conducting business with organizations whose mobile apps not only have a fantastic appearance and feel, but also have some capabilities that make carrying out the majority of business procedures simpler. 
+
+Please let me know if you already have some plans in mind and I would really want to share some of my own thoughts with you as well. 
+
+Thank you!
+
+Thank you!
+
+Andrew Jackson - Web Developer
+
+
+--1693867093-eximdsn-1636224218--

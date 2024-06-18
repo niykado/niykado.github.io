@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 8HIEAmHN7GJeyzYAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 05 Aug 2022 00:57:21 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 05 Aug 2022 00:57:21 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oJsCu-00F4kR-VY
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 05 Aug 2022 00:57:21 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oJsCt-00F4jX-QA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1659686240-eximdsn-54391060
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oJsCu-00F4kR-VY@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 05 Aug 2022 00:57:20 -0700
+
+--1659686240-eximdsn-54391060
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 JsCtoj6pLNdIG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62eccd60 p=F-BuM0D8AAAA:8 p=PWhY62kvmecA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=ysaPsKf2Xh4A:10 a=CjxXgO3LAAAA:8 a=98V17-cobdFnn91p9g0A:9 a=PApuGnrX5aUA:10 a=njEfGGHjLOQA:10 a=Uk9vrENqI_0A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=nJgHrudmEpVWE_lwP0XT:22 ::
+    100.00
+
+--1659686240-eximdsn-54391060
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 JsCtoj6pLNdIG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62eccd60 p=F-BuM0D8AAAA:8 p=PWhY62kvmecA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=ysaPsKf2Xh4A:10 a=CjxXgO3LAAAA:8 a=98V17-cobdFnn91p9g0A:9 a=PApuGnrX5aUA:10 a=njEfGGHjLOQA:10 a=Uk9vrENqI_0A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=nJgHrudmEpVWE_lwP0XT:22 :: 100.00
+
+--1659686240-eximdsn-54391060
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oJsCt-00F4jX-QA
+	for info@yoursite.com; Fri, 05 Aug 2022 00:57:19 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCigCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.244
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.244
+From: CrytoCigCig <sowzak2005@yahoo.com>
+Message-Id: <E1oJsCt-00F4jX-QA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 05 Aug 2022 00:57:19 -0700
+
+Name: CrytoCigCig
+Email: sowzak2005@yahoo.com
+
+Subject: New contact from CrytoCigCig
+
+Message:
+One dollar is nothing, but it can grow into $100 here. https://bam.danceit.es/bam
+
+
+--1659686240-eximdsn-54391060--

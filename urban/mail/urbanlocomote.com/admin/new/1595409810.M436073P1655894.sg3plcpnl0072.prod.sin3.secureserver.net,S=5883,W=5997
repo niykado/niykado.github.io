@@ -1,0 +1,114 @@
+Return-Path: <mail@lijodevasia.com>
+Delivered-To: admin@urbanlocomote.com
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 2JKZGZIFGF9WRBkAiYwtQA
+	(envelope-from <mail@lijodevasia.com>)
+	for <admin@urbanlocomote.com>; Wed, 22 Jul 2020 02:23:30 -0700
+Return-path: <mail@lijodevasia.com>
+Envelope-to: admin@urbanlocomote.com
+Delivery-date: Wed, 22 Jul 2020 02:23:30 -0700
+Received: from mail-lj1-f171.google.com ([209.85.208.171]:43201)
+	by sg3plcpnl0072.prod.sin3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <mail@lijodevasia.com>)
+	id 1jyAy9-0070wM-Rh
+	for admin@urbanlocomote.com; Wed, 22 Jul 2020 02:23:30 -0700
+Received: by mail-lj1-f171.google.com with SMTP id f5so1707595ljj.10
+        for <admin@urbanlocomote.com>; Wed, 22 Jul 2020 02:23:01 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=lijodevasia-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=o961Y1Fa/8RuUE3+zVLadOhVdHtRw7vKkivK5hNQMnI=;
+        b=GgA9ejqt6zzTsuBGd45Q1iaykl9QlnQj7DDIRSOBA70+4yu5/opSg4g/Hs2K3dk9zO
+         wk8jnWqxaxJXR6p8odHvck52iO4vvdOpdUHXemD3sJ4abW2+wL9NwisKQviT735jJdmj
+         CWD5EjvPMXkcc7uIRzsGCeZgIquuh48buMoH9G0Zm3toi46x6RCIYgUmJtK47jqXoPAv
+         bUvnOQYpC0uhP0V/IrelKFpjNqT1pqwwoil3izis/7TRqnMQ8z/Ef+uZ+UF7JPnVk8Ml
+         tH7tzDuEPgcQAf7br6b/XUESZYQFLUR0oqhRBjM7QpphusR5LhVKz277T8C69ayOcqmk
+         VZ8g==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=o961Y1Fa/8RuUE3+zVLadOhVdHtRw7vKkivK5hNQMnI=;
+        b=OJSuzkggVND3HWD/xKCpJzxP2m46ZTppDpvUA+RW4Bn8WqSMYhbDzJo391IsOAAJYz
+         P2Qo9o2YxNNpZGRfBcq2fWq3/ZF6eLKH20sGrKSqMyGQeqU5fA+NSTymUVRh/JAqSFAU
+         VHXVJ4UxPlWLspkU6Mmpd12/LEeveCS01f+IWZBBcxc+9tj2Q4VKFskKGXVKoM8jQFPa
+         GCARxBIxLA0ksqa1X+3sMDv4n4/db4Rx3c2cooXwTiy0Z6PACCDOnE+73t3Kn7AihVUG
+         c/RxGiVc8j8/WHg0zI1JpWVelAKhimH5gWtNIedw+mtL1hvf7ts/c0f0t5q3PEcExyck
+         MAvw==
+X-Gm-Message-State: AOAM530Fhg8xpDFeFU9w1qMt7dyEPa1uQSSjpj5KgC2SCEV/XxobbmW2
+	8wgkGuvi3U46XDMD7MjTbPsah1mPQ4vYKqK2MFOoAenNOe4=
+X-Google-Smtp-Source: ABdhPJzxnl7QRTNHySfVEJPkfzD/wUh7t9gmshdRPq1ohK36fkqkWSvGdZOUmLAsFidrzQueeUByzJPTW+7KRNSPTU8=
+X-Received: by 2002:a2e:a373:: with SMTP id i19mr14232321ljn.206.1595409758578;
+ Wed, 22 Jul 2020 02:22:38 -0700 (PDT)
+MIME-Version: 1.0
+From: Lijo Devasia <mail@lijodevasia.com>
+Date: Wed, 22 Jul 2020 14:52:27 +0530
+Message-ID: <CAKdO-rUftXtQHPnq0EW5GzGD5VtNZshG-VdEq_kP4-9gPZcYrg@mail.gmail.com>
+Subject: Test
+To: admin@urbanlocomote.com
+Content-Type: multipart/alternative; boundary="000000000000ee7c3605ab044762"
+X-Spam-Status: No, score=3.1
+X-Spam-Score: 31
+X-Spam-Bar: +++
+X-Ham-Report: Spam detection software, running on the system "sg3plcpnl0072.prod.sin3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Test -- 🌲Trees are killed/harvested to make paper so you
+    can read text or whatever. To view the e-mail requires electrons but they
+    are not harmed in the way a tree is.🌲 
+ 
+ Content analysis details:   (3.1 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.208.171 listed in wl.mailspike.net]
+  1.5 SPF_SOFTFAIL           SPF: sender does not match SPF record (softfail)
+  1.6 HTML_IMAGE_ONLY_12     BODY: HTML: images with 800-1200 bytes of
+                             words
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--000000000000ee7c3605ab044762
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Test
+
+--=20
+
+=F0=9F=8C=B2Trees are killed/harvested to make paper so you can read text o=
+r whatever.
+To view the e-mail requires electrons but they are not harmed in the way a
+tree is.=F0=9F=8C=B2
+
+--000000000000ee7c3605ab044762
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">Test<br clear=3D"all"><div><br></div>-- <br><div dir=3D"lt=
+r" class=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D=
+"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><di=
+v><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><span><div><=
+div dir=3D"ltr"><img src=3D"https://docs.google.com/uc?export=3Ddownload&am=
+p;id=3D10szoLTft4ZdQ1IXbnGhpcziXfIfaWQCd&amp;revid=3D0B-vSuhG568ZTSy83RU1qY=
+k9hNHloVDlNR3grVDEyQ0dMVlNrPQ"><br><div style=3D"font-size:12.8px"><span st=
+yle=3D"color:rgb(51,51,51);font-family:Verdana,Arial,Tahoma,Calibri,Geneva,=
+sans-serif;font-size:x-small;background-color:rgb(250,250,250)">=F0=9F=8C=
+=B2Trees are killed/harvested to make paper so you can read text or whateve=
+r.</span></div><div style=3D"font-size:12.8px"><span style=3D"color:rgb(51,=
+51,51);font-family:Verdana,Arial,Tahoma,Calibri,Geneva,sans-serif;font-size=
+:x-small;background-color:rgb(250,250,250)">To view the e-mail requires ele=
+ctrons but they are not harmed in the way a tree is.=F0=9F=8C=B2</span></di=
+v></div></div></span></div></div></div></div></div></div></div></div></div>=
+</div></div></div></div></div></div>
+
+--000000000000ee7c3605ab044762--

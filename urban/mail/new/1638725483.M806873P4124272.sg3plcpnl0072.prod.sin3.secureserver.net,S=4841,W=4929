@@ -1,0 +1,88 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id sOjyLWv3rGFw7j4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 05 Dec 2021 10:31:23 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 05 Dec 2021 10:31:23 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mtvMB-00HK6O-FD
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 05 Dec 2021 10:31:23 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mtvMA-00HK5q-HS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1638725483-eximdsn-610785687
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mtvMB-00HK6O-FD@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 05 Dec 2021 10:31:23 -0700
+
+--1638725483-eximdsn-610785687
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 tvMAmRYKKJX0k :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61acf76b p=8S_J94UWAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=-p1na0Vyoc0A:10 a=x7bEGLp0ZPQA:10 a=O5vWrhFr7ugA:10 a=vaJtXVxTAAAA:8 a=aR3ITIz2dNU2KX482vYA:9 a=YxMgdB6ChbgA:10 a=3nMk9tFAo1EA:10 a=-CbKcEYCfCkA:10 ::
+    100.00
+
+--1638725483-eximdsn-610785687
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 tvMAmRYKKJX0k :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61acf76b p=8S_J94UWAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=-p1na0Vyoc0A:10 a=x7bEGLp0ZPQA:10 a=O5vWrhFr7ugA:10 a=vaJtXVxTAAAA:8 a=aR3ITIz2dNU2KX482vYA:9 a=YxMgdB6ChbgA:10 a=3nMk9tFAo1EA:10 a=-CbKcEYCfCkA:10 :: 100.00
+
+--1638725483-eximdsn-610785687
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mtvMA-00HK5q-HS
+	for info@yoursite.com; Sun, 05 Dec 2021 10:31:22 -0700
+To: info@yoursite.com
+Subject: New contact from MatthewDek
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 178.65.138.118
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 178.65.138.118
+From: MatthewDek <rrubtsov7845@yandex.ru>
+Message-Id: <E1mtvMA-00HK5q-HS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 05 Dec 2021 10:31:22 -0700
+
+Name: MatthewDek
+Email: rrubtsov7845@yandex.ru
+
+Subject: New contact from MatthewDek
+
+Message:
+Что бы воспользоваться скидками до 99%, вам всего лишь нужно показать QR код на кассе кассиру или на кассе самообслуживания и попросить списать баллы. 
+Ей можно расплатиться до 99% суммы чека. 
+Потратить баллы, можно: 
+- Магнит (Продукты, Косметика и Аптека) 
+- Пятерочка 
+- Перекресток 
+- Аптека 
+- Яндекс баллы 
+- Такси 
+Эксклюзивные Купоны / Промокоды 
+https://t.me/SevenSale_bot?start=r_2561371 
+Долгое время платежная система не соглашалась пойти на уступки, а российские регуляторы встали на сторону Wildberries. В результате преимущество оказалось на стороне российской компании.
+
+
+--1638725483-eximdsn-610785687--

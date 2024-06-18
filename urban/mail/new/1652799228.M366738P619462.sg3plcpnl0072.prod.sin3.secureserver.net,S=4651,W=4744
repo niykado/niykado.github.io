@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 0H2eE/y2g2LGcwkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 17 May 2022 07:53:48 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 17 May 2022 07:53:48 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nqya4-002c96-8d
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 17 May 2022 07:53:48 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nqya3-002c8k-CB@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1652799228-eximdsn-1068625852
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nqya4-002c96-8d@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 17 May 2022 07:53:48 -0700
+
+--1652799228-eximdsn-1068625852
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qya3nlKY1m87e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=6283b6fc p=1QnuHqxhsC0A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oZkIemNP1mAA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=vmxbZj9nAAAA:8 a=woAuhZqVoAf0pMaulPAA:9 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=W1s04dqvkWFk9_ZNZip4:22 ::
+    96.00
+
+--1652799228-eximdsn-1068625852
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qya3nlKY1m87e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=6283b6fc p=1QnuHqxhsC0A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oZkIemNP1mAA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=vmxbZj9nAAAA:8 a=woAuhZqVoAf0pMaulPAA:9 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=W1s04dqvkWFk9_ZNZip4:22 :: 96.00
+
+--1652799228-eximdsn-1068625852
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nqya3-002c8k-CB
+	for info@yoursite.com; Tue, 17 May 2022 07:53:47 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Kendal
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.19.217.194
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.19.217.194
+From: Mike Kendal <no-replyRhind@gmail.com>
+Message-Id: <E1nqya3-002c8k-CB@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 17 May 2022 07:53:47 -0700
+
+Name: Mike Kendal
+Email: no-replyRhind@gmail.com
+
+Subject: New contact from Mike Kendal
+
+Message:
+Good Day 
+ 
+I have just analyzed  urbanlocomote.com for its SEO metrics and saw that your website could use a push. 
+ 
+We will enhance your SEO metrics and ranks organically and safely, using only whitehat methods, while providing monthly reports and outstanding support. 
+ 
+Please check our pricelist here, we offer SEO at cheap rates. 
+https://www.hilkom-digital.de/cheap-seo-packages/ 
+ 
+Start improving your sales and leads with us, today! 
+ 
+ 
+regards 
+Mike Kendal
+ 
+Hilkom Digital Team 
+support@hilkom-digital.de
+
+
+--1652799228-eximdsn-1068625852--

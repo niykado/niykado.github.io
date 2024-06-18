@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id SRyjJiV572JMNDcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 07 Aug 2022 01:34:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 07 Aug 2022 01:34:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oKbkD-00FD0h-JE
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 07 Aug 2022 01:34:45 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oKbkC-00FD08-DB@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1659861285-eximdsn-718090239
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oKbkD-00FD0h-JE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 07 Aug 2022 01:34:45 -0700
+
+--1659861285-eximdsn-718090239
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 KbkCo30vBNdIG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62ef7925 p=-fRUqK5Z0CUA:10 p=KNL8W2pmAAAA:8 p=27tPmq9gA1QA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=x7bEGLp0ZPQA:10 a=0vUyfwYs0eIA:10 a=pGLkceISAAAA:8 a=WHj4hS8SMOG12__PaV4A:9 a=zo7NFyWrgSEA:10 a=hb2m8RTfowsA:10 a=gFN3WqWXr7kA:10 a=wwAePvBONnjDQaqHVNx2:22 a=0zk-r3CdcPhT-LR78ilJ:22 a=5WXwxYStDJFuYRuZHuqg:22 a=bsOvI_6jlOsyfzhHIrpz:22 ::
+    100.00
+
+--1659861285-eximdsn-718090239
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 KbkCo30vBNdIG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62ef7925 p=-fRUqK5Z0CUA:10 p=KNL8W2pmAAAA:8 p=27tPmq9gA1QA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=x7bEGLp0ZPQA:10 a=0vUyfwYs0eIA:10 a=pGLkceISAAAA:8 a=WHj4hS8SMOG12__PaV4A:9 a=zo7NFyWrgSEA:10 a=hb2m8RTfowsA:10 a=gFN3WqWXr7kA:10 a=wwAePvBONnjDQaqHVNx2:22 a=0zk-r3CdcPhT-LR78ilJ:22 a=5WXwxYStDJFuYRuZHuqg:22 a=bsOvI_6jlOsyfzhHIrpz:22 :: 100.00
+
+--1659861285-eximdsn-718090239
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oKbkC-00FD08-DB
+	for info@yoursite.com; Sun, 07 Aug 2022 01:34:44 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.232
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.232
+From: CrytoCig <pgsandridge@gmail.com>
+Message-Id: <E1oKbkC-00FD08-DB@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 07 Aug 2022 01:34:44 -0700
+
+Name: CrytoCig
+Email: pgsandridge@gmail.com
+
+Subject: New contact from CrytoCig
+
+Message:
+Online Bot will bring you wealth and satisfaction. https://bam.echinat.de/bam
+
+
+--1659861285-eximdsn-718090239--

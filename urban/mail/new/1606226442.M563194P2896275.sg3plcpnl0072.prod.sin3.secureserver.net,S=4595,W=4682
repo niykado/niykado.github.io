@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id cHiSIAoSvV+TMSwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 24 Nov 2020 07:00:42 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 24 Nov 2020 07:00:42 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1khYs6-00CI7a-Fn
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 24 Nov 2020 07:00:42 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1khYs6-00CI7O-BG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1606226442-eximdsn-174037721
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1khYs6-00CI7a-Fn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 24 Nov 2020 07:00:42 -0700
+
+--1606226442-eximdsn-174037721
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 hYs6kUOW832NV :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U4NXscnu c=1 sm=1 tr=0 ts=5fbd120a p=FRR4uZCt7uUA:10 p=cjDstN5GxgHRC94kIPgA:9 p=DHqdP4_B4MQA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=sQiqnj4EaNYA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=nNwsprhYR40A:10 a=pGLkceISAAAA:8 a=oJHwgO0_PmsA:10 a=L-4-x0DWauwqzOTpiOxH:22 ::
+    100.00
+
+--1606226442-eximdsn-174037721
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 hYs6kUOW832NV :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U4NXscnu c=1 sm=1 tr=0 ts=5fbd120a p=FRR4uZCt7uUA:10 p=cjDstN5GxgHRC94kIPgA:9 p=DHqdP4_B4MQA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=sQiqnj4EaNYA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=nNwsprhYR40A:10 a=pGLkceISAAAA:8 a=oJHwgO0_PmsA:10 a=L-4-x0DWauwqzOTpiOxH:22 :: 100.00
+
+--1606226442-eximdsn-174037721
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1khYs6-00CI7O-BG
+	for info@yoursite.com; Tue, 24 Nov 2020 07:00:42 -0700
+To: info@yoursite.com
+Subject: New contact from Pettry Gaylor
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 23.236.232.196
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 23.236.232.196
+From: Pettry Gaylor <pettrygaylor572@gmail.com>
+Message-Id: <E1khYs6-00CI7O-BG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 24 Nov 2020 07:00:42 -0700
+
+Name: Pettry Gaylor
+Email: pettrygaylor572@gmail.com
+
+Subject: New contact from Pettry Gaylor
+
+Message:
+Hello there...  :)
+
+I just have a question.  I am a web designer looking for new clients and I wanted to see if you are interested in redesigning your website or making some upgrades.  I don't want to sound like I'm "tooting my own horn" too much, but I can do some pretty amazing things, not only design-wise, but with adding features to your site that automate your business processes, or make your marketing phenomenally easier.  
+
+I'd love to talk with you about some options if you're interested, so please let me know if you would like to know more about what I can do.  I'll be happy to send some info and setup a call.  
+
+Thank you so much for reading this!
+
+ 
+Pettry Gaylor
+Web Designer
+
+
+--1606226442-eximdsn-174037721--

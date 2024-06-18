@@ -1,0 +1,80 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id YNhuAzMO819XNAUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 04 Jan 2021 05:46:43 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 04 Jan 2021 05:46:43 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kwPFy-001XoX-W1
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 04 Jan 2021 05:46:43 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kwPFp-001Xg9-RW@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1609764402-eximdsn-797336451
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kwPFy-001XoX-W1@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 04 Jan 2021 05:46:42 -0700
+
+--1609764402-eximdsn-797336451
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wPFpklAu0OkmN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=HPAGqqhv c=1 sm=1 tr=0 ts=5ff30e32 p=tHgGUc77edIA:10 p=HKslZ6toNOkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=EmqxpYm9HcoA:10 a=x7bEGLp0ZPQA:10 a=bJXYs4_p9Z0A:10 a=pGLkceISAAAA:8 a=ufk5qbcjKvcOwZhNy1wA:9 a=dGfVgWNOhCUA:10 a=fQmu7apCMXLMJo5eopAA:22 ::
+    100.00
+
+--1609764402-eximdsn-797336451
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 wPFpklAu0OkmN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=HPAGqqhv c=1 sm=1 tr=0 ts=5ff30e32 p=tHgGUc77edIA:10 p=HKslZ6toNOkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=EmqxpYm9HcoA:10 a=x7bEGLp0ZPQA:10 a=bJXYs4_p9Z0A:10 a=pGLkceISAAAA:8 a=ufk5qbcjKvcOwZhNy1wA:9 a=dGfVgWNOhCUA:10 a=fQmu7apCMXLMJo5eopAA:22 :: 100.00
+
+--1609764402-eximdsn-797336451
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kwPFp-001Xg9-RW
+	for info@yoursite.com; Mon, 04 Jan 2021 05:46:33 -0700
+To: info@yoursite.com
+Subject: New contact from Felicity Allan
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 172.245.228.29
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 172.245.228.29
+From: Felicity Allan <allanfelicity417@gmail.com>
+Message-Id: <E1kwPFp-001Xg9-RW@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 04 Jan 2021 05:46:33 -0700
+
+Name: Felicity Allan
+Email: allanfelicity417@gmail.com
+
+Subject: New contact from Felicity Allan
+
+Message:
+Hi, I'm a independent Web Designer or Developer. Are you interested in adding pages to your site anytime soon or are you possibly hoping to start on building a new one? My rates are very affordable and my designs are top notch. I'd really appreciate it if you would reply back and let me know if you are interested in viewing other sites I've built or possibly interested in getting a  quote and I'll provide it as soon as possible.
+
+Thanks!
+Felicity Allan
+
+
+--1609764402-eximdsn-797336451--

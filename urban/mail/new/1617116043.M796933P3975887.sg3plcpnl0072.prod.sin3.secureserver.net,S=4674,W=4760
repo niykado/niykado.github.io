@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id AHJWLYs7Y2DPqjwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 30 Mar 2021 07:54:03 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 30 Mar 2021 07:54:03 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lRFkp-00GpMd-Md
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 30 Mar 2021 07:54:03 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lRFko-00GpLY-VE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1617116043-eximdsn-871470697
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lRFkp-00GpMd-Md@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 30 Mar 2021 07:54:03 -0700
+
+--1617116043-eximdsn-871470697
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 RFkplXv1kGomC :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SsFVVNC0 c=1 sm=1 tr=0 ts=60633b8b p=QG3hHvYSTesA:10 p=HKslZ6toNOkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=dESyimp9J3IA:10 a=x7bEGLp0ZPQA:10 a=bJXYs4_p9Z0A:10 a=pGLkceISAAAA:8 a=zgptiypuD28lC8JuKggA:9 a=dGfVgWNOhCUA:10 a=fQmu7apCMXLMJo5eopAA:22 ::
+    100.00
+
+--1617116043-eximdsn-871470697
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 RFkplXv1kGomC :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SsFVVNC0 c=1 sm=1 tr=0 ts=60633b8b p=QG3hHvYSTesA:10 p=HKslZ6toNOkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=dESyimp9J3IA:10 a=x7bEGLp0ZPQA:10 a=bJXYs4_p9Z0A:10 a=pGLkceISAAAA:8 a=zgptiypuD28lC8JuKggA:9 a=dGfVgWNOhCUA:10 a=fQmu7apCMXLMJo5eopAA:22 :: 100.00
+
+--1617116043-eximdsn-871470697
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lRFko-00GpLY-VE
+	for info@yoursite.com; Tue, 30 Mar 2021 07:54:02 -0700
+To: info@yoursite.com
+Subject: New contact from Felicity Allan
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 107.173.178.155
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 107.173.178.155
+From: Felicity Allan <allanfelicity417@gmail.com>
+Message-Id: <E1lRFko-00GpLY-VE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 30 Mar 2021 07:54:02 -0700
+
+Name: Felicity Allan
+Email: allanfelicity417@gmail.com
+
+Subject: New contact from Felicity Allan
+
+Message:
+Hello there! 
+
+Do you have a mobile app for your business? Potential clients nowadays are more comfortable doing business with companies whose mobile app does not only have an amazing look and feel, but also has some features that make doing most business processes easier. 
+
+I'm an app developer that can design and program on any platform (Android, iOs, etc). If you already have ideas in mind, I'd love to hear about them. I also have ideas of my own that I'd really love to share with you. 
+
+If you'd like to know more info, I'll send you my portfolio containing the apps that I've made for my other clients, and I'll also show you data about how the app helps their business. Please reply to let me know what you think. Talk to you soon!
+
+Thanks!
+Felicity Allan
+
+
+--1617116043-eximdsn-871470697--

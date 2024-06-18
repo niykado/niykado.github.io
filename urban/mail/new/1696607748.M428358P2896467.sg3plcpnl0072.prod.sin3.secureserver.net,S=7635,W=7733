@@ -1,0 +1,98 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id bvdmGQQuIGVTMiwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 06 Oct 2023 08:55:48 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 06 Oct 2023 08:55:48 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qonB6-00C9V5-BW
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 06 Oct 2023 08:55:48 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qonAy-00C9TQ-Mn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696607748-eximdsn-1708402918
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qonB6-00C9V5-BW@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 06 Oct 2023 08:55:48 -0700
+
+--1696607748-eximdsn-1708402918
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 onB6q11gZMm8c :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=UaGXCoeN c=1 sm=1 tr=0 ts=65202e04 p=Tgwn2eQ_68RJWW0HTGGS:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=CKBK1CcTs-4A:10 a=pGLkceISAAAA:8 a=jWJrj4z8AAAA:8 a=qbo7zpzbQUm-sPk0BQ4A:9 a=4LZJ6-ZB6UYA:10 a=Pzr2FQd3Wp0A:10 a=12DAfT11djsAGxBi1SW6:22 a=z7aW7f7UTcWYKtJTa00D:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 ::
+    100.00
+
+--1696607748-eximdsn-1708402918
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 onB6q11gZMm8c :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=UaGXCoeN c=1 sm=1 tr=0 ts=65202e04 p=Tgwn2eQ_68RJWW0HTGGS:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=CKBK1CcTs-4A:10 a=pGLkceISAAAA:8 a=jWJrj4z8AAAA:8 a=qbo7zpzbQUm-sPk0BQ4A:9 a=4LZJ6-ZB6UYA:10 a=Pzr2FQd3Wp0A:10 a=12DAfT11djsAGxBi1SW6:22 a=z7aW7f7UTcWYKtJTa00D:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 :: 100.00
+
+--1696607748-eximdsn-1708402918
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qonAy-00C9TQ-Mn
+	for info@yoursite.com;
+	Fri, 06 Oct 2023 08:55:48 -0700
+To: info@yoursite.com
+Subject: New contact from JamesPex
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 89.149.87.118
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 89.149.87.118
+From: JamesPex <ib.arkov08@gmail.com>
+Message-Id: <E1qonAy-00C9TQ-Mn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 06 Oct 2023 08:55:40 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-sh
+X-ENVIRONMENT: prod
+
+Name: JamesPex
+Email: ib.arkov08@gmail.com
+
+Subject: New contact from JamesPex
+
+Message:
+Уважаемый бизнесмен, 
+В сегодняшний день мы желаем ознакомить вас c нашей эксклюзивной услугой SEO, которая подарит вам вашим надежным спутником в пути к достижению успеха вашего бизнеса в сети. Давайте в единстве рассмотрим, почему именно SEO может стать вашим направлением к процветающему развитию 
+SEO (Search Engine Optimization)-это ключевой ресурс,который дает вашему веб-сайту повышать свои показатели на поисковых платформах, таких как Google.Это означает,что больше будущих покупателей посетят ваш веб-сайт,что повысит активность посещений и приведет к росту объема продаж. 
+Наши высококвалифицированные эксперты в области SEO обладают многолетним опытом в области оптимизации веб-сайтов.Мы сформируем специальный план действий,который наиболее удачно уместен для вашего предпринимательства.Мы изучим рынок вашей деятельности,конкурентов и группу целевых клиентов,чтобы подготовить самый эффективный план действий. 
+ 
+<a href=https://prodvigateli.ru/>https://prodvigateli.ru/</a> 
+ 
+ 
+Преимущества коллаборации с нашими опытными сотрудниками: 
+Прирост статистики посещений:Наша команда увеличит репутацию вашего сайта в поисковых системах, что поспособствует к увеличению естественного потока пользователей. 
+Повышение продуктивности:Повышенное колличество аудитории веб-ресурса означает больше перспективных потребителей и, следовательно,прирост продаж. 
+Сокращение усилий и временных ресурсов:Мы принимаем на себя все технические детали усовершенствования,давая возможность вам сфокусироваться на развитии бизнеса. 
+Стабильное сопровождение:Мы не лишь настраиваем ваш онлайн-ресурс,мы внимательно следим за его функциональностью и осуществляем коррекции,чтобы поддерживать устойчивый рост. 
+ 
+ Если вы готовы принять вызов с уверенностью и сделать свой бизнес пользующимся успехом, обращайтесь с запросами к нам.Доверьтесь специалистам в своей области,и ваш сайт станет мощным орудием для реализации ваших целей. 
+С уважением, 
+Коллектив SEO-экспертов.
+
+
+--1696607748-eximdsn-1708402918--

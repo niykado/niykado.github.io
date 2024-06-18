@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id yAuFH0xXIGPqLzUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 13 Sep 2022 03:11:24 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 13 Sep 2022 03:11:24 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oY2t2-00Eet8-FR
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 13 Sep 2022 03:11:24 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oY2t1-00EesX-OI@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1663063884-eximdsn-1239762717
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oY2t2-00Eet8-FR@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 13 Sep 2022 03:11:24 -0700
+
+--1663063884-eximdsn-1239762717
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Y2t1oUTewNdIG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=6320574c p=y-Fc5eKTAAAA:8 p=C3grdJs0G8AA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=xOM3xZuef0cA:10 a=tIJXMp8EI_IA:10 a=x7bEGLp0ZPQA:10 a=RRwJ5wvFZg0A:10 a=CjxXgO3LAAAA:8 a=gAbCfUKK2_QRJf8MIjsA:9 a=QHWdwCmgp4EA:10 a=vnaqAH7ZVeIA:10 a=Ufr46bFcjvAA:10 a=-FEs8UIgK8oA:10 a=B0Cj1OqFGg0A:10 a=VxAk22fqlfwA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=W9jyF3h3AFWwaabyTlbu:22 ::
+    100.00
+
+--1663063884-eximdsn-1239762717
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Y2t1oUTewNdIG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=6320574c p=y-Fc5eKTAAAA:8 p=C3grdJs0G8AA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=xOM3xZuef0cA:10 a=tIJXMp8EI_IA:10 a=x7bEGLp0ZPQA:10 a=RRwJ5wvFZg0A:10 a=CjxXgO3LAAAA:8 a=gAbCfUKK2_QRJf8MIjsA:9 a=QHWdwCmgp4EA:10 a=vnaqAH7ZVeIA:10 a=Ufr46bFcjvAA:10 a=-FEs8UIgK8oA:10 a=B0Cj1OqFGg0A:10 a=VxAk22fqlfwA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=W9jyF3h3AFWwaabyTlbu:22 :: 100.00
+
+--1663063884-eximdsn-1239762717
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oY2t1-00EesX-OI
+	for info@yoursite.com; Tue, 13 Sep 2022 03:11:23 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.82
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.82
+From: CrytoCig <little_vamp_gurl@yahoo.com>
+Message-Id: <E1oY2t1-00EesX-OI@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 13 Sep 2022 03:11:23 -0700
+
+Name: CrytoCig
+Email: little_vamp_gurl@yahoo.com
+
+Subject: New contact from CrytoCig
+
+Message:
+We know how to increase your financial stability. https://allcnews.xyz/wfdl
+
+
+--1663063884-eximdsn-1239762717--

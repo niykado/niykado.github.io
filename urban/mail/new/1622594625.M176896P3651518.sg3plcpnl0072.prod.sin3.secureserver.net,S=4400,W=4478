@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id oAd4CEHUtmC+tzcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 01 Jun 2021 17:43:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 01 Jun 2021 17:43:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1loEz3-00Ffnj-2s
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 01 Jun 2021 17:43:45 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1loEz2-00FfnR-UX@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622594625-eximdsn-223090589
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1loEz3-00Ffnj-2s@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 01 Jun 2021 17:43:45 -0700
+
+--1622594625-eximdsn-223090589
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 oEz3layh8HCHn :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=I52g+Psg c=1 sm=1 tr=0 ts=60b6d441 p=IbiuV3uQSoUA:10 p=G0xVjPg-AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=eC/02uPBSq5Cduz0dzOTnrCQ/7I=:19 a=MKtGQD3n3ToA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=Wcv29coyuqQA:10 a=ZZnuYtJkoWoA:10 a=_tJTY2ZpAAAA:8 a=zrSNGbMIbvaj9YGPdOQA:9 a=0HTER484He8A:10 a=bNZ0dXpBv_0A:10 a=Timo2GqO3L4A:10 a=-FEs8UIgK8oA:10 a=IBiuRvqiXvMA:10 a=VxAk22fqlfwA:10 a=a8vRF3Dtk8UA:10 a=NWVoK91CQyQA:10 a=t9kTY-kxYpwz14YAxoSF:22 a=KWIyTBApehNGRJ8J85X8:22 a=eoPBWJykx-bqmaz097hf:22 a=p-dnK0njbqwfn1k4-x12:22 a=mSsqx672Set3ubIu7NZa:22 ::
+    100.00
+
+--1622594625-eximdsn-223090589
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 oEz3layh8HCHn :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=I52g+Psg c=1 sm=1 tr=0 ts=60b6d441 p=IbiuV3uQSoUA:10 p=G0xVjPg-AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=eC/02uPBSq5Cduz0dzOTnrCQ/7I=:19 a=MKtGQD3n3ToA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=Wcv29coyuqQA:10 a=ZZnuYtJkoWoA:10 a=_tJTY2ZpAAAA:8 a=zrSNGbMIbvaj9YGPdOQA:9 a=0HTER484He8A:10 a=bNZ0dXpBv_0A:10 a=Timo2GqO3L4A:10 a=-FEs8UIgK8oA:10 a=IBiuRvqiXvMA:10 a=VxAk22fqlfwA:10 a=a8vRF3Dtk8UA:10 a=NWVoK91CQyQA:10 a=t9kTY-kxYpwz14YAxoSF:22 a=KWIyTBApehNGRJ8J85X8:22 a=eoPBWJykx-bqmaz097hf:22 a=p-dnK0njbqwfn1k4-x12:22 a=mSsqx672Set3ubIu7NZa:22 :: 100.00
+
+--1622594625-eximdsn-223090589
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1loEz2-00FfnR-UX
+	for info@yoursite.com; Tue, 01 Jun 2021 17:43:44 -0700
+To: info@yoursite.com
+Subject: New contact from Helencag
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 93.190.111.173
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 93.190.111.173
+From: Helencag <helencag@allsets.xyz>
+Message-Id: <E1loEz2-00FfnR-UX@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 01 Jun 2021 17:43:44 -0700
+
+Name: Helencag
+Email: helencag@allsets.xyz
+
+Subject: New contact from Helencag
+
+Message:
+Yes
+http://dwelenanatconre.ml/chk/21
+
+
+--1622594625-eximdsn-223090589--

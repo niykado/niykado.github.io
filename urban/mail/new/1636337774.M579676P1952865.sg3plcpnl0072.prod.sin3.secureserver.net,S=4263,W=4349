@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 0AIgIW6IiGFhzB0AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 07 Nov 2021 19:16:14 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 07 Nov 2021 19:16:14 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mjuCk-008Ei1-Fs
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 07 Nov 2021 19:16:14 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mjuCj-008EhS-AE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1636337774-eximdsn-1696995024
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mjuCk-008Ei1-Fs@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 07 Nov 2021 19:16:14 -0700
+
+--1636337774-eximdsn-1696995024
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 juCjmDCIsJX0k :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=6188886e p=kCFBoUjh6GoA:10 p=WBS-VG1pYhefa29PNSMu:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=vIxV3rELxO4A:10 a=-N5WmQbUcFoA:10 a=x7bEGLp0ZPQA:10 a=3-49juXTHacA:10 a=pGLkceISAAAA:8 a=O1KBLY9ZVWfKSoB3760A:9 a=Jcuz6ascCrsA:10 ::
+    100.00
+
+--1636337774-eximdsn-1696995024
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 juCjmDCIsJX0k :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=6188886e p=kCFBoUjh6GoA:10 p=WBS-VG1pYhefa29PNSMu:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=vIxV3rELxO4A:10 a=-N5WmQbUcFoA:10 a=x7bEGLp0ZPQA:10 a=3-49juXTHacA:10 a=pGLkceISAAAA:8 a=O1KBLY9ZVWfKSoB3760A:9 a=Jcuz6ascCrsA:10 :: 100.00
+
+--1636337774-eximdsn-1696995024
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mjuCj-008EhS-AE
+	for info@yoursite.com; Sun, 07 Nov 2021 19:16:13 -0700
+To: info@yoursite.com
+Subject: New contact from Bill Grant
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 107.175.151.84
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 107.175.151.84
+From: Bill Grant <BillGrant0124@gmail.com>
+Message-Id: <E1mjuCj-008EhS-AE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 07 Nov 2021 19:16:13 -0700
+
+Name: Bill Grant
+Email: BillGrant0124@gmail.com
+
+Subject: New contact from Bill Grant
+
+Message:
+Hi,
+
+I am reaching out to see if you're interested in starting an ad campaign or improving the performance of an existing campaign on platforms like Google Ads, Bing Ads, Facebook Ads, and more by using PPC (Per-Per-Click)?
+
+I am an expert in online advertising, and I will provide and will give you guaranteed traffic to your site that can make a huge impact on sales. Let me know if you're interested.
+
+Thank you!
+
+Thank you.
+Bill Grant
+
+
+--1636337774-eximdsn-1696995024--

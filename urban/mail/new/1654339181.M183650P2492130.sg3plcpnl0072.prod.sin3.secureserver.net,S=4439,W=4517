@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id ll49Cm02m2LiBiYAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 04 Jun 2022 03:39:41 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 04 Jun 2022 03:39:41 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nxRC1-00ATw5-3k
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 04 Jun 2022 03:39:41 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nxRC0-00ATvL-DE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1654339181-eximdsn-2078648253
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nxRC1-00ATw5-3k@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 04 Jun 2022 03:39:41 -0700
+
+--1654339181-eximdsn-2078648253
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xRC0nFAOGFiVn :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QrKbYX+d c=1 sm=1 tr=0 ts=629b366d p=vbYkTrj-XR0A:10 p=IXnQWsWnAAAA:20 p=fHhPqMv7RZgDtauswE8A:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=x7bEGLp0ZPQA:10 a=JE_2YuKAHioA:10 a=pGLkceISAAAA:8 a=sNuNn46ZAAAA:20 a=GdiTdJWYCL0A:10 a=dHg5M1hIyVAA:10 a=J0Ny8IBfT1wA:10 a=IawXvI9lP1MA:10 a=q3Rj-1DVtNQA:10 a=-FEs8UIgK8oA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=fd8BezSa2ySTVFnoALwy:22 a=PVMFCuuRKlBJ1JtAmBel:22 ::
+    100.00
+
+--1654339181-eximdsn-2078648253
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 xRC0nFAOGFiVn :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QrKbYX+d c=1 sm=1 tr=0 ts=629b366d p=vbYkTrj-XR0A:10 p=IXnQWsWnAAAA:20 p=fHhPqMv7RZgDtauswE8A:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=x7bEGLp0ZPQA:10 a=JE_2YuKAHioA:10 a=pGLkceISAAAA:8 a=sNuNn46ZAAAA:20 a=GdiTdJWYCL0A:10 a=dHg5M1hIyVAA:10 a=J0Ny8IBfT1wA:10 a=IawXvI9lP1MA:10 a=q3Rj-1DVtNQA:10 a=-FEs8UIgK8oA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=fd8BezSa2ySTVFnoALwy:22 a=PVMFCuuRKlBJ1JtAmBel:22 :: 100.00
+
+--1654339181-eximdsn-2078648253
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nxRC0-00ATvL-DE
+	for info@yoursite.com; Sat, 04 Jun 2022 03:39:40 -0700
+To: info@yoursite.com
+Subject: New contact from Kathleenurv
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 194.190.179.87
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 194.190.179.87
+From: Kathleenurv <kat.hlee.nmendo.za.1990@gmail.com>
+Message-Id: <E1nxRC0-00ATvL-DE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 04 Jun 2022 03:39:40 -0700
+
+Name: Kathleenurv
+Email: kat.hlee.nmendo.za.1990@gmail.com
+
+Subject: New contact from Kathleenurv
+
+Message:
+<a href=https://bit.ly/3wBTcOw>I can't wait to show you an unusual pose. In the meantime, pretend I'm doing it right now. Just don't go crazy with desire.</a> 
+<a href=https://bit.ly/3wBTcOw><img src="https://i.ibb.co/VmRJCSZ/17.jpg"></a>
+
+
+--1654339181-eximdsn-2078648253--

@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id kNwYER/Xll+kxTwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 26 Oct 2020 07:03:11 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 26 Oct 2020 07:03:11 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kX35b-00Gq7s-7X
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 26 Oct 2020 07:03:11 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kX35b-00Gq7f-2Z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1603720991-eximdsn-1569236836
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kX35b-00Gq7s-7X@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 26 Oct 2020 07:03:11 -0700
+
+--1603720991-eximdsn-1569236836
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 X35bk1Bagk5Qm :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b8R3XvKx c=1 sm=1 tr=0 ts=5f96d71f p=kZvWfQsDGfkA:10 p=1tiLfyYWhrAA:10 p=WgJU3xMrNQUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=0At3aDP4XX4A:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=69EAbJreAAAA:8 a=5-FK-L4rXdFGQPEtIwwA:9 a=IBZpkv8SRGaTcRip:21 a=NzZq6ac-nxzYdwnj:21 a=RGopvYafOY8A:10 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=bWyr8ysk75zN3GCy5bjg:22 ::
+    100.00
+
+--1603720991-eximdsn-1569236836
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 X35bk1Bagk5Qm :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b8R3XvKx c=1 sm=1 tr=0 ts=5f96d71f p=kZvWfQsDGfkA:10 p=1tiLfyYWhrAA:10 p=WgJU3xMrNQUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=0At3aDP4XX4A:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=69EAbJreAAAA:8 a=5-FK-L4rXdFGQPEtIwwA:9 a=IBZpkv8SRGaTcRip:21 a=NzZq6ac-nxzYdwnj:21 a=RGopvYafOY8A:10 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=bWyr8ysk75zN3GCy5bjg:22 :: 100.00
+
+--1603720991-eximdsn-1569236836
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kX35b-00Gq7f-2Z
+	for info@yoursite.com; Mon, 26 Oct 2020 07:03:11 -0700
+To: info@yoursite.com
+Subject: New contact from Robertgup
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.60.214
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.60.214
+From: Robertgup <benreser@hotmail.com>
+Message-Id: <E1kX35b-00Gq7f-2Z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 26 Oct 2020 07:03:11 -0700
+
+Name: Robertgup
+Email: benreser@hotmail.com
+
+Subject: New contact from Robertgup
+
+Message:
+Black Lives Matter - Donate 
+Why We Need Your Support 
+As our ecosystem grows our financial support system must grow as well. 
+We need funds to continue our radically accessible commitment to providing healthy food from Black owned businesses, paid childcare at every event and having ASL interpreters at our monthly gatherings. 
+On average, our monthly open houses attract 3000+ people and costs us $100,000. 
+We need to raise $ 350,000 by November 3 to help thousands of black people in a very bad situation right now, we will be glad if you support us. 
+For quick payment, we use bitcoin wallets. You can transfer donation to this Bitcoin wallet - 12B6eCHqPVQeR8wyTTMoWQqNeTpxqeq7wk 
+Secondly, we need resources to make sure we have the emotional and spiritual capacity to show up and move forward in the movement as our highest selves. 
+Supporting the work of our healers including renting space weekly for Black people to process racial stress through group discussion, dance, and visual art and 
+affirming our humanity & love for each other by starting our week with joy via #BlackJoySunday (all while creating accessibility by offering free childcare) 
+is essential in sustaining our well-being and activism. Our weekly healing spaces cost on average $30,150/month. 
+We need to raise $ 350,000 by November 3 to help thousands of black people in a very bad situation right now, we will be glad if you support us. 
+For quick payment, we use bitcoin wallets. You can transfer donation to this Bitcoin wallet - 12B6eCHqPVQeR8wyTTMoWQqNeTpxqeq7wk 
+Lastly and most importantly, we need funds to support the emerging leadership of our ecosystem move through the world. 
+As Black people in a city facing the ravages of displacement and economic disinvestment, it’s difficult to do the work of liberating your community while figuring out how to pay rent and feed yourself. 
+We need your help to ensure that lack of gas money or health insurance doesn’t stop the work from moving forward. Supporting our emerging leadership, including our rapid response, 
+organized resistance, healing and logistics teams, reimbursements and stipends costs on average $20,700/month.
+
+
+--1603720991-eximdsn-1569236836--

@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id GEixEYsrk2PCGj0AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 09 Dec 2022 05:35:23 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 09 Dec 2022 05:35:23 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1p3cb5-00Gqsc-7z
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 09 Dec 2022 05:35:23 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1p3cau-00GqnP-2U@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1670589323-eximdsn-1548793569
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1p3cb5-00Gqsc-7z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 09 Dec 2022 05:35:23 -0700
+
+--1670589323-eximdsn-1548793569
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 3cb4ppIhMGWqh :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=M5CLaQ8s c=1 sm=1 tr=0 ts=63932b8b p=CqyiBcytAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=sHyYjHe8cH0A:10 a=tIJXMp8EI_IA:10 a=OZK5Slx2AAAA:8 a=D6sNnGBd0i4upmYH7zwA:9 a=6hRnt8K8N10A:10 a=no2Bu08QY4oA:10 a=Ec-2oEzjMfwA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=zXfNd_nhG078IEGvB6bd:22 a=O_Y0r7BnuTETCmcTr6bY:22 ::
+    100.00
+
+--1670589323-eximdsn-1548793569
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 3cb4ppIhMGWqh :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=M5CLaQ8s c=1 sm=1 tr=0 ts=63932b8b p=CqyiBcytAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=sHyYjHe8cH0A:10 a=tIJXMp8EI_IA:10 a=OZK5Slx2AAAA:8 a=D6sNnGBd0i4upmYH7zwA:9 a=6hRnt8K8N10A:10 a=no2Bu08QY4oA:10 a=Ec-2oEzjMfwA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=zXfNd_nhG078IEGvB6bd:22 a=O_Y0r7BnuTETCmcTr6bY:22 :: 100.00
+
+--1670589323-eximdsn-1548793569
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1p3cau-00GqnP-2U
+	for info@yoursite.com;
+	Fri, 09 Dec 2022 05:35:22 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.82
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.82
+From: CrytoCig <89ford@teksavvy.com>
+Message-Id: <E1p3cau-00GqnP-2U@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 09 Dec 2022 05:35:12 -0700
+
+Name: CrytoCig
+Email: 89ford@teksavvy.com
+
+Subject: New contact from CrytoCig
+
+Message:
+Try out the best financial robot in the Internet. https://worldnews.elk.pl
+
+
+--1670589323-eximdsn-1548793569--

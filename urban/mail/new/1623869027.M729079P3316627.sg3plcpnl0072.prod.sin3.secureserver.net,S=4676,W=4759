@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id oLQbK2NGymCTmzIAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 16 Jun 2021 11:43:47 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 16 Jun 2021 11:43:47 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1ltaVv-00E1C6-LN
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 16 Jun 2021 11:43:47 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ltaVv-00E1Bl-Gt@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1623869027-eximdsn-1836529793
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ltaVv-00E1C6-LN@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 16 Jun 2021 11:43:47 -0700
+
+--1623869027-eximdsn-1836529793
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 taVvlAk3wPwuS :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=boCJuGWi c=1 sm=1 tr=0 ts=60ca4663 p=Ug1LxW3JuzkA:10 p=T6DcP4a4FK5aLwU6RakA:9 p=VPxiZ3dMRgIA:10 p=mY4tyIPcu0CDxvJGPt6s:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=x7bEGLp0ZPQA:10 a=D_Pi61YU1EIA:10 a=pGLkceISAAAA:8 a=9ByKNzMiJ14A:10 ::
+    100.00
+
+--1623869027-eximdsn-1836529793
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 taVvlAk3wPwuS :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=boCJuGWi c=1 sm=1 tr=0 ts=60ca4663 p=Ug1LxW3JuzkA:10 p=T6DcP4a4FK5aLwU6RakA:9 p=VPxiZ3dMRgIA:10 p=mY4tyIPcu0CDxvJGPt6s:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=x7bEGLp0ZPQA:10 a=D_Pi61YU1EIA:10 a=pGLkceISAAAA:8 a=9ByKNzMiJ14A:10 :: 100.00
+
+--1623869027-eximdsn-1836529793
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ltaVv-00E1Bl-Gt
+	for info@yoursite.com; Wed, 16 Jun 2021 11:43:47 -0700
+To: info@yoursite.com
+Subject: New contact from Leonard Short
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 107.173.129.103
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 107.173.129.103
+From: Leonard Short <leonardshort39@gmail.com>
+Message-Id: <E1ltaVv-00E1Bl-Gt@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 16 Jun 2021 11:43:47 -0700
+
+Name: Leonard Short
+Email: leonardshort39@gmail.com
+
+Subject: New contact from Leonard Short
+
+Message:
+Hi, I am a Reputation Management specialist and I'm reaching out to see if you need help with your online reputation.  Our services help you to get negative reviews removed, bury/dilute bad reviews in search engines, create appropriate responses, and get more positive reviews.  I'm sure you already know how important good reviews are to your sales.  
+
+Please let me know if you would like a free consultation on my services.  I can tell you what service level I think would make the most sense for you and what the pricing would be.  There is no pressure if it doesn't sound like something that you want, but the consultation will be very informative either way.  Just let me know if you're interested and we can set up a time.  
+
+Thanks!
+
+Leonard Short - Web Developer
+
+
+--1623869027-eximdsn-1836529793--

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayalakshmi Silks - Review</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 24px;
+            color: #333;
+        }
+        .subtitle {
+            font-size: 14px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .rating-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .stars {
+            display: inline-block;
+            font-size: 24px;
+            color: #f4c150;
+        }
+        .review-form {
+            text-align: left;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            font-weight: bold;
+            color: #333;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px 20px;
+            background-color: #1a73e8;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #0d47a1;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="title">Jayalakshmi Silks</div>
+        <div class="subtitle">Share your experience</div>
+        <div class="rating-container">
+            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+    </div>
+
+    <form class="review-form" action="https://create.reviewus.in/submit_review" method="post">
+        <input type="hidden" name="_token" value="KjSdYFfxEaOcoePUMTz3peuoCkUJyBTJuSWb1KqK">
+        <input type="hidden" name="refer" value="5ARger0qFvTqg8k6pW1NFgs3OH4kL8">
+
+        <div class="form-group">
+            <label for="reviewer_name">Your Name</label>
+            <input type="text" id="reviewer_name" name="reviewer_name" class="form-control" placeholder="Enter Your Name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="reviewer_no">Your Contact Number</label>
+            <input type="text" id="reviewer_no" name="reviewer_no" class="form-control" placeholder="Enter Your Contact Number" required>
+        </div>
+
+        <div class="form-group">
+            <label for="text_area">Your Review</label>
+            <textarea id="text_area" name="text_area" class="form-control" rows="5" placeholder="Share your thoughts..." required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit Review</button>
+    </form>
+
+    <div class="footer">
+        &copy; 2024 Jayalakshmi Silks Pvt Ltd
+    </div>
+</div>
+
+</body>
+</html>

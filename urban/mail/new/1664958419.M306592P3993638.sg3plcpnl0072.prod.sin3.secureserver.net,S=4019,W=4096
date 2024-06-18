@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id eHWSEdM/PWMm8DwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 05 Oct 2022 01:26:59 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 05 Oct 2022 01:26:59 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ofzk3-00GmD4-7s
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 05 Oct 2022 01:26:59 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ofzk3-00GmCg-2P@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1664958419-eximdsn-1050172783
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ofzk3-00GmD4-7s@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 05 Oct 2022 01:26:59 -0700
+
+--1664958419-eximdsn-1050172783
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 fzk3odUxMonOY :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Vrnmv86n c=1 sm=1 tr=0 ts=633d3fd3 p=dxndD9PzAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=tIJXMp8EI_IA:10 a=x7bEGLp0ZPQA:10 a=UNtsWevsDE0A:10 a=3oc9M9_CAAAA:8 a=xP8e-0WuoJjYsyf74a0A:9 a=ciM0B8sjJWMA:10 a=NhtNmcpadKcA:10 a=2Dz1kBsC_gIA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=5jYgk2qYSECVdg02jQ8B:22 ::
+    100.00
+
+--1664958419-eximdsn-1050172783
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 fzk3odUxMonOY :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Vrnmv86n c=1 sm=1 tr=0 ts=633d3fd3 p=dxndD9PzAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=tIJXMp8EI_IA:10 a=x7bEGLp0ZPQA:10 a=UNtsWevsDE0A:10 a=3oc9M9_CAAAA:8 a=xP8e-0WuoJjYsyf74a0A:9 a=ciM0B8sjJWMA:10 a=NhtNmcpadKcA:10 a=2Dz1kBsC_gIA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=5jYgk2qYSECVdg02jQ8B:22 :: 100.00
+
+--1664958419-eximdsn-1050172783
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ofzk3-00GmCg-2P
+	for info@yoursite.com; Wed, 05 Oct 2022 01:26:59 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.82
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.82
+From: CrytoCig <hinchaz@aol.com>
+Message-Id: <E1ofzk3-00GmCg-2P@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 05 Oct 2022 01:26:59 -0700
+
+Name: CrytoCig
+Email: hinchaz@aol.com
+
+Subject: New contact from CrytoCig
+
+Message:
+Making money in the net is easier now. https://go.sakelonel.com/0j35
+
+
+--1664958419-eximdsn-1050172783--

@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id wIvYNRVvJGDariAAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 10 Feb 2021 16:41:09 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 10 Feb 2021 16:41:09 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1l9z6b-009AEE-Qo
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 10 Feb 2021 16:41:09 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1l9z6b-009ADz-Ks@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1613000469-eximdsn-1482904034
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1l9z6b-009AEE-Qo@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 10 Feb 2021 16:41:09 -0700
+
+--1613000469-eximdsn-1482904034
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 9z6blvdHT9Gc5 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Dp+TREz+ c=1 sm=1 tr=0 ts=60246f15 p=yfY0tTO7AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=qa6Q16uM49sA:10 a=2wXn-M-iDVcA:10 a=c6DWIZPLAAAA:8 a=3j4BkbkPAAAA:8 a=JqEG_dyiAAAA:8 a=flaxdq1dAAAA:20 a=pGLkceISAAAA:8 a=SwcSvI2AGOg_i05_TVoA:9 a=af37x-p0dTMA:10 a=JTHAW59ccq8A:10 a=KCodV17nfGNENvMoiqID:22 a=KjS2dj_NPp4c69SxyMSz:22 ::
+    100.00
+
+--1613000469-eximdsn-1482904034
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 9z6blvdHT9Gc5 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Dp+TREz+ c=1 sm=1 tr=0 ts=60246f15 p=yfY0tTO7AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=qa6Q16uM49sA:10 a=2wXn-M-iDVcA:10 a=c6DWIZPLAAAA:8 a=3j4BkbkPAAAA:8 a=JqEG_dyiAAAA:8 a=flaxdq1dAAAA:20 a=pGLkceISAAAA:8 a=SwcSvI2AGOg_i05_TVoA:9 a=af37x-p0dTMA:10 a=JTHAW59ccq8A:10 a=KCodV17nfGNENvMoiqID:22 a=KjS2dj_NPp4c69SxyMSz:22 :: 100.00
+
+--1613000469-eximdsn-1482904034
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1l9z6b-009ADz-Ks
+	for info@yoursite.com; Wed, 10 Feb 2021 16:41:09 -0700
+To: info@yoursite.com
+Subject: New contact from Greening Food Exports
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 185.99.3.136
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 185.99.3.136
+From: Greening Food Exports <exports@greeningexports.com>
+Message-Id: <E1l9z6b-009ADz-Ks@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 10 Feb 2021 16:41:09 -0700
+
+Name: Greening Food Exports
+Email: exports@greeningexports.com
+
+Subject: New contact from Greening Food Exports
+
+Message:
+FRESH & DRY FOOD EXPORTS FROM UGANDA: 
+WHAT WE EXPORT FROM UGANDA: 
+We're exporters of Fresh, Dry, & Powdered foodstuffs both Organic/Conventional from Uganda. This include Vegetables, Fruits, Grains, Tubers, Bananas, Sugar Cane, Sugar, Pulses, Spices, and Herbs, Tree Nursery Seeds, tropical fruit seedlings & plants, as well as Essential Oil extracts, we take small to bulk orders to all destinations across the Globe e.g. by Airfreight, Seafreight, and Door to Door Shipping e.g. DHL & Fedex. We also ship samples at the clients request cost. For more details you can visit us at http://www.freshfromuganda.com/ OR http://www.greeningexports.com/ 
+ 
+We can provide samples of all our products in small quantities but the consignee meets the freight & associated costs e.g. customs clearance and phyto sanitary certificates and inspection costs. For more details on all our products, kindly visit us  at https://web.facebook.com/pg/freshfromuganda/photos/?tab=album&album_id=1540782205933581  Kindly follow and like our page 
+ 
+SOCIAL MEDIA ACCOUNTS: 
+For daily updates on available products, kindly follow us on social media, by liking or following our social media accounts below:- 
+1.    Twitter:  http://www.twitter.com/GreeningExports 
+2.    Facebook:  http://www.facebook.com/FreshFromUganda 
+3.    Subscribe to our telegram Food Exports Group at https://t.me/joinchat/IBW0WhT9MHi_QPrY 
+4. Call/Text/Whatsapp:  +256-755-200001 
+ 
+You can send us all your food export inquiries at cs@greeningexports.com  or greening.exports@gmail.com 
+Fresh From The Pearl of Africa
+
+
+--1613000469-eximdsn-1482904034--

@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id iIstCgtM62LiZjMAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 03 Aug 2022 21:33:15 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 03 Aug 2022 21:33:15 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oJSXr-00EMf4-3v
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 03 Aug 2022 21:33:15 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oJSXp-00EMdo-V1@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1659587595-eximdsn-1008435764
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oJSXr-00EMf4-3v@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 03 Aug 2022 21:33:15 -0700
+
+--1659587595-eximdsn-1008435764
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 JSXqoVUCYNdIG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62eb4c0b p=_DBCGFkmAAAA:8 p=BLWtztPE42wA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=7_oyUOg42YwA:10 a=CjxXgO3LAAAA:8 a=8buH4dBwFHLWvfuMkDgA:9 a=HX5WF7C7m_gA:10 a=DZIt81R6m3kA:10 a=HIfeFE-ny_cA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=LidTX3UUc38XFKpVq5ov:22 ::
+    100.00
+
+--1659587595-eximdsn-1008435764
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 JSXqoVUCYNdIG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62eb4c0b p=_DBCGFkmAAAA:8 p=BLWtztPE42wA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=7_oyUOg42YwA:10 a=CjxXgO3LAAAA:8 a=8buH4dBwFHLWvfuMkDgA:9 a=HX5WF7C7m_gA:10 a=DZIt81R6m3kA:10 a=HIfeFE-ny_cA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=LidTX3UUc38XFKpVq5ov:22 :: 100.00
+
+--1659587595-eximdsn-1008435764
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oJSXp-00EMdo-V1
+	for info@yoursite.com; Wed, 03 Aug 2022 21:33:13 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCigCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.244
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.244
+From: CrytoCigCig <j0404p@yahoo.com>
+Message-Id: <E1oJSXp-00EMdo-V1@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 03 Aug 2022 21:33:13 -0700
+
+Name: CrytoCigCig
+Email: j0404p@yahoo.com
+
+Subject: New contact from CrytoCigCig
+
+Message:
+No need to stay awake all night long to earn money. Launch the robot. https://bam.gizmo-inc.fr/bam
+
+
+--1659587595-eximdsn-1008435764--

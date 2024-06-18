@@ -1,0 +1,90 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id sE85HBQ+7mCdoSUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 13 Jul 2021 18:29:56 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 13 Jul 2021 18:29:56 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1m3Tim-00ASi5-DV
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 13 Jul 2021 18:29:56 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1m3Tim-00AShF-8o@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1626226196-eximdsn-2071222041
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1m3Tim-00ASi5-DV@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 13 Jul 2021 18:29:56 -0700
+
+--1626226196-eximdsn-2071222041
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 3TimmCZ16fbIf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=PpJW0yA3 c=1 sm=1 tr=0 ts=60ee3e14 p=leFg8Cb-51MA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=MKtGQD3n3ToA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=e_q4qTt1xDgA:10 a=VK6mC1hx8p4A:10 a=WxDqHOXtjukA:10 a=ZZnuYtJkoWoA:10 a=pGLkceISAAAA:8 a=PJ4fak4XRFOF-FyK6QoA:9 a=5W3pDFOpEPgA:10 a=ATN-7Q6bJkgA:10 a=K8jUDf8gct0bBYuvZ0SI:22 ::
+    100.00
+
+--1626226196-eximdsn-2071222041
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 3TimmCZ16fbIf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=PpJW0yA3 c=1 sm=1 tr=0 ts=60ee3e14 p=leFg8Cb-51MA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=MKtGQD3n3ToA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=e_q4qTt1xDgA:10 a=VK6mC1hx8p4A:10 a=WxDqHOXtjukA:10 a=ZZnuYtJkoWoA:10 a=pGLkceISAAAA:8 a=PJ4fak4XRFOF-FyK6QoA:9 a=5W3pDFOpEPgA:10 a=ATN-7Q6bJkgA:10 a=K8jUDf8gct0bBYuvZ0SI:22 :: 100.00
+
+--1626226196-eximdsn-2071222041
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1m3Tim-00AShF-8o
+	for info@yoursite.com; Tue, 13 Jul 2021 18:29:56 -0700
+To: info@yoursite.com
+Subject: New contact from Mohammed AL-Kuwari
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 95.153.32.84
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 95.153.32.84
+From: Mohammed AL-Kuwari <officemail@email-checker.us>
+Message-Id: <E1m3Tim-00AShF-8o@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 13 Jul 2021 18:29:56 -0700
+
+Name: Mohammed AL-Kuwari
+Email: officemail@email-checker.us
+
+Subject: New contact from Mohammed AL-Kuwari
+
+Message:
+Greetings. 
+ 
+I am looking to work with you to engage in a profit oriented ventures in your country and perhaps with your assistance, we could get good ROI. 
+ 
+I have the directive of Sheikh Mubarak AL-Thani to source for a someone who can accommodate USD50M and USD150M for Investment. The source is from a Supply Contract awarded to a foreign company by Qatar Petroleum Company in Doha - Qatar. 
+ 
+We shall reassign the necessary documents to reflect your name and also ensure payment is done by Qatar Petroleum Company. I guaranty we shall implement this transaction under a legitimate arrangement without breaking the law. 
+ 
+More details will follow upon your reply to my private email: officemail10013@gmail.com 
+ 
+Regards, 
+ 
+Mohammed AL-Kuwari 
+Reply To: officemail10013@gmail.com
+
+
+--1626226196-eximdsn-2071222041--

@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id qMLyEJjopGI2HSoAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 11 Jun 2022 12:10:16 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 11 Jun 2022 12:10:16 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1o06Uy-00BbGO-6o
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 11 Jun 2022 12:10:16 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1o06Ux-00BbFh-Fu@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1654974616-eximdsn-449497142
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1o06Uy-00BbGO-6o@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 11 Jun 2022 12:10:16 -0700
+
+--1654974616-eximdsn-449497142
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 06Uxo3za2m87e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=62a4e898 p=Kx5Xnm5xkSUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=z3ULzVM9AAAA:8 a=wFdLv_piAAAA:8 a=QHy9MgoXOPaBNGuqxU0A:9 a=9HENiueVAZcA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=aC2TUO9nyKtkVkuG-GoU:22 a=-DW9cWuSPti5viWApMzw:22 ::
+    96.00
+
+--1654974616-eximdsn-449497142
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 06Uxo3za2m87e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=62a4e898 p=Kx5Xnm5xkSUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=z3ULzVM9AAAA:8 a=wFdLv_piAAAA:8 a=QHy9MgoXOPaBNGuqxU0A:9 a=9HENiueVAZcA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=aC2TUO9nyKtkVkuG-GoU:22 a=-DW9cWuSPti5viWApMzw:22 :: 96.00
+
+--1654974616-eximdsn-449497142
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1o06Ux-00BbFh-Fu
+	for info@yoursite.com; Sat, 11 Jun 2022 12:10:15 -0700
+To: info@yoursite.com
+Subject: New contact from MichaelVat
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 81.163.108.84
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 81.163.108.84
+From: MichaelVat <anya.grigoreva.1993@inbox.ru>
+Message-Id: <E1o06Ux-00BbFh-Fu@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 11 Jun 2022 12:10:15 -0700
+
+Name: MichaelVat
+Email: anya.grigoreva.1993@inbox.ru
+
+Subject: New contact from MichaelVat
+
+Message:
+Не рекомендуется процедура лазерной эпиляции при грибковых и герпетических поражениях кожи, в случае злокачественного происхождения новообразований, при острых инфекциях или обострениях хронических заболеваний <a href=https://www.egoestetica-med.ru/services/facial/>прыщей </a>
+   Седые и белые волосы нечувствительны к лазерному излучению <a href=https://www.egoestetica-med.ru/services/man/>прыщ это </a>
+ 
+Подготовка к лазерной эпиляции должна начинаться за две недели до ее проведения <a href=https://www.egoestetica-med.ru/services/facial/>прыщи это </a>
+   Если вы хотите пройти процедуру при помощи александритового лазера, то вам придется ограничить попадание солнечных лучей на вашу кожу <a href=https://www.egoestetica-med.ru/services/man/>для угрей </a>
+ 
+Чаще всего в салонах красоты и специализированных клиниках эпиляцию проводят диодным или александритовым лазером <a href=https://www.egoestetica-med.ru/services/facial/>прыщ это </a>
+   Выбор конкретного метода зависит и от мнения специалиста и от желания самого пациента <a href=https://www.egoestetica-med.ru/>Прыщи Это </a>
+   Для того, чтобы не ошибиться, нужно знать основные характеристики диодного и александритового лазера и понимать, в чём их различие: 
+Если вы обладатель чувствительной кожи, то необходимо пройти пробу на лазер <a href=https://www.egoestetica-med.ru/thumbnails/>прыщи это </a>
+   Для этого за 2-3 дня до процедуры необходимо обратиться к вашему мастеру и обработать небольшой участок волос <a href=https://www.egoestetica-med.ru/services/treath/>прыщей </a>
+   Если никакой реакции кожи не будет, значит процедура для вас будет полностью безопасной <a href=https://www.egoestetica-med.ru/services/man/>прыщей </a>
+ 
+Если ты задумываешься о лазерной эпиляции, процедуру стоит изучить заранее - она не из тех, на которые можно прийти без предварительной подготовки <a href=https://www.egoestetica-med.ru/thumbnails/>лазерной </a>
+   С одной стороны, очень соблазнительно представить себе жизнь без вросших волос и необходимости их регулярно удалять, с другой - важно знать конкретные факты и последствия процедуры, чтобы сделать взвешенный выбор <a href=https://www.egoestetica-med.ru/services/mass/>прыщики </a>
+ 
+Специальной подготовки к лазерной эпиляции по отзывам специалистов не требуется <a href=https://www.egoestetica-med.ru/>Лазерное </a>
+   Перед проведением данной процедуры не рекомендуется загорать или применять автозагар – это уменьшит ее эффективность <a href=https://www.egoestetica-med.ru/services/man/>акне что это </a>
+
+
+--1654974616-eximdsn-449497142--

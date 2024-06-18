@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id oFn+ID+022FDwgkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 09 Jan 2022 21:21:19 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 09 Jan 2022 21:21:19 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1n6mBL-002o51-Fk
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 09 Jan 2022 21:21:19 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1n6mBK-002o4W-PS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1641788479-eximdsn-1777153016
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1n6mBL-002o51-Fk@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 09 Jan 2022 21:21:19 -0700
+
+--1641788479-eximdsn-1777153016
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 6mBKnn5YVg9hK :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FePyeLy6 c=1 sm=1 tr=0 ts=61dbb43f p=TQcMV6wAAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=DghFqjY3_ZEA:10 a=fTxa9r1AKPAA:10 a=x7bEGLp0ZPQA:10 a=BXaBodR6EQ8A:10 a=pGLkceISAAAA:8 a=RWU6k8frZ4eZVekxJ6UA:9 a=XmwVO3-N3xEA:10 a=jMjVRAAsfMUA:10 a=VQNjLNUzm6oA:10 a=fnfgQWp0zewA:10 a=NPhjMuNK2z82BD3qBBW5:22 a=0HuW301FXh6_I4pkDcC-:22 ::
+    100.00
+
+--1641788479-eximdsn-1777153016
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 6mBKnn5YVg9hK :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FePyeLy6 c=1 sm=1 tr=0 ts=61dbb43f p=TQcMV6wAAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=DghFqjY3_ZEA:10 a=fTxa9r1AKPAA:10 a=x7bEGLp0ZPQA:10 a=BXaBodR6EQ8A:10 a=pGLkceISAAAA:8 a=RWU6k8frZ4eZVekxJ6UA:9 a=XmwVO3-N3xEA:10 a=jMjVRAAsfMUA:10 a=VQNjLNUzm6oA:10 a=fnfgQWp0zewA:10 a=NPhjMuNK2z82BD3qBBW5:22 a=0HuW301FXh6_I4pkDcC-:22 :: 100.00
+
+--1641788479-eximdsn-1777153016
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1n6mBK-002o4W-PS
+	for info@yoursite.com; Sun, 09 Jan 2022 21:21:18 -0700
+To: info@yoursite.com
+Subject: New contact from Kim Tito
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.36.92
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.36.92
+From: Kim Tito <WallySicks@gmail.com>
+Message-Id: <E1n6mBK-002o4W-PS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 09 Jan 2022 21:21:18 -0700
+
+Name: Kim Tito
+Email: WallySicks@gmail.com
+
+Subject: New contact from Kim Tito
+
+Message:
+You can submit your site to over 1000 different business/advertising directories for free with one click https://1mdr.short.gy/submityourwebsite
+
+
+--1641788479-eximdsn-1777153016--

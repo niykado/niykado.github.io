@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id eDS3HiqAnWL1FQwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 05 Jun 2022 21:18:50 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 05 Jun 2022 21:18:50 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ny4CY-003Lj8-ET
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 05 Jun 2022 21:18:50 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ny4CU-003LiU-0d@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1654489126-eximdsn-736129597
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ny4CY-003Lj8-ET@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 05 Jun 2022 21:18:50 -0700
+
+--1654489126-eximdsn-736129597
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 y4CUn2VUdm87e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=629d8026 p=pGlIUC-RA58A:10 p=AvOxqC3lAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=x7bEGLp0ZPQA:10 a=zT51tJZ6McMA:10 a=BrDiTsk0AAAA:8 a=T12TZYR8Z4UmSfnEvHEA:9 a=BRXkCmCBbX0A:10 a=Y0xUNihmQQkA:10 a=ycG1OLHhaeIA:10 a=fJ7bY613fC8A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=tT7J81gkwrxtQp95ggCZ:22 ::
+    100.00
+
+--1654489126-eximdsn-736129597
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 y4CUn2VUdm87e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=629d8026 p=pGlIUC-RA58A:10 p=AvOxqC3lAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=x7bEGLp0ZPQA:10 a=zT51tJZ6McMA:10 a=BrDiTsk0AAAA:8 a=T12TZYR8Z4UmSfnEvHEA:9 a=BRXkCmCBbX0A:10 a=Y0xUNihmQQkA:10 a=ycG1OLHhaeIA:10 a=fJ7bY613fC8A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=tT7J81gkwrxtQp95ggCZ:22 :: 100.00
+
+--1654489126-eximdsn-736129597
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ny4CU-003LiU-0d
+	for info@yoursite.com; Sun, 05 Jun 2022 21:18:46 -0700
+To: info@yoursite.com
+Subject: New contact from HenryCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.81
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.81
+From: HenryCig <bobsi_twin@yahoo.co.uk>
+Message-Id: <E1ny4CU-003LiU-0d@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 05 Jun 2022 21:18:46 -0700
+
+Name: HenryCig
+Email: bobsi_twin@yahoo.co.uk
+
+Subject: New contact from HenryCig
+
+Message:
+The financial Robot is the most effective financial tool in the net! https://Cig.bode-roesch.de/Cig
+
+
+--1654489126-eximdsn-736129597--

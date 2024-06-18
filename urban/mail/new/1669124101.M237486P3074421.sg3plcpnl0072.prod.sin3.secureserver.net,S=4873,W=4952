@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id QCYTDgXQfGN16S4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 22 Nov 2022 06:35:01 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 22 Nov 2022 06:35:01 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1oxTQT-00CuXA-5s
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Tue, 22 Nov 2022 06:35:01 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oxTQL-00CuNu-3z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1669124101-eximdsn-1329924554
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oxTQT-00CuXA-5s@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 22 Nov 2022 06:35:01 -0700
+
+--1669124101-eximdsn-1329924554
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xTQSo5gVJq9DD :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=VtTlQc6n c=1 sm=1 tr=0 ts=637cd005 p=FlyRwE9zAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=XQLnF2NUAAAA:8 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=DvPgrYzGOMzq4JAp:21 a=JiS923ttTH8A:10 a=9xFQ1JgjjksA:10 a=3DJvQu-S4QAA:10 a=A4EqBspgoKYA:10 a=8lnHBb7D-10YdJEYy_UA:9 a=_m0ylV0w0cYA:10 a=gfC5ex8p3hnYQ8M5_F_v:22 a=5WXwxYStDJFuYRuZHuqg:22 a=V1ovfHFy1OxE-oBKnrbm:22 a=jzOmY7L1a6jOZlptUnAL:22 ::
+    100.00
+
+--1669124101-eximdsn-1329924554
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 xTQSo5gVJq9DD :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=VtTlQc6n c=1 sm=1 tr=0 ts=637cd005 p=FlyRwE9zAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=XQLnF2NUAAAA:8 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=DvPgrYzGOMzq4JAp:21 a=JiS923ttTH8A:10 a=9xFQ1JgjjksA:10 a=3DJvQu-S4QAA:10 a=A4EqBspgoKYA:10 a=8lnHBb7D-10YdJEYy_UA:9 a=_m0ylV0w0cYA:10 a=gfC5ex8p3hnYQ8M5_F_v:22 a=5WXwxYStDJFuYRuZHuqg:22 a=V1ovfHFy1OxE-oBKnrbm:22 a=jzOmY7L1a6jOZlptUnAL:22 :: 100.00
+
+--1669124101-eximdsn-1329924554
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oxTQL-00CuNu-3z
+	for info@yoursite.com;
+	Tue, 22 Nov 2022 06:35:00 -0700
+To: info@yoursite.com
+Subject: New contact from ﻿Artificial intelligence creates content for the site, no worse than a copywriter, you can also use it to write articles. 100% uniqueness :). Click Here:👉 https://stanford.io/3FXszd0?h=f3cb111182fe802e268bc7322f02d254&
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 144.168.217.102
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 144.168.217.102
+From: ﻿Artificial intelligence creates content for the site, no worse than a copywriter, you can also use it to write articles. 100% uniqueness :). Click Here:👉 https://stanford.io/3FXszd0?h=f3cb111182fe802e268bc7322f02d254& <nickterp@gmailwe.com>
+Message-Id: <E1oxTQL-00CuNu-3z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 22 Nov 2022 06:34:53 -0700
+
+Name: ﻿Artificial intelligence creates content for the site, no worse than a copywriter, you can also use it to write articles. 100% uniqueness :). Click Here:👉 https://stanford.io/3FXszd0?h=f3cb111182fe802e268bc7322f02d254&
+Email: nickterp@gmailwe.com
+
+Subject: New contact from ﻿Artificial intelligence creates content for the site, no worse than a copywriter, you can also use it to write articles. 100% uniqueness :). Click Here:👉 https://stanford.io/3FXszd0?h=f3cb111182fe802e268bc7322f02d254&
+
+Message:
+pkl4e69t
+
+
+--1669124101-eximdsn-1329924554--

@@ -1,0 +1,66 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id KLG4BiMFiWO73xsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 01 Dec 2022 12:48:51 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 01 Dec 2022 12:48:51 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1p0pYB-007fDY-1X
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Thu, 01 Dec 2022 12:48:51 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1p0pY3-007f9f-KJ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1p0pYB-007fDY-1X@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 01 Dec 2022 12:48:51 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1p0pY3-007f9f-KJ
+	for info@yoursite.com;
+	Thu, 01 Dec 2022 12:48:43 -0700
+To: info@yoursite.com
+Subject: New contact from WilliamTus
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.43.8
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.43.8
+From: WilliamTus <no.reply.Reomy@gmail.com>
+Message-Id: <E1p0pY3-007f9f-KJ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 01 Dec 2022 12:48:43 -0700
+
+Name: WilliamTus
+Email: no.reply.Reomy@gmail.com
+
+Subject: New contact from WilliamTus
+
+Message:
+Gооd dаy!  urbanlocomote.com 
+ 
+Did yоu knоw thаt it is pоssiblе tо sеnd rеquеst whоlly lеgаlly? 
+Wе submit а nеw mеthоd оf sеnding businеss prоpоsаl thrоugh fееdbасk fоrms. Suсh fоrms аrе lосаtеd оn mаny sitеs. 
+Whеn suсh lеttеrs аrе sеnt, nо pеrsоnаl dаtа is usеd, аnd mеssаgеs аrе sеnt tо fоrms spесifiсаlly dеsignеd tо rесеivе mеssаgеs аnd аppеаls. 
+аlsо, mеssаgеs sеnt thrоugh соmmuniсаtiоn Fоrms dо nоt gеt intо spаm bесаusе suсh mеssаgеs аrе соnsidеrеd impоrtаnt. 
+Wе оffеr yоu tо tеst оur sеrviсе fоr frее. Wе will sеnd up tо 50,000 mеssаgеs fоr yоu. 
+Thе соst оf sеnding оnе milliоn mеssаgеs is 49 USD. 
+ 
+This mеssаgе is сrеаtеd аutоmаtiсаlly. Plеаsе usе thе соntасt dеtаils bеlоw tо соntасt us. 
+ 
+Contact us. 
+Telegram - @FeedbackMessages 
+Skype  live:contactform_18 
+WhatsApp - +375259112693 
+We only use chat. 
+no.reply.Tus@gmail.com
+

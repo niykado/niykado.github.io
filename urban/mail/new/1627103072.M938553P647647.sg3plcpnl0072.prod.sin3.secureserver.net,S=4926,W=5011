@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id mBpiNmCf+2Df4QkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 23 Jul 2021 22:04:32 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 23 Jul 2021 22:04:32 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1m79pw-003kNF-RT
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 23 Jul 2021 22:04:32 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1m79pw-003kMn-MG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1627103072-eximdsn-425040716
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1m79pw-003kNF-RT@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 23 Jul 2021 22:04:32 -0700
+
+--1627103072-eximdsn-425040716
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 79pwmhsZWkfyR :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=UuOmi88B c=1 sm=1 tr=0 ts=60fb9f60 p=MjZE2zc6YkjIaJrdIcAA:9 p=DHqdP4_B4MQA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=e_q4qTt1xDgA:10 a=a1oJwOs5XG8A:10 a=x7bEGLp0ZPQA:10 a=sQiqnj4EaNYA:10 a=pGLkceISAAAA:8 a=oJHwgO0_PmsA:10 a=L-4-x0DWauwqzOTpiOxH:22 ::
+    100.00
+
+--1627103072-eximdsn-425040716
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 79pwmhsZWkfyR :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=UuOmi88B c=1 sm=1 tr=0 ts=60fb9f60 p=MjZE2zc6YkjIaJrdIcAA:9 p=DHqdP4_B4MQA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=e_q4qTt1xDgA:10 a=a1oJwOs5XG8A:10 a=x7bEGLp0ZPQA:10 a=sQiqnj4EaNYA:10 a=pGLkceISAAAA:8 a=oJHwgO0_PmsA:10 a=L-4-x0DWauwqzOTpiOxH:22 :: 100.00
+
+--1627103072-eximdsn-425040716
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1m79pw-003kMn-MG
+	for info@yoursite.com; Fri, 23 Jul 2021 22:04:32 -0700
+To: info@yoursite.com
+Subject: New contact from Pettry Gaylor
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 23.254.68.55
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 23.254.68.55
+From: Pettry Gaylor <pettrygaylor572@gmail.com>
+Message-Id: <E1m79pw-003kMn-MG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 23 Jul 2021 22:04:32 -0700
+
+Name: Pettry Gaylor
+Email: pettrygaylor572@gmail.com
+
+Subject: New contact from Pettry Gaylor
+
+Message:
+Hi! 
+
+Newer websites out there are now integrated with features that make business processes easier to run for both the company and their clients. I'm a freelance web designer who can help you integrate smart features that a business website should have, as well as a modern look and feel. I'm sending you this message because I'd like to help you out with your website's design. I'm able to work with most of the major programming languages, website platforms, and shopping carts, and I specialize in one platform that's truly amazing called WordPress. Designing your site on a platform gives you an incredible number of features and allows you to personally make changes to your site in a really easy manner. 
+
+I do all the work by myself freelance and I never outsource. I'd also like to hear your ideas for the website design and provide you with a few of my own as well. Kindly write back to let me know if this is something you'd like to know more about and we'll take it from there. Talk soon!
+
+ 
+Pettry Gaylor
+Web Designer
+
+
+--1627103072-eximdsn-425040716--

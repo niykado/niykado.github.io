@@ -1,0 +1,51 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id YFvfBd9tPWU7SDoAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 28 Oct 2023 13:23:59 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 28 Oct 2023 13:23:59 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qwpqh-00G2z1-1I
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sat, 28 Oct 2023 13:23:59 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qwpqZ-00G2x8-6d@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qwpqh-00G2z1-1I@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 28 Oct 2023 13:23:59 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qwpqZ-00G2x8-6d
+	for info@yoursite.com;
+	Sat, 28 Oct 2023 13:23:51 -0700
+To: info@yoursite.com
+Subject: New contact from JosephKaw
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 93.73.179.112
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 93.73.179.112
+From: JosephKaw <happen_ti_rise@outlook.com>
+Message-Id: <E1qwpqZ-00G2x8-6d@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 28 Oct 2023 13:23:51 -0700
+
+Name: JosephKaw
+Email: happen_ti_rise@outlook.com
+
+Subject: New contact from JosephKaw
+
+Message:
+Widen your knowledge by revealing the crypto world. 
+<a href=https://sukesacinytu.top/go/5423v2/74y2><b><u>Pull it on time!</b></u></a>
+

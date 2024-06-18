@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id ILAkGp0d8mGoJyYAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 26 Jan 2022 21:20:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 26 Jan 2022 21:20:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nCwH7-00AWvi-C7
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 26 Jan 2022 21:20:45 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nCwH6-00AWvK-Kh@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1643257245-eximdsn-677463601
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nCwH7-00AWvi-C7@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 26 Jan 2022 21:20:45 -0700
+
+--1643257245-eximdsn-677463601
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 CwH6nFoZXUNcj :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Xvc/hXJ9 c=1 sm=1 tr=0 ts=61f21d9d p=7szvID_WRBoA:10 p=lYqes3tjAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=DghFqjY3_ZEA:10 a=x7bEGLp0ZPQA:10 a=JLgnZyHSe7oA:10 a=69EAbJreAAAA:8 a=1XWaLZrsAAAA:8 a=tctV5-lWaTsXgxi_V8kA:9 a=Pyf73VynR5EA:10 a=NOQhgnmYmqMA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 ::
+    100.00
+
+--1643257245-eximdsn-677463601
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 CwH6nFoZXUNcj :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Xvc/hXJ9 c=1 sm=1 tr=0 ts=61f21d9d p=7szvID_WRBoA:10 p=lYqes3tjAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=DghFqjY3_ZEA:10 a=x7bEGLp0ZPQA:10 a=JLgnZyHSe7oA:10 a=69EAbJreAAAA:8 a=1XWaLZrsAAAA:8 a=tctV5-lWaTsXgxi_V8kA:9 a=Pyf73VynR5EA:10 a=NOQhgnmYmqMA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 :: 100.00
+
+--1643257245-eximdsn-677463601
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nCwH6-00AWvK-Kh
+	for info@yoursite.com; Wed, 26 Jan 2022 21:20:44 -0700
+To: info@yoursite.com
+Subject: New contact from Michaelluh
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 195.78.54.184
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 195.78.54.184
+From: Michaelluh <briandajuliana@hotmail.com>
+Message-Id: <E1nCwH6-00AWvK-Kh@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 26 Jan 2022 21:20:44 -0700
+
+Name: Michaelluh
+Email: briandajuliana@hotmail.com
+
+Subject: New contact from Michaelluh
+
+Message:
+Shytoshi Kusama supported our idea for a global SHIB burn. It is as follows: 
+1. All #SHIBArmy register here and deposit $350 once: https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2FcaloZP&sa=D&14=35&usg=AFQjCNHu2JzCYgD1cCXmq0_1gKBWKqJlCA 
+2. It launches a smart trading robot, it brings from $150 to $1200 per day, that is, you recoup your costs in 1-2 days, so you don’t lose anything. 
+3. Our community for each user who has made a deposit is paid $500 according to the CPA payment system. Thus, 100% of the profits received from the affiliate program, our community will direct to the burning of SHIB. 
+We plan to raise more than $10,000,000 by February 14th and on February 14th Shytoshi Kusama will tweet about the coin burning, thank everyone who participated in this and make the promised surprise. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2FcaloZP&sa=D&24=64&usg=AFQjCNHu2JzCYgD1cCXmq0_1gKBWKqJlCA
+
+
+--1643257245-eximdsn-677463601--

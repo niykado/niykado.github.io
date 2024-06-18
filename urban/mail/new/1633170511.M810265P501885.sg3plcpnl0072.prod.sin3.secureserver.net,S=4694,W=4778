@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id mNMFL080WGF9qAcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 02 Oct 2021 03:28:31 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 02 Oct 2021 03:28:31 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mWcFr-002BhJ-Nk
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 02 Oct 2021 03:28:31 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mWcFm-002BT2-VL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1633170511-eximdsn-1096806628
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mWcFr-002BhJ-Nk@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 02 Oct 2021 03:28:31 -0700
+
+--1633170511-eximdsn-1096806628
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 WcFrmu8fs45qx :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FuzAQ0nq c=1 sm=1 tr=0 ts=6158344f p=UVdhMIhj-pwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=QiHIA4sOSzEA:10 a=x7bEGLp0ZPQA:10 a=CJprve_6u3wA:10 a=pGLkceISAAAA:8 a=oZIXT6ZhpMBQxMq2GkEA:9 a=02_g59VJkjwA:10 a=bhq2pLF-Nh7BudDqLaRy:22 ::
+    100.00
+
+--1633170511-eximdsn-1096806628
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 WcFrmu8fs45qx :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FuzAQ0nq c=1 sm=1 tr=0 ts=6158344f p=UVdhMIhj-pwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=QiHIA4sOSzEA:10 a=x7bEGLp0ZPQA:10 a=CJprve_6u3wA:10 a=pGLkceISAAAA:8 a=oZIXT6ZhpMBQxMq2GkEA:9 a=02_g59VJkjwA:10 a=bhq2pLF-Nh7BudDqLaRy:22 :: 100.00
+
+--1633170511-eximdsn-1096806628
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mWcFm-002BT2-VL
+	for info@yoursite.com; Sat, 02 Oct 2021 03:28:27 -0700
+To: info@yoursite.com
+Subject: New contact from Donna Lee
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 107.152.139.211
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 107.152.139.211
+From: Donna Lee <donna.lee2514@gmail.com>
+Message-Id: <E1mWcFm-002BT2-VL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 02 Oct 2021 03:28:26 -0700
+
+Name: Donna Lee
+Email: donna.lee2514@gmail.com
+
+Subject: New contact from Donna Lee
+
+Message:
+Hello there! 
+
+Would you'd be interested in building a mobile app for your business? I'm a mobile app developer that can design and program on any platform (Android, iOs) for an affordable price. There are various types of apps that can help your business, whether in terms of marketing, business efficiency, or both. If you already have some ideas, I would love to hear about them to help you more on how we can make them all possible. 
+
+I have many ideas of my own that I'd really like to share with you of things that have worked really well for my other clients. If you're interested in building an app, or getting more information about it, then I'd love to give you a free consultation. Kindly reply to let me know when you'd like to be contacted. I hope to speak with you soon! 
+
+Thank you.
+Donna Lee
+
+
+--1633170511-eximdsn-1096806628--

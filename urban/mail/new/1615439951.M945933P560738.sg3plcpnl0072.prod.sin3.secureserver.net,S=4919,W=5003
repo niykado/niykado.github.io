@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 8E+rN0+oSWBijggAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 10 Mar 2021 22:19:11 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 10 Mar 2021 22:19:11 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lKDj5-002VMQ-Ro
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 10 Mar 2021 22:19:11 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lKDj5-002VMA-Mz@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1615439951-eximdsn-123797112
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lKDj5-002VMQ-Ro@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 10 Mar 2021 22:19:11 -0700
+
+--1615439951-eximdsn-123797112
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 KDj5ljFSnlXAm :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=BslYfab5 c=1 sm=1 tr=0 ts=6049a84f p=3VNkYC6Eh7EA:10 p=n6uTexyBQPUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=dESyimp9J3IA:10 a=x7bEGLp0ZPQA:10 a=a3HKoPgeHHwA:10 a=pGLkceISAAAA:8 a=MjZE2zc6YkjIaJrdIcAA:9 a=JetEnkwTTpYA:10 a=4JIJL7p3R0OIPobONtqj:22 ::
+    100.00
+
+--1615439951-eximdsn-123797112
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 KDj5ljFSnlXAm :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=BslYfab5 c=1 sm=1 tr=0 ts=6049a84f p=3VNkYC6Eh7EA:10 p=n6uTexyBQPUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=dESyimp9J3IA:10 a=x7bEGLp0ZPQA:10 a=a3HKoPgeHHwA:10 a=pGLkceISAAAA:8 a=MjZE2zc6YkjIaJrdIcAA:9 a=JetEnkwTTpYA:10 a=4JIJL7p3R0OIPobONtqj:22 :: 100.00
+
+--1615439951-eximdsn-123797112
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lKDj5-002VMA-Mz
+	for info@yoursite.com; Wed, 10 Mar 2021 22:19:11 -0700
+To: info@yoursite.com
+Subject: New contact from Joanne Welch
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 198.12.80.166
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 198.12.80.166
+From: Joanne Welch <welchjoanne75@gmail.com>
+Message-Id: <E1lKDj5-002VMA-Mz@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 10 Mar 2021 22:19:11 -0700
+
+Name: Joanne Welch
+Email: welchjoanne75@gmail.com
+
+Subject: New contact from Joanne Welch
+
+Message:
+Hi! 
+
+Newer websites out there are now integrated with features that make business processes easier to run for both the company and their clients. I'm a freelance web designer who can help you integrate smart features that a business website should have, as well as a modern look and feel. I'm sending you this message because I'd like to help you out with your website's design. I'm able to work with most of the major programming languages, website platforms, and shopping carts, and I specialize in one platform that's truly amazing called WordPress. Designing your site on a platform gives you an incredible number of features and allows you to personally make changes to your site in a really easy manner. 
+
+I do all the work by myself freelance and I never outsource. I'd also like to hear your ideas for the website design and provide you with a few of my own as well. Kindly write back to let me know if this is something you'd like to know more about and we'll take it from there. Talk soon!
+
+Best regards, 
+Joanne Welch
+
+
+--1615439951-eximdsn-123797112--

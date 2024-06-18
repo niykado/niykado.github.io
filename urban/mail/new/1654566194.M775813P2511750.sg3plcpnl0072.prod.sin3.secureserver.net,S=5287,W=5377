@@ -1,0 +1,90 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id XNITLDKtnmKGUyYAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 06 Jun 2022 18:43:14 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 06 Jun 2022 18:43:14 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nyOFW-00AZWi-Lc
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 06 Jun 2022 18:43:14 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nyOFV-00AZVv-Ue@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1654566194-eximdsn-441188325
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nyOFW-00AZWi-Lc@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 06 Jun 2022 18:43:14 -0700
+
+--1654566194-eximdsn-441188325
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yOFWnCJuxm87e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=629ead32 p=o6CPYWphAAAA:8 p=JxbYQ17ctwMA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=PiUm1PylI3EA:10 a=x7bEGLp0ZPQA:10 a=fGiAxwC6f9cA:10 a=pGLkceISAAAA:8 a=vnREMb7VAAAA:8 a=NlneoP50tPks7KmF96YA:9 a=7Zwj6sZBwVKJAoWSPKxL6X1jA+E=:19 a=wJKTlrjqHz8A:10 a=MwjsEHTnIxkA:10 a=aA_ox6xr338A:10 a=dg0-qKAd_akA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=o9M9oNG4tpMYnCvevhKy:22 a=sBVNxsFI-tFjOnovG0AW:22 ::
+    100.00
+
+--1654566194-eximdsn-441188325
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 yOFWnCJuxm87e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=629ead32 p=o6CPYWphAAAA:8 p=JxbYQ17ctwMA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=PiUm1PylI3EA:10 a=x7bEGLp0ZPQA:10 a=fGiAxwC6f9cA:10 a=pGLkceISAAAA:8 a=vnREMb7VAAAA:8 a=NlneoP50tPks7KmF96YA:9 a=7Zwj6sZBwVKJAoWSPKxL6X1jA+E=:19 a=wJKTlrjqHz8A:10 a=MwjsEHTnIxkA:10 a=aA_ox6xr338A:10 a=dg0-qKAd_akA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=o9M9oNG4tpMYnCvevhKy:22 a=sBVNxsFI-tFjOnovG0AW:22 :: 100.00
+
+--1654566194-eximdsn-441188325
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nyOFV-00AZVv-Ue
+	for info@yoursite.com; Mon, 06 Jun 2022 18:43:13 -0700
+To: info@yoursite.com
+Subject: New contact from Richard Wahl
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 195.78.54.128
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 195.78.54.128
+From: Richard Wahl <berg.reinebr@gmail.com>
+Message-Id: <E1nyOFV-00AZVv-Ue@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 06 Jun 2022 18:43:13 -0700
+
+Name: Richard Wahl
+Email: berg.reinebr@gmail.com
+
+Subject: New contact from Richard Wahl
+
+Message:
+Hello dear, 
+Hope this email finds you well. 
+This is a very big news and a special message to you. 
+I am the winner of 533-Million, in the Mega Millions Jackpot. Due to the current pandemic, I\'ve decided to join other world philanthropists to do what is within my capacity to bring relief to a few people and their local community, globally, through a random selection of web addresses by my financial team. 
+Your website has surfaced as one of the lucky recipients of this selection and with a heart of warm benevolence, I wish you a big congratulation. 
+Here is your donation code: RFECD00092022FP 
+When replying to this email, please ensure you state your donation code for verification by my financial team. 
+More details are on my YouTube channel. 
+WATCH ME HERE: https://www.youtube.com/watch?v=tne02ExNDrw 
+Contact WhatsApp: +1 (239) 788- 2548 
+contact the finance team by email only when you don't have WhatsApp: globalrelief.richardwahl.rfecd42022@financier.com 
+Congratulations once again! 
+Kind regards, 
+Richard Wahl.
+
+
+--1654566194-eximdsn-441188325--

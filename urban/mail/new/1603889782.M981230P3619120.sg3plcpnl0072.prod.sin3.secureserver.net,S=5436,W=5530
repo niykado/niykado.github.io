@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id UKYXOHZqmV8wOTcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 28 Oct 2020 05:56:22 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 28 Oct 2020 05:56:22 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kXl02-00FHD9-So
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 28 Oct 2020 05:56:22 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kXl02-00FHD0-Nz@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1603889782-eximdsn-1718888012
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kXl02-00FHD9-So@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 28 Oct 2020 05:56:22 -0700
+
+--1603889782-eximdsn-1718888012
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Xl02kauVcr7Hv :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=A6apg4aG c=1 sm=1 tr=0 ts=5f996a76 p=kZvWfQsDGfkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=3n0yynnKxDUA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=AAvYLDLOAAAA:8 a=zes_9KbOAAAA:8 a=xpP1egnC7BBER7zAUukA:9 a=gsXKvGjGM5FxhHD1:21 a=Xjd2_-pEr4o5zvvz:21 a=5jgySzanYykA:10 a=QUaMMt-ri_1e2pHSfdFs:22 ::
+    100.00
+
+--1603889782-eximdsn-1718888012
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Xl02kauVcr7Hv :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=A6apg4aG c=1 sm=1 tr=0 ts=5f996a76 p=kZvWfQsDGfkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=3n0yynnKxDUA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=AAvYLDLOAAAA:8 a=zes_9KbOAAAA:8 a=xpP1egnC7BBER7zAUukA:9 a=gsXKvGjGM5FxhHD1:21 a=Xjd2_-pEr4o5zvvz:21 a=5jgySzanYykA:10 a=QUaMMt-ri_1e2pHSfdFs:22 :: 100.00
+
+--1603889782-eximdsn-1718888012
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kXl02-00FHD0-Nz
+	for info@yoursite.com; Wed, 28 Oct 2020 05:56:22 -0700
+To: info@yoursite.com
+Subject: New contact from Rogernix
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.60.214
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.60.214
+From: Rogernix <fidel602@msn.com>
+Message-Id: <E1kXl02-00FHD0-Nz@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 28 Oct 2020 05:56:22 -0700
+
+Name: Rogernix
+Email: fidel602@msn.com
+
+Subject: New contact from Rogernix
+
+Message:
+Invest $ 15,000 in affiliate marketing and get $ 45,000 in a month 
+Hey. 
+Yes, you heard right. 
+You don't have to do anything. 
+We will do all the work for you. 
+You only need to invest and wait one month to receive payments. 
+https://blockchain.com/btc/payment_request?address=18gaWYjABVFJ9PhG1hCqjh5FjWBrkQVuwD&amount=1.14&message=invest_in_affiliate_marketing_at_300%_per_month 
+We have been engaged in affiliate marketing for many years and decided to attract investments to work in the development of three more areas of our activity. 
+ 
+You can only invest one amount because this is the best option for earning super profits in affiliate marketing. 
+We give a 100% guarantee that you will receive your profit on time. 
+https://blockchain.com/btc/payment_request?address=18gaWYjABVFJ9PhG1hCqjh5FjWBrkQVuwD&amount=1.14&message=invest_in_affiliate_marketing_at_300%_per_month 
+After you make an investment by clicking on the link, exactly in a month your profit in the amount of 300% will be returned to your wallet from which you made the transfer to our system. 
+ 
+The payment is made in one time. 
+If you want to receive such a profit every month, then you need to invest every month. 
+https://blockchain.com/btc/payment_request?address=18gaWYjABVFJ9PhG1hCqjh5FjWBrkQVuwD&amount=1.14&message=invest_in_affiliate_marketing_at_300%_per_month 
+There are almost two months left before the New Year, during which time you will have time to invest twice and get $ 75,000 in net profit.
+
+
+--1603889782-eximdsn-1718888012--

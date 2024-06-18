@@ -1,0 +1,87 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id EKCIIRZKol/bNDYAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 03 Nov 2020 23:28:38 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 03 Nov 2020 23:28:38 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kaCHe-00F3jI-Gn
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 03 Nov 2020 23:28:38 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kaCHe-00F3j1-C8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1604471318-eximdsn-263252046
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kaCHe-00F3jI-Gn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 03 Nov 2020 23:28:38 -0700
+
+--1604471318-eximdsn-263252046
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 aCHekM5S5SD7j :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=X9OXlEfe c=1 sm=1 tr=0 ts=5fa24a16 p=mmeLAfeZMqIA:10 p=r8YwMLflAAAA:8 p=gcorXNp_AAAA:8 p=o5h3peTcAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=nNwsprhYR40A:10 a=d185jZcJAAAA:8 a=oN3qDzT72gD-oJJsJDsA:9 a=1IU0U3ILDNgA:10 a=dGUb6pKosXAA:10 a=2z3msIMecrEA:10 a=ImJHT_BVXKYA:10 a=VeqVY5Kl875fVdGlV1Gs:22 a=2GeWoK25HUrQoBP745yM:22 a=SC5j2M3soVWg5VwxjtHB:22 a=cheyoe4CxUXxRVIhv34s:22 ::
+    100.00
+
+--1604471318-eximdsn-263252046
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 aCHekM5S5SD7j :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=X9OXlEfe c=1 sm=1 tr=0 ts=5fa24a16 p=mmeLAfeZMqIA:10 p=r8YwMLflAAAA:8 p=gcorXNp_AAAA:8 p=o5h3peTcAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=nNwsprhYR40A:10 a=d185jZcJAAAA:8 a=oN3qDzT72gD-oJJsJDsA:9 a=1IU0U3ILDNgA:10 a=dGUb6pKosXAA:10 a=2z3msIMecrEA:10 a=ImJHT_BVXKYA:10 a=VeqVY5Kl875fVdGlV1Gs:22 a=2GeWoK25HUrQoBP745yM:22 a=SC5j2M3soVWg5VwxjtHB:22 a=cheyoe4CxUXxRVIhv34s:22 :: 100.00
+
+--1604471318-eximdsn-263252046
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kaCHe-00F3j1-C8
+	for info@yoursite.com; Tue, 03 Nov 2020 23:28:38 -0700
+To: info@yoursite.com
+Subject: New contact from DoyleRuh
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.60.103
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.60.103
+From: DoyleRuh <trevcat@supanet.com>
+Message-Id: <E1kaCHe-00F3j1-C8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 03 Nov 2020 23:28:38 -0700
+
+Name: DoyleRuh
+Email: trevcat@supanet.com
+
+Subject: New contact from DoyleRuh
+
+Message:
+Hey. 
+ 
+I have more than $ 15,000 passive income per week on cloud mining 
+ 
+I only invested once and now my passive income is about $ 2400 per day http://xsle.net/3mflw 
+ 
+Payments to my wallet come every day http://wunkit.com/BDooAA 
+ 
+If interested, you can also start making money this way http://wunkit.com/kDMoAA 
+ 
+The number of cloud miners is limited, hurry up to take the right step to success https://darknesstr.com/3jv5z
+
+
+--1604471318-eximdsn-263252046--

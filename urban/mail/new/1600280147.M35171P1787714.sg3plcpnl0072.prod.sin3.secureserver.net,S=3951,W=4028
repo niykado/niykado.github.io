@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id mPReAFNWYl9CRxsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 16 Sep 2020 11:15:47 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 16 Sep 2020 11:15:47 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kIby6-007cVU-Ta
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 16 Sep 2020 11:15:46 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kIby6-007cVF-ON@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1600280146-eximdsn-1312960058
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kIby6-007cVU-Ta@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 16 Sep 2020 11:15:46 -0700
+
+--1600280146-eximdsn-1312960058
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Iby6ksR1H4PmQ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=XgWD1rUFbcoA:10 p=qIpMJD1L_qEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=z3ULzVM9AAAA:8 a=RgBw9RmQAAAA:8 a=-9dQ8M6MFiM5Hx6axhcA:9 a=Q37eRTs4aa4A:10 a=DOw_AwIZcYYA:10 a=aC2TUO9nyKtkVkuG-GoU:22 ::
+    100.00
+
+--1600280146-eximdsn-1312960058
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Iby6ksR1H4PmQ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=XgWD1rUFbcoA:10 p=qIpMJD1L_qEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=z3ULzVM9AAAA:8 a=RgBw9RmQAAAA:8 a=-9dQ8M6MFiM5Hx6axhcA:9 a=Q37eRTs4aa4A:10 a=DOw_AwIZcYYA:10 a=aC2TUO9nyKtkVkuG-GoU:22 :: 100.00
+
+--1600280146-eximdsn-1312960058
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kIby6-007cVF-ON
+	for info@yoursite.com; Wed, 16 Sep 2020 11:15:46 -0700
+To: info@yoursite.com
+Subject: New contact from ArthurGag
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.60.210
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.60.210
+From: ArthurGag <kurbatakifev1987957akp@inbox.ru>
+Message-Id: <E1kIby6-007cVF-ON@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 16 Sep 2020 11:15:46 -0700
+
+Name: ArthurGag
+Email: kurbatakifev1987957akp@inbox.ru
+
+Subject: New contact from ArthurGag
+
+Message:
+Nvdfjhdficj efiuwdiwrhfduehfjei kfksdjaksdhsjfhwkjf https://mail.ru/?ddjfsjfuwfw
+
+
+--1600280146-eximdsn-1312960058--

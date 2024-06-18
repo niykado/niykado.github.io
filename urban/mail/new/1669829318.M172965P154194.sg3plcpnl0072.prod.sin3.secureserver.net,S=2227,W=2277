@@ -1,0 +1,50 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id ELMGCcaSh2NSWgIAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 30 Nov 2022 10:28:38 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 30 Nov 2022 10:28:38 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1p0Qsw-000eUy-33
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 30 Nov 2022 10:28:38 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1p0Qso-000eEi-2g@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1p0Qsw-000eUy-33@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 30 Nov 2022 10:28:38 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1p0Qso-000eEi-2g
+	for info@yoursite.com;
+	Wed, 30 Nov 2022 10:28:30 -0700
+To: info@yoursite.com
+Subject: New contact from Tomiko Winchenbach
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 162.253.129.149
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 162.253.129.149
+From: Tomiko Winchenbach <AngleaFairley@gmail.com>
+Message-Id: <E1p0Qso-000eEi-2g@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 30 Nov 2022 10:28:30 -0700
+
+Name: Tomiko Winchenbach
+Email: AngleaFairley@gmail.com
+
+Subject: New contact from Tomiko Winchenbach
+
+Message:
+I was wondering if you wanted to submit your new site to our free business directory? https://bit.ly/submit_site_1
+

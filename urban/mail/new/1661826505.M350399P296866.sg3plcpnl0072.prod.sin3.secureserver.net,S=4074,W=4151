@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id QvdgFMl1DWOihwQAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 29 Aug 2022 19:28:25 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 29 Aug 2022 19:28:25 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oSqzJ-001FHt-9B
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 29 Aug 2022 19:28:25 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oSqzI-001FHK-I4@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1661826505-eximdsn-254590645
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oSqzJ-001FHt-9B@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 29 Aug 2022 19:28:25 -0700
+
+--1661826505-eximdsn-254590645
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 SqzIokd22ZaPe :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Qp+bYX+d c=1 sm=1 tr=0 ts=630d75c9 p=uoTYzDSfDegA:10 p=uwoe9nGEAAAA:8 p=4nzyXi6hZuUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=x7bEGLp0ZPQA:10 a=qcKBn3N8bTEA:10 a=CjxXgO3LAAAA:8 a=FIB6PaMrhsI6tCR1HnAA:9 a=p1pvWG0Y9OEA:10 a=hliEQq4kB1EA:10 a=pr3u6tl-l6YA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=rpQvaYrwi8ThqXRdueOi:22 ::
+    100.00
+
+--1661826505-eximdsn-254590645
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 SqzIokd22ZaPe :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Qp+bYX+d c=1 sm=1 tr=0 ts=630d75c9 p=uoTYzDSfDegA:10 p=uwoe9nGEAAAA:8 p=4nzyXi6hZuUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=x7bEGLp0ZPQA:10 a=qcKBn3N8bTEA:10 a=CjxXgO3LAAAA:8 a=FIB6PaMrhsI6tCR1HnAA:9 a=p1pvWG0Y9OEA:10 a=hliEQq4kB1EA:10 a=pr3u6tl-l6YA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=rpQvaYrwi8ThqXRdueOi:22 :: 100.00
+
+--1661826505-eximdsn-254590645
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oSqzI-001FHK-I4
+	for info@yoursite.com; Mon, 29 Aug 2022 19:28:24 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.187
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.187
+From: CrytoCig <farida_kencana@yahoo.com>
+Message-Id: <E1oSqzI-001FHK-I4@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 29 Aug 2022 19:28:24 -0700
+
+Name: CrytoCig
+Email: farida_kencana@yahoo.com
+
+Subject: New contact from CrytoCig
+
+Message:
+Make thousands every week working online here. https://riviello.es/promo
+
+
+--1661826505-eximdsn-254590645--

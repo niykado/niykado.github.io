@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id yIZjApx+HGNbOzgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 10 Sep 2022 05:10:04 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 10 Sep 2022 05:10:04 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oWzJD-00FUwX-Vo
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 10 Sep 2022 05:10:04 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oWzJD-00FUvz-8B@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1662811803-eximdsn-112946426
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oWzJD-00FUwX-Vo@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 10 Sep 2022 05:10:03 -0700
+
+--1662811803-eximdsn-112946426
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 WzJDoqtHMZaPe :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Qp+bYX+d c=1 sm=1 tr=0 ts=631c7e9b p=lWduRk5iAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=xOM3xZuef0cA:10 a=tIJXMp8EI_IA:10 a=dynt39AsAAAA:8 a=G5XD1TAtAAAA:8 a=I-5iDGgBqbJcCpY1VE4A:9 a=CMvZmk1hhGcA:10 a=Um2HBWpP5yEA:10 a=pA_o-8oIndEA:10 a=RgHQi6LtTZQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=qiFTbIZlg04ZFws9SkCC:22 a=AI5dhWNR38YFo0R50nAY:22 ::
+    100.00
+
+--1662811803-eximdsn-112946426
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 WzJDoqtHMZaPe :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Qp+bYX+d c=1 sm=1 tr=0 ts=631c7e9b p=lWduRk5iAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=xOM3xZuef0cA:10 a=tIJXMp8EI_IA:10 a=dynt39AsAAAA:8 a=G5XD1TAtAAAA:8 a=I-5iDGgBqbJcCpY1VE4A:9 a=CMvZmk1hhGcA:10 a=Um2HBWpP5yEA:10 a=pA_o-8oIndEA:10 a=RgHQi6LtTZQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=qiFTbIZlg04ZFws9SkCC:22 a=AI5dhWNR38YFo0R50nAY:22 :: 100.00
+
+--1662811803-eximdsn-112946426
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oWzJD-00FUvz-8B
+	for info@yoursite.com; Sat, 10 Sep 2022 05:10:03 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.82
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.82
+From: CrytoCig <taylor.white@centurytel.net>
+Message-Id: <E1oWzJD-00FUvz-8B@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 10 Sep 2022 05:10:03 -0700
+
+Name: CrytoCig
+Email: taylor.white@centurytel.net
+
+Subject: New contact from CrytoCig
+
+Message:
+The financial Robot is your future wealth and independence. http://www.indorasa.com/shop/bannerhit.php?bn_id=20&url=https%3A%2F%2Fvaratradgardsforening.se%2Fpromo
+
+
+--1662811803-eximdsn-112946426--

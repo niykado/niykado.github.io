@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id bwCOIdNBWWFIsBcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 02 Oct 2021 22:38:27 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 02 Oct 2021 22:38:27 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mWuCh-006VrQ-GB
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 02 Oct 2021 22:38:27 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mWuCg-006Vr7-Py@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1633239507-eximdsn-899119624
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mWuCh-006VrQ-GB@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 02 Oct 2021 22:38:27 -0700
+
+--1633239507-eximdsn-899119624
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 WuCgmyGnSlE95 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WYfJ12tX c=1 sm=1 tr=0 ts=615941d3 p=095mBCPOyx0A:10 p=xBmUMUPIAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=O76VCmqbo-wA:10 a=QoM_jo1mpEwA:10 a=1XWaLZrsAAAA:8 a=KW0FpET1TFXF4gYzByMA:9 a=SU2feGt6sTYA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=y85AKpeX8sTgZG6YX2Fa:22 a=HH7FIXwXL_sUf1zzYxQd:22 ::
+    100.00
+
+--1633239507-eximdsn-899119624
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 WuCgmyGnSlE95 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WYfJ12tX c=1 sm=1 tr=0 ts=615941d3 p=095mBCPOyx0A:10 p=xBmUMUPIAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=O76VCmqbo-wA:10 a=QoM_jo1mpEwA:10 a=1XWaLZrsAAAA:8 a=KW0FpET1TFXF4gYzByMA:9 a=SU2feGt6sTYA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=y85AKpeX8sTgZG6YX2Fa:22 a=HH7FIXwXL_sUf1zzYxQd:22 :: 100.00
+
+--1633239507-eximdsn-899119624
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mWuCg-006Vr7-Py
+	for info@yoursite.com; Sat, 02 Oct 2021 22:38:26 -0700
+To: info@yoursite.com
+Subject: New contact from JasonTwern - Apple
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.57.207
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.57.207
+From: JasonTwern - Apple <kasatkinayulya@aliceadsl.fr>
+Message-Id: <E1mWuCg-006Vr7-Py@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 02 Oct 2021 22:38:26 -0700
+
+Name: JasonTwern - Apple
+Email: kasatkinayulya@aliceadsl.fr
+
+Subject: New contact from JasonTwern - Apple
+
+Message:
+Apple has developed the latest AI-based trading robot that makes more than 90% of successful transactions in cryptocurrency trading. 
+ 
+You are guaranteed to receive from $ 5000 per week of passive income while your trading robot is working 24/7. 
+ 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6jWfc&sa=D&f0=wh&usg=AFQjCNHdwHGe2DxgDiPDujhsvUic-IZkjA 
+ 
+You don't need any skills. 
+ 
+To get started, you need to take the following steps: 
+ 
+1. Register on the website of our trading robot https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6jWfc&sa=D&pq=v0&usg=AFQjCNHdwHGe2DxgDiPDujhsvUic-IZkjA 
+ 
+2. Top up the balance in your personal account for at least $ 500 
+ 
+3. Launch a trading robot 
+ 
+4. Watch how your account balance grows 
+ 
+5. Withdraw profit every week 
+ 
+6. Enjoy life
+
+
+--1633239507-eximdsn-899119624--

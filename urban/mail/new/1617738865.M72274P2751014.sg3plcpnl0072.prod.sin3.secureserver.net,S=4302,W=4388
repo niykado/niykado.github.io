@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id oLkrAnG8bGAm+ikAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 06 Apr 2021 12:54:25 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 06 Apr 2021 12:54:25 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lTrmK-00C06A-W3
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 06 Apr 2021 12:54:25 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lTrmK-00C05v-RU@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1617738864-eximdsn-916803124
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lTrmK-00C06A-W3@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 06 Apr 2021 12:54:24 -0700
+
+--1617738864-eximdsn-916803124
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 TrmKlOWBzrgOT :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=D8eCltdj c=1 sm=1 tr=0 ts=606cbc70 p=RRczHo6GVEkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=sfOm8-O8AAAA:8 a=pGLkceISAAAA:8 a=iwoSvnDZUhObPNEI9t4A:9 a=w5MmWquLNjEA:10 a=1M4glSNDpI8A:10 a=JkGIyuE1I-kA:10 a=TvTJqdcANYtsRzA46cdi:22 a=l3RtsxAtLklCOmtLMEVv:22 ::
+    100.00
+
+--1617738864-eximdsn-916803124
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 TrmKlOWBzrgOT :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=D8eCltdj c=1 sm=1 tr=0 ts=606cbc70 p=RRczHo6GVEkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=sfOm8-O8AAAA:8 a=pGLkceISAAAA:8 a=iwoSvnDZUhObPNEI9t4A:9 a=w5MmWquLNjEA:10 a=1M4glSNDpI8A:10 a=JkGIyuE1I-kA:10 a=TvTJqdcANYtsRzA46cdi:22 a=l3RtsxAtLklCOmtLMEVv:22 :: 100.00
+
+--1617738864-eximdsn-916803124
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lTrmK-00C05v-RU
+	for info@yoursite.com; Tue, 06 Apr 2021 12:54:24 -0700
+To: info@yoursite.com
+Subject: New contact from WILLIAMS JACKSON
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 31.171.152.105
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 31.171.152.105
+From: WILLIAMS JACKSON <nunezpedro@protonmail.com>
+Message-Id: <E1lTrmK-00C05v-RU@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 06 Apr 2021 12:54:24 -0700
+
+Name: WILLIAMS JACKSON
+Email: nunezpedro@protonmail.com
+
+Subject: New contact from WILLIAMS JACKSON
+
+Message:
+My name is  WILLIAMS JACKSON,  I am a Financial Consultant, I have a client who has an interest in Investing in your country into a Joint Venture / Partnership. 
+ 
+He has funds available meant for investment. 
+ 
+Please contact me if you are interested. 
+ 
+Regards, 
+WILLIAMS JACKSON 
+Financial Consultant 
+E-mail: williamsjacks359@gmail.com
+
+
+--1617738864-eximdsn-916803124--

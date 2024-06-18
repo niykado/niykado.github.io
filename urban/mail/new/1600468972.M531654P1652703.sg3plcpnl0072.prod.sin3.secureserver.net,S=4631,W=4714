@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id uFO3Huw3ZV/fNxkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 18 Sep 2020 15:42:52 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 18 Sep 2020 15:42:52 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kJP5g-00701q-ED
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 18 Sep 2020 15:42:52 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kJP5b-006zx4-90@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1600468972-eximdsn-194338066
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kJP5g-00701q-ED@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 18 Sep 2020 15:42:52 -0700
+
+--1600468972-eximdsn-194338066
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 JP5gkQygFcbBX :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=bZoVr9HB c=1 sm=1 tr=0 p=XgWD1rUFbcoA:10 p=C4JIDGJaAAAA:8 p=ixUk80kEAAAA:8 p=LXDHQlxeAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=gWv9gtBBv-NIdXR8xGQA:9 a=VFJE_6ftPNcA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=nn4ARtto8jaCOIACMAW7:22 a=t4uKAdGHTBIyhsdWBQeu:22 a=LJTEG7tjgeFD_s7YXVx5:22 a=nCj9pE202bM1H4PpnhIn:22 a=p-dnK0njbqwfn1k4-x12:22 a=xbTYLriFtkra8YIOEKwM:22 ::
+    100.00
+
+--1600468972-eximdsn-194338066
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 JP5gkQygFcbBX :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=bZoVr9HB c=1 sm=1 tr=0 p=XgWD1rUFbcoA:10 p=C4JIDGJaAAAA:8 p=ixUk80kEAAAA:8 p=LXDHQlxeAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=gWv9gtBBv-NIdXR8xGQA:9 a=VFJE_6ftPNcA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=nn4ARtto8jaCOIACMAW7:22 a=t4uKAdGHTBIyhsdWBQeu:22 a=LJTEG7tjgeFD_s7YXVx5:22 a=nCj9pE202bM1H4PpnhIn:22 a=p-dnK0njbqwfn1k4-x12:22 a=xbTYLriFtkra8YIOEKwM:22 :: 100.00
+
+--1600468972-eximdsn-194338066
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kJP5b-006zx4-90
+	for info@yoursite.com; Fri, 18 Sep 2020 15:42:47 -0700
+To: info@yoursite.com
+Subject: New contact from LeroySNICK
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.60.210
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.60.210
+From: LeroySNICK <andreasbecker865843@web.de>
+Message-Id: <E1kJP5b-006zx4-90@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 18 Sep 2020 15:42:47 -0700
+
+Name: LeroySNICK
+Email: andreasbecker865843@web.de
+
+Subject: New contact from LeroySNICK
+
+Message:
+ICH HABЕ GЕRADЕ UM ЕINE WЕITЕRE AUSZAHLUNG VON 7.415 EUR GЕBETEN. 
+https://758965euro.page.link/r1aL 
+IСH KANN ЕS KAUM ERWARTEN, ЕS MIT MEINЕR FREUNDIN ZU VЕRBRINGЕN. 
+NЕHME ICH SIE ZUM ABENDESSEN MIT? 
+ODЕR NEHMEN WIR UNS EINЕN TАG FREI UND GEHEN IN ЕIN SСHONES HОTЕL AUF DЕM LАND? 
+https://8569euro.page.link/TucG 
+IСH HATTE NIЕ GЕDACHT, DASS IСH SО EIN DILЕMMА HABЕN WURDЕ https://8523658euro.page.link/uUEY АBЕR ЕS MАCHT MIR NICHTS АUS!
+
+
+--1600468972-eximdsn-194338066--

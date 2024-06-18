@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id yBe+KnEURGIWlS4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 30 Mar 2022 01:27:29 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 30 Mar 2022 01:27:29 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nZTft-00Crzj-Kb
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 30 Mar 2022 01:27:29 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nZTfs-00Cryx-Dw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1648628849-eximdsn-1779256730
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nZTft-00Crzj-Kb@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 30 Mar 2022 01:27:29 -0700
+
+--1648628849-eximdsn-1779256730
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ZTfsnfzobtptu :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=BIN2EHcG c=1 sm=1 tr=0 ts=62441471 p=X9rpmjJB6cR1Ry8rbLgA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=R14pwXwgzdgA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=1BaD8y4kAAAA:8 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=cRYJZdyqU1EvkJ8DXzHF:22 ::
+    100.00
+
+--1648628849-eximdsn-1779256730
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ZTfsnfzobtptu :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=BIN2EHcG c=1 sm=1 tr=0 ts=62441471 p=X9rpmjJB6cR1Ry8rbLgA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=R14pwXwgzdgA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=1BaD8y4kAAAA:8 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=cRYJZdyqU1EvkJ8DXzHF:22 :: 100.00
+
+--1648628849-eximdsn-1779256730
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nZTfs-00Cryx-Dw
+	for info@yoursite.com; Wed, 30 Mar 2022 01:27:28 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Ogden
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 194.110.13.160
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 194.110.13.160
+From: Mike Ogden <no-replyRhind@gmail.com>
+Message-Id: <E1nZTfs-00Cryx-Dw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 30 Mar 2022 01:27:28 -0700
+
+Name: Mike Ogden
+Email: no-replyRhind@gmail.com
+
+Subject: New contact from Mike Ogden
+
+Message:
+Hi there 
+ 
+Do you want a quick boost in ranks and sales for your website? 
+Having a high DA score, always helps 
+ 
+Get your urbanlocomote.com to have a DA between 50 to 60 points in Moz with us today and reap the benefits of such a great feat. 
+ 
+See our offers here: 
+https://www.monkeydigital.co/product/moz-da50-seo-plan/ 
+ 
+On SALE: 
+https://www.monkeydigital.co/product/ahrefs-dr60/ 
+ 
+ 
+Thank you 
+Mike Ogden
+
+
+--1648628849-eximdsn-1779256730--

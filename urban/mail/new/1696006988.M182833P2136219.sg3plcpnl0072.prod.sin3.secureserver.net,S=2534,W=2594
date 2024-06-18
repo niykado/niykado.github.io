@@ -1,0 +1,60 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 1oTdCUwDF2WbmCAAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 29 Sep 2023 10:03:08 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 29 Sep 2023 10:03:08 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qmGtQ-008xiz-2l
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 29 Sep 2023 10:03:08 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qmGtI-008xVw-4U@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qmGtQ-008xiz-2l@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 29 Sep 2023 10:03:08 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qmGtI-008xVw-4U
+	for info@yoursite.com;
+	Fri, 29 Sep 2023 10:03:00 -0700
+To: info@yoursite.com
+Subject: New contact from Johan Dawson
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 181.214.206.28
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 181.214.206.28
+From: Johan Dawson <inficsateam@gmail.com>
+Message-Id: <E1qmGtI-008xVw-4U@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 29 Sep 2023 10:03:00 -0700
+
+Name: Johan Dawson
+Email: inficsateam@gmail.com
+
+Subject: New contact from Johan Dawson
+
+Message:
+We possess a vast network of potential lenders and invite you to reach out if you seek funding for your existing or pre-existing project. Our investment spectrum spans $1M to $3B, featuring favorable mini-interest rates of 2.5% to 4% over a 10-year period, accompanied by a 2-year Grace period. 
+ 
+Feel free to connect for more information. 
+ 
+Best Regards 
+ 
+Johan Dawson 
+Johan.Dawson@inficza.com 
+Portfolio Manager 
+INFICZA 
+http://www.inficza.com/
+

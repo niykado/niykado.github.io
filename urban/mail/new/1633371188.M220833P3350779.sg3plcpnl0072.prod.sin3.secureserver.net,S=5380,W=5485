@@ -1,0 +1,105 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id kKgVDDREW2H7IDMAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 04 Oct 2021 11:13:08 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 04 Oct 2021 11:13:08 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mXSSa-00E4XC-4r
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 04 Oct 2021 11:13:08 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mXSSZ-00E4Wa-Db@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1633371188-eximdsn-979920058
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mXSSa-00E4XC-4r@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 04 Oct 2021 11:13:08 -0700
+
+--1633371188-eximdsn-979920058
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 XSSZmJ2U145qx :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FuzAQ0nq c=1 sm=1 tr=0 ts=615b4434 p=095mBCPOyx0A:10 p=9cx-mWxXAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=heWNIS3HAAAA:8 a=1XWaLZrsAAAA:8 a=YvWiAiepvPFehmrcvmwA:9 a=IuWjBZMPHa8A:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=tokZIE1o_iTEKpXDC498:22 ::
+    100.00
+
+--1633371188-eximdsn-979920058
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 XSSZmJ2U145qx :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FuzAQ0nq c=1 sm=1 tr=0 ts=615b4434 p=095mBCPOyx0A:10 p=9cx-mWxXAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=heWNIS3HAAAA:8 a=1XWaLZrsAAAA:8 a=YvWiAiepvPFehmrcvmwA:9 a=IuWjBZMPHa8A:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=tokZIE1o_iTEKpXDC498:22 :: 100.00
+
+--1633371188-eximdsn-979920058
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mXSSZ-00E4Wa-Db
+	for info@yoursite.com; Mon, 04 Oct 2021 11:13:07 -0700
+To: info@yoursite.com
+Subject: New contact from DannyNef - Tesla
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.57.207
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.57.207
+From: DannyNef - Tesla <tlhamilton@cogeco.ca>
+Message-Id: <E1mXSSZ-00E4Wa-Db@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 04 Oct 2021 11:13:07 -0700
+
+Name: DannyNef - Tesla
+Email: tlhamilton@cogeco.ca
+
+Subject: New contact from DannyNef - Tesla
+
+Message:
+Hello dear subscriber. 
+ 
+Tesla is pleased to recommend you our partners, an independent team of developers - investors who, 
+ 
+through laborious calculations from 1000+ different altcoins, managed to find those coins that will rise by more than 15,000% each in the next 1.5 years, 
+ 
+regardless of the cost of BTC and ETH. 
+ 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6ynJE&sa=D&2y=zd&usg=AFQjCNH7YFsOzhq0Lg_oGy-WnZdWgXKfKw 
+ 
+If you invest in each of the 18 coins presented in their 
+ 
+list for at least $ 30, then you can earn more than $ 15,000,000 in the next 1.5 years. 
+ 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6ynJE&sa=D&cv=v1&usg=AFQjCNH7YFsOzhq0Lg_oGy-WnZdWgXKfKw 
+ 
+Tesla has already invested a decent amount in each of these altcoins. 
+ 
+Also, the first 50 to buy their hot list are provided with a 50% discount coupon i.e. 
+ 
+the list price (which will make you a multimillionaire) is only $ 2,000. 
+ 
+Tesla will also be grateful to you if you recommend our partners and their product to your friends and acquaintances. 
+ 
+Hurry up to buy a discounted product and invest faster, who knows, maybe tomorrow some of the coins will soar by more than 15,000%. 
+ 
+To get a discount on the product page, click "Apply Coupon" and enter it "CRYPTO2000" (without quotes). 
+ 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6ynJE&sa=D&hi=jb&usg=AFQjCNH7YFsOzhq0Lg_oGy-WnZdWgXKfKw
+
+
+--1633371188-eximdsn-979920058--

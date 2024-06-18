@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id KAiCNDnEsWLOjBsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 21 Jun 2022 06:14:33 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 21 Jun 2022 06:14:33 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1o3diD-007n72-QB
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 21 Jun 2022 06:14:33 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1o3diD-007n6A-2k@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1655817273-eximdsn-1141324255
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1o3diD-007n72-QB@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 21 Jun 2022 06:14:33 -0700
+
+--1655817273-eximdsn-1141324255
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 3diDoy8z80wOV :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z7cpoFdA c=1 sm=1 tr=0 ts=62b1c439 p=Yv5vc5XKAAAA:8 p=l1nRUXU1G34A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=KkaIw1IXmXMA:10 a=x7bEGLp0ZPQA:10 a=IrVNtLBRT54A:10 a=pGLkceISAAAA:8 a=JlNsjgISzlYZ-O9ihRMA:9 a=CxHAz0u9utgA:10 a=I8rR8LbzshUA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=XdB2RHTEaJkl71J3XtnY:22 a=IeDxaQog6kv4HRcqk9x6:22 ::
+    100.00
+
+--1655817273-eximdsn-1141324255
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 3diDoy8z80wOV :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z7cpoFdA c=1 sm=1 tr=0 ts=62b1c439 p=Yv5vc5XKAAAA:8 p=l1nRUXU1G34A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=KkaIw1IXmXMA:10 a=x7bEGLp0ZPQA:10 a=IrVNtLBRT54A:10 a=pGLkceISAAAA:8 a=JlNsjgISzlYZ-O9ihRMA:9 a=CxHAz0u9utgA:10 a=I8rR8LbzshUA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=XdB2RHTEaJkl71J3XtnY:22 a=IeDxaQog6kv4HRcqk9x6:22 :: 100.00
+
+--1655817273-eximdsn-1141324255
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1o3diD-007n6A-2k
+	for info@yoursite.com; Tue, 21 Jun 2022 06:14:33 -0700
+To: info@yoursite.com
+Subject: New contact from BnooFup
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 103.152.17.9
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 103.152.17.9
+From: BnooFup <rreksisad.ore48@gmail.com>
+Message-Id: <E1o3diD-007n6A-2k@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 21 Jun 2022 06:14:33 -0700
+
+Name: BnooFup
+Email: rreksisad.ore48@gmail.com
+
+Subject: New contact from BnooFup
+
+Message:
+My cunt is wet.. Put your dick in me right now https://xbebz.astonlshingdate.net/c/da57dc555e50572d?s1=12179&s2=1471083&j1=1
+
+
+--1655817273-eximdsn-1141324255--

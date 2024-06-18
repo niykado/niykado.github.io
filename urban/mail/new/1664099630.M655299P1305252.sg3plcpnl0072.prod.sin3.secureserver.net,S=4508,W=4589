@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id h2VCJi4lMGOk6hMAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 25 Sep 2022 02:53:50 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 25 Sep 2022 02:53:50 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ocOKc-005TYK-Is
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 25 Sep 2022 02:53:50 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ocOKc-005TXv-Da@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1664099630-eximdsn-1908396163
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ocOKc-005TYK-Is@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 25 Sep 2022 02:53:50 -0700
+
+--1664099630-eximdsn-1908396163
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 cOKcoiBU8UCVX :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QsWbYX+d c=1 sm=1 tr=0 ts=6330252e p=0THuvKIyGLMA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=xOM3xZuef0cA:10 a=_OpQYhbi3wsA:10 a=x7bEGLp0ZPQA:10 a=Tm46GCMk0lcA:10 a=pGLkceISAAAA:8 a=Hp4weqFpAAAA:8 a=-wxve7c7jLORDCgGKocA:9 a=0vVn5RK6VQEA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=qrghE804Jf8L7ufGPxQj:22 a=y-5w6tWJoIRgl5IKmIFv:22 ::
+    100.00
+
+--1664099630-eximdsn-1908396163
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 cOKcoiBU8UCVX :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QsWbYX+d c=1 sm=1 tr=0 ts=6330252e p=0THuvKIyGLMA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=xOM3xZuef0cA:10 a=_OpQYhbi3wsA:10 a=x7bEGLp0ZPQA:10 a=Tm46GCMk0lcA:10 a=pGLkceISAAAA:8 a=Hp4weqFpAAAA:8 a=-wxve7c7jLORDCgGKocA:9 a=0vVn5RK6VQEA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=qrghE804Jf8L7ufGPxQj:22 a=y-5w6tWJoIRgl5IKmIFv:22 :: 100.00
+
+--1664099630-eximdsn-1908396163
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ocOKc-005TXv-Da
+	for info@yoursite.com; Sun, 25 Sep 2022 02:53:50 -0700
+To: info@yoursite.com
+Subject: New contact from Craigcat
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 138.199.59.174
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 138.199.59.174
+From: Craigcat <office54792022@gmail.com>
+Message-Id: <E1ocOKc-005TXv-Da@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 25 Sep 2022 02:53:50 -0700
+
+Name: Craigcat
+Email: office54792022@gmail.com
+
+Subject: New contact from Craigcat
+
+Message:
+Dear Importers/Exporters, 
+on behalf of BRAZIL SUGAR GROUP LTDA,  manufacturers and suppliers are writing this letter to you to introduce to you the services provided by us that will help you in the redevelopment of your import export supply chain. we are sending you our catalog that will explain you everything about our services. 
+Contact now for verified And Approved Sugar Exporters: https://www.brasilsugarsuppliers.com/ 
+Yours Truly, 
+Brazil Sugar Export Group
+
+
+--1664099630-eximdsn-1908396163--

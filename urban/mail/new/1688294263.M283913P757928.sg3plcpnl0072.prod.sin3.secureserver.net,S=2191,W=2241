@@ -1,0 +1,50 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id yhSdD3dToWSokAsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 02 Jul 2023 03:37:43 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 02 Jul 2023 03:37:43 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qFuSd-003BAW-5z
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sun, 02 Jul 2023 03:37:43 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qFuSV-003B83-7c@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qFuSd-003BAW-5z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 02 Jul 2023 03:37:43 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qFuSV-003B83-7c
+	for info@yoursite.com;
+	Sun, 02 Jul 2023 03:37:35 -0700
+To: info@yoursite.com
+Subject: New contact from Randyemown
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 193.56.113.19
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 193.56.113.19
+From: Randyemown <bastienrue@yahoo.ca>
+Message-Id: <E1qFuSV-003B83-7c@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 02 Jul 2023 03:37:35 -0700
+
+Name: Randyemown
+Email: bastienrue@yahoo.ca
+
+Subject: New contact from Randyemown
+
+Message:
+THE ALTCOIN MILLIONAIRE'S JOURNEY: FROM $100 TO $5,000,000 IN THE BLINK OF AN EYE http://cryptotrack.1056208.com/coinmorph
+

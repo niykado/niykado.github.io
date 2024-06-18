@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id yJcbEYscUWEpQicAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 26 Sep 2021 18:21:15 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 26 Sep 2021 18:21:15 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mUfKV-00AoXS-7l
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 26 Sep 2021 18:21:15 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mUfKU-00AoWv-HX@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1632705675-eximdsn-1631367295
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mUfKV-00AoXS-7l@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 26 Sep 2021 18:21:15 -0700
+
+--1632705675-eximdsn-1631367295
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 UfKUmiRBMlE95 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WYfJ12tX c=1 sm=1 tr=0 ts=61511c8b p=LC3WEugkAAAA:8 p=QD3OzIb2Qo1wGXEhXecA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=7QKq2e-ADPsA:10 a=T6cxip16oQMA:10 a=x7bEGLp0ZPQA:10 a=f_N7OPiOeBIA:10 a=pGLkceISAAAA:8 a=VNQ0sVtlOmYA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=XQhXiO18mG-mV8E3fhqy:22 a=uAS60Bdd-uInyKh9OSVN:22 ::
+    100.00
+
+--1632705675-eximdsn-1631367295
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 UfKUmiRBMlE95 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WYfJ12tX c=1 sm=1 tr=0 ts=61511c8b p=LC3WEugkAAAA:8 p=QD3OzIb2Qo1wGXEhXecA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=7QKq2e-ADPsA:10 a=T6cxip16oQMA:10 a=x7bEGLp0ZPQA:10 a=f_N7OPiOeBIA:10 a=pGLkceISAAAA:8 a=VNQ0sVtlOmYA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=XQhXiO18mG-mV8E3fhqy:22 a=uAS60Bdd-uInyKh9OSVN:22 :: 100.00
+
+--1632705675-eximdsn-1631367295
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mUfKU-00AoWv-HX
+	for info@yoursite.com; Sun, 26 Sep 2021 18:21:14 -0700
+To: info@yoursite.com
+Subject: New contact from BennyGes
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 77.222.117.245
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 77.222.117.245
+From: BennyGes <olegivanover2@gmail.com>
+Message-Id: <E1mUfKU-00AoWv-HX@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 26 Sep 2021 18:21:14 -0700
+
+Name: BennyGes
+Email: olegivanover2@gmail.com
+
+Subject: New contact from BennyGes
+
+Message:
+Free weight loss 15 kg for 1 month! -->  http://weightlosstrue.freecluster.eu/ 
+<a href="http://weightlosstrue.freecluster.eu/?lol=1">Free weight loss</a> <a href=http://weightlosstrue.freecluster.eu/?lol=1>Detail</a>:  <a href=http://weightlosstrue.freecluster.eu/?lol=1>Free weight loss</a> 
+ 
+Diet and weight loss 
+ 
+Studies have shown that just about any diet will result in weight loss, if it’s one that someone can follow.1,2 Esteemed Yale physician and nutrition expert David Katz examined over 58 popular diets and found that the most successful in terms of both weight loss and nutrition consist of “real food.” By that he means plants, whole grains, nuts and seeds, as well as meat (ideally, from animals that ate plants). Basically, foods closer to nature. The other key is minimizing processed foods, including sugars and flours.3 
+ 
+Without realizing it, I followed Katz’s advice: I ate mostly fruits and vegetables, nuts, seeds, and dairy. I occasionally had whole grains like quinoa or farro, even rice or corn chips. And, of course, an occasional treat. But I had sworn off sugars and flours, for the most part. 
+Behavior change and weight loss 
+ 
+It’s hard to keep track of how much we eat. But a lot of research shows that when we keep track of intake, we eat less. This is called self-monitoring, and why writing down what I ate and weighed helped me.4,5,6 There are so many ways to do this nowadays: from the old-school paper-and-pencil method, to apps like MyFitnessPal, or the Weight Watchers points system.7 
+ 
+Another key approach: forgive your failures. Studies show that people who “mess up” their diet plan and then “give up” end up gaining, while people who forgive themselves and move on continue to lose. It’s called self-acceptance.8,9 Look, we’re human. Birthdays, office parties, weddings, random movie nights: they happen, and we celebrate by having the amazing chocolate cake, or Betsy’s famous buffalo chicken dip, waaaay too much champagne, or buttered popcorn. Expect this, enjoy, and then move on. 
+Exercise and weight loss 
+ 
+Most major weight loss is followed by weight gain, as people revert to their old habits. But, some folks manage to keep it off. How do they do it? Researchers have found that maintaining a healthy diet, ongoing self-monitoring, plenty of self-acceptance, as well as a high level of physical activity are all associated with keeping the pounds off.10 
+ 
+When I feel like I’m slipping, I start logging again. Nowadays, I use an online fitness app on my phone to more easily keep track of my daily food intake. Red wine and dark chocolate are always in stock in our house, and that’s OK. Exercise is important, too, but in my book, any and all physical activity counts. Two or three workouts a week help me maintain muscle tone and cardiovascular fitness. If I can’t get to the gym, I run. If I can’t run, I do something at home, like five minutes of in-place kickboxing moves, or dancing around the living room like a crazy person with my kids. I take the stairs wherever I am as often as possible. I use a carry basket at the grocery store, and switch from arm to arm while I shop: biceps curls! Hey, it all counts. 
+Staying at a healthy weight for life 
+ 
+The old adage is “eat less, exercise more,” and this is still true, to some extent. But human beings are psychologically and sociologically complex creatures, and that adage is a lot harder to follow than it sounds. For average adults who do not have contributing medical or psychological issues, a nutritious plant-based diet low in processed foods and carbohydrates, consistent self-monitoring of intake and progress, forgiving oneself when expected lapses occur, all combined with regular physical activity, can result in weight loss for life.
+
+
+--1632705675-eximdsn-1631367295--

@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id uFlGB3drzWN0nDAAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 22 Jan 2023 09:59:35 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 22 Jan 2023 09:59:35 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pJdgt-00DN2H-28
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sun, 22 Jan 2023 09:59:35 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pJdgj-00DMo3-69@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1674406775-eximdsn-674090747
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pJdgt-00DN2H-28@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 22 Jan 2023 09:59:35 -0700
+
+--1674406775-eximdsn-674090747
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 JdgspqdhA4JeM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=TeFQ9zch c=1 sm=1 tr=0 ts=63cd6b77 p=TzDnbt9JAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RvmDmJFTN0MA:10 a=vwVCB-M793wA:10 a=x7bEGLp0ZPQA:10 a=zcpNEG_T-EsA:10 a=pGLkceISAAAA:8 a=WBZABpGJq8KoPnVp4pkA:9 a=PFK4VQ8VaBsA:10 a=gvwLw8PHYV8A:10 a=s0KGgOSTQcAA:10 a=SswofAvVmgQA:10 a=V3gSBX_cAhAA:10 a=wwAePvBONnjDQaqHVNx2:22 a=5WXwxYStDJFuYRuZHuqg:22 a=G-Ny0NYjr80WkpKZskLF:22 a=vhbnWkQ3JyDwlzdZK9ig:22 ::
+    100.00
+
+--1674406775-eximdsn-674090747
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 JdgspqdhA4JeM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=TeFQ9zch c=1 sm=1 tr=0 ts=63cd6b77 p=TzDnbt9JAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RvmDmJFTN0MA:10 a=vwVCB-M793wA:10 a=x7bEGLp0ZPQA:10 a=zcpNEG_T-EsA:10 a=pGLkceISAAAA:8 a=WBZABpGJq8KoPnVp4pkA:9 a=PFK4VQ8VaBsA:10 a=gvwLw8PHYV8A:10 a=s0KGgOSTQcAA:10 a=SswofAvVmgQA:10 a=V3gSBX_cAhAA:10 a=wwAePvBONnjDQaqHVNx2:22 a=5WXwxYStDJFuYRuZHuqg:22 a=G-Ny0NYjr80WkpKZskLF:22 a=vhbnWkQ3JyDwlzdZK9ig:22 :: 100.00
+
+--1674406775-eximdsn-674090747
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pJdgj-00DMo3-69
+	for info@yoursite.com;
+	Sun, 22 Jan 2023 09:59:33 -0700
+To: info@yoursite.com
+Subject: New contact from CigWAife
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.81
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.81
+From: CigWAife <holyromanemperor1@gmail.com>
+Message-Id: <E1pJdgj-00DMo3-69@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 22 Jan 2023 09:59:25 -0700
+
+Name: CigWAife
+Email: holyromanemperor1@gmail.com
+
+Subject: New contact from CigWAife
+
+Message:
+Launch the robot and let it bring you money. https://hergo.newsworld.biz.pl/Chaith
+
+
+--1674406775-eximdsn-674090747--

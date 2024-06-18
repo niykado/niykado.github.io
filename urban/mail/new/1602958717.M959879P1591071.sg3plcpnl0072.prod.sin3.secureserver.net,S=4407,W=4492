@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id MHsmOH01i18fRxgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 17 Oct 2020 11:18:37 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 17 Oct 2020 11:18:37 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kTqmr-006p5L-SG
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 17 Oct 2020 11:18:37 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kTqmr-006p58-Ni@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1602958717-eximdsn-812002103
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kTqmr-006p5L-SG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 17 Oct 2020 11:18:37 -0700
+
+--1602958717-eximdsn-812002103
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 TqmrkScS94PmQ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=EEqW4U2oP1-ym7H_jYsA:9 p=UDQnsZq-TXwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=tCwE7Sm0sPQA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=Uvu5TkpGYhsA:10 a=pGLkceISAAAA:8 a=XlGmufKA6lgA:10 a=AiKKqAUrc0Y3l7hfI6Su:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 ::
+    100.00
+
+--1602958717-eximdsn-812002103
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 TqmrkScS94PmQ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=EEqW4U2oP1-ym7H_jYsA:9 p=UDQnsZq-TXwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=tCwE7Sm0sPQA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=Uvu5TkpGYhsA:10 a=pGLkceISAAAA:8 a=XlGmufKA6lgA:10 a=AiKKqAUrc0Y3l7hfI6Su:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 :: 100.00
+
+--1602958717-eximdsn-812002103
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kTqmr-006p58-Ni
+	for info@yoursite.com; Sat, 17 Oct 2020 11:18:37 -0700
+To: info@yoursite.com
+Subject: New contact from Damon Wolf
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 107.172.81.127
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 107.172.81.127
+From: Damon Wolf <masterdesign2create@gmail.com>
+Message-Id: <E1kTqmr-006p58-Ni@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 17 Oct 2020 11:18:37 -0700
+
+Name: Damon Wolf
+Email: masterdesign2create@gmail.com
+
+Subject: New contact from Damon Wolf
+
+Message:
+Hello,
+
+I am reaching out to see if you are interested in redesigning or building a new website.  I am a web designer by trade and I'm currently looking for new clients.  Let me know if you have any projects you need completed and I'd love to help.  
+
+Damon Wolf
+
+
+
+Unsubscribe: If you'd like me to remove you from any of these emails, kindly send me an email and let me know and I will remove your site from my list. Best Regards.
+
+
+--1602958717-eximdsn-812002103--

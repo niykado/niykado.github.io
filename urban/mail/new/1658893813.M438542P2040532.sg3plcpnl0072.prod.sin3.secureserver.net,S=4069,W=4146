@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id mO1hGPW14GLUIh8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 26 Jul 2022 20:50:13 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 26 Jul 2022 20:50:13 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oGY3p-008YwW-BX
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 26 Jul 2022 20:50:13 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oGY3o-008Yvw-6X@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1658893813-eximdsn-379283951
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oGY3p-008YwW-BX@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 26 Jul 2022 20:50:13 -0700
+
+--1658893813-eximdsn-379283951
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 GY3ooZGviZaPe :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Qp+bYX+d c=1 sm=1 tr=0 ts=62e0b5f5 p=WWwXmULDAAAA:8 p=WZlFtjMQqzwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=wUvUh0OveUIA:10 a=288r1nYSAAAA:8 a=qKJXbIKzOmssMWSITQIA:9 a=0aM0FvcxT2IA:10 a=HWA59jUiMpcA:10 a=RHyP2x_T_LQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=dO42RPHbrZznuzuWia20:22 a=PVM-akTeAWzgtb1e1Z9G:22 ::
+    100.00
+
+--1658893813-eximdsn-379283951
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 GY3ooZGviZaPe :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Qp+bYX+d c=1 sm=1 tr=0 ts=62e0b5f5 p=WWwXmULDAAAA:8 p=WZlFtjMQqzwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=wUvUh0OveUIA:10 a=288r1nYSAAAA:8 a=qKJXbIKzOmssMWSITQIA:9 a=0aM0FvcxT2IA:10 a=HWA59jUiMpcA:10 a=RHyP2x_T_LQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=dO42RPHbrZznuzuWia20:22 a=PVM-akTeAWzgtb1e1Z9G:22 :: 100.00
+
+--1658893813-eximdsn-379283951
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oGY3o-008Yvw-6X
+	for info@yoursite.com; Tue, 26 Jul 2022 20:50:12 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCigCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.244
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.244
+From: CrytoCigCig <tai@vinaet.com>
+Message-Id: <E1oGY3o-008Yvw-6X@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 26 Jul 2022 20:50:12 -0700
+
+Name: CrytoCigCig
+Email: tai@vinaet.com
+
+Subject: New contact from CrytoCigCig
+
+Message:
+The best online job for retirees. Make your old ages rich. https://bam.frostyelk.se/gotodate/go
+
+
+--1658893813-eximdsn-379283951--

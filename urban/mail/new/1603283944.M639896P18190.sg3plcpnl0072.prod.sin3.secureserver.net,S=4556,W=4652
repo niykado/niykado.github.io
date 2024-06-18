@@ -1,0 +1,96 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id uLw9JegrkF8ORwAAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 21 Oct 2020 05:39:04 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 21 Oct 2020 05:39:04 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kVDOS-0005xo-He
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 21 Oct 2020 05:39:04 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kVDOS-0005xW-CX@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1603283944-eximdsn-673563188
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kVDOS-0005xo-He@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 21 Oct 2020 05:39:04 -0700
+
+--1603283944-eximdsn-673563188
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 VDOSkIquC4PmQ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=XRbDTkbliU4A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=1XWaLZrsAAAA:8 a=1BaD8y4kAAAA:8 a=GdX20dn_rQ2qs6OE9QYA:9 a=zhSOU9tyK1Va_fjp:21 a=-EvVYQ8yFUehd8Jl:21 a=WhQHJvJD2L4A:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=cRYJZdyqU1EvkJ8DXzHF:22 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=jd6J4Gguk5HxikPWLKER:22 ::
+    96.00
+
+--1603283944-eximdsn-673563188
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 VDOSkIquC4PmQ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=XRbDTkbliU4A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=1XWaLZrsAAAA:8 a=1BaD8y4kAAAA:8 a=GdX20dn_rQ2qs6OE9QYA:9 a=zhSOU9tyK1Va_fjp:21 a=-EvVYQ8yFUehd8Jl:21 a=WhQHJvJD2L4A:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=cRYJZdyqU1EvkJ8DXzHF:22 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=jd6J4Gguk5HxikPWLKER:22 :: 96.00
+
+--1603283944-eximdsn-673563188
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kVDOS-0005xW-CX
+	for info@yoursite.com; Wed, 21 Oct 2020 05:39:04 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Freeman
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.48.73
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.48.73
+From: Mike Freeman <no-replyVaw@google.com>
+Message-Id: <E1kVDOS-0005xW-CX@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 21 Oct 2020 05:39:04 -0700
+
+Name: Mike Freeman
+Email: no-replyVaw@google.com
+
+Subject: New contact from Mike Freeman
+
+Message:
+Hi there 
+ 
+If you want to get ahead of your competition, have a higher Domain Authority score. Its just simple as that. 
+With our service you get Domain Authority above 50 points in just 30 days. 
+ 
+This service is guaranteed 
+ 
+For more information, check our service here 
+https://www.monkeydigital.co/Get-Guaranteed-Domain-Authority-50/ 
+ 
+N E W : 
+DA60 is now available here 
+https://www.monkeydigital.co/product/moz-da60-seo-plan/ 
+ 
+ 
+thank you 
+Mike Freeman
+ 
+Monkey Digital 
+support@monkeydigital.co
+
+
+--1603283944-eximdsn-673563188--

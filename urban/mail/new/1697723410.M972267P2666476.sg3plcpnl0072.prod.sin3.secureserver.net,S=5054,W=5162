@@ -1,0 +1,108 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id sTgnORI0MWXsrygAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 19 Oct 2023 06:50:10 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 19 Oct 2023 06:50:10 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qtTPe-00BBfa-Si
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Thu, 19 Oct 2023 06:50:10 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qtTPW-00BBZx-Bi@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1697723410-eximdsn-1923917515
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qtTPe-00BBfa-Si@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 19 Oct 2023 06:50:10 -0700
+
+--1697723410-eximdsn-1923917515
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 tTPeqMjmzABMT :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=M5mLaQ8s c=1 sm=1 tr=0 ts=65313412 p=OZsNBDL5IMozAv2uKmdd:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=B-f1D_ECpcwA:10 a=pGLkceISAAAA:8 a=qlxYqbSsAAAA:8 a=2NotPyG-AAAA:8 a=1JwAuzrAa8yo9Rrqiw0A:9 a=VwqgF56KCPYA:10 a=qxrRAOuITx0A:10 a=jYM851oOW4gyyrV3L2lb:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=S3w9OEfV9wOuWt1uBf9q:22 a=5WXwxYStDJFuYRuZHuqg:22 ::
+    100.00
+
+--1697723410-eximdsn-1923917515
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 tTPeqMjmzABMT :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=M5mLaQ8s c=1 sm=1 tr=0 ts=65313412 p=OZsNBDL5IMozAv2uKmdd:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=B-f1D_ECpcwA:10 a=pGLkceISAAAA:8 a=qlxYqbSsAAAA:8 a=2NotPyG-AAAA:8 a=1JwAuzrAa8yo9Rrqiw0A:9 a=VwqgF56KCPYA:10 a=qxrRAOuITx0A:10 a=jYM851oOW4gyyrV3L2lb:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=S3w9OEfV9wOuWt1uBf9q:22 a=5WXwxYStDJFuYRuZHuqg:22 :: 100.00
+
+--1697723410-eximdsn-1923917515
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qtTPW-00BBZx-Bi
+	for info@yoursite.com;
+	Thu, 19 Oct 2023 06:50:10 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Jackson
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.55.179
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.55.179
+From: Mike Jackson <mikeRhind@gmail.com>
+Message-Id: <E1qtTPW-00BBZx-Bi@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 19 Oct 2023 06:50:02 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-sh
+X-ENVIRONMENT: prod
+
+Name: Mike Jackson
+Email: mikeRhind@gmail.com
+
+Subject: New contact from Mike Jackson
+
+Message:
+Hello 
+ 
+This is Mike Jackson
+ 
+Let me introduce to you our latest research results from our constant SEO feedbacks that we have from our plans: 
+ 
+https://www.strictlydigital.net/product/semrush-backlinks/ 
+ 
+The new Semrush Backlinks, which will make your urbanlocomote.com SEO trend have an immediate push. 
+The method is actually very simple, we are building links from domains that have a high number of keywords ranking for them.  
+ 
+Forget about the SEO metrics or any other factors that so many tools try to teach you that is good. The most valuable link is the one that comes from a website that has a healthy trend and lots of ranking keywords. 
+We thought about that, so we have built this plan for you 
+ 
+Check in detail here: 
+https://www.strictlydigital.net/product/semrush-backlinks/ 
+ 
+Cheap and effective 
+ 
+Try it anytime soon 
+ 
+ 
+Regards 
+ 
+Mike Jackson
+ 
+mike@strictlydigital.net
+
+
+--1697723410-eximdsn-1923917515--

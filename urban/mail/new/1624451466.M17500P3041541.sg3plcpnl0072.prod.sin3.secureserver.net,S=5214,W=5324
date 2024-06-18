@@ -1,0 +1,110 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id OPh7Ookp02AFaS4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 23 Jun 2021 05:31:05 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 23 Jun 2021 05:31:06 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lw225-00DBYN-To
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 23 Jun 2021 05:31:05 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lw225-00DBY7-PM@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1624451465-eximdsn-1195416046
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lw225-00DBYN-To@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 23 Jun 2021 05:31:05 -0700
+
+--1624451465-eximdsn-1195416046
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 w225l4kAoZE92 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WtnujfTv c=1 sm=1 tr=0 ts=60d32989 p=J-euOZ2SAAAA:20 p=mNQBpIxqxaEA:10 p=6nNAdTQh1e0A:10 p=m4r_fexZkYhSlRZQMWGO:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=ubgRvAPX-zMA:10 a=x7bEGLp0ZPQA:10 a=QEvOcJ9l83UA:10 a=pGLkceISAAAA:8 a=S_MlhoIYdrKEKDcmQRUA:9 a=jnzUYGVIrvryovVr:21 a=1-zEQ_-umea4sSLi:21 a=2zr3oYRKW6UA:10 ::
+    100.00
+
+--1624451465-eximdsn-1195416046
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 w225l4kAoZE92 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WtnujfTv c=1 sm=1 tr=0 ts=60d32989 p=J-euOZ2SAAAA:20 p=mNQBpIxqxaEA:10 p=6nNAdTQh1e0A:10 p=m4r_fexZkYhSlRZQMWGO:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=ubgRvAPX-zMA:10 a=x7bEGLp0ZPQA:10 a=QEvOcJ9l83UA:10 a=pGLkceISAAAA:8 a=S_MlhoIYdrKEKDcmQRUA:9 a=jnzUYGVIrvryovVr:21 a=1-zEQ_-umea4sSLi:21 a=2zr3oYRKW6UA:10 :: 100.00
+
+--1624451465-eximdsn-1195416046
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lw225-00DBY7-PM
+	for info@yoursite.com; Wed, 23 Jun 2021 05:31:05 -0700
+To: info@yoursite.com
+Subject: New contact from Ashlay Hazalton
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 191.101.31.140
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 191.101.31.140
+From: Ashlay Hazalton <ashlayhazalton36145@gmail.com>
+Message-Id: <E1lw225-00DBY7-PM@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 23 Jun 2021 05:31:05 -0700
+
+Name: Ashlay Hazalton
+Email: ashlayhazalton36145@gmail.com
+
+Subject: New contact from Ashlay Hazalton
+
+Message:
+Hi, this is Chris. 
+Who win all online casinos by using FREE BONUS. 
+ 
+Witch mean, I don’t really spend money in online casinos. 
+ 
+But I win every time, and actually, everybody can win by following my directions. 
+ 
+even you can win! 
+ 
+So, if you’re the person, who can listen to someone really smart, you should just try!! 
+ 
+The best online casino, that I really recommend is, Vera&John. 
+Established in 2010 and became best online casino in the world. 
+ 
+They give you free bonus when you charge more than $50. 
+If you charge $50, your bonus is going to be $50. 
+ 
+If you charge $500, you get $500 Free bonus. 
+You can bet up to $1000. 
+ 
+Just try roulette, poker, black jack…any games with dealers. 
+Because dealers always have to make some to win and, only thing you need to do is to be chosen. 
+ 
+Don’t ever spend your bonus at slot machines. 
+YOU’RE GONNA LOSE YOUR MONEY!! 
+ 
+Next time, I will let you know how to win in online casino against dealers!! 
+ 
+Don’t forget to open your VERA&JOHN account, otherwise you’re gonna miss even more chances!! 
+ 
+ 
+ 
+Open Vera&John account (free) 
+https://bit.ly/3wZkpco
+
+
+--1624451465-eximdsn-1195416046--

@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id GHQUI+zKm2ArwDUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 12 May 2021 05:32:44 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 12 May 2021 05:32:44 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lgo2e-00EzW1-H7
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 12 May 2021 05:32:44 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lgo2e-00EzVU-Bw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1620822764-eximdsn-1693167781
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lgo2e-00EzW1-H7@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 12 May 2021 05:32:44 -0700
+
+--1620822764-eximdsn-1693167781
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 go2elvSnMsrJh :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IN/HtijG c=1 sm=1 tr=0 ts=609bcaec p=hYnumUvJ2bAA:10 p=0SI2XK-lAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=5FLXtPjwQuUA:10 a=x7bEGLp0ZPQA:10 a=AfCBTyD8wcUA:10 a=1XWaLZrsAAAA:8 a=QvyBsLsLdjQZ2wq526wA:9 a=WDzdImHVXHwA:10 a=gA6IeH5FQcgA:10 a=l40iyKb3-6QA:10 a=NWVoK91CQyQA:10 a=ealry2ns6v6D2aPQJljQ:22 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=QOGEsqRv6VhmHaoFNykA:22 ::
+    100.00
+
+--1620822764-eximdsn-1693167781
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 go2elvSnMsrJh :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IN/HtijG c=1 sm=1 tr=0 ts=609bcaec p=hYnumUvJ2bAA:10 p=0SI2XK-lAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=5FLXtPjwQuUA:10 a=x7bEGLp0ZPQA:10 a=AfCBTyD8wcUA:10 a=1XWaLZrsAAAA:8 a=QvyBsLsLdjQZ2wq526wA:9 a=WDzdImHVXHwA:10 a=gA6IeH5FQcgA:10 a=l40iyKb3-6QA:10 a=NWVoK91CQyQA:10 a=ealry2ns6v6D2aPQJljQ:22 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=QOGEsqRv6VhmHaoFNykA:22 :: 100.00
+
+--1620822764-eximdsn-1693167781
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lgo2e-00EzVU-Bw
+	for info@yoursite.com; Wed, 12 May 2021 05:32:44 -0700
+To: info@yoursite.com
+Subject: New contact from EdwardBoola
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.57.205
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.57.205
+From: EdwardBoola <mickaelbrun042@hotmail.fr>
+Message-Id: <E1lgo2e-00EzVU-Bw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 12 May 2021 05:32:44 -0700
+
+Name: EdwardBoola
+Email: mickaelbrun042@hotmail.fr
+
+Subject: New contact from EdwardBoola
+
+Message:
+Elon Musk distributes 5,000 Bitcoins 
+ 
+Tesla started the campaign for the distribution of bitcoins from yesterday. The action says that only 5,000 bitcoins will be distributed, but one of the commentators said that in fact, Elon Musk intends to distribute 25,000 bitcoins. 
+https://www.google.com/url?q=https%3A%2F%2Ffdgdfgfgdhd.blogspot.com%2F&sa=D&Vh=Kg&usg=AFQjCNELj2KjBSHMk8MxDZiwZJf3mujXQw 
+Today I sent 3 Bitcoins to Tesla and received 6 Bitcoins back !!! Bitcoins are returned doubled. The company's website keeps statistics in real time, who sent and received how many bitcoins in double the amount. 
+https://www.google.com/url?q=https%3A%2F%2Ffdgdfgfgdhd.blogspot.com%2F&sa=D&Fu=Fh&usg=AFQjCNELj2KjBSHMk8MxDZiwZJf3mujXQw 
+Today I intend to send 3 more bitcoins and quit my annoying job, I also handed out all my debts and looked after myself a brand new BMW X5 in a car dealership. Hurry up and you, because there are a lot of people who want to and everyone wants to get double profits just like that. 
+https://www.google.com/url?q=https%3A%2F%2Ffdgdfgfgdhd.blogspot.com%2F&sa=D&Jd=Kd&usg=AFQjCNELj2KjBSHMk8MxDZiwZJf3mujXQw
+
+
+--1620822764-eximdsn-1693167781--

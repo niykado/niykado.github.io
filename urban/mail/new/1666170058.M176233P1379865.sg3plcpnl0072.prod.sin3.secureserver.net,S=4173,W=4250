@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id eDMkOsm8T2MZDhUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 19 Oct 2022 02:00:57 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 19 Oct 2022 02:00:58 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ol4wb-005qBG-Tp
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 19 Oct 2022 02:00:57 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ol4wb-005qB1-OL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1666170057-eximdsn-1516975129
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ol4wb-005qBG-Tp@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 19 Oct 2022 02:00:57 -0700
+
+--1666170057-eximdsn-1516975129
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 l4wboZj12dXWf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=d6UzizvE c=1 sm=1 tr=0 ts=634fbcc9 p=HF353cWuxnoA:10 p=D9XPYBitAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=qyQ-NXZDNXcA:10 a=er4hf6WjAAAA:8 a=eeaFt65lPSEJEIqET8MA:9 a=NrGqXWmbdtMA:10 a=F0h4RW7ehtEA:10 a=F7xSeJ6OZJQA:10 a=KFIleX_pn3MA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=nI57UmOznnErc05NoSqP:22 ::
+    100.00
+
+--1666170057-eximdsn-1516975129
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 l4wboZj12dXWf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=d6UzizvE c=1 sm=1 tr=0 ts=634fbcc9 p=HF353cWuxnoA:10 p=D9XPYBitAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=qyQ-NXZDNXcA:10 a=er4hf6WjAAAA:8 a=eeaFt65lPSEJEIqET8MA:9 a=NrGqXWmbdtMA:10 a=F0h4RW7ehtEA:10 a=F7xSeJ6OZJQA:10 a=KFIleX_pn3MA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=nI57UmOznnErc05NoSqP:22 :: 100.00
+
+--1666170057-eximdsn-1516975129
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ol4wb-005qB1-OL
+	for info@yoursite.com; Wed, 19 Oct 2022 02:00:57 -0700
+To: info@yoursite.com
+Subject: New contact from Davidobjek
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 181.215.176.68
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 181.215.176.68
+From: Davidobjek <karlah@discountdrugstores.com.au>
+Message-Id: <E1ol4wb-005qB1-OL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 19 Oct 2022 02:00:57 -0700
+
+Name: Davidobjek
+Email: karlah@discountdrugstores.com.au
+
+Subject: New contact from Davidobjek
+
+Message:
+DANGER! YOU WILL NOT WORK NEXT WEEK BECAUSE YOU WILL BECOME A MILLIONAIRE... https://telegra.ph/Income-during-the-crisis-for-everyone-from-1000-per-day-10-17-5482?id-69932742
+
+
+--1666170057-eximdsn-1516975129--

@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id +CEzF83MlGIkIjkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 30 May 2022 06:55:25 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 30 May 2022 06:55:25 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nvfrh-00FjXJ-AP
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 30 May 2022 06:55:25 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nvfrg-00FjWW-Jf@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1653918925-eximdsn-206894308
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nvfrh-00FjXJ-AP@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 30 May 2022 06:55:25 -0700
+
+--1653918925-eximdsn-206894308
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 vfrgnx7ACm87e :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=6294cccd p=vbYkTrj-XR0A:10 p=msMwKxuSAAAA:20 p=nNwEfOo_4jwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oZkIemNP1mAA:10 a=x7bEGLp0ZPQA:10 a=Rm1LeAcgg5kA:10 a=pGLkceISAAAA:8 a=DJe8luCf-W1f-EdYyG4A:9 a=dhwrr8IARykA:10 a=qOf6csijTUEA:10 a=IawXvI9lP1MA:10 a=Juz1Z5DV7hoA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=A67HCtwimaPCBMKx_tRB:22 a=nJ7i_CkSslUaGfg_wDXM:22 ::
+    100.00
+
+--1653918925-eximdsn-206894308
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 vfrgnx7ACm87e :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=H5kef8Ui c=1 sm=1 tr=0 ts=6294cccd p=vbYkTrj-XR0A:10 p=msMwKxuSAAAA:20 p=nNwEfOo_4jwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oZkIemNP1mAA:10 a=x7bEGLp0ZPQA:10 a=Rm1LeAcgg5kA:10 a=pGLkceISAAAA:8 a=DJe8luCf-W1f-EdYyG4A:9 a=dhwrr8IARykA:10 a=qOf6csijTUEA:10 a=IawXvI9lP1MA:10 a=Juz1Z5DV7hoA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=A67HCtwimaPCBMKx_tRB:22 a=nJ7i_CkSslUaGfg_wDXM:22 :: 100.00
+
+--1653918925-eximdsn-206894308
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nvfrg-00FjWW-Jf
+	for info@yoursite.com; Mon, 30 May 2022 06:55:24 -0700
+To: info@yoursite.com
+Subject: New contact from Charlotkop
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 194.190.179.87
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 194.190.179.87
+From: Charlotkop <c.ha.rl.o.t.teand.erso.n3.67@gmail.com>
+Message-Id: <E1nvfrg-00FjWW-Jf@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 30 May 2022 06:55:24 -0700
+
+Name: Charlotkop
+Email: c.ha.rl.o.t.teand.erso.n3.67@gmail.com
+
+Subject: New contact from Charlotkop
+
+Message:
+<a href=https://bit.ly/3adeHNX>I figured out how to get revenge on the neighbors. Make me scream as loud as You can today, You always do well!!!</a>
+
+
+--1653918925-eximdsn-206894308--

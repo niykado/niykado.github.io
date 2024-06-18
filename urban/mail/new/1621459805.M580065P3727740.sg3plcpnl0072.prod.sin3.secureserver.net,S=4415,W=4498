@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id CCBsIF2DpWB84TgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 19 May 2021 14:30:05 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 19 May 2021 14:30:05 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1ljTlV-00Fkdq-Fc
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 19 May 2021 14:30:05 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ljTlV-00Fkd1-BE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1621459805-eximdsn-132124283
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ljTlV-00Fkdq-Fc@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 19 May 2021 14:30:05 -0700
+
+--1621459805-eximdsn-132124283
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 jTlVlfulLoxM1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=CbvNWJnl c=1 sm=1 tr=0 ts=60a5835d p=UPTJib12S04A:10 p=H-BGr_YcrvAA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=5FLXtPjwQuUA:10 a=x7bEGLp0ZPQA:10 a=Em3-5VVE-UAA:10 a=pGLkceISAAAA:8 a=mywNHtM7y-CF_EU3UNIA:9 a=6aylyXhL27sA:10 a=zNI9ue46WRsQ5z1VNIiO:22 ::
+    100.00
+
+--1621459805-eximdsn-132124283
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 jTlVlfulLoxM1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=CbvNWJnl c=1 sm=1 tr=0 ts=60a5835d p=UPTJib12S04A:10 p=H-BGr_YcrvAA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=5FLXtPjwQuUA:10 a=x7bEGLp0ZPQA:10 a=Em3-5VVE-UAA:10 a=pGLkceISAAAA:8 a=mywNHtM7y-CF_EU3UNIA:9 a=6aylyXhL27sA:10 a=zNI9ue46WRsQ5z1VNIiO:22 :: 100.00
+
+--1621459805-eximdsn-132124283
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ljTlV-00Fkd1-BE
+	for info@yoursite.com; Wed, 19 May 2021 14:30:05 -0700
+To: info@yoursite.com
+Subject: New contact from Audrey Taylor
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 192.198.122.244
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 192.198.122.244
+From: Audrey Taylor <audreytaylor239@gmail.com>
+Message-Id: <E1ljTlV-00Fkd1-BE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 19 May 2021 14:30:05 -0700
+
+Name: Audrey Taylor
+Email: audreytaylor239@gmail.com
+
+Subject: New contact from Audrey Taylor
+
+Message:
+Do you have a bad reputation online, due to bad reviews or a lack of reviews?  I specialize in reputation management and would love to work with you.  Everyone looks at your reviews before buying, so having bad reviews can absolutely crush your business, whether you realize it or not.  We have numerous ways of fixing your reputation online and can help you to boost your sales through the power of a strong reputation.  
+
+Let me know if this is something you're interested in and I can provide you with more information.  
+
+Sincerely,  
+
+Audrey Taylor - Web Designer / Programmer
+
+
+--1621459805-eximdsn-132124283--

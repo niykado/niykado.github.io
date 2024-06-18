@@ -1,0 +1,117 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id eEGNNuRJ+F+ZwTwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 08 Jan 2021 05:02:44 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 08 Jan 2021 05:02:44 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kxqTc-00GqYN-RZ
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 08 Jan 2021 05:02:44 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kxqTT-00GqPD-KH@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1610107364-eximdsn-831081098
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kxqTc-00GqYN-RZ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 08 Jan 2021 05:02:44 -0700
+
+--1610107364-eximdsn-831081098
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xqTTkclS3OkmN :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=HPAGqqhv c=1 sm=1 tr=0 ts=5ff849e4 p=6SAUNjL8AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=EmqxpYm9HcoA:10 a=n0OyGT4UCR4A:10 a=zBpvej1ZAAAA:8 a=zwTp1qlBHunrDDKZNlEA:9 a=9ScZSPPIqeD524SB:21 a=VbNBFh_h2iypjwLf:21 a=vMxLI0hwHvEA:10 a=N5kcLle-e9MA:10 a=AOlHoxTNDbMUm2OsgMIB:22 a=LdIdB6zWzGv-nFl-1wdl:22 ::
+    100.00
+
+--1610107364-eximdsn-831081098
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 xqTTkclS3OkmN :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=HPAGqqhv c=1 sm=1 tr=0 ts=5ff849e4 p=6SAUNjL8AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=EmqxpYm9HcoA:10 a=n0OyGT4UCR4A:10 a=zBpvej1ZAAAA:8 a=zwTp1qlBHunrDDKZNlEA:9 a=9ScZSPPIqeD524SB:21 a=VbNBFh_h2iypjwLf:21 a=vMxLI0hwHvEA:10 a=N5kcLle-e9MA:10 a=AOlHoxTNDbMUm2OsgMIB:22 a=LdIdB6zWzGv-nFl-1wdl:22 :: 100.00
+
+--1610107364-eximdsn-831081098
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kxqTT-00GqPD-KH
+	for info@yoursite.com; Fri, 08 Jan 2021 05:02:35 -0700
+To: info@yoursite.com
+Subject: New contact from Richard Robert
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.120.193.186
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.120.193.186
+From: Richard Robert <tish@ttfn.com>
+Message-Id: <E1kxqTT-00GqPD-KH@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 08 Jan 2021 05:02:35 -0700
+
+Name: Richard Robert
+Email: tish@ttfn.com
+
+Subject: New contact from Richard Robert
+
+Message:
+GATEWAYS FINANCE 
+Industrie Str. 29, 42929 
+Wermelskirchen 
+Germany. 
+Tel/fax: +49-302406607 
+Email: info@gatewaysfinance.com 
+http://gatewaysfinance.com/ 
+ 
+Dear Sir/Madam 
+ 
+Purchase Bank Instruments (Bank Guarantees and Standby Letter of Credit). Lease Bank Instruments (BG, SBLC, DLC, Letters of Credit)Letters of Credit (DLC, L/C, Usance LC). We are an authorized Financial consulting firm that works directly with a rated bank eg Lloyds Bank, Barclays Bank, HSBC bank, etc. We provide BG, SBLC, LC, LOAN, and lots more for clients all over the world. GATEWAYS FINANCE activities to secure personal and commercial loans through banking facilities. We have the privilege of working with some of the biggest names in the business arena and banks. 
+ 
+Visit our website and contact us for Bank Instruments: 
+ 
+Express Bank Guarantee (BG) 
+Standby Letter of Credit (DLC, L/C, Usance LC) 
+Lease Bank Instruments (BG, SBLC, DLC, Letters of Credit) 
+Loans: Personal Loans, Business Loans. 
+Insurance Underwriting Services. 
+PPP and Trading Platforms. 
+Proof of Funds (POF). 
+Corporate Finance. 
+Blocked Funds. 
+Escrow Services. 
+Private Equity 
+ 
+Simplified documentation, Submit Online, collect from your branch from any part of the world 
+ 
+BROKER INQUIRIES ARE WELCOMED AND APPRECIATED. COMPENSATED WITH GOOD COMMISSION. BROKERS ARE WELCOME & 100% PROTECTED!! 
+ 
+.........NOTE......... 
+ 
+No upfront payment, No side effect 
+ 
+...................... 
+ 
+Thanks 
+ 
+Best Regard, 
+Mr. Richard Robert (Public Relations Officer) 
+info@gatewaysfinance.com
+
+
+--1610107364-eximdsn-831081098--

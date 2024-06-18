@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 2BXlNgfntF9LwRoAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 18 Nov 2020 02:19:03 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 18 Nov 2020 02:19:03 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kfJcF-007Od3-Re
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 18 Nov 2020 02:19:03 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kfJWu-007I1C-Qo@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1605691143-eximdsn-1155964601
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kfJcF-007Od3-Re@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 18 Nov 2020 02:19:03 -0700
+
+--1605691143-eximdsn-1155964601
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 fJc5kIUNBcayt :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bNfTnNyZ c=1 sm=1 tr=0 ts=5fb4e707 p=N77P-M164m0A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=AZJLyw3snYkA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=nNwsprhYR40A:10 a=69EAbJreAAAA:8 a=2NotPyG-AAAA:8 a=tEOpdBUGAAAA:8 a=-Ip_G3JX9mJafKPCZjsA:9 a=-dOsqeRzhCoA:10 a=iqWLvEaD-PoA:10 a=_9oNn098F_UA:10 a=aW5GtbDQDSd3DGFfD4r6:22 a=VDYdYq0CFV7kCyNA_8Xa:22 ::
+    96.00
+
+--1605691143-eximdsn-1155964601
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 fJc5kIUNBcayt :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bNfTnNyZ c=1 sm=1 tr=0 ts=5fb4e707 p=N77P-M164m0A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=AZJLyw3snYkA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=nNwsprhYR40A:10 a=69EAbJreAAAA:8 a=2NotPyG-AAAA:8 a=tEOpdBUGAAAA:8 a=-Ip_G3JX9mJafKPCZjsA:9 a=-dOsqeRzhCoA:10 a=iqWLvEaD-PoA:10 a=_9oNn098F_UA:10 a=aW5GtbDQDSd3DGFfD4r6:22 a=VDYdYq0CFV7kCyNA_8Xa:22 :: 96.00
+
+--1605691143-eximdsn-1155964601
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kfJWu-007I1C-Qo
+	for info@yoursite.com; Wed, 18 Nov 2020 02:13:32 -0700
+To: info@yoursite.com
+Subject: New contact from Kerri Miller
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 192.99.62.49
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 192.99.62.49
+From: Kerri Miller <jmiller22@hotmail.com>
+Message-Id: <E1kfJWu-007I1C-Qo@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 18 Nov 2020 02:13:32 -0700
+
+Name: Kerri Miller
+Email: jmiller22@hotmail.com
+
+Subject: New contact from Kerri Miller
+
+Message:
+It looks like this link is broken on your site: https://www.urbanlocomote.com/contact
+
+I thought you would like to know :).  Silly mistakes can ruin your site's credibility.  I've used a tool called linkSniff.com in the past to keep mistakes off of my website.
+
+-Kerri
+
+
+--1605691143-eximdsn-1155964601--

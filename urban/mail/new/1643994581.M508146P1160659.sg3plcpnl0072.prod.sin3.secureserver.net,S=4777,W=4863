@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id X9xmHdVd/WHTtREAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 04 Feb 2022 10:09:41 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 04 Feb 2022 10:09:41 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nG25d-004rw9-DZ
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 04 Feb 2022 10:09:41 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nG25d-004rvY-5g@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1643994581-eximdsn-579028392
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nG25d-004rw9-DZ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 04 Feb 2022 10:09:41 -0700
+
+--1643994581-eximdsn-579028392
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 G25dnz18a4yLK :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Ov+Kdwzt c=1 sm=1 tr=0 ts=61fd5dd5 p=T5KJr2_H4KcA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oGFeUVbbRNcA:10 a=a1oJwOs5XG8A:10 a=x7bEGLp0ZPQA:10 a=sYOnbEmkD_oA:10 a=pGLkceISAAAA:8 a=3grvR_uohbkz8yfMNyUA:9 a=FiPkersv9vEA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=1Nreyd66VEB6jBOX9_vZ:22 ::
+    100.00
+
+--1643994581-eximdsn-579028392
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 G25dnz18a4yLK :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Ov+Kdwzt c=1 sm=1 tr=0 ts=61fd5dd5 p=T5KJr2_H4KcA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oGFeUVbbRNcA:10 a=a1oJwOs5XG8A:10 a=x7bEGLp0ZPQA:10 a=sYOnbEmkD_oA:10 a=pGLkceISAAAA:8 a=3grvR_uohbkz8yfMNyUA:9 a=FiPkersv9vEA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=1Nreyd66VEB6jBOX9_vZ:22 :: 100.00
+
+--1643994581-eximdsn-579028392
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nG25d-004rvY-5g
+	for info@yoursite.com; Fri, 04 Feb 2022 10:09:41 -0700
+To: info@yoursite.com
+Subject: New contact from Michael Daniels
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 23.254.68.55
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 23.254.68.55
+From: Michael Daniels <micheal.daniels058@gmail.com>
+Message-Id: <E1nG25d-004rvY-5g@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 04 Feb 2022 10:09:41 -0700
+
+Name: Michael Daniels
+Email: micheal.daniels058@gmail.com
+
+Subject: New contact from Michael Daniels
+
+Message:
+Hi! 
+
+Different kinds of apps help businesses whether in terms of marketing, business efficiency or both. Does your website have an app? Potential clients are drawn to businesses whose mobile app doesn't only have an amazing user-interface, but also has some features that make doing business easier between you and them. 
+
+I'm a talented app developer that can design/program on any platform (Android, iOs). I've got some great app ideas of my own that I'd like to share with you of things that have worked really well for my other clients. If you already have ideas, I'd like to hear about them so we can make them all possible. 
+
+I would like to tell you more about this with you during a free consultation if you're interested. Kindly reply about when you are free to be contacted. I hope to speak with you soon.
+
+Best regards,
+Michael Daniels
+
+
+--1643994581-eximdsn-579028392--

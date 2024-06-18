@@ -1,0 +1,122 @@
+Return-Path: <sonyastewart1972@gmail.com>
+Delivered-To: info@urbanlocomote.com
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id AC9OCmteGV93GDAAiYwtQA
+	(envelope-from <sonyastewart1972@gmail.com>)
+	for <info@urbanlocomote.com>; Thu, 23 Jul 2020 02:54:51 -0700
+Return-path: <sonyastewart1972@gmail.com>
+Envelope-to: info@urbanlocomote.com
+Delivery-date: Thu, 23 Jul 2020 02:54:51 -0700
+Received: from mail-io1-f69.google.com ([209.85.166.69]:50541)
+	by sg3plcpnl0072.prod.sin3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES128-GCM-SHA256:128)
+	(Exim 4.92)
+	(envelope-from <sonyastewart1972@gmail.com>)
+	id 1jyXw4-00DLO3-32
+	for info@urbanlocomote.com; Thu, 23 Jul 2020 02:54:51 -0700
+Received: by mail-io1-f69.google.com with SMTP id a6so2791987ioh.17
+        for <info@urbanlocomote.com>; Thu, 23 Jul 2020 02:54:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:message-id:date:subject:from:to;
+        bh=eZ5iz1vEQl71/vPXVHFOC5OnYx8WguHgbRWKIIQ2nnM=;
+        b=JiTaHLULxiJIW5p4urK4WFhUQJNKWH0Yql4zWC298Ujrl5CY2OhADVu5b+F6GI6+tr
+         OAmyMdYYK7EZ73iOEcLe9VuUHfctYVu9B1v91Nbsx22pcIw2GZbvOru8teMNforV4feh
+         7eTk+lzzU3MVkrBwr/lvHEaV2dFbbmmeRwu+ptB8LwjtgOzKTudq2fRp9/XJ5FPn43lD
+         iGV7qCYIUFvLtKL3p4c/UYeZYz9kJVLxBJfFMmH9NGpdvzyzWLo5c+9PAxFcHmfg5Edq
+         IN1f4hX4ElHD4hT0infsShokXwThUUXXRbTBndfFACTQdA85zek6S/0NkZuBHWndZ4OX
+         OZVg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:message-id:date:subject:from:to;
+        bh=eZ5iz1vEQl71/vPXVHFOC5OnYx8WguHgbRWKIIQ2nnM=;
+        b=M9RoOJMHA0ForlTtFTYUNf5875qQui2EZSaahoZUCEcbDwayrF+a2+f68RywQmN0e/
+         vJLiU1cQm6DKUwy97uptWaDZoriLJBsRuIU3ySjGhTITfRXXQLFGeEHkL3V2BbRes1EW
+         GeD2ptE4QHmRj0PU6KutMxOH/BuWLL+DHHujZhCxtuGPDWkcVxzZQ8wAKs8qd6EboecY
+         ZcxC9r4NeoxYg5O34GmGTCTmV6YtfdSfxDcCb1S7DRNW+djKYDpIHilTMj/yGa0az+Pq
+         7evQZX94vWwSS60RdRUxYFYuShjGHN3q0EL/kvM7rhwf8B3S2KoYS5l0b2ktZvTH+pJH
+         Xgew==
+X-Gm-Message-State: AOAM533bEhp+PlX4q3PfKoexKStwVBhnxe6W9Q4OucJihDHQ45g/91NM
+	D7fVakBQaBt7aPQy6gjHuJsQk3ARNA==
+X-Google-Smtp-Source: ABdhPJw+3o8Zmc70GyqgWW/ZnDkxoWZcn8qst8Sn4OSK6k+UqY3SfSfxrKznyoevLDEh/ltADGzvJ20Hww==
+MIME-Version: 1.0
+X-Received: by 2002:a05:6e02:1405:: with SMTP id n5mr3672998ilo.87.1595498037130;
+ Thu, 23 Jul 2020 02:53:57 -0700 (PDT)
+Message-ID: <000000000000be3d3a05ab18d55f@google.com>
+Date: Thu, 23 Jul 2020 09:53:57 +0000
+Subject: SEO+SMO Proposal
+From: sonyastewart1972@gmail.com
+To: info@urbanlocomote.com
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "sg3plcpnl0072.prod.sin3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Hi, My name is Anupriya, and am working with a reputable leading
+    S.E.O. Company in INDIA We have the expertise to get our customer's websites
+    top ranking in Google, Yahoo, and MSN and other search engines [...] 
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 FREEMAIL_FROM          Sender email is commonly abused enduser mail
+                             provider
+                             [sonyastewart1972[at]gmail.com]
+  0.2 FREEMAIL_ENVFROM_END_DIGIT Envelope-from freemail username ends
+                             in digit
+                             [sonyastewart1972[at]gmail.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.166.69 listed in wl.mailspike.net]
+X-Spam-Flag: NO
+
+Hi,
+                  						
+My name is Anupriya, and am working with a reputable leading S.E.O. Company  
+in INDIA
+We have the expertise to get our customer's websites top ranking in Google,  
+Yahoo, and MSN and other search engines
+producing high revenue with top page rank, guaranteed based result within  
+3-4 months
+
+We provide a S.E.O. special offer for the following package:
+
+1. 10 Directory submissions
+2. 30 Social Bookmarking Submissions
+3. 1 Article Submissions (1 article x 1 article directories)
+4. 1 Blog Submissions (1 blog x 1 blog posting)
+5. Google Submissions
+6. 1 unique, 400 word article written
+7. 1 unique, 300 word blog
+8. Meta tags changes suggestions
+9. Keyword research
+10. Competitor Analysis
+11. Heading tag changes
+12. Alt tag changes
+13. Interlinking wherever required.
+14. Keyword Density in site content.
+15. HTML Site Map
+16. XML site map and Submission in webmaster tool
+17. Search Engine Submission
+18. Content optimization
+
+Let me know if you interested so give me your website with keyword would do  
+an analysis on it to suggest you the best.
+Looking forward for your positive reply here you can Target More than 15  
+keywords
+
+Kind Regards
+Anupriya Dube

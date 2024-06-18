@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id cLzhClan0GToyhgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 07 Aug 2023 01:12:06 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 07 Aug 2023 01:12:06 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qSvLS-006qKl-3w
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Mon, 07 Aug 2023 01:12:06 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qSvLC-006q5X-Td@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qSvLS-006qKl-3w@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 07 Aug 2023 01:12:06 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qSvLC-006q5X-Td
+	for info@yoursite.com;
+	Mon, 07 Aug 2023 01:11:50 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Thompson
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.19.217.238
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.19.217.238
+From: Mike Thompson <mikeJemodeseMase@gmail.com>
+Message-Id: <E1qSvLC-006q5X-Td@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 07 Aug 2023 01:11:50 -0700
+
+Name: Mike Thompson
+Email: mikeJemodeseMase@gmail.com
+
+Subject: New contact from Mike Thompson
+
+Message:
+Hi there 
+ 
+Just checked your urbanlocomote.com baclink profile, I noticed a moderate percentage of toxic links pointing to your website 
+ 
+We will investigate each link for its toxicity and perform a professional clean up for you free of charge. 
+ 
+Start recovering your ranks today: 
+https://www.hilkom-digital.de/professional-linksprofile-clean-up-service/ 
+ 
+ 
+Regards 
+Mike Thompson
+Hilkom Digital SEO Experts 
+https://www.hilkom-digital.de/
+

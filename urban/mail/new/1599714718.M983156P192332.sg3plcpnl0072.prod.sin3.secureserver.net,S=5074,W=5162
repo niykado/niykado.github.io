@@ -1,0 +1,88 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id gA04Op61WV9M7wIAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 09 Sep 2020 22:11:58 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 09 Sep 2020 22:11:58 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kGEsI-0011Wl-Sw
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 09 Sep 2020 22:11:58 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kGEsI-0011WW-O6@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1599714718-eximdsn-1929727715
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kGEsI-0011Wl-Sw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 09 Sep 2020 22:11:58 -0700
+
+--1599714718-eximdsn-1929727715
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 GEsIkOxXVrfOs :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=A+wSwJeG c=1 sm=1 tr=0 p=GSDfhBcYj1TUiW_m9NEA:9 p=61ixF3wuY1oA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=R25f3D5Sx9gA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=UiW6RsECuO0A:10 a=pGLkceISAAAA:8 a=ZNLVZtJ24Fcgelkb:21 a=QXeQnFSHUdhFxSXi:21 a=3FCcOpfUmb4A:10 a=a5FscgF11L8Oahj8-kx1:22 ::
+    100.00
+
+--1599714718-eximdsn-1929727715
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 GEsIkOxXVrfOs :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=A+wSwJeG c=1 sm=1 tr=0 p=GSDfhBcYj1TUiW_m9NEA:9 p=61ixF3wuY1oA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=R25f3D5Sx9gA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=UiW6RsECuO0A:10 a=pGLkceISAAAA:8 a=ZNLVZtJ24Fcgelkb:21 a=QXeQnFSHUdhFxSXi:21 a=3FCcOpfUmb4A:10 a=a5FscgF11L8Oahj8-kx1:22 :: 100.00
+
+--1599714718-eximdsn-1929727715
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kGEsI-0011WW-O6
+	for info@yoursite.com; Wed, 09 Sep 2020 22:11:58 -0700
+To: info@yoursite.com
+Subject: New contact from Ed Frez
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 192.3.142.214
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 192.3.142.214
+From: Ed Frez <edingershock362@gmail.com>
+Message-Id: <E1kGEsI-0011WW-O6@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 09 Sep 2020 22:11:58 -0700
+
+Name: Ed Frez
+Email: edingershock362@gmail.com
+
+Subject: New contact from Ed Frez
+
+Message:
+Hello!
+
+I am a freelancer who's designed and improved hundreds of websites over the past decade. I'd like the opportunity to discuss with you how I can help you upgrade your site or build you a new one that will provide all the modern features that a website should have, as well as an effortlessly beautiful user-interface. This can all be done at a very affordable price.
+
+I am an expert in WordPress and experienced in many other web platforms and shopping carts. If you're not familiar with it, then I'd like to show you how easy it is to develop your site on a platform that gives you an incredible number of features. In addition to the modern features that make the most business processes easier, I can also include some elements that your site needs to make it more user-friendly and profitable.
+
+I would like to send you my portfolio of work from previous clients and include how the profitability of those businesses increased after the improvements that I made to their websites. I do all the work myself, nothing is ever outsourced. 
+
+Please let me know if you're interested so we can have a chat.
+
+Thanks,
+Edward Frez
+
+
+--1599714718-eximdsn-1929727715--

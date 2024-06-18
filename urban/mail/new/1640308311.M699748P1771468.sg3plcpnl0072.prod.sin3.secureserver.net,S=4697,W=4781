@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 8gqPKVcexWHMBxsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 23 Dec 2021 18:11:51 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 23 Dec 2021 18:11:51 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1n0Z7f-007RRv-KJ
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 23 Dec 2021 18:11:51 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1n0Z7f-007RRN-FQ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1640308311-eximdsn-2089274690
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1n0Z7f-007RRv-KJ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 23 Dec 2021 18:11:51 -0700
+
+--1640308311-eximdsn-2089274690
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 0Z7fnTBztcctY :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=C7MsdSD+ c=1 sm=1 tr=0 ts=61c51e57 p=xqAHXoxLLDEA:10 p=xd706-WoAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=x7bEGLp0ZPQA:10 a=WC-mwSf5tc4A:10 a=BrDiTsk0AAAA:8 a=1XWaLZrsAAAA:8 a=nLgVvxGQO3GMg4qFZKIA:9 a=4StKc0E9G4sA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=fK1jZSgjKPFatbRoI9mg:22 ::
+    100.00
+
+--1640308311-eximdsn-2089274690
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 0Z7fnTBztcctY :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=C7MsdSD+ c=1 sm=1 tr=0 ts=61c51e57 p=xqAHXoxLLDEA:10 p=xd706-WoAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=x7bEGLp0ZPQA:10 a=WC-mwSf5tc4A:10 a=BrDiTsk0AAAA:8 a=1XWaLZrsAAAA:8 a=nLgVvxGQO3GMg4qFZKIA:9 a=4StKc0E9G4sA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=fK1jZSgjKPFatbRoI9mg:22 :: 100.00
+
+--1640308311-eximdsn-2089274690
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1n0Z7f-007RRN-FQ
+	for info@yoursite.com; Thu, 23 Dec 2021 18:11:51 -0700
+To: info@yoursite.com
+Subject: New contact from CharlieRaf
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 191.101.217.39
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 191.101.217.39
+From: CharlieRaf <ryomygod@yahoo.co.uk>
+Message-Id: <E1n0Z7f-007RRN-FQ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 23 Dec 2021 18:11:51 -0700
+
+Name: CharlieRaf
+Email: ryomygod@yahoo.co.uk
+
+Subject: New contact from CharlieRaf
+
+Message:
+Bonjour. 
+Si vous etes interesse par ce type de revenus, sachez que des investissements de 500 EUR sont necessaires ici une fois. 
+De plus, vous recevrez a partir de 1500 EUR par semaine ?^*# 
+>>>>> https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc9jD1p&sa=D&59=60&usg=AFQjCNE5-l7dYtpQNDLSz9x2TTehrGGJ2w <<<<< 
+L'essence du gain est de generer des revenus en negociant des crypto-monnaies en mode automatique, meme si tous les marches s'effondrent, vous serez assure de recevoir votre argent a partir de 1500 EUR par semaine. 
+Arrangez-vous pour prendre place au soleil et inscrivez-vous :_;( 
+Offre limitee ?-!+ 
+>>>>> https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc9jD1p&sa=D&55=92&usg=AFQjCNE5-l7dYtpQNDLSz9x2TTehrGGJ2w <<<<<
+
+
+--1640308311-eximdsn-2089274690--

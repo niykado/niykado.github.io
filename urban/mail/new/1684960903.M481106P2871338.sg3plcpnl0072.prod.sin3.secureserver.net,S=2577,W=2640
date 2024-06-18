@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 62mYG4d2bmQq0CsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 24 May 2023 13:41:43 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 24 May 2023 13:41:43 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1q1vIl-00C2xn-Ce
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 24 May 2023 13:41:43 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1q1vId-00C2vU-CV@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1q1vIl-00C2xn-Ce@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 24 May 2023 13:41:43 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1q1vId-00C2vU-CV
+	for info@yoursite.com;
+	Wed, 24 May 2023 13:41:35 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Shackley
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.55.181
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.55.181
+From: Mike Shackley <no-replyRhind@gmail.com>
+Message-Id: <E1q1vId-00C2vU-CV@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 24 May 2023 13:41:35 -0700
+
+Name: Mike Shackley
+Email: no-replyRhind@gmail.com
+
+Subject: New contact from Mike Shackley
+
+Message:
+Howdy 
+ 
+I have just analyzed  urbanlocomote.com for onsite errors and saw that your website has a handful of issues which should be addressed. 
+ 
+No matter what you are offering or selling, having a poor optimized site, full of bugs and errors, will never help your ranks. 
+ 
+Let us fix your wordpress site errors today and get your ranks reach their full potential 
+ 
+More info: 
+https://www.digital-x-press.com/product/wordpress-seo-audit-and-fix-service/ 
+ 
+ 
+Regards 
+Mike Shackley
+

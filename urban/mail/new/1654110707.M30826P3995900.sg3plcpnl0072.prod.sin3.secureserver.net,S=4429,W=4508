@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id q+vhAPO5l2L8+DwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 01 Jun 2022 12:11:47 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 01 Jun 2022 12:11:47 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nwTkw-00GmNj-Um
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 01 Jun 2022 12:11:47 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nwTku-00GmMb-MB@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1654110706-eximdsn-1966284797
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nwTkw-00GmNj-Um@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 01 Jun 2022 12:11:46 -0700
+
+--1654110706-eximdsn-1966284797
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wTkwnnwR0FiVn :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QrKbYX+d c=1 sm=1 tr=0 ts=6297b9f2 p=vbYkTrj-XR0A:10 p=bJdQwgp_AAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=x7bEGLp0ZPQA:10 a=RBlvOtDj5eAA:10 a=pGLkceISAAAA:8 a=uz1BFDP3AAAA:8 a=1JjNQnAuttciQTfb6HcA:9 a=g-nLfxaRsi0A:10 a=KeIMi8nCmbgA:10 a=-FEs8UIgK8oA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=fd8BezSa2ySTVFnoALwy:22 a=oWa5x9qeN263EAQdH08O:22 a=EkE-_4WeDu3Ska7PVBPd:22 ::
+    100.00
+
+--1654110706-eximdsn-1966284797
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 wTkwnnwR0FiVn :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QrKbYX+d c=1 sm=1 tr=0 ts=6297b9f2 p=vbYkTrj-XR0A:10 p=bJdQwgp_AAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=x7bEGLp0ZPQA:10 a=RBlvOtDj5eAA:10 a=pGLkceISAAAA:8 a=uz1BFDP3AAAA:8 a=1JjNQnAuttciQTfb6HcA:9 a=g-nLfxaRsi0A:10 a=KeIMi8nCmbgA:10 a=-FEs8UIgK8oA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=fd8BezSa2ySTVFnoALwy:22 a=oWa5x9qeN263EAQdH08O:22 a=EkE-_4WeDu3Ska7PVBPd:22 :: 100.00
+
+--1654110706-eximdsn-1966284797
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nwTku-00GmMb-MB
+	for info@yoursite.com; Wed, 01 Jun 2022 12:11:44 -0700
+To: info@yoursite.com
+Subject: New contact from Olislso
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 194.190.179.87
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 194.190.179.87
+From: Olislso <rod.ri.gu.e.zol.i.via1.97.2@gmail.com>
+Message-Id: <E1nwTku-00GmMb-MB@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 01 Jun 2022 12:11:44 -0700
+
+Name: Olislso
+Email: rod.ri.gu.e.zol.i.via1.97.2@gmail.com
+
+Subject: New contact from Olislso
+
+Message:
+<a href=https://sylnaukraina.com.ua/d/wEaes>Russian combat losses in Ukraine officially Update Every Day. Comparison with other wars</a> 
+<a href=https://sylnaukraina.com.ua/d/wEaes><img src="https://i.ibb.co/XXzR4tg/voina.png"></a> 
+<a href=https://sylnaukraina.com.ua/d/wEaes>Read more...</a>
+
+
+--1654110706-eximdsn-1966284797--

@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id IGcWDUMLwWNMlwkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 13 Jan 2023 00:41:55 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 13 Jan 2023 00:41:55 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pGEhH-002fBs-5J
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 13 Jan 2023 00:41:55 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pGEh8-002f8j-Ko@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1673595715-eximdsn-1698397237
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pGEhH-002fBs-5J@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 13 Jan 2023 00:41:55 -0700
+
+--1673595715-eximdsn-1698397237
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 GEhGpZV8sbZGw :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=WbvKKWtX c=1 sm=1 tr=0 ts=63c10b43 p=L6QXm_FfAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RvmDmJFTN0MA:10 a=vwVCB-M793wA:10 a=x7bEGLp0ZPQA:10 a=xGG-Ndnn9KwA:10 a=pGLkceISAAAA:8 a=oyzsw2q4mP0ITHDnXcQA:9 a=WHvgrNGSIcMA:10 a=BgvkmMlwP_EA:10 a=SswofAvVmgQA:10 a=Z7LhN9Hx1toA:10 a=wwAePvBONnjDQaqHVNx2:22 a=5WXwxYStDJFuYRuZHuqg:22 a=Q6vEJrQoAWv205NoAI7b:22 a=Ma1WhVqLE5cFN9GOulAD:22 ::
+    100.00
+
+--1673595715-eximdsn-1698397237
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 GEhGpZV8sbZGw :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=WbvKKWtX c=1 sm=1 tr=0 ts=63c10b43 p=L6QXm_FfAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RvmDmJFTN0MA:10 a=vwVCB-M793wA:10 a=x7bEGLp0ZPQA:10 a=xGG-Ndnn9KwA:10 a=pGLkceISAAAA:8 a=oyzsw2q4mP0ITHDnXcQA:9 a=WHvgrNGSIcMA:10 a=BgvkmMlwP_EA:10 a=SswofAvVmgQA:10 a=Z7LhN9Hx1toA:10 a=wwAePvBONnjDQaqHVNx2:22 a=5WXwxYStDJFuYRuZHuqg:22 a=Q6vEJrQoAWv205NoAI7b:22 a=Ma1WhVqLE5cFN9GOulAD:22 :: 100.00
+
+--1673595715-eximdsn-1698397237
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pGEh8-002f8j-Ko
+	for info@yoursite.com;
+	Fri, 13 Jan 2023 00:41:54 -0700
+To: info@yoursite.com
+Subject: New contact from CigWAife
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.81
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.81
+From: CigWAife <biiqow@gmail.com>
+Message-Id: <E1pGEh8-002f8j-Ko@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 13 Jan 2023 00:41:46 -0700
+
+Name: CigWAife
+Email: biiqow@gmail.com
+
+Subject: New contact from CigWAife
+
+Message:
+Robot is the best way for everyone who looks for financial independence. https://Cig.worldnews.biz.pl/hergo
+
+
+--1673595715-eximdsn-1698397237--

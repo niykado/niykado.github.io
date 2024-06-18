@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 8GEZOuRSDGFyHQwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 05 Aug 2021 14:06:44 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 05 Aug 2021 14:06:44 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mBkZg-004IIk-Tk
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 05 Aug 2021 14:06:44 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mBkZg-004IIN-P2@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1628197604-eximdsn-149355335
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mBkZg-004IIk-Tk@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 05 Aug 2021 14:06:44 -0700
+
+--1628197604-eximdsn-149355335
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 BkZgmW09i9Rq6 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=duYet3s4 c=1 sm=1 tr=0 ts=610c52e4 p=w2Ttnfs_tOp2P48ImuYA:9 p=hvx__dZBEWsA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=MhDmnRu9jo8A:10 a=amMSdlce1X8A:10 a=x7bEGLp0ZPQA:10 a=70fDNpVVREEA:10 a=pGLkceISAAAA:8 a=SAFnEjXdkvgA:10 a=1ye1HFdr-cRdpAd_B2sE:22 ::
+    100.00
+
+--1628197604-eximdsn-149355335
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 BkZgmW09i9Rq6 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=duYet3s4 c=1 sm=1 tr=0 ts=610c52e4 p=w2Ttnfs_tOp2P48ImuYA:9 p=hvx__dZBEWsA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=MhDmnRu9jo8A:10 a=amMSdlce1X8A:10 a=x7bEGLp0ZPQA:10 a=70fDNpVVREEA:10 a=pGLkceISAAAA:8 a=SAFnEjXdkvgA:10 a=1ye1HFdr-cRdpAd_B2sE:22 :: 100.00
+
+--1628197604-eximdsn-149355335
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mBkZg-004IIN-P2
+	for info@yoursite.com; Thu, 05 Aug 2021 14:06:44 -0700
+To: info@yoursite.com
+Subject: New contact from Marty Brock
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 104.144.112.103
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 104.144.112.103
+From: Marty Brock <webexpertsdesignz4u@gmail.com>
+Message-Id: <E1mBkZg-004IIN-P2@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 05 Aug 2021 14:06:44 -0700
+
+Name: Marty Brock
+Email: webexpertsdesignz4u@gmail.com
+
+Subject: New contact from Marty Brock
+
+Message:
+Have you done any marketing through social media?  It has become one of the strongest marketing methods in the world, and it can have a huge effect on your sales.  I am a social media marketing specialist that works with various social media sites such as:  Facebook, Instagram, Youtube, Twitter, Snapchat, Pinterest, TikTok, and more...  
+
+If you're not using some of these platforms for your marketing, you really need to start, whether you use my services or not, but if you don't know where to start or don't have time to do it, I am your marketer.  I have 7 years of experience in this field and have worked with dozens of clients to get them more traffic, more leads, and more conversions.  I can help you too. 
+
+If you're interested in doing some social media marketing, and need a consultation on what sites and methods would be best for you, please write back and let me know and we can setup a time for a free consultation.  There is no obligation, and I am not a high-pressure salesperson at all.  In fact, I often tell people that social media is not the best method for them based on their goals, budget, and other factors, but regardless of whether my services are a good fit for you or not, I believe that my consultation will be very beneficial.   
+
+Please reply back if you would like to setup a free consult and we'll figure out a time that works for both of us.   
+
+Marty Brock
+
+
+--1628197604-eximdsn-149355335--

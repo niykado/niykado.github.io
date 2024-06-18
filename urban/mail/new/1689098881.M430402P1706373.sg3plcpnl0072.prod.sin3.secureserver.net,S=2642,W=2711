@@ -1,0 +1,69 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id XFYlGIGarWSFCRoAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 11 Jul 2023 11:08:01 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 11 Jul 2023 11:08:01 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qJHmL-007A3M-B8
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Tue, 11 Jul 2023 11:08:01 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qJHmD-0079wm-CA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qJHmL-007A3M-B8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 11 Jul 2023 11:08:01 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qJHmD-0079wm-CA
+	for info@yoursite.com;
+	Tue, 11 Jul 2023 11:07:53 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Clapton
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.60.114
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.60.114
+From: Mike Clapton <mikeJemodeseMase@gmail.com>
+Message-Id: <E1qJHmD-0079wm-CA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 11 Jul 2023 11:07:53 -0700
+
+Name: Mike Clapton
+Email: mikeJemodeseMase@gmail.com
+
+Subject: New contact from Mike Clapton
+
+Message:
+Hi there 
+ 
+Search engine optimization (SEO) is a valuable marketing method for driving organic traffic to your website, meaning potential clients will be drawn to your website. 
+ 
+And getting it right is a must, 
+ 
+If you don’t have a big budget to hire SEO experts, don’t stress. 
+ 
+There are plenty of SEO tips and tricks you can implement and easy-to-use tools to help you. 
+ 
+ 
+Detailed guide on how to do it yourself: 
+https://www.hilkom-digital.de/seo-starter-guide/ 
+ 
+ 
+ 
+Regards 
+Mike Clapton
+Hilkom Digital 
+https://www.hilkom-digital.de/
+

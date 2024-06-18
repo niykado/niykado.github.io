@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id kDnQJP8viWAVHwMAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 28 Apr 2021 02:50:55 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 28 Apr 2021 02:50:55 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lbgqN-001CjN-IA
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 28 Apr 2021 02:50:55 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lbgqN-001Ciq-D3@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1619603455-eximdsn-447271421
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lbgqN-001CjN-IA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 28 Apr 2021 02:50:55 -0700
+
+--1619603455-eximdsn-447271421
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 bgqNlk0JaYS7j :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=TOiA93pa c=1 sm=1 tr=0 ts=60892fff p=DJmhfuPVAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=ArcmdUJm6UQA:10 a=x7bEGLp0ZPQA:10 a=E0lKTiFfyYQA:10 a=1XWaLZrsAAAA:8 a=2Y0bEynIEcxFVogqhq8A:9 a=nQtKd5W_iOEA:10 a=H4NpI0-O6QQA:10 a=gA6IeH5FQcgA:10 a=l40iyKb3-6QA:10 a=NWVoK91CQyQA:10 a=UQrJSkFZkxByv-dE22NM:22 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=QOGEsqRv6VhmHaoFNykA:22 ::
+    100.00
+
+--1619603455-eximdsn-447271421
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 bgqNlk0JaYS7j :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=TOiA93pa c=1 sm=1 tr=0 ts=60892fff p=DJmhfuPVAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=ArcmdUJm6UQA:10 a=x7bEGLp0ZPQA:10 a=E0lKTiFfyYQA:10 a=1XWaLZrsAAAA:8 a=2Y0bEynIEcxFVogqhq8A:9 a=nQtKd5W_iOEA:10 a=H4NpI0-O6QQA:10 a=gA6IeH5FQcgA:10 a=l40iyKb3-6QA:10 a=NWVoK91CQyQA:10 a=UQrJSkFZkxByv-dE22NM:22 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=QOGEsqRv6VhmHaoFNykA:22 :: 100.00
+
+--1619603455-eximdsn-447271421
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lbgqN-001Ciq-D3
+	for info@yoursite.com; Wed, 28 Apr 2021 02:50:55 -0700
+To: info@yoursite.com
+Subject: New contact from DavidHab
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.60.218
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.60.218
+From: DavidHab <free.rainer@yahoo.de>
+Message-Id: <E1lbgqN-001Ciq-D3@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 28 Apr 2021 02:50:55 -0700
+
+Name: DavidHab
+Email: free.rainer@yahoo.de
+
+Subject: New contact from DavidHab
+
+Message:
+Pay for a fraction of targeted traffic and useful actions. 
+Get more paying customers. 
+3 advertising models: CPD, CPA and CPM 
+We respect the privacy of netizens 
+Payment with various cryptocurrencies 
+https://www.google.com/url?q=https%3A%2F%2Fgfdgdfashrhr.blogspot.com%2F2021%2F04%2Fgrhfgjhgdgdhdhdrhgsrdhe.html&sa=D&Nr=Ky&usg=AFQjCNGjhUC6Je8M44wiXQF0KG8tObandA
+
+
+--1619603455-eximdsn-447271421--

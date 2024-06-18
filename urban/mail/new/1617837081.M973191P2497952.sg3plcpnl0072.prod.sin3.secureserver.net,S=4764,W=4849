@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id QNpwOBk8bmCgHSYAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 07 Apr 2021 16:11:21 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 07 Apr 2021 16:11:21 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lUHKT-00Afxd-Su
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 07 Apr 2021 16:11:21 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lUHKT-00AfxU-OZ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1617837081-eximdsn-2028691903
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lUHKT-00Afxd-Su@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 07 Apr 2021 16:11:21 -0700
+
+--1617837081-eximdsn-2028691903
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 UHKTlrhEyD1LZ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=fJL8YbWe c=1 sm=1 tr=0 ts=606e3c19 p=Qb9LQbKD4vVe-QJgPW8A:9 p=QRB9Tdy2kU8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=1mMw_Jz42KYA:10 a=x7bEGLp0ZPQA:10 a=gTxdpvOJfLYA:10 a=pGLkceISAAAA:8 a=5lpn6dwTUnUA:10 a=N5yJ8E5FtN82CLGktnz0:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 ::
+    100.00
+
+--1617837081-eximdsn-2028691903
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 UHKTlrhEyD1LZ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=fJL8YbWe c=1 sm=1 tr=0 ts=606e3c19 p=Qb9LQbKD4vVe-QJgPW8A:9 p=QRB9Tdy2kU8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=1mMw_Jz42KYA:10 a=x7bEGLp0ZPQA:10 a=gTxdpvOJfLYA:10 a=pGLkceISAAAA:8 a=5lpn6dwTUnUA:10 a=N5yJ8E5FtN82CLGktnz0:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 :: 100.00
+
+--1617837081-eximdsn-2028691903
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lUHKT-00AfxU-OZ
+	for info@yoursite.com; Wed, 07 Apr 2021 16:11:21 -0700
+To: info@yoursite.com
+Subject: New contact from Kurt Caldwell
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 192.3.28.247
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 192.3.28.247
+From: Kurt Caldwell <impressivedesignz4u@gmail.com>
+Message-Id: <E1lUHKT-00AfxU-OZ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 07 Apr 2021 16:11:21 -0700
+
+Name: Kurt Caldwell
+Email: impressivedesignz4u@gmail.com
+
+Subject: New contact from Kurt Caldwell
+
+Message:
+Good Morning,
+
+I'm a digital marketing specialist, and I ran some Search Engine Optimization reporting tools on your website. The results showed there is a lot of additional web traffic we can get you by making sure that you're ranking higher in search engines like Google. 
+
+You're not ranking very well at the moment, but you could be. I can help you increase your website ranking by fixing a few issues found on the back-end of your website and optimizing it for search engine algorithms. This leads to increased rankings, which then leads to getting additional traffic/sales. 
+
+If you are interested, we can set up a time for a free consultation. If all goes well then hopefully we can work together. I hope to speak with you soon! 
+
+Kurt Caldwell
+
+
+--1617837081-eximdsn-2028691903--

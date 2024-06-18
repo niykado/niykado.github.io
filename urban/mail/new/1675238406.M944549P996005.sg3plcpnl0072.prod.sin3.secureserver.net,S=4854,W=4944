@@ -1,0 +1,90 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id YK8iNwYc2mOlMg8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 01 Feb 2023 01:00:06 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 01 Feb 2023 01:00:06 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pN82I-004BT3-Rv
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 01 Feb 2023 01:00:06 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pN829-004B8k-1G@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1675238406-eximdsn-1100602172
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pN82I-004BT3-Rv@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 01 Feb 2023 01:00:06 -0700
+
+--1675238406-eximdsn-1100602172
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 N82Ipcy0c4JeM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=TeFQ9zch c=1 sm=1 tr=0 ts=63da1c06 p=0PVRf7VOCggA:10 p=T5KJr2_H4KcA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=m04uMKEZRckA:10 a=x7bEGLp0ZPQA:10 a=sYOnbEmkD_oA:10 a=pGLkceISAAAA:8 a=TCHQxzbURfXP8UkcNnwA:9 a=FiPkersv9vEA:10 a=Uz9EnhuHEG25YKoRyM-d:22 a=5WXwxYStDJFuYRuZHuqg:22 a=1Nreyd66VEB6jBOX9_vZ:22 ::
+    100.00
+
+--1675238406-eximdsn-1100602172
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 N82Ipcy0c4JeM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=TeFQ9zch c=1 sm=1 tr=0 ts=63da1c06 p=0PVRf7VOCggA:10 p=T5KJr2_H4KcA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=m04uMKEZRckA:10 a=x7bEGLp0ZPQA:10 a=sYOnbEmkD_oA:10 a=pGLkceISAAAA:8 a=TCHQxzbURfXP8UkcNnwA:9 a=FiPkersv9vEA:10 a=Uz9EnhuHEG25YKoRyM-d:22 a=5WXwxYStDJFuYRuZHuqg:22 a=1Nreyd66VEB6jBOX9_vZ:22 :: 100.00
+
+--1675238406-eximdsn-1100602172
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pN829-004B8k-1G
+	for info@yoursite.com;
+	Wed, 01 Feb 2023 01:00:06 -0700
+To: info@yoursite.com
+Subject: New contact from Michael Daniels
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 107.172.14.231
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 107.172.14.231
+From: Michael Daniels <micheal.daniels058@gmail.com>
+Message-Id: <E1pN829-004B8k-1G@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 01 Feb 2023 00:59:57 -0700
+
+Name: Michael Daniels
+Email: micheal.daniels058@gmail.com
+
+Subject: New contact from Michael Daniels
+
+Message:
+Hello,
+
+I am a freelance web designer, I can assist you in including useful functionality, a contemporary look and feel, and other components that a business website should have. I'm writing to you because I'd like to offer you some design assistance for your website.
+
+Designing your website on a platform offers you access to an enormous variety of features and makes it quite simple for you to make adjustments to your website. I have experience working with most of the popular programming languages, website platforms, and shopping carts, and I have a particular expertise in WordPress, a platform that is simply remarkable.
+
+Do you have any free time in the upcoming days for a brief phone consultation? I'll be able to present you with some ideas, solicit your opinion, and present you with a proposal.
+
+I appreciate your time.
+
+Best regards,
+Michael Daniels
+
+
+--1675238406-eximdsn-1100602172--

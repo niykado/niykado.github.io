@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id mMlmLRXavmDqUSgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 07 Jun 2021 19:46:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 07 Jun 2021 19:46:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lqRlN-00BHnW-MW
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 07 Jun 2021 19:46:45 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lqRlN-00BHn9-Hz@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1623120405-eximdsn-63767204
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lqRlN-00BHnW-MW@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 07 Jun 2021 19:46:45 -0700
+
+--1623120405-eximdsn-63767204
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qRlNlrHtMHCHn :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=I52g+Psg c=1 sm=1 tr=0 ts=60beda15 p=Mf4qFIV1E2IA:10 p=q4WxTBXLAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=1XWaLZrsAAAA:8 a=BOBmYVA7TuxHc_8FyfgA:9 a=xUNbOrqvlQEA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=S3qaeZTlevurEZ6noQLa:22 a=Ciy7DTm4kYx0gH6_Eix3:22 a=p-dnK0njbqwfn1k4-x12:22 a=P3fMaJMKd_wdyUQKDHwh:22 ::
+    100.00
+
+--1623120405-eximdsn-63767204
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qRlNlrHtMHCHn :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=I52g+Psg c=1 sm=1 tr=0 ts=60beda15 p=Mf4qFIV1E2IA:10 p=q4WxTBXLAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=1XWaLZrsAAAA:8 a=BOBmYVA7TuxHc_8FyfgA:9 a=xUNbOrqvlQEA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=S3qaeZTlevurEZ6noQLa:22 a=Ciy7DTm4kYx0gH6_Eix3:22 a=p-dnK0njbqwfn1k4-x12:22 a=P3fMaJMKd_wdyUQKDHwh:22 :: 100.00
+
+--1623120405-eximdsn-63767204
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lqRlN-00BHn9-Hz
+	for info@yoursite.com; Mon, 07 Jun 2021 19:46:45 -0700
+To: info@yoursite.com
+Subject: New contact from DannyDal
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 138.199.18.135
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 138.199.18.135
+From: DannyDal <aeroslide@voila.fr>
+Message-Id: <E1lqRlN-00BHn9-Hz@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 07 Jun 2021 19:46:45 -0700
+
+Name: DannyDal
+Email: aeroslide@voila.fr
+
+Subject: New contact from DannyDal
+
+Message:
+All you need is at your fingertips, do not hesitate! Invest $ 557 and get passive income of $ 5000 per day   >>>>>>>>>>>>>>  https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc1PsE1&sa=D&Fr=Xy&usg=AFQjCNGCUIRa4fS6cDrEAZvz_5ew1ySmpQ   <<<<<<<<<<<<<
+
+
+--1623120405-eximdsn-63767204--

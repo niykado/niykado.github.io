@@ -1,0 +1,349 @@
+Return-Path: <15958752013397391-26476-1-urbanlocomote.com@subscribe.justdial.com>
+Delivered-To: info@urbanlocomote.com
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id SMgeAw5bIF8oRiMAiYwtQA
+	(envelope-from <15958752013397391-26476-1-urbanlocomote.com@subscribe.justdial.com>)
+	for <info@urbanlocomote.com>; Tue, 28 Jul 2020 10:06:22 -0700
+Return-path: <15958752013397391-26476-1-urbanlocomote.com@subscribe.justdial.com>
+Envelope-to: info@urbanlocomote.com
+Delivery-date: Tue, 28 Jul 2020 10:06:22 -0700
+Received: from ncmail151.justdial.com ([175.158.68.151]:33950)
+	by sg3plcpnl0072.prod.sin3.secureserver.net with esmtps (TLSv1.2:ECDHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.92)
+	(envelope-from <15958752013397391-26476-1-urbanlocomote.com@subscribe.justdial.com>)
+	id 1k0T3O-009qZc-Lk
+	for info@urbanlocomote.com; Tue, 28 Jul 2020 10:06:22 -0700
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=fnc; d=justdial.com;
+ h=MIME-Version:Content-Type:From:To:Subject:Message-Id:Content-Transfer-Encoding:Date;
+ bh=472hDo8IH7kicslNNNYK7kq6XrY=;
+ b=mXFW/RlMcppQUm6pHi9KCvm1E4OPsqnrfC/xWSeRkT+k6GaYbm3jH7rxSSr+y7dIM2XodGXxDuRZ
+   zjrVnPZfPA/sNAtfdtPGhFM7EZwyM318xO3XOG7rz44z2wpobmoX6wRCLW68uyAywxnCasL97sSC
+   +frKH37HfvJcV8Fy4DA=
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=f1; d=falconide.net;
+ h=MIME-Version:Content-Type:From:To:Subject:Message-Id:Content-Transfer-Encoding:Date;
+ bh=472hDo8IH7kicslNNNYK7kq6XrY=;
+ b=PMYcSmwpA2PO2etVllFAver9nx6SzUA/Rc8Y72+fI0MBP4WlszSffEcanxRgJqBqfooJ6UwVcZPA
+   5ZFIavZSq+QxvyCF+QImBCHmYY4O313DE9wCYP1/sE1bKgLGTEgNoewv3nmCEA3F7ZiLkACbilFS
+   4s4p8IuAdD4uFtuhMuA=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=fnc; d=justdial.com;
+ b=sDZWupKu7Cw5LHeDYEVbc4zTxNa9UXPn1FRYb9dMGYz/wqbepxN64IOH7Py07g0y3JIdlUu/JrT2
+   4yLrXj98ZEQRMCskMUQQTPr2ZaT86WAiByWEd68YkkMgbgYsD4pic4ff9C2yzogRjYaQHyjc1WhG
+   TazAu3Tt53dMPhef37E=;
+MIME-Version: 1.0
+Content-Disposition: inline
+Content-Type: text/html; charset="UTF-8"
+X-Mailer: MIME::Lite 3.027 (F2.77; T1.28; A2.04; B3.08; Q3.08)
+From: Just Dial <notifications@justdial.com>
+To: info@urbanlocomote.com
+Subject: Weekly Feedback Lead statistics- Urban Locomote, Ernakulam
+Message-Id: <20200728170532.EC775A0979@smtpbp4.falconide.com>
+Content-Transfer-Encoding: quoted-printable
+X-InjTime: 1595955932
+X-FNCID: 26476-15958752013397391-0
+X-Traffic-Type: 26476-1
+Date: Tue, 28 Jul 2020 22:36:14 +0530
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "sg3plcpnl0072.prod.sin3.secureserver.net",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ 
+ Content preview:  Dear Mr Sujith N Kammath(Director), Greetings from Justdial!
+    This mail will help you understand the Feedback feature & how you can reach
+    & reply to your customers (JD users). Below are the statistics [...] 
+ 
+ Content analysis details:   (0.0 points, 5.0 required)
+ 
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: justdial.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 HTTPS_HTTP_MISMATCH    BODY: No description available.
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+<!DOCTYPE html>=0A=
+	<html xmlns=3D"http://www.w3.org/1999/xhtml">=0A=
+	<head>=0A=
+	<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8" /=
+>=0A=
+	<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1=
+.0"/>=0A=
+	<style>=0A=
+	*{margin:0;padding:0;}=0A=
+	</style>=0A=
+	</head>=0A=
+	<body>=0A=
+	<div align=3D"center">=0A=
+=0A=
+	<table width=3D"100%"  border=3D"0" cellspacing=3D"0" cellpadding=3D"0" st=
+yle=3D"max-width:540px;border: 2px solid #f3f3f3; text-align:left; backgrou=
+nd:#ffffff;" >=0A=
+		<tr>=0A=
+			<td style=3D"vertical-align:top;text-align:left;padding:10px 0 10px 20px=
+;border-bottom:1px solid #f2efe6">=0A=
+				<a href=3D"http://fapp1.justdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgcBG=
+AIGCQUDUlYFABk=3DUVYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpdTU=
+xIDxdKBFBCQAZKWENKQVcLB1keBldVSiVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEIHF=
+19GERJRWQRUFgYJVR9fUAheTUpZVlNKDkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ2N=
+CR0FJR0NRVURVbFlGQUJrPVdsQUVFRkZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4b0=
+VCVmNBQ2xkU0NBQUNDRjREQ3dFTkJRPT0mZmw9VUVGTUZSRUxIUjlBRTBVWVUwQkFGZ0pjVVFrV=
+1d3b0w=3D">=0A=
+				<img src=3D"https://img.jdmagicbox.com/email_banners/jd_logo_bw.png" bo=
+rder=3D"0">=0A=
+				</a>=0A=
+				</td>=0A=
+		</tr>=0A=
+		<tr>=0A=
+			<td style=3D"padding:20px 10px 10px;font-family:Roboto-Light,Arial, Helv=
+etica, sans-serif;font-size:16px;color:#6a6969;line-height:20px;font-weight=
+:bold;"> Dear Mr Sujith N Kammath(Director),=0A=
+			</td>=0A=
+		</tr>=0A=
+		<tr>=0A=
+			<td style=3D"padding:10px 10px;font-family:Roboto-Light,Arial, Helvetica=
+, sans-serif;font-size:16px;color:#6a6969;">Greetings from Justdial!</td>=
+=0A=
+		</tr>=0A=
+		<tr>=0A=
+		  	<td style=3D"padding:10px;font-family:Roboto-Light,Arial, Helvetica, s=
+ans-serif;font-size:16px;color:#6a6969;">This mail will help you understand=
+ the Feedback feature & how you can reach & reply to your customers (JD use=
+rs).</td>=0A=
+		</tr>=0A=
+		<tr>=0A=
+			<td style=3D"padding:10px;font-family:Roboto-Light,Arial, Helvetica, san=
+s-serif;font-size:16px;color:#6a6969;font-weight:600; text-decoration:under=
+line;">Below are the statistics for your listing Urban Locomote Parent ID P=
+X484.X484.190612163634.Z3S9 </td>=0A=
+		</tr>=0A=
+		<tr>=0A=
+		  	<td style=3D"padding:10px;font-family:Roboto-Light,Arial, Helvetica, s=
+ans-serif;font-size:16px;color:#6a6969;">=0A=
+			 	<table width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ style=3D"font-family:Roboto-Light,Arial, Helvetica, sans-serif;font-size:1=
+5px;color:#6a6969;border:1px solid #f3f3f3;">=0A=
+	  			<tr>=0A=
+					<td colspan=3D"2" style=3D"font-family:Roboto-Light,Arial, Helvetica, =
+sans-serif;font-size:15px;color:#FF6C00;padding:15px 10px;font-weight:bold;=
+border-bottom:1px solid #F3F3F3;text-align:center;background:#f9f9f9;">Peri=
+od (20th Jul - 26th Jul)</td>=0A=
+				</tr>=0A=
+	  			<tr>=0A=
+					<td style=3D"padding:10px;font-weight:bold;border-bottom:1px solid #F3=
+F3F3;border-right:1px solid #f3f3f3;">MEDIUM</td>=0A=
+					<td style=3D"padding:10px;font-weight:bold;border-bottom:1px solid #F3=
+F3F3;border-right:1px solid #f3f3f3;text-align:center;"> ENQUIRIES</td>=0A=
+					<!--<td style=3D"padding:10px;font-weight:bold;border-bottom:1px solid=
+ #F3F3F3;text-align:center;">VIEWS*</td>-->=0A=
+	  			</tr>=0A=
+	  			<tr>=0A=
+					<td style=3D"padding:10px;border-bottom:1px solid #F3F3F3;border-right=
+:1px solid #f3f3f3;">With only Mobile</td>=0A=
+					<td style=3D"text-align:center;padding:10px;border-bottom:1px solid #F=
+3F3F3;border-right:1px solid #f3f3f3;">6</td>=0A=
+					<!--<td style=3D"padding:10px;border-bottom:1px solid #F3F3F3;text-ali=
+gn:center;">24</td>-->=0A=
+	  			</tr>=0A=
+	  			<tr>=0A=
+					<td style=3D"padding:10px;border-bottom:1px solid #F3F3F3;border-right=
+:1px solid #f3f3f3;">With only Email</td>=0A=
+					<td style=3D"padding:10px;border-bottom:1px solid #F3F3F3;border-right=
+:1px solid #f3f3f3;text-align:center;">0</td>=0A=
+					<!--<td style=3D"padding:10px;border-bottom:1px solid #F3F3F3;text-ali=
+gn:center;">0</td>-->=0A=
+	  			</tr>=0A=
+	  			<tr>=0A=
+					<td style=3D"padding:10px;border-bottom:1px solid #F3F3F3;border-right=
+:1px solid #f3f3f3;">With Mobile or Email</td>=0A=
+					<td style=3D"padding:10px;border-bottom:1px solid #F3F3F3;border-right=
+:1px solid #f3f3f3;text-align:center;">0</td>=0A=
+					<!--<td style=3D"padding:10px;border-bottom:1px solid #F3F3F3;text-ali=
+gn:center;">7</td>-->=0A=
+	  			</tr>=0A=
+	  			<!--<tr>=0A=
+					<td style=3D"padding:10px;border-right:1px solid #f3f3f3;border-bottom=
+:1px solid #f3f3f3;">With only IP address</td>=0A=
+					<td style=3D"padding:10px;border-right:1px solid #f3f3f3;border-bottom=
+:1px solid #f3f3f3;text-align:center;"></td>=0A=
+					<!--<td style=3D"padding:10px;border-bottom:1px solid #f3f3f3;text-ali=
+gn:center;">250</td>-->=0A=
+	  			<!--</tr> -->=0A=
+				<!--<tr>=0A=
+					<td height=3D"37" colspan=3D"3" style=3D"padding:10px;">* (These are c=
+ases user not shared the number but viewed your company)</td>=0A=
+				</tr>-->=0A=
+=09=20=20=0A=
+				</table>=20=0A=
+			</td>=0A=
+		</tr>=0A=
+		<tr>=0A=
+		  	<td style=3D"padding:10px;font-family:Roboto-Light,Arial, Helvetica, s=
+ans-serif;font-size:16px;color:#6a6969;">Click on the link below to watch t=
+he Inbox Video Tutorial.</td>=0A=
+		</tr>=0A=
+		<!--<tr>=0A=
+			<td style=3D"padding:2px 10px;font-family:Roboto-Light,Arial, Helvetica,=
+ sans-serif;font-size:16px;color:#6a6969;"><b>English =E2=80=93</b><a href=
+=3D"http://fapp1.justdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgcBGAIGCQUDUlYF=
+ABk=3DUVYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpdTUxIDxdKBFBCQ=
+AZKWENKQVcLB1keBldVSiVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEIHF19GERJRWQRU=
+FgYJVR9fUAheTUpZVlNKDkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ2NCR0FJR0NRVU=
+RVbFlGQUJrPVdsQUVFRkZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4b0VCVmNBQ2xkU=
+0NBQUNDRjREQ3dFTkJRPT0mZmw9VUVGTUZSRUxIUjlPQzBkQ1RCdFJCMGwzZXp4ZWF6OE1kVVJB=
+QVE9PQ=3D=3D" style=3D"color:#1274c0;"> https://youtu.be/BKYfSZjMts8</a> </=
+td>=0A=
+		</tr>-->=09=09=0A=
+		<tr>=0A=
+		  	<td style=3D"padding:10px 10px;font-family:Roboto-Light,Arial, Helveti=
+ca, sans-serif;font-size:16px;color:#6a6969;"><a href=3D"http://fapp1.justd=
+ial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgcBGAIGCQUDUlYFABk=3DUVYDCXhFQVsHW1VX=
+W1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpdTUxIDxdKBFBCQAZKWENKQVcLB1keBldVSiV=
+seX58N3gGUVxJTlc=3D&fl=3DUEFMFRELHR9OC0dCTBtRB0lWfCFwfgoIZ2ddWg=3D=3D" styl=
+e=3D"color:#1274c0;">https://youtu.be/cLDHFon_Wnc</a></td>=0A=
+		</tr>=0A=
+		<tr>=0A=
+			<td style=3D"padding:10px;font-family:Roboto-Light,Arial, Helvetica, san=
+s-serif;font-size:16px;color:#6a6969;">Click on <a href=3D"http://fapp1.jus=
+tdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgcBGAIGCQUDUlYFABk=3DUVYDCXhFQVsHW1=
+VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpdTUxIDxdKBFBCQAZKWENKQVcLB1keBldVS=
+iVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEIHF19GERJRWQRUFgYJVR9fUAheTUpZVlNK=
+DkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ2NCR0FJR0NRVURVbFlGQUJrPVdsQUVFRk=
+ZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4b0VCVmNBQ2xkU0NBQUNDRjREQ3dFTkJRP=
+T0mZmw9VUVGTUZSRUxIUjlBRTBVWVUwQkFGZ0pjVVFrV1d3b0xGMlphWEJFWWRGZEtVQlVzREZO=
+ZFNCb2dWMEpZWEY4Ug=3D=3D" style=3D"color:#1274C0;text-decoration:none;">Vie=
+w More</a> to know more about JD services & their usage.</td>=0A=
+		</tr>=0A=
+		<tr>=0A=
+		  	<td style=3D"padding:10px;font-family:Roboto-Light,Arial, Helvetica, s=
+ans-serif;font-size:16px;color:#6a6969;">Please feel free to <a href=3D"htt=
+p://fapp1.justdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgcBGAIGCQUDUlYFABk=3DU=
+VYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpdTUxIDxdKBFBCQAZKWENK=
+QVcLB1keBldVSiVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEIHF19GERJRWQRUFgYJVR9=
+fUAheTUpZVlNKDkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ2NCR0FJR0NRVURVbFlGQ=
+UJrPVdsQUVFRkZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4b0VCVmNBQ2xkU0NBQUND=
+RjREQ3dFTkJRPT0mZmw9VUVGTUZSRUxIUjlBRTBVWVUwQkFGZ0pjVVFrV1d3b0xGMU5lU2tsV1Z=
+sWk1WRnNSVDBSQiZleHQ9YW1Sc2FYUmxQVEE9" target=3D"_blank" style=3D"color:#12=
+74C0;text-decoration:none;">contact us</a> for any further assistance requi=
+red. We are committed to give you the best customer service experience.</td=
+>=0A=
+		</tr>=0A=
+=0A=
+		<tr>=0A=
+		  	<td style=3D"padding:20px 10px;font-family:Roboto-Light,Arial, Helveti=
+ca, sans-serif;font-size:16px;color:#6a6969;line-height:23px;">Regards,<br/=
+>Team JD</td>=0A=
+		</tr>=0A=
+		<tr>=0A=
+			<td>=0A=
+				<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0">=0A=
+				<tr>=0A=
+					<td width=3D"100%" style=3D"color: #626262;font-size: 12px;padding: 10=
+px 0 10px;font-weight: none;-webkit-text-size-adjust: none;font-family: Rob=
+oto-Light, Helvetica, Arial, sans-serif;text-align:center;border-top:1px so=
+lid #e7e7e7;background-color:#f9f9f9;">=0A=
+						<a href=3D"http://fapp1.justdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgc=
+BGAIGCQUDUlYFABk=3DUVYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpd=
+TUxIDxdKBFBCQAZKWENKQVcLB1keBldVSiVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEI=
+HF19GERJRWQRUFgYJVR9fUAheTUpZVlNKDkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ=
+2NCR0FJR0NRVURVbFlGQUJrPVdsQUVFRkZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4=
+b0VCVmNBQ2xkU0NBQUNDRjREQ3dFTkJRPT0mZmw9VUVGTUZWZ2VIVWRBRXh4Y1RFWkhCZzlVWEV=
+0YlZ3aEpTMWhjU1V0YVYxUlJXMTA9" target=3D"_blank" style=3D"display:inline-bl=
+ock;padding: 0 5px;color:#626262;text-decoration:none;">Shop Now</a>=0A=
+						<span style=3D"display:inline-block;padding: 0 5px;color:#626262;text=
+-decoration:none;">|</span>=09=09=09=09=09=0A=
+						<a href=3D"http://fapp1.justdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgc=
+BGAIGCQUDUlYFABk=3DUVYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpd=
+TUxIDxdKBFBCQAZKWENKQVcLB1keBldVSiVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEI=
+HF19GERJRWQRUFgYJVR9fUAheTUpZVlNKDkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ=
+2NCR0FJR0NRVURVbFlGQUJrPVdsQUVFRkZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4=
+b0VCVmNBQ2xkU0NBQUNDRjREQ3dFTkJRPT0mZmw9VUVGTUZWZ2VIVnBFQUY0WVVGc2NEZzlCVlF=
+KY1ZBPT0=3D" target=3D"_blank" style=3D"display:inline-block;padding: 0 5px=
+;color:#626262;text-decoration:none;">Download JD APP</a>=0A=
+						<span style=3D"display:inline-block;padding: 0 5px;color:#626262;text=
+-decoration:none;">|</span>=0A=
+=09=09=09=09=0A=
+						<a href=3D"tel:8888888888" target=3D"_blank" style=3D"display:inline-=
+block;padding: 0 5px;color:#626262;text-decoration:none;">88888 88888</a>=
+=0A=
+					</td>=0A=
+				</tr>=0A=
+				<tr>=0A=
+					<td width=3D"100%" style=3D"color: #626262;font-size: 12px;padding: 10=
+px 0 7px 5px;font-weight: none;-webkit-text-size-adjust: none;font-family: =
+Roboto-Light, Helvetica, Arial, sans-serif;text-align:center;border-top:1px=
+ solid #e7e7e7;background-color:#f9f9f9;">=0A=
+						<a href=3D"http://fapp1.justdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgc=
+BGAIGCQUDUlYFABk=3DUVYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpd=
+TUxIDxdKBFBCQAZKWENKQVcLB1keBldVSiVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEI=
+HF19GERJRWQRUFgYJVR9fUAheTUpZVlNKDkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ=
+2NCR0FJR0NRVURVbFlGQUJrPVdsQUVFRkZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4=
+b0VCVmNBQ2xkU0NBQUNDRjREQ3dFTkJRPT0mZmw9VUVGTUZWZ2VIVWRBRXh4Y1RFWkhCZzlVWEV=
+0YlZ3aEpYa1ZkV2hKY1ZsWkxHbDRFQVZSUVgxZ1BiVnBXVWgwU0RrVT0mZXh0PWRIbHdaVDB5TU=
+RFbWNHRm5aVDB4">=0A=
+						<img src=3D"https://images.jdmagicbox.com/email_banners/Follow_facebo=
+ok.png" border=3D"0" style=3D"padding:0 5px 0 5px;margin:0 5px 0 5px;displa=
+y:inline-block"></a>=0A=
+						<span style=3D"font-size:20px;color:#cbcbcb;">|</span>=09=09=0A=
+						<a href=3D"http://fapp1.justdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgc=
+BGAIGCQUDUlYFABk=3DUVYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpd=
+TUxIDxdKBFBCQAZKWENKQVcLB1keBldVSiVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEI=
+HF19GERJRWQRUFgYJVR9fUAheTUpZVlNKDkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ=
+2NCR0FJR0NRVURVbFlGQUJrPVdsQUVFRkZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4=
+b0VCVmNBQ2xkU0NBQUNDRjREQ3dFTkJRPT0mZmw9VUVGTUZSRUxIUjlIQ0VkRkYxSmNEUUZaVlV=
+0YlZ3aEpFMXBHU2hKUlVGbFU=3D">=0A=
+						<img src=3D"https://images.jdmagicbox.com/email_banners/Follow_google=
+.png" border=3D"0" style=3D"padding:0 5px 0 5px;margin:0 5px 0 5px;display:=
+inline-block"></a>=0A=
+					</td>=0A=
+				</tr>=0A=
+				<tr>=0A=
+					<td colspan=3D"2" style=3D"padding:10px 0 10px;text-align:center;backg=
+round-color:#f9f9f9;" align=3D"center">=0A=
+						<a href=3D"http://fapp1.justdial.com/CTIMEQM?id=3D26476=3De0kIVVAHBgc=
+BGAIGCQUDUlYFABk=3DUVYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1ZfDwMKCBpd=
+TUxIDxdKBFBCQAZKWENKQVcLB1keBldVSiVseX58N3gGUVxJTlc=3D&fl=3DUEFMFVgeHVZWFEI=
+HF19GERJRWQRUFgYJVR9fUAheTUpZVlNKDkUcQFs=3D&ext=3DaWQ9MjY0NzY9ZTBrSVZWQUhCZ=
+2NCR0FJR0NRVURVbFlGQUJrPVdsQUVFRkZiSFV3V1ZGMVFRVlJCSlFoRVFVUlREVk5hRjFaY0R4=
+b0VCVmNBQ2xkU0NBQUNDRjREQ3dFTkJRPT0mZmw9VUVGTUZWZ2VIVWRBRXh4Y1RFWkhCZzlVWEV=
+0YlZ3Zz0=3D"><img src=3D"https://img.jdmagicbox.com/email_banners/justdial_=
+logo1.png" border=3D"0" ></a>=0A=
+					</td>=0A=
+				</tr>=09=0A=
+				<tr>=0A=
+					<td colspan=3D"2" style=3D"color: #626262;font-size: 12px;padding: 5px=
+ 6px 5px 6px;font-weight: none;-webkit-text-size-adjust: none;font-family: =
+Roboto-Light, Helvetica, Arial, sans-serif;text-align:center;background-col=
+or:#f9f9f9;">=0A=
+										India's No. 1 local search engine=0A=
+					</td>=0A=
+				</tr>=0A=
+				</table>=0A=
+			</td>=0A=
+		</tr>=0A=
+	</table>=0A=
+	</div>=0A=
+<p>&nbsp;<br></p>=0A=
+<img id=3D'SBBBB' src=3D'http://fapp1.justdial.com/CTIMEQM?id=3D26476=3Dd0k=
+IVVAHBgcBGAIGCQUDUlYFABk=3DUVYDCXhFQVsHW1VXW1pVChZUHFNYCU4HDAwGWlEAAlUJC1Zf=
+DwMKCBpdTUxIDxdKBFBCQAZKWENKQVcLB1keBldVSiVseX58N3gGUVxJTlc=3D' /></body>=
+=0A=
+</html>=0A=
+

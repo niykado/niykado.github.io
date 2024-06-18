@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id ILcAEPt8Q2IudQgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 29 Mar 2022 14:41:15 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 29 Mar 2022 14:41:15 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nZJaV-002L3e-6U
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 29 Mar 2022 14:41:15 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nZJaU-002L2j-0D@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1648590075-eximdsn-1092819499
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nZJaV-002L3e-6U@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 29 Mar 2022 14:41:15 -0700
+
+--1648590075-eximdsn-1092819499
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ZJaUntj01QJcP :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bKnTnNyZ c=1 sm=1 tr=0 ts=62437cfb p=MFDnNoNNAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=mCdVAm6NhtsA:10 a=x7bEGLp0ZPQA:10 a=_yr6KE19bJgA:10 a=pGLkceISAAAA:8 a=PtTghfYC6H-GbfirllwA:9 a=D8H4bWiJGtFWUoFAfKj/bpVjoms=:19 a=EvDkYsitOqUA:10 a=7H9QVECTgQsA:10 a=NqJXN4ZQ42MA:10 a=VtJCj-Rk4zMA:10 a=FLmnPp8gXwEA:10 a=pOsToh-RvLsA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=NV2AicnTzMLlhGZKS3pC:22 ::
+    100.00
+
+--1648590075-eximdsn-1092819499
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ZJaUntj01QJcP :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bKnTnNyZ c=1 sm=1 tr=0 ts=62437cfb p=MFDnNoNNAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=mCdVAm6NhtsA:10 a=x7bEGLp0ZPQA:10 a=_yr6KE19bJgA:10 a=pGLkceISAAAA:8 a=PtTghfYC6H-GbfirllwA:9 a=D8H4bWiJGtFWUoFAfKj/bpVjoms=:19 a=EvDkYsitOqUA:10 a=7H9QVECTgQsA:10 a=NqJXN4ZQ42MA:10 a=VtJCj-Rk4zMA:10 a=FLmnPp8gXwEA:10 a=pOsToh-RvLsA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=NV2AicnTzMLlhGZKS3pC:22 :: 100.00
+
+--1648590075-eximdsn-1092819499
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nZJaU-002L2j-0D
+	for info@yoursite.com; Tue, 29 Mar 2022 14:41:14 -0700
+To: info@yoursite.com
+Subject: New contact from Dale Rohl
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.33.40
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.33.40
+From: Dale Rohl <RoxaneLinzie@gmail.com>
+Message-Id: <E1nZJaU-002L2j-0D@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 29 Mar 2022 14:41:14 -0700
+
+Name: Dale Rohl
+Email: RoxaneLinzie@gmail.com
+
+Subject: New contact from Dale Rohl
+
+Message:
+Free submission of your new website to over 1000 business directories here https://bit.ly/submit-your-site-here
+
+
+--1648590075-eximdsn-1092819499--

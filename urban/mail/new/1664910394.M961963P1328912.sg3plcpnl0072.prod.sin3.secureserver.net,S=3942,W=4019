@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id cHeUODqEPGMQRxQAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 04 Oct 2022 12:06:34 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 04 Oct 2022 12:06:34 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ofnFS-005bd0-T0
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 04 Oct 2022 12:06:34 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ofnFS-005bcQ-Nf@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1664910394-eximdsn-776115085
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ofnFS-005bd0-T0@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 04 Oct 2022 12:06:34 -0700
+
+--1664910394-eximdsn-776115085
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 fnFSo2QlKUCVX :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QsWbYX+d c=1 sm=1 tr=0 ts=633c843a p=dxndD9PzAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=tIJXMp8EI_IA:10 a=C_IRinGWAAAA:8 a=DnuLlaNPsT6Qtf8GYAwA:9 a=3qaZ59QCA8MA:10 a=MI_5IcnNZekA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=5jYgk2qYSECVdg02jQ8B:22 ::
+    100.00
+
+--1664910394-eximdsn-776115085
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 fnFSo2QlKUCVX :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QsWbYX+d c=1 sm=1 tr=0 ts=633c843a p=dxndD9PzAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=tIJXMp8EI_IA:10 a=C_IRinGWAAAA:8 a=DnuLlaNPsT6Qtf8GYAwA:9 a=3qaZ59QCA8MA:10 a=MI_5IcnNZekA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=5jYgk2qYSECVdg02jQ8B:22 :: 100.00
+
+--1664910394-eximdsn-776115085
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ofnFS-005bcQ-Nf
+	for info@yoursite.com; Tue, 04 Oct 2022 12:06:34 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.82
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.82
+From: CrytoCig <wpine@comcast.net>
+Message-Id: <E1ofnFS-005bcQ-Nf@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 04 Oct 2022 12:06:34 -0700
+
+Name: CrytoCig
+Email: wpine@comcast.net
+
+Subject: New contact from CrytoCig
+
+Message:
+Even a child knows how to make $100 today with the help of this robot. https://go.sakelonel.com/0j35
+
+
+--1664910394-eximdsn-776115085--

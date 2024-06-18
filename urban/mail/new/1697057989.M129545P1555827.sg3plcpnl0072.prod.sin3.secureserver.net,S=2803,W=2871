@@ -1,0 +1,68 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id zkI2B8UMJ2VzvRcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 11 Oct 2023 13:59:49 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 11 Oct 2023 13:59:49 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qqgJ3-006Wjm-1Z
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 11 Oct 2023 13:59:49 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qqgIv-006WiM-7g@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qqgJ3-006Wjm-1Z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 11 Oct 2023 13:59:49 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qqgIv-006WiM-7g
+	for info@yoursite.com;
+	Wed, 11 Oct 2023 13:59:41 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Shorter
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.19.223.106
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.19.223.106
+From: Mike Shorter <mikedafgaine@gmail.com>
+Message-Id: <E1qqgIv-006WiM-7g@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 11 Oct 2023 13:59:41 -0700
+
+Name: Mike Shorter
+Email: mikedafgaine@gmail.com
+
+Subject: New contact from Mike Shorter
+
+Message:
+Hi there, 
+ 
+My name is Mike from Monkey Digital, 
+ 
+Allow me to present to you a lifetime revenue opportunity of 35% 
+That's right, you can earn 35% of every order made by your affiliate for life. 
+ 
+Simply register with us, generate your affiliate links, and incorporate them on your website, and you are done. It takes only 5 minutes to set up everything, and the payouts are sent each month. 
+ 
+Click here to enroll with us today: 
+https://www.monkeydigital.org/affiliate-dashboard/ 
+ 
+Think about it, 
+Every website owner requires the use of search engine optimization (SEO) for their website. This endeavor holds significant potential for both parties involved. 
+ 
+Thanks and regards 
+Mike Shorter
+ 
+Monkey Digital
+

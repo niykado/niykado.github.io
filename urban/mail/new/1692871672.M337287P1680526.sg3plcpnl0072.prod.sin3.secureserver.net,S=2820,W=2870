@@ -1,0 +1,50 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id YIMxE/gr52SOpBkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 24 Aug 2023 03:07:52 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 24 Aug 2023 03:07:52 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qZ7Fo-0076HP-8W
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Thu, 24 Aug 2023 03:07:52 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qZ7Fg-0076F7-02@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qZ7Fo-0076HP-8W@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 24 Aug 2023 03:07:52 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qZ7Fg-0076F7-02
+	for info@yoursite.com;
+	Thu, 24 Aug 2023 03:07:44 -0700
+To: info@yoursite.com
+Subject: New contact from ?? От 25 000 рублей с КОМПАНИЕЙ 1 и КОМПАНИЕЙ 2. Подробности по ссылке: https://vk.cc/cqlX5E#12345678910 7661988
+X-PHP-Script: www.urbanlocomote.com/assets/mail.php for 98.159.226.96
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 98.159.226.96
+From: ?? От 25 000 рублей с КОМПАНИЕЙ 1 и КОМПАНИЕЙ 2. Подробности по ссылке: https://vk.cc/cqlX5E#12345678910 7661988 <thar95585@gmail.com>
+Message-Id: <E1qZ7Fg-0076F7-02@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 24 Aug 2023 03:07:44 -0700
+
+Name: ?? От 25 000 рублей с КОМПАНИЕЙ 1 и КОМПАНИЕЙ 2. Подробности по ссылке: https://vk.cc/cqlX5E#12345678910 7661988
+Email: thar95585@gmail.com
+
+Subject: New contact from ?? От 25 000 рублей с КОМПАНИЕЙ 1 и КОМПАНИЕЙ 2. Подробности по ссылке: https://vk.cc/cqlX5E#12345678910 7661988
+
+Message:
+?? От 25 000 рублей с КОМПАНИЕЙ 1 и КОМПАНИЕЙ 2. Подробности по ссылке: https://vk.cc/cqlX5E#12345678910
+

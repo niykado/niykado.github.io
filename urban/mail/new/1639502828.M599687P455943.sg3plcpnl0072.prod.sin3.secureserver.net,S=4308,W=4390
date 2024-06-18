@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id g6O4IezTuGEH9QYAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 14 Dec 2021 10:27:08 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 14 Dec 2021 10:27:08 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mxBa0-001ubp-Fo
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 14 Dec 2021 10:27:08 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mxBZz-001ub1-IG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1639502828-eximdsn-1171513814
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mxBa0-001ubp-Fo@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 14 Dec 2021 10:27:08 -0700
+
+--1639502828-eximdsn-1171513814
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xBZzmLknAJX0k :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61b8d3ec p=kBWmKKQLyGNoDfLCN-wA:9 p=VlPlWGzoY90A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=1nzeTA_VSpsA:10 a=x7bEGLp0ZPQA:10 a=218_yYRofjoA:10 a=CjxXgO3LAAAA:8 a=pGLkceISAAAA:8 a=Hkdi4P9MP4UA:10 a=Yb-vST7Yt5sA:10 a=cB7aX22WOYvEW3g93KRg:22 ::
+    100.00
+
+--1639502828-eximdsn-1171513814
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 xBZzmLknAJX0k :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61b8d3ec p=kBWmKKQLyGNoDfLCN-wA:9 p=VlPlWGzoY90A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=1nzeTA_VSpsA:10 a=x7bEGLp0ZPQA:10 a=218_yYRofjoA:10 a=CjxXgO3LAAAA:8 a=pGLkceISAAAA:8 a=Hkdi4P9MP4UA:10 a=Yb-vST7Yt5sA:10 a=cB7aX22WOYvEW3g93KRg:22 :: 100.00
+
+--1639502828-eximdsn-1171513814
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mxBZz-001ub1-IG
+	for info@yoursite.com; Tue, 14 Dec 2021 10:27:07 -0700
+To: info@yoursite.com
+Subject: New contact from JAMES COOK
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 109.248.148.243
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 109.248.148.243
+From: JAMES COOK <james_cook78@yahoo.com>
+Message-Id: <E1mxBZz-001ub1-IG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 14 Dec 2021 10:27:07 -0700
+
+Name: JAMES COOK
+Email: james_cook78@yahoo.com
+
+Subject: New contact from JAMES COOK
+
+Message:
+Dear sir/ma 
+We are a finance and investment company offering loans at 3% interest rate. We will be happy to make a loan available to your organisation for your project. Our terms and conditions will apply. Our term sheet/loan agreement will be sent to you for review, when we hear from you. Please reply to this email ONLY cookj5939@gmail.com 
+ 
+Regards. 
+James Cook 
+Chairman & CEO Euro Finance & Commercial Ltd
+
+
+--1639502828-eximdsn-1171513814--

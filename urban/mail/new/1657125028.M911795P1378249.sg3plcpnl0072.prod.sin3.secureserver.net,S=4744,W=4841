@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id g1s7NqS4xWLJBxUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 06 Jul 2022 09:30:28 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 06 Jul 2022 09:30:28 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1o97v2-005mXj-Qs
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 06 Jul 2022 09:30:28 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1o97v2-005mXQ-LW@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1657125028-eximdsn-2065200742
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1o97v2-005mXj-Qs@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 06 Jul 2022 09:30:28 -0700
+
+--1657125028-eximdsn-2065200742
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 97v2oXBrrSlr4 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=D7yCltdj c=1 sm=1 tr=0 ts=62c5b8a4 p=Q4CqTrgjm1sA:10 p=dMs_SfvrAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=x7bEGLp0ZPQA:10 a=NqR5wRsTQbYA:10 a=pGLkceISAAAA:8 a=GFCeo6u_b-ZO5HNaN2IA:9 a=t314KyrpljsA:10 a=JJ7DSuFd0dMA:10 a=-FEs8UIgK8oA:10 a=vexicnJHVZC5-rvN4z9Y:22 a=lNFayftEl8-OOgMG8Jm4:22 a=5WXwxYStDJFuYRuZHuqg:22 a=gOblvf90TmWGQ0QWZz--:22 ::
+    100.00
+
+--1657125028-eximdsn-2065200742
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 97v2oXBrrSlr4 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=D7yCltdj c=1 sm=1 tr=0 ts=62c5b8a4 p=Q4CqTrgjm1sA:10 p=dMs_SfvrAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=x7bEGLp0ZPQA:10 a=NqR5wRsTQbYA:10 a=pGLkceISAAAA:8 a=GFCeo6u_b-ZO5HNaN2IA:9 a=t314KyrpljsA:10 a=JJ7DSuFd0dMA:10 a=-FEs8UIgK8oA:10 a=vexicnJHVZC5-rvN4z9Y:22 a=lNFayftEl8-OOgMG8Jm4:22 a=5WXwxYStDJFuYRuZHuqg:22 a=gOblvf90TmWGQ0QWZz--:22 :: 100.00
+
+--1657125028-eximdsn-2065200742
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1o97v2-005mXQ-LW
+	for info@yoursite.com; Wed, 06 Jul 2022 09:30:28 -0700
+To: info@yoursite.com
+Subject: New contact from RjoFup
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 45.87.127.58
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 45.87.127.58
+From: RjoFup <yeqwuiirt4540u@gmail.com>
+Message-Id: <E1o97v2-005mXQ-LW@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 06 Jul 2022 09:30:28 -0700
+
+Name: RjoFup
+Email: yeqwuiirt4540u@gmail.com
+
+Subject: New contact from RjoFup
+
+Message:
+Мы профессиональная команда, которая на рынке работает уже более 5 лет. 
+ 
+У нас лучший товар, который вы когда-либо пробовали! 
+ 
+Купить качественные шишки на Гидре 
+ 
+______________ 
+ 
+Наши контакты : 
+ 
+https://hydrarusoeitpwagsnukxyxkd4copuuvio52k7hd6qbabt4lxcwnbsad.cc/ 
+ 
+^  ^  ^  ^ ^ 
+ 
+_______________ 
+ 
+ВНИМАНИЕ! ВАЖНО! 
+ 
+Переходите только по ССЫЛКЕ что ВЫШЕ, ОСТЕРЕГАЙТЕСЬ МОШЕННИКОВ!!! 
+ 
+https://hydrarusoeitpwagsnukxyxkd4copuuvio52k7hd6qbabt4lxcwnbsad.cc/
+
+
+--1657125028-eximdsn-2065200742--

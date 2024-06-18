@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id uNaqIO8CSWNZFA4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 13 Oct 2022 23:34:23 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 13 Oct 2022 23:34:23 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ojEH1-003sf5-Fe
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 13 Oct 2022 23:34:23 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ojEH1-003sem-9D@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1665729263-eximdsn-1853972898
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ojEH1-003sf5-Fe@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 13 Oct 2022 23:34:23 -0700
+
+--1665729263-eximdsn-1853972898
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 jEH1oyhgKzcmo :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=NssXMeRJ c=1 sm=1 tr=0 ts=634902ef p=pNwspFLBAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=-KDNYw9QB1IA:10 a=x7bEGLp0ZPQA:10 a=pf5Dz1o9O_QA:10 a=pGLkceISAAAA:8 a=B5HWAnVTu3dGc-VJUHIA:9 a=9ghW0ZajaiUA:10 a=K0pXClqADgYA:10 a=XMLjyoeKUZsA:10 a=G-bKGI7bvhQA:10 a=xD5ifyjcvJYA:10 a=A67HCtwimaPCBMKx_tRB:22 a=5WXwxYStDJFuYRuZHuqg:22 a=H8PbqhepPqsmb5_dNKAm:22 ::
+    100.00
+
+--1665729263-eximdsn-1853972898
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 jEH1oyhgKzcmo :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=NssXMeRJ c=1 sm=1 tr=0 ts=634902ef p=pNwspFLBAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=-KDNYw9QB1IA:10 a=x7bEGLp0ZPQA:10 a=pf5Dz1o9O_QA:10 a=pGLkceISAAAA:8 a=B5HWAnVTu3dGc-VJUHIA:9 a=9ghW0ZajaiUA:10 a=K0pXClqADgYA:10 a=XMLjyoeKUZsA:10 a=G-bKGI7bvhQA:10 a=xD5ifyjcvJYA:10 a=A67HCtwimaPCBMKx_tRB:22 a=5WXwxYStDJFuYRuZHuqg:22 a=H8PbqhepPqsmb5_dNKAm:22 :: 100.00
+
+--1665729263-eximdsn-1853972898
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ojEH1-003sem-9D
+	for info@yoursite.com; Thu, 13 Oct 2022 23:34:23 -0700
+To: info@yoursite.com
+Subject: New contact from JefferySpany
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 181.214.218.47
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 181.214.218.47
+From: JefferySpany <michelleloehr.ml@gmail.com>
+Message-Id: <E1ojEH1-003sem-9D@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 13 Oct 2022 23:34:23 -0700
+
+Name: JefferySpany
+Email: michelleloehr.ml@gmail.com
+
+Subject: New contact from JefferySpany
+
+Message:
+With just a few clicks, you can earn €15,000 every day for the rest of your life... >>> https://telegra.ph/Verify-that-you-are-human-10-11?id-80006195 <<<
+
+
+--1665729263-eximdsn-1853972898--

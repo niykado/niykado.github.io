@@ -1,0 +1,62 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id Q3qFEn6KF2XJrzcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 29 Sep 2023 19:39:58 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 29 Sep 2023 19:39:58 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qmPte-00FJOR-7i
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 29 Sep 2023 19:39:58 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qmPtW-00FJMz-T0@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qmPte-00FJOR-7i@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 29 Sep 2023 19:39:58 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qmPtW-00FJMz-T0
+	for info@yoursite.com;
+	Fri, 29 Sep 2023 19:39:50 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Donaldson
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.19.223.113
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.19.223.113
+From: Mike Donaldson <mikedafgaine@gmail.com>
+Message-Id: <E1qmPtW-00FJMz-T0@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 29 Sep 2023 19:39:50 -0700
+
+Name: Mike Donaldson
+Email: mikedafgaine@gmail.com
+
+Subject: New contact from Mike Donaldson
+
+Message:
+If you are looking to rank your local business on Google Maps in a specific area, this service is for you. 
+ 
+Google Map Stacking is a highly effective technique for ranking your GMB within a specific mile radius. 
+ 
+More info: 
+https://www.speed-seo.net/product/google-maps-pointers/ 
+ 
+Thanks and Regards 
+Mike Donaldson
+ 
+ 
+PS: Want a comprehensive local plan that covers everything? 
+https://www.speed-seo.net/product/local-seo-bundle/
+

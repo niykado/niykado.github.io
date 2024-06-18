@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id UbObCVMSfmHpIhcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 30 Oct 2021 20:49:39 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 30 Oct 2021 20:49:39 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mh1ql-006MRn-2m
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 30 Oct 2021 20:49:39 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mh1qj-006MR1-Qb@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1635652179-eximdsn-129939178
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mh1ql-006MRn-2m@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 30 Oct 2021 20:49:39 -0700
+
+--1635652179-eximdsn-129939178
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 h1qjmvx3UrYup :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=If1C5Uma c=1 sm=1 tr=0 ts=617e1253 p=ujmh48evohEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=x7bEGLp0ZPQA:10 a=9C4kOYu8GPkA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=IJIf0yX6AAAA:8 a=fb9_ZzYwmjeGgV2LbYEA:9 a=62Sw3gcJ5e8A:10 a=rrNHhK30zcoA:10 a=AfrhpxDXfmIA:10 a=-H5asL6AVYvhTJpjYA_t:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=aFttwrI_b7qgNGBy_ye8:22 ::
+    99.00
+
+--1635652179-eximdsn-129939178
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 h1qjmvx3UrYup :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=If1C5Uma c=1 sm=1 tr=0 ts=617e1253 p=ujmh48evohEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=x7bEGLp0ZPQA:10 a=9C4kOYu8GPkA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=IJIf0yX6AAAA:8 a=fb9_ZzYwmjeGgV2LbYEA:9 a=62Sw3gcJ5e8A:10 a=rrNHhK30zcoA:10 a=AfrhpxDXfmIA:10 a=-H5asL6AVYvhTJpjYA_t:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=aFttwrI_b7qgNGBy_ye8:22 :: 99.00
+
+--1635652179-eximdsn-129939178
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mh1qj-006MR1-Qb
+	for info@yoursite.com; Sat, 30 Oct 2021 20:49:37 -0700
+To: info@yoursite.com
+Subject: New contact from Karen Allen
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 158.69.241.134
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 158.69.241.134
+From: Karen Allen <AllenandCo@gmail.com>
+Message-Id: <E1mh1qj-006MR1-Qb@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 30 Oct 2021 20:49:37 -0700
+
+Name: Karen Allen
+Email: AllenandCo@gmail.com
+
+Subject: New contact from Karen Allen
+
+Message:
+I was looking at your website and noticed it appears this link is broken: http://urbanlocomote.com/servicebooking.php
+
+I had similar problems on my site until someone mentioned it to me and I also now use software from DeadLinkDetect.com to keep my site error free.
+
+
+--1635652179-eximdsn-129939178--

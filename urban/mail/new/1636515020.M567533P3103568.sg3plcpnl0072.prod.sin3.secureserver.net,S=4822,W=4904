@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id uCJLIMw8i2FQWy8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 09 Nov 2021 20:30:20 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 09 Nov 2021 20:30:20 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mkeJY-00D2xQ-FJ
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 09 Nov 2021 20:30:20 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mkeJX-00D2wA-JL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1636515020-eximdsn-1547482644
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mkeJY-00D2xQ-FJ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 09 Nov 2021 20:30:20 -0700
+
+--1636515020-eximdsn-1547482644
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 keJXmPqjlsy0R :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=VL4YI/DX c=1 sm=1 tr=0 ts=618b3ccc p=HFjNhdDmCNwA:10 p=FePy1X1DAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=vIxV3rELxO4A:10 a=x7bEGLp0ZPQA:10 a=jEIUqUxfp7AA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=1XWaLZrsAAAA:8 a=ZpHFNMx8q-RMgl4zkQQA:9 a=6b8_2vr8W9EA:10 a=BTELrECcorAA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=-rmdCKURFwJoFvnlhzbW:22 a=aW5GtbDQDSd3DGFfD4r6:22 ::
+    100.00
+
+--1636515020-eximdsn-1547482644
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 keJXmPqjlsy0R :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=VL4YI/DX c=1 sm=1 tr=0 ts=618b3ccc p=HFjNhdDmCNwA:10 p=FePy1X1DAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=vIxV3rELxO4A:10 a=x7bEGLp0ZPQA:10 a=jEIUqUxfp7AA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=1XWaLZrsAAAA:8 a=ZpHFNMx8q-RMgl4zkQQA:9 a=6b8_2vr8W9EA:10 a=BTELrECcorAA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=-rmdCKURFwJoFvnlhzbW:22 a=aW5GtbDQDSd3DGFfD4r6:22 :: 100.00
+
+--1636515020-eximdsn-1547482644
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mkeJX-00D2wA-JL
+	for info@yoursite.com; Tue, 09 Nov 2021 20:30:19 -0700
+To: info@yoursite.com
+Subject: New contact from JamesMom
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.63.6
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.63.6
+From: JamesMom <afangelina31@gmail.com>
+Message-Id: <E1mkeJX-00D2wA-JL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 09 Nov 2021 20:30:19 -0700
+
+Name: JamesMom
+Email: afangelina31@gmail.com
+
+Subject: New contact from JamesMom
+
+Message:
+PERSONAL INVITATION ONLY FOR urbanlocomote.com 
+Only by the end of this week you have a chance to get into our team and start making passive income of $ 1300 per day, investing only $ 500 once. 
+Surely someone from your neighbors, colleagues or acquaintances is already in our team and makes passive income on cryptocurrency from $ 1300 to $ 27000 per day and does not say anything to anyone. 
+There are already 4997 people in our team, there are only 3 free places left. Hurry up! Sign up now, invest $ 500 and click the mouse button to get permanent passive income !!! 
+>>>>>>>  https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc7PBEn&sa=D&sntz=1&usg=AFQjCNGe6N_TnJtfngvlhur3zZQDVZ7WFA  <<<<<<<< 
+PERSONAL INVITATION ONLY FOR urbanlocomote.com
+
+
+--1636515020-eximdsn-1547482644--

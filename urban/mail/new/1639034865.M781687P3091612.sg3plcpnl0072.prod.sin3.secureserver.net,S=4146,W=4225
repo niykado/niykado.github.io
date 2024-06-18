@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id WBoBLfGvsWGcLC8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 09 Dec 2021 00:27:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 09 Dec 2021 00:27:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mvDqD-00D5S3-M6
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 09 Dec 2021 00:27:45 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mvDqC-00D5Pl-Hs@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1639034865-eximdsn-296568217
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mvDqD-00D5S3-M6@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 09 Dec 2021 00:27:45 -0700
+
+--1639034865-eximdsn-296568217
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 vDqCmwWPT0acv :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=apd3tQVV c=1 sm=1 tr=0 ts=61b1aff1 p=IyNQe04C_8YA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=9Jde8kg3nugA:10 a=x7bEGLp0ZPQA:10 a=NntEaqYyqpcA:10 a=pGLkceISAAAA:8 a=JhqxUlatnfRq0-2ICXMA:9 a=skWjotiwgeEA:10 a=ojxroOCELTYA:10 a=OdohkeZ5BTwA:10 a=48YNMuyySVPZUNop1rel:22 a=tK67CvqiK4FSAxN5tjGd:22 ::
+    96.00
+
+--1639034865-eximdsn-296568217
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 vDqCmwWPT0acv :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=apd3tQVV c=1 sm=1 tr=0 ts=61b1aff1 p=IyNQe04C_8YA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=9Jde8kg3nugA:10 a=x7bEGLp0ZPQA:10 a=NntEaqYyqpcA:10 a=pGLkceISAAAA:8 a=JhqxUlatnfRq0-2ICXMA:9 a=skWjotiwgeEA:10 a=ojxroOCELTYA:10 a=OdohkeZ5BTwA:10 a=48YNMuyySVPZUNop1rel:22 a=tK67CvqiK4FSAxN5tjGd:22 :: 96.00
+
+--1639034865-eximdsn-296568217
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mvDqC-00D5Pl-Hs
+	for info@yoursite.com; Thu, 09 Dec 2021 00:27:44 -0700
+To: info@yoursite.com
+Subject: New contact from Les Jacobs
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.19.223.107
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.19.223.107
+From: Les Jacobs <lolitawinfree070@gmail.com>
+Message-Id: <E1mvDqC-00D5Pl-Hs@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 09 Dec 2021 00:27:44 -0700
+
+Name: Les Jacobs
+Email: lolitawinfree070@gmail.com
+
+Subject: New contact from Les Jacobs
+
+Message:
+Hello Beloved 
+ 
+Can you devote your time to run a humanitarian charity project in helping the needy and less privileged people around your community ? please reply to Mr Les:   Lesscaddingl@gmail.com
+
+
+--1639034865-eximdsn-296568217--

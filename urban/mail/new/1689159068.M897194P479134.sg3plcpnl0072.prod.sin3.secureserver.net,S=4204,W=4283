@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id qHomNJyFrmSeTwcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 12 Jul 2023 03:51:08 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 12 Jul 2023 03:51:08 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qJXR6-0020ya-QS
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 12 Jul 2023 03:51:08 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qJXQy-0020it-GL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1689159068-eximdsn-1267364002
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qJXR6-0020ya-QS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 12 Jul 2023 03:51:08 -0700
+
+--1689159068-eximdsn-1267364002
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 JXR6q1YijPAFW :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=OuaJiQzt c=1 sm=1 tr=0 ts=64ae859c p=pol9TGJBAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=ws7JD89P4LkA:10 a=CRMEWecNcgMA:10 a=B35DxpvWAAAA:8 a=H578wiUF09XiSOo8h6gA:9 a=5O71FTz0kKcA:10 a=F7xSeJ6OZJQA:10 a=-FEs8UIgK8oA:10 a=LxLcgSDGW4EA:10 a=VxAk22fqlfwA:10 a=i41VFYWzs8WtqH3YLRu4:22 a=Jgsr-X1SBHgvYAgxDIfb:22 a=5WXwxYStDJFuYRuZHuqg:22 a=e5wyVuGfiMnqzX6oGIgr:22 ::
+    100.00
+
+--1689159068-eximdsn-1267364002
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 JXR6q1YijPAFW :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=OuaJiQzt c=1 sm=1 tr=0 ts=64ae859c p=pol9TGJBAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=ws7JD89P4LkA:10 a=CRMEWecNcgMA:10 a=B35DxpvWAAAA:8 a=H578wiUF09XiSOo8h6gA:9 a=5O71FTz0kKcA:10 a=F7xSeJ6OZJQA:10 a=-FEs8UIgK8oA:10 a=LxLcgSDGW4EA:10 a=VxAk22fqlfwA:10 a=i41VFYWzs8WtqH3YLRu4:22 a=Jgsr-X1SBHgvYAgxDIfb:22 a=5WXwxYStDJFuYRuZHuqg:22 a=e5wyVuGfiMnqzX6oGIgr:22 :: 100.00
+
+--1689159068-eximdsn-1267364002
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qJXQy-0020it-GL
+	for info@yoursite.com;
+	Wed, 12 Jul 2023 03:51:08 -0700
+To: info@yoursite.com
+Subject: New contact from JamesBloor
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 193.56.113.32
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 193.56.113.32
+From: JamesBloor <matt@behindthescenes.com.au>
+Message-Id: <E1qJXQy-0020it-GL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 12 Jul 2023 03:51:00 -0700
+
+Name: JamesBloor
+Email: matt@behindthescenes.com.au
+
+Subject: New contact from JamesBloor
+
+Message:
+Earn Big Without Risk: $1000 Daily on Google, No Experience Required http://sideincome.lottovip888.xyz/profitstrategy
+
+
+--1689159068-eximdsn-1267364002--

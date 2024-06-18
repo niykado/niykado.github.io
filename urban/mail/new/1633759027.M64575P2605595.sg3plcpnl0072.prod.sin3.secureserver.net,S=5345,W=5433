@@ -1,0 +1,88 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id IK/JAjMvYWEbwicAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 08 Oct 2021 22:57:07 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 08 Oct 2021 22:57:07 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mZ5M2-00B0tf-W3
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 08 Oct 2021 22:57:07 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mZ5M2-00B0sz-9K@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1633759026-eximdsn-1785932186
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mZ5M2-00B0tf-W3@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 08 Oct 2021 22:57:06 -0700
+
+--1633759026-eximdsn-1785932186
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Z5M2mfNNcLeen :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=H9Yef8Ui c=1 sm=1 tr=0 ts=61612f32 p=3FS6RRWakOgA:10 p=QL94QvkNAAAA:20 p=AVIKSuKbAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=x7bEGLp0ZPQA:10 a=aoW_dxITLqgA:10 a=6huBqYH2AAAA:8 a=1XWaLZrsAAAA:8 a=d-X3soDrLB5X8Yu7ckoA:9 a=WgbDOD-Gha0A:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=e0-2RUnbzGOYpVE5Pm3Y:22 ::
+    100.00
+
+--1633759026-eximdsn-1785932186
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Z5M2mfNNcLeen :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=H9Yef8Ui c=1 sm=1 tr=0 ts=61612f32 p=3FS6RRWakOgA:10 p=QL94QvkNAAAA:20 p=AVIKSuKbAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=x7bEGLp0ZPQA:10 a=aoW_dxITLqgA:10 a=6huBqYH2AAAA:8 a=1XWaLZrsAAAA:8 a=d-X3soDrLB5X8Yu7ckoA:9 a=WgbDOD-Gha0A:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=e0-2RUnbzGOYpVE5Pm3Y:22 :: 100.00
+
+--1633759026-eximdsn-1785932186
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mZ5M2-00B0sz-9K
+	for info@yoursite.com; Fri, 08 Oct 2021 22:57:06 -0700
+To: info@yoursite.com
+Subject: New contact from SammieSeido
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.57.67
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.57.67
+From: SammieSeido <taylorxxlynn@yahoo.ca>
+Message-Id: <E1mZ5M2-00B0sz-9K@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 08 Oct 2021 22:57:06 -0700
+
+Name: SammieSeido
+Email: taylorxxlynn@yahoo.ca
+
+Subject: New contact from SammieSeido
+
+Message:
+Trade Forex & Win Tesla Model 3 - 100 Cars Drawn 
+ 
+Hello dear subscriber. Now you have every chance to win a new Tesla Model 3 car - https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6IjTY&sa=D&485=171&usg=AFQjCNFcCi_AW0KZy1-k7bYu2x-9Vy_TAQ 
+To participate in the promotion, you need to take three simple steps: 
+1. Register on our website - https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6IueF&sa=D&sntz=1&usg=AFQjCNGcfsC5yehR_jdJlkas6Es4v5B7VQ 
+2. In your personal account, make a deposit of at least $ 500 
+3. Launch a trading robot (your personal manager will help you) 
+4. Now every day until October 31, inclusive, you will need to enter your personal account and see how much the robot has traded. 
+The essence of the competition is to whom the trading robot earned the most money. The percentage of successful deals is from 60%, so you will be in the black anyway. The winners will be determined on November 1. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6IueF&sa=D&sntz=1&usg=AFQjCNGcfsC5yehR_jdJlkas6Es4v5B7VQ 
+Hurry up to register and complete all the steps to participate in the competition - the number of participants is growing every day. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc6IueF&sa=D&sntz=1&usg=AFQjCNGcfsC5yehR_jdJlkas6Es4v5B7VQ
+
+
+--1633759026-eximdsn-1785932186--

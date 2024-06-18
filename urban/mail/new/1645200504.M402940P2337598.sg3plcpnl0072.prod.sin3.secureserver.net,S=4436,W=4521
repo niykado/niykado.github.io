@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id n0RNFnjED2I+qyMAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 18 Feb 2022 09:08:24 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 18 Feb 2022 09:08:24 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nL5o0-009o76-A2
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 18 Feb 2022 09:08:24 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nL5o0-009o6n-5D@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1645200504-eximdsn-765556034
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nL5o0-009o76-A2@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 18 Feb 2022 09:08:24 -0700
+
+--1645200504-eximdsn-765556034
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 L5o0ny825BS96 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=N/3sq0xB c=1 sm=1 tr=0 ts=620fc478 p=AL9Yh6eUAAAA:8 p=VMsE8FOBjhAA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oGFeUVbbRNcA:10 a=QXO8eRFXS2cA:10 a=x7bEGLp0ZPQA:10 a=x5c6yCpMI_EA:10 a=pGLkceISAAAA:8 a=6uLOp0flMnvW6HkVwkIA:9 a=3K8PVBp6vn4A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=_663ej-ZH4chzbWpaUZa:22 a=6LfrNnEZtwLyR1AUsaMp:22 ::
+    100.00
+
+--1645200504-eximdsn-765556034
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 L5o0ny825BS96 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=N/3sq0xB c=1 sm=1 tr=0 ts=620fc478 p=AL9Yh6eUAAAA:8 p=VMsE8FOBjhAA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oGFeUVbbRNcA:10 a=QXO8eRFXS2cA:10 a=x7bEGLp0ZPQA:10 a=x5c6yCpMI_EA:10 a=pGLkceISAAAA:8 a=6uLOp0flMnvW6HkVwkIA:9 a=3K8PVBp6vn4A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=_663ej-ZH4chzbWpaUZa:22 a=6LfrNnEZtwLyR1AUsaMp:22 :: 100.00
+
+--1645200504-eximdsn-765556034
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nL5o0-009o6n-5D
+	for info@yoursite.com; Fri, 18 Feb 2022 09:08:24 -0700
+To: info@yoursite.com
+Subject: New contact from Ruggiero Len
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.43.163
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.43.163
+From: Ruggiero Len <walshjames330@gmail.com>
+Message-Id: <E1nL5o0-009o6n-5D@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 18 Feb 2022 09:08:24 -0700
+
+Name: Ruggiero Len
+Email: walshjames330@gmail.com
+
+Subject: New contact from Ruggiero Len
+
+Message:
+We are a private financial  loan firm , specializes in securing financial assistance for start-up and large-sized businesses. 
+ 
+We are interested to provide you with financial funding for your business/project real estate and debt consolidation, The interest rate is very affordable at 5% annually. 
+ 
+Kindly get back to me for more information if you are interested. info@1fundingamericallc.com 
+ 
+Regards. 
+Ruggiero Len 
+1FundingAmericallc
+
+
+--1645200504-eximdsn-765556034--

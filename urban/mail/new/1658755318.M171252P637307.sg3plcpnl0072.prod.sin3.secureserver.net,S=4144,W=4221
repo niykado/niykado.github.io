@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 4PFrCPaY3mJ7uQkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 25 Jul 2022 06:21:58 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 25 Jul 2022 06:21:58 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oFy22-002ijw-2m
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 25 Jul 2022 06:21:58 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oFy20-002ijA-Tx@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1658755318-eximdsn-1079588201
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oFy22-002ijw-2m@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 25 Jul 2022 06:21:58 -0700
+
+--1658755318-eximdsn-1079588201
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Fy21oejuGNdIG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62de98f6 p=-zNE0mdDAAAA:8 p=3APgK1qdWYwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=MrzWpQBqAlUA:10 a=CjxXgO3LAAAA:8 a=eFs5HTX86-GoYU_82YMA:9 a=N0qm_p5svU0A:10 a=o1d7WfIqY9MA:10 a=prF1o4xBg90A:10 a=4J0uK1R64u4A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=aJsIQ5V12yUaqPWanF2L:22 ::
+    100.00
+
+--1658755318-eximdsn-1079588201
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Fy21oejuGNdIG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62de98f6 p=-zNE0mdDAAAA:8 p=3APgK1qdWYwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=MrzWpQBqAlUA:10 a=CjxXgO3LAAAA:8 a=eFs5HTX86-GoYU_82YMA:9 a=N0qm_p5svU0A:10 a=o1d7WfIqY9MA:10 a=prF1o4xBg90A:10 a=4J0uK1R64u4A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=aJsIQ5V12yUaqPWanF2L:22 :: 100.00
+
+--1658755318-eximdsn-1079588201
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oFy20-002ijA-Tx
+	for info@yoursite.com; Mon, 25 Jul 2022 06:21:56 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCigCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.244
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.244
+From: CrytoCigCig <heyhayhei138@yahoo.com>
+Message-Id: <E1oFy20-002ijA-Tx@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 25 Jul 2022 06:21:56 -0700
+
+Name: CrytoCigCig
+Email: heyhayhei138@yahoo.com
+
+Subject: New contact from CrytoCigCig
+
+Message:
+There is no need to look for a job anymore. Work online. https://bam.elletvweb.it/gotodate/go
+
+
+--1658755318-eximdsn-1079588201--

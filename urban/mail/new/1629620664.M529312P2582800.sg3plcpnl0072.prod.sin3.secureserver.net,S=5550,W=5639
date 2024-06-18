@@ -1,0 +1,89 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id SEMkHrgJImEQaScAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 22 Aug 2021 01:24:24 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 22 Aug 2021 01:24:24 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mHimG-00At5G-EL
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 22 Aug 2021 01:24:24 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mHimG-00At4i-A4@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1629620664-eximdsn-1164081223
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mHimG-00At5G-EL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 22 Aug 2021 01:24:24 -0700
+
+--1629620664-eximdsn-1164081223
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 HimGmwEX29Rq6 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=duYet3s4 c=1 sm=1 tr=0 ts=612209b8 p=qVHh0xJJsbYA:10 p=q4WxTBXLAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=MhDmnRu9jo8A:10 a=x7bEGLp0ZPQA:10 a=P8J9IwANGdEA:10 a=69EAbJreAAAA:8 a=1XWaLZrsAAAA:8 a=D01J8vMib2UJJ_EQFYIA:9 a=pRbejxbAbVEA:10 a=NiDhPiERYHcA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=S3qaeZTlevurEZ6noQLa:22 ::
+    100.00
+
+--1629620664-eximdsn-1164081223
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 HimGmwEX29Rq6 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=duYet3s4 c=1 sm=1 tr=0 ts=612209b8 p=qVHh0xJJsbYA:10 p=q4WxTBXLAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=MhDmnRu9jo8A:10 a=x7bEGLp0ZPQA:10 a=P8J9IwANGdEA:10 a=69EAbJreAAAA:8 a=1XWaLZrsAAAA:8 a=D01J8vMib2UJJ_EQFYIA:9 a=pRbejxbAbVEA:10 a=NiDhPiERYHcA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=S3qaeZTlevurEZ6noQLa:22 :: 100.00
+
+--1629620664-eximdsn-1164081223
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mHimG-00At4i-A4
+	for info@yoursite.com; Sun, 22 Aug 2021 01:24:24 -0700
+To: info@yoursite.com
+Subject: New contact from Jeffreyovase
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.63.160
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.63.160
+From: Jeffreyovase <ludmila.ribeiro_@hotmail.com>
+Message-Id: <E1mHimG-00At4i-A4@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 22 Aug 2021 01:24:24 -0700
+
+Name: Jeffreyovase
+Email: ludmila.ribeiro_@hotmail.com
+
+Subject: New contact from Jeffreyovase
+
+Message:
+Hi. 
+My manual is a life hack on 2 pages of PDF. 
+There I will show in screenshots with explanations where and what price to put down and thus save the advertising budget (reduce the advertising budget by 5-10 times). 
+Most ad networks lure advertisers to themselves with a low cost per click of $ 0.001, but they do not specify that such a price is only for Tier 3 countries. 
+And for countries of Tier 1 and Tier 2, the price starts at $ 0.01 per click. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc5auPc&sa=D&Sw=Zs&usg=AFQjCNHbbkCgtKD94ARGz03zJgrbUnHVRg 
+But we are not satisfied with this price, we need a lot of traffic at a price of $ 0.001 per click from Tier 1 countries. 
+I will show you how to bypass the minimum price limit of $ 0.01 and buy traffic at $ 0.001 - $ 0.005 per click from countries of the Tier 1. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc5auPc&sa=D&Dh=Ci&usg=AFQjCNHbbkCgtKD94ARGz03zJgrbUnHVRg 
+And also, as a bonus, I will give one more ad network with high-quality traffic and a minimum price of $ 0.001 per click from Tier 1 Countries. 
+This life hack is suitable for business owners, affiliates and all those who need a lot of high-quality and cheap traffic. 
+Using this technique, I reduced my advertising budget from $ 150,000 to $ 50,000 per week, it turns out three times and I began to earn 5 times more. 
+https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc5auPc&sa=D&Ap=St&usg=AFQjCNHbbkCgtKD94ARGz03zJgrbUnHVRg
+
+
+--1629620664-eximdsn-1164081223--

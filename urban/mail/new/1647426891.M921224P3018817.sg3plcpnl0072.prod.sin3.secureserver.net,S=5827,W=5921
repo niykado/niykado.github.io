@@ -1,0 +1,94 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id OPVnM0u9MWJBEC4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 16 Mar 2022 03:34:51 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 16 Mar 2022 03:34:51 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nUQzT-00CgU3-Po
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 16 Mar 2022 03:34:51 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nUQzS-00CgTg-Kg@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1647426891-eximdsn-770219992
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nUQzT-00CgU3-Po@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 16 Mar 2022 03:34:51 -0700
+
+--1647426891-eximdsn-770219992
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 UQzSnx7oo6l8H :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=XYBMcK15 c=1 sm=1 tr=0 ts=6231bd4b p=aGhZ0H7pAAAA:8 p=vx8hQY2_364BbIUH2QsA:9 p=towQU4RZerwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=MKtGQD3n3ToA:10 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=M32eUWqfArUA:10 a=YN1EKT5mv3MA:10 a=ZZnuYtJkoWoA:10 a=sfOm8-O8AAAA:8 a=KR_bP6wDAAAA:8 a=eM1FkN8WAAAA:8 a=JqEG_dyiAAAA:8 a=jU4qhlNgAAAA:8 a=9Y44R1WwAAAA:8 a=lwXXuSrbAAAA:8 a=4L_b80rrAAAA:8 a=OA8rp_lmFhIA:10 a=wZQ60DhVUzUA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=TvTJqdcANYtsRzA46cdi:22 a=JdVJaQ_M-e-dd0MMpiXK:22 a=IdocQ7Z0vfdPIfdxYF0T:22 a=EBhS7FloqOuXOF82oP60:22 a=UYE5_wgym1_oTj5-FjYP:22 a=o8idl1uXqdP-ZxKOt2qm:22 ::
+    100.00
+
+--1647426891-eximdsn-770219992
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 UQzSnx7oo6l8H :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=XYBMcK15 c=1 sm=1 tr=0 ts=6231bd4b p=aGhZ0H7pAAAA:8 p=vx8hQY2_364BbIUH2QsA:9 p=towQU4RZerwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=MKtGQD3n3ToA:10 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=M32eUWqfArUA:10 a=YN1EKT5mv3MA:10 a=ZZnuYtJkoWoA:10 a=sfOm8-O8AAAA:8 a=KR_bP6wDAAAA:8 a=eM1FkN8WAAAA:8 a=JqEG_dyiAAAA:8 a=jU4qhlNgAAAA:8 a=9Y44R1WwAAAA:8 a=lwXXuSrbAAAA:8 a=4L_b80rrAAAA:8 a=OA8rp_lmFhIA:10 a=wZQ60DhVUzUA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=TvTJqdcANYtsRzA46cdi:22 a=JdVJaQ_M-e-dd0MMpiXK:22 a=IdocQ7Z0vfdPIfdxYF0T:22 a=EBhS7FloqOuXOF82oP60:22 a=UYE5_wgym1_oTj5-FjYP:22 a=o8idl1uXqdP-ZxKOt2qm:22 :: 100.00
+
+--1647426891-eximdsn-770219992
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nUQzS-00CgTg-Kg
+	for info@yoursite.com; Wed, 16 Mar 2022 03:34:50 -0700
+To: info@yoursite.com
+Subject: New contact from Glitter Finance
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 195.78.54.158
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 195.78.54.158
+From: Glitter Finance <business@glitter.finance>
+Message-Id: <E1nUQzS-00CgTg-Kg@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 16 Mar 2022 03:34:50 -0700
+
+Name: Glitter Finance
+Email: business@glitter.finance
+
+Subject: New contact from Glitter Finance
+
+Message:
+Good afternoon, you have received this letter, because we want the whole world to know and not cooperate with Ilya Vladimirovich Dobrovitsky (David Dobrovitsky), now living in Portugal. 
+He is the CEO of Glitter finance and the creator of many fraudulent projects. He stole more than $200,000 from investors, and this is only a small part of those we found, I think the amounts are estimated at tens of millions of dollars. We have all the evidence that we can send to any user upon request for fraud.IlyaDobrovitsky1@protonmail.com 
+Here are his contacts, we would appreciate it if you complained about him on social networks and so on. 
+You can complain about the site https://glitter.finance - here https://supportcenter.godaddy.com/AbuseReport 
+ 
+https://twitter.com/dobrovitsky 
+https://www.linkedin.com/in/ilya-dobrovitsky / 
+telegram @DeFiBuilder1 
++1 860 418 9729 
+ 
+https://www.cryptojobsdaily.com/candidate/ilya-dobrovitsky/ 
+His company 
+https://www.companiesintheuk.co.uk/people/ILYA-DOBROVITSKY/81747028 
+https://ariregister.rik.ee/eng/company/16377882/Glitter-Finance 
+Current: Co-Founder - Amanah DeFi https://amanahdefi.com 
+Past: Co-Founder - spherium.finance 
+Past: Co-Founder - BTCD Ltd 
+Past: CDO - icoda.io
+
+
+--1647426891-eximdsn-770219992--

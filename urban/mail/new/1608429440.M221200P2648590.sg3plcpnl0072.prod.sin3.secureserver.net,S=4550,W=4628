@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 6KaIC4Cv3l8OaigAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 19 Dec 2020 18:57:20 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 19 Dec 2020 18:57:20 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kqnyK-00BWpO-4G
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 19 Dec 2020 18:57:20 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kqny1-00BWcd-Ty@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1608429440-eximdsn-134434454
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kqnyK-00BWpO-4G@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 19 Dec 2020 18:57:20 -0700
+
+--1608429440-eximdsn-134434454
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 qny2kUYRHRuqG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=E6UIGYRl c=1 sm=1 tr=0 ts=5fdeaf80 p=7eb9mV3GbJUA:10 p=djvC0Wc9AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=zTNgK-yGK50A:10 a=x7bEGLp0ZPQA:10 a=FVgx3RK0JS8A:10 a=69EAbJreAAAA:8 a=x3-C_B1CAAAA:8 a=kHYvqHqmc9UTJoFD7kwA:9 a=_DqflR1MgNsA:10 a=7SaakA8xfB4A:10 a=fbnyD9s_tmwA:10 a=SSrl80u215kA:10 a=_yUIKEPe_NMA:10 a=7SUHdwa6gmYA:10 a=-FEs8UIgK8oA:10 a=lR7tmz7tfYYA:10 a=NWVoK91CQyQA:10 a=Spd6d-mkzMZXZRhrp_E3:22 a=IEYyOgJly1TqrzBV3bYe:22 a=nCj9pE202bM1H4PpnhIn:22 a=p-dnK0njbqwfn1k4-x12:22 a=7aar8cbMflRChVwg8ngv:22 ::
+    100.00
+
+--1608429440-eximdsn-134434454
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 qny2kUYRHRuqG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=E6UIGYRl c=1 sm=1 tr=0 ts=5fdeaf80 p=7eb9mV3GbJUA:10 p=djvC0Wc9AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=zTNgK-yGK50A:10 a=x7bEGLp0ZPQA:10 a=FVgx3RK0JS8A:10 a=69EAbJreAAAA:8 a=x3-C_B1CAAAA:8 a=kHYvqHqmc9UTJoFD7kwA:9 a=_DqflR1MgNsA:10 a=7SaakA8xfB4A:10 a=fbnyD9s_tmwA:10 a=SSrl80u215kA:10 a=_yUIKEPe_NMA:10 a=7SUHdwa6gmYA:10 a=-FEs8UIgK8oA:10 a=lR7tmz7tfYYA:10 a=NWVoK91CQyQA:10 a=Spd6d-mkzMZXZRhrp_E3:22 a=IEYyOgJly1TqrzBV3bYe:22 a=nCj9pE202bM1H4PpnhIn:22 a=p-dnK0njbqwfn1k4-x12:22 a=7aar8cbMflRChVwg8ngv:22 :: 100.00
+
+--1608429440-eximdsn-134434454
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kqny1-00BWcd-Ty
+	for info@yoursite.com; Sat, 19 Dec 2020 18:57:01 -0700
+To: info@yoursite.com
+Subject: New contact from HenryCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 5.188.84.119
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 5.188.84.119
+From: HenryCig <microner@hotmail.com>
+Message-Id: <E1kqny1-00BWcd-Ty@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 19 Dec 2020 18:57:01 -0700
+
+Name: HenryCig
+Email: microner@hotmail.com
+
+Subject: New contact from HenryCig
+
+Message:
+Robot never sleeps. It makes money for you 24/7. 
+Link - http://1c-met.ru/bitrix/rk.php?id=2&event1=banner&event2=click&goto=https://hdredtube3.mobi/btsmart
+
+
+--1608429440-eximdsn-134434454--

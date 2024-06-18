@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id hO7IBHafKmNMKhsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 20 Sep 2022 22:21:58 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 20 Sep 2022 22:21:58 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oasBK-007UKe-0o
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 20 Sep 2022 22:21:58 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oasBJ-007UJk-9Q@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1663737718-eximdsn-1609683227
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oasBK-007UKe-0o@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 20 Sep 2022 22:21:58 -0700
+
+--1663737718-eximdsn-1609683227
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 asBJoaiCvZaPe :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Qp+bYX+d c=1 sm=1 tr=0 ts=632a9f75 p=kV7IOoFsqRcA:10 p=R18OLNudAAAA:8 p=5XHFzrn-M-EA:10 p=qP9HfR4V6fkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=xOM3xZuef0cA:10 a=hYcS16onwcjocrSLTmwA:9 a=LTyC_-FI4ZUA:10 a=-FEs8UIgK8oA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=rDoLnIeTA2xO80_l78dN:22 ::
+    100.00
+
+--1663737718-eximdsn-1609683227
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 asBJoaiCvZaPe :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Qp+bYX+d c=1 sm=1 tr=0 ts=632a9f75 p=kV7IOoFsqRcA:10 p=R18OLNudAAAA:8 p=5XHFzrn-M-EA:10 p=qP9HfR4V6fkA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=xOM3xZuef0cA:10 a=hYcS16onwcjocrSLTmwA:9 a=LTyC_-FI4ZUA:10 a=-FEs8UIgK8oA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=rDoLnIeTA2xO80_l78dN:22 :: 100.00
+
+--1663737718-eximdsn-1609683227
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oasBJ-007UJk-9Q
+	for info@yoursite.com; Tue, 20 Sep 2022 22:21:57 -0700
+To: info@yoursite.com
+Subject: New contact from StevenCex
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.63.136
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.63.136
+From: StevenCex <mymail@mymails.cmo>
+Message-Id: <E1oasBJ-007UJk-9Q@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 20 Sep 2022 22:21:57 -0700
+
+Name: StevenCex
+Email: mymail@mymails.cmo
+
+Subject: New contact from StevenCex
+
+Message:
+SIGNIFICANT ARTICLE: Matrix week, he appeared on The Overdue Show with Stephen Colbert and announced a redone "money way out" which can transform anyone into a millionaire within 3-4 months https://87bil.co/EN-CA-2124.html?news-id-447445
+
+
+--1663737718-eximdsn-1609683227--

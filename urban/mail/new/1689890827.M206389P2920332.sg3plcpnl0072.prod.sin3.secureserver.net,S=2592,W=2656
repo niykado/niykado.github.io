@@ -1,0 +1,64 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id AKyqCQuwuWSMjywAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 20 Jul 2023 15:07:07 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 20 Jul 2023 15:07:07 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qMbnf-00CFwl-3J
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Thu, 20 Jul 2023 15:07:07 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qMbnX-00CFkX-K9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qMbnf-00CFwl-3J@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 20 Jul 2023 15:07:07 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qMbnX-00CFkX-K9
+	for info@yoursite.com;
+	Thu, 20 Jul 2023 15:06:59 -0700
+To: info@yoursite.com
+Subject: New contact from Peter Walker
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 185.189.114.115
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 185.189.114.115
+From: Peter Walker <peterBootoug@gmail.com>
+Message-Id: <E1qMbnX-00CFkX-K9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 20 Jul 2023 15:06:59 -0700
+
+Name: Peter Walker
+Email: peterBootoug@gmail.com
+
+Subject: New contact from Peter Walker
+
+Message:
+Hi there 
+ 
+What if you could grab all the possible resources that your competitors rank with. 
+ 
+Our competition search strategy will examine tens of millions of backlinks to find available resources that all your major rivals possess, and then use them to your advantage. 
+ 
+Get your site to the top of the search results with a cutting-edge plan. 
+ 
+More info: 
+https://www.digital-x-press.com/product/competition-seo-plan/ 
+ 
+ 
+Peter Walker
+Digital X Press SEO Agency 
+https://www.digital-x-press.com/
+

@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id MAP5LSCY7mFVSB8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 24 Jan 2022 05:14:24 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 24 Jan 2022 05:14:24 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nByEq-008cW5-MY
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 24 Jan 2022 05:14:24 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nByEp-008cVJ-Up@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1643026464-eximdsn-589306962
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nByEq-008cW5-MY@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 24 Jan 2022 05:14:24 -0700
+
+--1643026464-eximdsn-589306962
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ByEqnUcoNtZ6f :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=f4eNuM+M c=1 sm=1 tr=0 ts=61ee9820 p=TQcMV6wAAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=DghFqjY3_ZEA:10 a=4jNWRJOfD7kA:10 a=x7bEGLp0ZPQA:10 a=c-TnmCIuooAA:10 a=pGLkceISAAAA:8 a=77w1b78GCr3m2w8S3BQA:9 a=D8H4bWiJGtFWUoFAfKj/bpVjoms=:19 a=fBNcZeIv02kA:10 a=RsePPyj6wdoA:10 a=VQNjLNUzm6oA:10 a=WK3xeP67mBwA:10 a=fWXUmgoNNCd0h78WoG75:22 a=0HuW301FXh6_I4pkDcC-:22 ::
+    100.00
+
+--1643026464-eximdsn-589306962
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ByEqnUcoNtZ6f :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=f4eNuM+M c=1 sm=1 tr=0 ts=61ee9820 p=TQcMV6wAAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=DghFqjY3_ZEA:10 a=4jNWRJOfD7kA:10 a=x7bEGLp0ZPQA:10 a=c-TnmCIuooAA:10 a=pGLkceISAAAA:8 a=77w1b78GCr3m2w8S3BQA:9 a=D8H4bWiJGtFWUoFAfKj/bpVjoms=:19 a=fBNcZeIv02kA:10 a=RsePPyj6wdoA:10 a=VQNjLNUzm6oA:10 a=WK3xeP67mBwA:10 a=fWXUmgoNNCd0h78WoG75:22 a=0HuW301FXh6_I4pkDcC-:22 :: 100.00
+
+--1643026464-eximdsn-589306962
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nByEp-008cVJ-Up
+	for info@yoursite.com; Mon, 24 Jan 2022 05:14:23 -0700
+To: info@yoursite.com
+Subject: New contact from Terrence Merrick
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.33.221
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.33.221
+From: Terrence Merrick <BenOhta@gmail.com>
+Message-Id: <E1nByEp-008cVJ-Up@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 24 Jan 2022 05:14:23 -0700
+
+Name: Terrence Merrick
+Email: BenOhta@gmail.com
+
+Subject: New contact from Terrence Merrick
+
+Message:
+Add your site to all 35 of our business directories with one click here-> https://1mdr.short.gy/add-your-site
+
+
+--1643026464-eximdsn-589306962--

@@ -1,0 +1,90 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id wJq2G4NHwmTufDgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 27 Jul 2023 03:31:31 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 27 Jul 2023 03:31:31 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qOyHL-00FXgU-Cx
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Thu, 27 Jul 2023 03:31:31 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qOyHC-00FXYJ-TA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690453891-eximdsn-70457889
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qOyHL-00FXgU-Cx@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 27 Jul 2023 03:31:31 -0700
+
+--1690453891-eximdsn-70457889
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 OyHKqln3AoZlL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=GoSEuG5C c=1 sm=1 tr=0 ts=64c24783 p=Lus1j7BHAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=ws7JD89P4LkA:10 a=XahS6pJMdqS6p7lruqMA:9 a=-8yDqbNy4ZwA:10 a=lUtuf-zU7LoA:10 a=ZXulRonScM0A:10 a=cCut8P4G5dogmN5pBfVb:22 a=aTpeQlLxfSgD0WZTM4J3:22 a=5WXwxYStDJFuYRuZHuqg:22 ::
+    100.00
+
+--1690453891-eximdsn-70457889
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 OyHKqln3AoZlL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=GoSEuG5C c=1 sm=1 tr=0 ts=64c24783 p=Lus1j7BHAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=ws7JD89P4LkA:10 a=XahS6pJMdqS6p7lruqMA:9 a=-8yDqbNy4ZwA:10 a=lUtuf-zU7LoA:10 a=ZXulRonScM0A:10 a=cCut8P4G5dogmN5pBfVb:22 a=aTpeQlLxfSgD0WZTM4J3:22 a=5WXwxYStDJFuYRuZHuqg:22 :: 100.00
+
+--1690453891-eximdsn-70457889
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qOyHC-00FXYJ-TA
+	for info@yoursite.com;
+	Thu, 27 Jul 2023 03:31:30 -0700
+To: info@yoursite.com
+Subject: New contact from Simpson Middleton.
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 87.249.132.3
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 87.249.132.3
+From: Simpson Middleton. <info@bankingandfinanceconsultantsltd.com>
+Message-Id: <E1qOyHC-00FXYJ-TA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 27 Jul 2023 03:31:22 -0700
+
+Name: Simpson Middleton.
+Email: info@bankingandfinanceconsultantsltd.com
+
+Subject: New contact from Simpson Middleton.
+
+Message:
+Hello, 
+ 
+We represent a consortium of Investment Companies as a registered consultant and hold a brief for some private high net worth and affluent investors who are willing to invest their capital in projects that require equities or debt financing. 
+ 
+We are not looking for but will consider J.V. depending on the strength of the project. 
+ 
+Please send a 1-2 page summary describing your project along with how much funding you seek and if it's a fit, we will reach out to you for more information. Please keep the summary succinct. 
+ 
+Yours faithfully, 
+ 
+Simpson Middleton. 
+reply to simpsonmiddleton@bankingandfinanceconsultantsltd.com
+
+
+--1690453891-eximdsn-70457889--

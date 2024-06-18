@@ -1,0 +1,92 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id YHEVLT9BZl/pjh8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 19 Sep 2020 10:34:55 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 19 Sep 2020 10:34:55 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kJglD-009QHM-Me
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 19 Sep 2020 10:34:55 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kJglD-009QHC-Hn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1600536895-eximdsn-1403169844
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kJglD-009QHM-Me@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 19 Sep 2020 10:34:55 -0700
+
+--1600536895-eximdsn-1403169844
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 JglDkZqRs4PmQ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=zADqcuFx7JoA:10 p=bU-__QOGzwU3DEMBLNoA:9 p=b1GQ97gteRwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=Yh4erCiIZqgA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=zH5CvK-1tBXdWVmk:21 a=pZvJZG5aZ6C8EZyC:21 a=Cc1QxDnogOEA:10 a=aW5GtbDQDSd3DGFfD4r6:22 a=KDA7qRI_9AEMYvyZxxdS:22 ::
+    100.00
+
+--1600536895-eximdsn-1403169844
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 JglDkZqRs4PmQ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=zADqcuFx7JoA:10 p=bU-__QOGzwU3DEMBLNoA:9 p=b1GQ97gteRwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=Yh4erCiIZqgA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=zH5CvK-1tBXdWVmk:21 a=pZvJZG5aZ6C8EZyC:21 a=Cc1QxDnogOEA:10 a=aW5GtbDQDSd3DGFfD4r6:22 a=KDA7qRI_9AEMYvyZxxdS:22 :: 100.00
+
+--1600536895-eximdsn-1403169844
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kJglD-009QHC-Hn
+	for info@yoursite.com; Sat, 19 Sep 2020 10:34:55 -0700
+To: info@yoursite.com
+Subject: New contact from Sulaiman Taniji
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 89.187.168.168
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 89.187.168.168
+From: Sulaiman Taniji <profaukdave@gmail.com>
+Message-Id: <E1kJglD-009QHC-Hn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 19 Sep 2020 10:34:55 -0700
+
+Name: Sulaiman Taniji
+Email: profaukdave@gmail.com
+
+Subject: New contact from Sulaiman Taniji
+
+Message:
+Dear CEO urbanlocomote.com 
+I have contacted you in your feedback form with an offer to manage a business of high remuneration. 
+Here is the placement: 
+Value of funds: ONE HUNDRED AND FORTY MILLION EUROS. 
+Location of funds:  BANK IN THE UK. 
+Placement opens to:  COMPANIES/INDIVIDUALS. 
+Fund disbursement:  AS SOON AS POSSIBLE. 
+Area of investment interest: FOREX, CRYPTOCURRENCIES, REAL ESTATE, AGRICULTURE, INDUSTRY, HOTEL AND OTHERS. 
+Purpose of funds:  LONG TERM INVESTMENT (AT LEAST) 10% ROI/PA. 
+Funds owner:    RETIRED TRADER 
+Proof of fund:   READILY AVAILABLE UPON DEMAND. 
+Benefits: 10% Return on Investment (ROI) will be your benefit. If you are capable and ready, kindly reply as soon as possible stating your full names, country of residence, occupation, age and direct phone number. Please, reach out for full details:  maerskinsurancebroker@gmail.com 
+Upon your reply you will be contacted further from our company’s email address. 
+ 
+Warm regards, 
+Sulaiman Taniji.
+
+
+--1600536895-eximdsn-1403169844--

@@ -1,0 +1,88 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id mA6DHBaZhV8lBhcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 13 Oct 2020 05:09:58 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 13 Oct 2020 05:09:58 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kSJ7u-00743k-E4
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 13 Oct 2020 05:09:58 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kSJ7p-0073yg-9L@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1602590998-eximdsn-1881579894
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kSJ7u-00743k-E4@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 13 Oct 2020 05:09:58 -0700
+
+--1602590998-eximdsn-1881579894
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 SJ7uk4Ecx6Qty :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=UIij4xXy c=1 sm=1 tr=0 p=Jw_1UL8ez4MA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=4YD2OsuFInwA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=WeCX3kr-4BUA:10 a=pGLkceISAAAA:8 a=e2MZjI6bAjgp-oU9e3QA:9 a=nsRav-vY6mnpmbuQ:21 a=8Gip5QUtWOI_qJp6:21 a=Uhus_RMznvwA:10 a=WbyLxMHJgxYSYUN1Zk8J:22 ::
+    100.00
+
+--1602590998-eximdsn-1881579894
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 SJ7uk4Ecx6Qty :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=UIij4xXy c=1 sm=1 tr=0 p=Jw_1UL8ez4MA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=4YD2OsuFInwA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=WeCX3kr-4BUA:10 a=pGLkceISAAAA:8 a=e2MZjI6bAjgp-oU9e3QA:9 a=nsRav-vY6mnpmbuQ:21 a=8Gip5QUtWOI_qJp6:21 a=Uhus_RMznvwA:10 a=WbyLxMHJgxYSYUN1Zk8J:22 :: 100.00
+
+--1602590998-eximdsn-1881579894
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kSJ7p-0073yg-9L
+	for info@yoursite.com; Tue, 13 Oct 2020 05:09:53 -0700
+To: info@yoursite.com
+Subject: New contact from Carmen Webb
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 172.245.181.229
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 172.245.181.229
+From: Carmen Webb <sites2impress96@gmail.com>
+Message-Id: <E1kSJ7p-0073yg-9L@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 13 Oct 2020 05:09:53 -0700
+
+Name: Carmen Webb
+Email: sites2impress96@gmail.com
+
+Subject: New contact from Carmen Webb
+
+Message:
+Hello there...  :)
+
+I just have a question.  I am a web designer looking for new clients and I wanted to see if you are interested in redesigning your website or making some upgrades.  I don't want to sound like I'm "tooting my own horn" too much, but I can do some pretty amazing things, not only design-wise, but with adding features to your site that automate your business processes, or make your marketing phenomenally easier.  
+
+I'd love to talk with you about some options if you're interested, so please let me know if you would like to know more about what I can do.  I'll be happy to send some info and setup a call.  
+
+Thank you so much for reading this!
+
+Carmen Webb - Web Designer / Programmer
+
+
+I am not trying to spam you. If you'd like me to remove you from any of my emails, please email me with the word "remove" in the subject and I'll exclude you from any further messages.
+
+
+--1602590998-eximdsn-1881579894--

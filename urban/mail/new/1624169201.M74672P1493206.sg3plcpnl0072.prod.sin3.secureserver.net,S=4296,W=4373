@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id EBmdAvHazmDWyBYAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 19 Jun 2021 23:06:41 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 19 Jun 2021 23:06:41 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1luqbQ-006KkE-Vw
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 19 Jun 2021 23:06:41 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1luqbQ-006Kjq-RC@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1624169200-eximdsn-924678829
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1luqbQ-006KkE-Vw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 19 Jun 2021 23:06:40 -0700
+
+--1624169200-eximdsn-924678829
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 uqbQl9rxfiTv7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SOmH6MjH c=1 sm=1 tr=0 ts=60cedaf0 p=NULSWTOJmboA:10 p=rxOJZjpYAAAA:8 p=VXwwE3XhawsA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=x7bEGLp0ZPQA:10 a=BcZ7XIwZYxkA:10 a=1XWaLZrsAAAA:8 a=enpmAe0VXA-UzwflHAsA:9 a=KHH8F7MAHt0A:10 a=H4NpI0-O6QQA:10 a=ZU4wHL8v0Vxglpuc8p-w:22 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 ::
+    100.00
+
+--1624169200-eximdsn-924678829
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 uqbQl9rxfiTv7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SOmH6MjH c=1 sm=1 tr=0 ts=60cedaf0 p=NULSWTOJmboA:10 p=rxOJZjpYAAAA:8 p=VXwwE3XhawsA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=x7bEGLp0ZPQA:10 a=BcZ7XIwZYxkA:10 a=1XWaLZrsAAAA:8 a=enpmAe0VXA-UzwflHAsA:9 a=KHH8F7MAHt0A:10 a=H4NpI0-O6QQA:10 a=ZU4wHL8v0Vxglpuc8p-w:22 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 :: 100.00
+
+--1624169200-eximdsn-924678829
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1luqbQ-006Kjq-RC
+	for info@yoursite.com; Sat, 19 Jun 2021 23:06:40 -0700
+To: info@yoursite.com
+Subject: New contact from Michaelnet
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 89.249.73.212
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 89.249.73.212
+From: Michaelnet <samantha_30@hotmail.fr>
+Message-Id: <E1luqbQ-006Kjq-RC@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 19 Jun 2021 23:06:40 -0700
+
+Name: Michaelnet
+Email: samantha_30@hotmail.fr
+
+Subject: New contact from Michaelnet
+
+Message:
+Don’t wait for someone else to do it. Invest $ 297 and get passive income of $ 4800 per day   >>>>>>>>>>>>>>  http://www.google.com/url?q=http%3A%2F%2Fgo.tipirock4.com%2F0e42&sa=D&Xs=Ky&usg=AFQjCNFU9A-BJV6zo6zbiu_s4SpbUgqfZQ   <<<<<<<<<<<<<
+
+
+--1624169200-eximdsn-924678829--

@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id ACKCGiIXwmACrzgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 10 Jun 2021 06:44:02 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 10 Jun 2021 06:44:02 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lrKyY-00G2Yx-CW
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 10 Jun 2021 06:44:02 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lrKyY-00G2XQ-6r@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1623332642-eximdsn-846180070
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lrKyY-00G2Yx-CW@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 10 Jun 2021 06:44:02 -0700
+
+--1623332642-eximdsn-846180070
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rKyYlvcqn5edl :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Ko6IZUaN c=1 sm=1 tr=0 ts=60c21722 p=q4WxTBXLAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=v7b34dFH8DkA:10 a=x7bEGLp0ZPQA:10 a=o9os09kvMGUA:10 a=1XWaLZrsAAAA:8 a=paJQ1qANkAyYM4KsPxAA:9 a=DORuT-p4g_cA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=S3qaeZTlevurEZ6noQLa:22 a=Ciy7DTm4kYx0gH6_Eix3:22 a=p-dnK0njbqwfn1k4-x12:22 a=P3fMaJMKd_wdyUQKDHwh:22 ::
+    100.00
+
+--1623332642-eximdsn-846180070
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 rKyYlvcqn5edl :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Ko6IZUaN c=1 sm=1 tr=0 ts=60c21722 p=q4WxTBXLAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=v7b34dFH8DkA:10 a=x7bEGLp0ZPQA:10 a=o9os09kvMGUA:10 a=1XWaLZrsAAAA:8 a=paJQ1qANkAyYM4KsPxAA:9 a=DORuT-p4g_cA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=S3qaeZTlevurEZ6noQLa:22 a=Ciy7DTm4kYx0gH6_Eix3:22 a=p-dnK0njbqwfn1k4-x12:22 a=P3fMaJMKd_wdyUQKDHwh:22 :: 100.00
+
+--1623332642-eximdsn-846180070
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lrKyY-00G2XQ-6r
+	for info@yoursite.com; Thu, 10 Jun 2021 06:44:02 -0700
+To: info@yoursite.com
+Subject: New contact from DannyDal
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.57.85
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.57.85
+From: DannyDal <tsar_forever@hotmail.fr>
+Message-Id: <E1lrKyY-00G2XQ-6r@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 10 Jun 2021 06:44:02 -0700
+
+Name: DannyDal
+Email: tsar_forever@hotmail.fr
+
+Subject: New contact from DannyDal
+
+Message:
+Your balance has received 5 BTC, urgently pick it up today   >>>>>>>>>>>>>>  https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc2Ou0l&sa=D&Gq=Fa&usg=AFQjCNEqmEVL_8lT0s5VT1H9xJof7LQCIw   <<<<<<<<<<<<<
+
+
+--1623332642-eximdsn-846180070--

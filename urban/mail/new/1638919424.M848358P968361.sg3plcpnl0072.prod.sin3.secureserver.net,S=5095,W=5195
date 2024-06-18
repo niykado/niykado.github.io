@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 8BjzMADtr2Gpxg4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 07 Dec 2021 16:23:44 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 07 Dec 2021 16:23:44 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mujoG-0047Dd-OT
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 07 Dec 2021 16:23:44 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mujoF-0047Cv-Qt@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1638919424-eximdsn-1442495426
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mujoG-0047Dd-OT@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 07 Dec 2021 16:23:44 -0700
+
+--1638919424-eximdsn-1442495426
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ujoFmtedNJX0k :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61afed00 p=cDyPPuvEvCEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=uUFK1pqhSjgA:10 a=piwleXIjAAAA:8 a=2NotPyG-AAAA:8 a=YU8SUXTMAskReo5vwnMA:9 a=Z9L390fnOHAA:10 a=7KcY53tMb0gA:10 a=Ry2eTNIdGMwtTGQdmMb7:22 a=gzOKKitT_3DAoh3OOcd6:22 a=aW5GtbDQDSd3DGFfD4r6:22 ::
+    98.00
+
+--1638919424-eximdsn-1442495426
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ujoFmtedNJX0k :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61afed00 p=cDyPPuvEvCEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=uUFK1pqhSjgA:10 a=piwleXIjAAAA:8 a=2NotPyG-AAAA:8 a=YU8SUXTMAskReo5vwnMA:9 a=Z9L390fnOHAA:10 a=7KcY53tMb0gA:10 a=Ry2eTNIdGMwtTGQdmMb7:22 a=gzOKKitT_3DAoh3OOcd6:22 a=aW5GtbDQDSd3DGFfD4r6:22 :: 98.00
+
+--1638919424-eximdsn-1442495426
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mujoF-0047Cv-Qt
+	for info@yoursite.com; Tue, 07 Dec 2021 16:23:43 -0700
+To: info@yoursite.com
+Subject: New contact from Kieran Evans
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 188.126.89.99
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 188.126.89.99
+From: Kieran Evans <no-reply@akmarketing.com.au>
+Message-Id: <E1mujoF-0047Cv-Qt@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 07 Dec 2021 16:23:43 -0700
+
+Name: Kieran Evans
+Email: no-reply@akmarketing.com.au
+
+Subject: New contact from Kieran Evans
+
+Message:
+Good morning, 
+ 
+My name is Kieran and as a Business Development Manager at AK Marketing, I’ve gone through your website urbanlocomote.com and noticed the following key issues: 
+ 
+1. Lack of Psychological Triggers – that ‘Convert’ your website visitors into customers. 
+ 
+2. Sameness Exists – meaning there is an absence of ‘Differentiation’ to form a competitive edge. 
+ 
+3. Site Architecture/Design – doesn’t meet modern industry ‘Standards.’ 
+ 
+4. Content – not ‘SEO friendly’/failing to add enough ‘Value’ to maximise your conversions. 
+ 
+5. Website – missing ‘Optimisation’ to be ranked on Google’s first page. 
+ 
+It’s time to Take Action: 
+Being a leading Web Design & Development Agency, AK Marketing has the solution to fix the above-mentioned issues on your website. 
+ 
+If you’re interested to WIN, Stand Out from your Competitors, and get more Leads, Customers & Sales: then contact us at hello@akmarketing.com.au or book your FREE 15 Minute Discovery Call at https://akmarketing.com.au/contact/ 
+ 
+Talk soon, 
+Kieran 
+Business Development Manager 
+https://akmarketing.com.au/ 
+hello@akmarketing.com.au
+
+
+--1638919424-eximdsn-1442495426--

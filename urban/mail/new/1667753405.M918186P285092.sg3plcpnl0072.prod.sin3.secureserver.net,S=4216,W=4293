@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id VErGNb3lZ2OkWQQAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 06 Nov 2022 09:50:05 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 06 Nov 2022 09:50:05 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oriqT-001CAA-RC
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 06 Nov 2022 09:50:05 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oriqT-001C9r-Lb@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667753405-eximdsn-2111477336
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oriqT-001CAA-RC@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 06 Nov 2022 09:50:05 -0700
+
+--1667753405-eximdsn-2111477336
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 riqTo6MIwzcmo :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=NssXMeRJ c=1 sm=1 tr=0 ts=6367e5bd p=79avVxVpb7EA:10 p=xpOpCs97z6oA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=9xFQ1JgjjksA:10 a=e-Ovw6bNAAAA:8 a=vaJtXVxTAAAA:8 a=RgBw9RmQAAAA:8 a=2NotPyG-AAAA:8 a=qE9bHa9re_Wqu1sIreAA:9 a=RlbwLdPwaWYA:10 a=Y__fvCXQjb0A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=nOxMtLUM5ck9Hn2diPJ4:22 a=aW5GtbDQDSd3DGFfD4r6:22 ::
+    100.00
+
+--1667753405-eximdsn-2111477336
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 riqTo6MIwzcmo :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=NssXMeRJ c=1 sm=1 tr=0 ts=6367e5bd p=79avVxVpb7EA:10 p=xpOpCs97z6oA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=9xFQ1JgjjksA:10 a=e-Ovw6bNAAAA:8 a=vaJtXVxTAAAA:8 a=RgBw9RmQAAAA:8 a=2NotPyG-AAAA:8 a=qE9bHa9re_Wqu1sIreAA:9 a=RlbwLdPwaWYA:10 a=Y__fvCXQjb0A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=nOxMtLUM5ck9Hn2diPJ4:22 a=aW5GtbDQDSd3DGFfD4r6:22 :: 100.00
+
+--1667753405-eximdsn-2111477336
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oriqT-001C9r-Lb
+	for info@yoursite.com; Sun, 06 Nov 2022 09:50:05 -0700
+To: info@yoursite.com
+Subject: New contact from nkewZWSnFF
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.3.197.25
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.3.197.25
+From: nkewZWSnFF <callvisvetlana@list.ru>
+Message-Id: <E1oriqT-001C9r-Lb@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 06 Nov 2022 09:50:05 -0700
+
+Name: nkewZWSnFF
+Email: callvisvetlana@list.ru
+
+Subject: New contact from nkewZWSnFF
+
+Message:
+Приготовься во всех отношениях к следующему году https://yandex.ru/poll/enter/PcRXPzEH4n6B52BVZswgh2#Zf1VwFJbpoxvq734sRlL https://mail.ru urbanlocomote.com
+
+
+--1667753405-eximdsn-2111477336--

@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id QvBXDSElqWHtrzMAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 02 Dec 2021 12:57:21 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 02 Dec 2021 12:57:21 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mssCn-00EDCr-4T
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 02 Dec 2021 12:57:21 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mssCm-00EDBx-5y@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1638475041-eximdsn-1123636604
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mssCn-00EDCr-4T@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 02 Dec 2021 12:57:21 -0700
+
+--1638475041-eximdsn-1123636604
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ssCmmr62FJX0k :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61a92521 p=ditD4W5zAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=ooq95uWoI+nHEVqU1xw/xiig79Q=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=fJEm5B-AqWUA:10 a=AVbMHacnAAAA:8 a=1XWaLZrsAAAA:8 a=EMchFsLfCcuJ8oAwAqsA:9 a=Y9n6ot423DwA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=4aOebi6LUlIA:10 a=NWVoK91CQyQA:10 ::
+    100.00
+
+--1638475041-eximdsn-1123636604
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ssCmmr62FJX0k :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61a92521 p=ditD4W5zAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=ooq95uWoI+nHEVqU1xw/xiig79Q=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=fJEm5B-AqWUA:10 a=AVbMHacnAAAA:8 a=1XWaLZrsAAAA:8 a=EMchFsLfCcuJ8oAwAqsA:9 a=Y9n6ot423DwA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=4aOebi6LUlIA:10 a=NWVoK91CQyQA:10 :: 100.00
+
+--1638475041-eximdsn-1123636604
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mssCm-00EDBx-5y
+	for info@yoursite.com; Thu, 02 Dec 2021 12:57:20 -0700
+To: info@yoursite.com
+Subject: New contact from Eddieclero
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.63.17
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.63.17
+From: Eddieclero <morgane.lorieau@laposte.net>
+Message-Id: <E1mssCm-00EDBx-5y@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 02 Dec 2021 12:57:20 -0700
+
+Name: Eddieclero
+Email: morgane.lorieau@laposte.net
+
+Subject: New contact from Eddieclero
+
+Message:
+Your next dream vacation >>>>>>>>>>>>>>>>>>>>>>>>>>> https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc8qvzi&sa=D&73=34&usg=AFQjCNH2QAwQV6sbS1u0SgHiVXKZSKhcKQ <<<<<<<<<<<<<<<<<<<<<<<<
+
+
+--1638475041-eximdsn-1123636604--

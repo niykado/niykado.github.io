@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id QG1ACFfptWJf6j0AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 24 Jun 2022 09:41:59 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 24 Jun 2022 09:41:59 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1o4mNb-00H28C-29
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 24 Jun 2022 09:41:59 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1o4mNa-00H27c-TG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1656088919-eximdsn-446123128
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1o4mNb-00H28C-29@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 24 Jun 2022 09:41:59 -0700
+
+--1656088919-eximdsn-446123128
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 4mNbo3qEBIyUx :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=b/N3XvKx c=1 sm=1 tr=0 ts=62b5e957 p=-fRUqK5Z0CUA:10 p=UZeFy9_5AAAA:8 p=-X0G7nogQVcA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=x7bEGLp0ZPQA:10 a=exkwHVu_9lAA:10 a=pGLkceISAAAA:8 a=FNDxJQMvWd4R3CNYE64A:9 a=cA7eKLbH3PoA:10 a=TzAilWHq33YA:10 a=t8S3Ctl5djUA:10 a=XAuqgBZU_7IA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=mlH27bRpvj9TETxgbdSO:22 a=b3suz9RtuBh20bjOGXLt:22 ::
+    100.00
+
+--1656088919-eximdsn-446123128
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 4mNbo3qEBIyUx :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=b/N3XvKx c=1 sm=1 tr=0 ts=62b5e957 p=-fRUqK5Z0CUA:10 p=UZeFy9_5AAAA:8 p=-X0G7nogQVcA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=x7bEGLp0ZPQA:10 a=exkwHVu_9lAA:10 a=pGLkceISAAAA:8 a=FNDxJQMvWd4R3CNYE64A:9 a=cA7eKLbH3PoA:10 a=TzAilWHq33YA:10 a=t8S3Ctl5djUA:10 a=XAuqgBZU_7IA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=mlH27bRpvj9TETxgbdSO:22 a=b3suz9RtuBh20bjOGXLt:22 :: 100.00
+
+--1656088919-eximdsn-446123128
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1o4mNa-00H27c-TG
+	for info@yoursite.com; Fri, 24 Jun 2022 09:41:58 -0700
+To: info@yoursite.com
+Subject: New contact from HenryCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.232
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.232
+From: HenryCig <koroltzo2@gmail.com>
+Message-Id: <E1o4mNa-00H27c-TG@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 24 Jun 2022 09:41:58 -0700
+
+Name: HenryCig
+Email: koroltzo2@gmail.com
+
+Subject: New contact from HenryCig
+
+Message:
+The online job can bring you a fantastic profit. https://Cig.nanolabs.es/Cig
+
+
+--1656088919-eximdsn-446123128--

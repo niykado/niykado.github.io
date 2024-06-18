@@ -1,0 +1,50 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id xHPzBSpEu2M9NSoAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 08 Jan 2023 15:31:06 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 08 Jan 2023 15:31:06 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pEeC2-00Bbb3-0x
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sun, 08 Jan 2023 15:31:06 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pEeBu-00BbKd-J3@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pEeC2-00Bbb3-0x@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 08 Jan 2023 15:31:06 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pEeBu-00BbKd-J3
+	for info@yoursite.com;
+	Sun, 08 Jan 2023 15:30:58 -0700
+To: info@yoursite.com
+Subject: New contact from CigWAife
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.81
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.81
+From: CigWAife <maplesecrets1@outlook.com>
+Message-Id: <E1pEeBu-00BbKd-J3@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 08 Jan 2023 15:30:58 -0700
+
+Name: CigWAife
+Email: maplesecrets1@outlook.com
+
+Subject: New contact from CigWAife
+
+Message:
+Still not a millionaire? The financial robot will make you him! http://go.hojagoak.com/0j35
+

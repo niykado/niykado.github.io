@@ -1,0 +1,106 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 9bIJIyJeIWW0Ex8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 07 Oct 2023 06:33:22 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 07 Oct 2023 06:33:22 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qp7Qo-008XpG-Gj
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sat, 07 Oct 2023 06:33:22 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qp7Qg-008Xnh-9Y@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696685602-eximdsn-932832517
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qp7Qo-008XpG-Gj@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 07 Oct 2023 06:33:22 -0700
+
+--1696685602-eximdsn-932832517
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 p7Qoq9rKnMm8c :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=UaGXCoeN c=1 sm=1 tr=0 ts=65215e22 p=sPLV_Mx42TgASzqbo-fk:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=2JM4VUCczKYA:10 a=pGLkceISAAAA:8 a=IkIFAhLMAAAA:8 a=JJ-OFCFHqSwf4efmnegA:9 a=rkpoGHBALTYA:10 a=hljCA1ss4bAA:10 a=Tj5Ux2trl07WGcPd63GK:22 a=WOD5ANmqMg1sOhSzsOHA:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 ::
+    100.00
+
+--1696685602-eximdsn-932832517
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 p7Qoq9rKnMm8c :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=UaGXCoeN c=1 sm=1 tr=0 ts=65215e22 p=sPLV_Mx42TgASzqbo-fk:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=2JM4VUCczKYA:10 a=pGLkceISAAAA:8 a=IkIFAhLMAAAA:8 a=JJ-OFCFHqSwf4efmnegA:9 a=rkpoGHBALTYA:10 a=hljCA1ss4bAA:10 a=Tj5Ux2trl07WGcPd63GK:22 a=WOD5ANmqMg1sOhSzsOHA:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 :: 100.00
+
+--1696685602-eximdsn-932832517
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qp7Qg-008Xnh-9Y
+	for info@yoursite.com;
+	Sat, 07 Oct 2023 06:33:22 -0700
+To: info@yoursite.com
+Subject: New contact from AdrianZow
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 178.168.115.145
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 178.168.115.145
+From: AdrianZow <algupinakse.nia@gmail.com>
+Message-Id: <E1qp7Qg-008Xnh-9Y@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 07 Oct 2023 06:33:14 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-sh
+X-ENVIRONMENT: prod
+
+Name: AdrianZow
+Email: algupinakse.nia@gmail.com
+
+Subject: New contact from AdrianZow
+
+Message:
+Прогрессивный мир стремительно меняется, и с ним изменяются и способы получения необходимых нам услуг. Онлайн стал неотъемлемой частью нашей жизни, и он открывает перед нами множество возможностей, включая заказ услуг интернет. На нашем веб-сайте мы предоставляем уникальную платформу для заказа всевозможных предложений, и в этом тексте мы рассмотрим, почему это например комфортно и выгодно. 
+ 
+1.Широкий выбор услуг  
+<a href=https://alfamed.md/>https://alfamed.md/</a> 
+На нашем веб-сайте вы посчитаете огромное количество разнообразных предложений, начиная от услуги доставки товаров до услуг строительства и ремонта. Широкий ассортимент разрешает вам легко найти непосредственно эту предложение, которая вам необходима, без надобности поиска по различным ресурсам. 
+ 
+2.Удобство и доступность 
+Онлайн-заказ услуги позволяет для вас сэкономить массу времени. Вы можете сделать заказ, находясь дома, на работе либо в пути. Для вас не понадобиться тратить время и силы на тур в офисы либо магазины. Наш вебсайт доступен 24/7, и вы можете создавать заказы в комфортное для вас время. 
+ 
+3.Бережливость средств 
+Многие услуги, дешевые на нашем веб-сайте, предлагаются по конкурентоспособным ценам. к тому же, вы можете сравнить предложения различных артистов и выбрать более прибыльное. Это содействует экономии ваших средств. 
+ 
+4.Безопасность и надежность 
+Мы тщательно отбираем партнеров и артистов, предоставляющих предложения на нашем сайте, чтобы гарантировать вашу защищенность и надежность заказов. Мы кроме того предоставляем вероятность расценивать и оставлять отзывы о произведенных услугах,  собственно что может помочь иным юзерам подбирать лучших исполнителей. 
+ 
+5.Удобная система оплаты 
+Плата предложений на нашем сайте происходит удобным для вас методом. Вы можете избрать более благоприятный вариант, будь то онлайн-перевод, банковская карта или иные варианты. 
+ 
+6.Поддержка и консультации 
+Наша команда готова посодействовать для вас с любыми вопросами и дать нужную информацию. Мы ценим наших посетителей и стремимся дать наилучший обслуживание. 
+ 
+7.Время для себя 
+Заказывая услуги на нашем сайте, вы освобождаете себе время, коие можно израсходовать на больше важные и милые вещи. К примеру, вы можете обмануть больше времени с семьей, заниматься своими хобби либо даже развивать свой бизнес. 
+ 
+Заказывая предложения на нашем сайте, вы экономите свои ресурсы, получаете высокое качество услуг и сохраняете свою ценную энергию. Мы гарантируем удовлетворение ваших необходимостей и оказываем поддержку на любом шаге сотрудничества. Не упустите вероятность устроить собственную жизнь проще и удобнее - заказывайте предложения на нашем веб-сайте уже сегодня!
+
+
+--1696685602-eximdsn-932832517--

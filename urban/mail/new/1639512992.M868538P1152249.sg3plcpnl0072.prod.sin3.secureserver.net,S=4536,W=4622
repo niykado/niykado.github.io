@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id DkoGM6D7uGH5lBEAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 14 Dec 2021 13:16:32 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 14 Dec 2021 13:16:32 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mxEDw-004pkZ-P8
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 14 Dec 2021 13:16:32 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mxEDv-004pfK-Ra@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1639512992-eximdsn-1199248066
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mxEDw-004pkZ-P8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 14 Dec 2021 13:16:32 -0700
+
+--1639512992-eximdsn-1199248066
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xEDvmNPGWJX0k :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61b8fba0 p=BgneAungZdQA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=hB6NlbnNqGsA:10 a=x7bEGLp0ZPQA:10 a=inDWeGizBDsA:10 a=pGLkceISAAAA:8 a=03oG1A79PSn9cwITbfQA:9 a=KZ9raejwP7gA:10 a=jNzbhO8Dn9xGwCp9oDeA:22 ::
+    100.00
+
+--1639512992-eximdsn-1199248066
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 xEDvmNPGWJX0k :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61b8fba0 p=BgneAungZdQA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=hB6NlbnNqGsA:10 a=x7bEGLp0ZPQA:10 a=inDWeGizBDsA:10 a=pGLkceISAAAA:8 a=03oG1A79PSn9cwITbfQA:9 a=KZ9raejwP7gA:10 a=jNzbhO8Dn9xGwCp9oDeA:22 :: 100.00
+
+--1639512992-eximdsn-1199248066
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mxEDv-004pfK-Ra
+	for info@yoursite.com; Tue, 14 Dec 2021 13:16:31 -0700
+To: info@yoursite.com
+Subject: New contact from Randall Rose
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 192.227.138.101
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 192.227.138.101
+From: Randall Rose <highranks4ursite@gmail.com>
+Message-Id: <E1mxEDv-004pfK-Ra@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 14 Dec 2021 13:16:31 -0700
+
+Name: Randall Rose
+Email: highranks4ursite@gmail.com
+
+Subject: New contact from Randall Rose
+
+Message:
+Hello there,
+
+I am a social media marketer that helps companies to generate more sales using facebook and other social media platforms.  I have been at this for a long time, so I know the tricks of the trade and can generally help any company to increase sales.  I provide great service, but my prices are still affordable.  
+
+I'm reaching out because I want to see if you're interested in boosting your sales via marketing on facebook and other platforms.  Please let me know if you're interested and I can give you some information about what I do, how I do it, and what it costs.  
+
+I would love the opportunity to work with you, so please let me know if you're interested.  
+  
+
+Randall Rose
+
+
+--1639512992-eximdsn-1199248066--

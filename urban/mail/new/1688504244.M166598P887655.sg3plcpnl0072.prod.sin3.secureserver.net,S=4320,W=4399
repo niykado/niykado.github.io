@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id PRRkB7SHpGRniw0AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 04 Jul 2023 13:57:24 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 04 Jul 2023 13:57:24 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qGn5Q-003iuv-1x
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Tue, 04 Jul 2023 13:57:24 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qGn5H-003itU-VY@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1688504244-eximdsn-1325789025
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qGn5Q-003iuv-1x@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 04 Jul 2023 13:57:24 -0700
+
+--1688504244-eximdsn-1325789025
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Gn5Pq50tGfldr :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=GInOUMBK c=1 sm=1 tr=0 ts=64a487b4 p=E28GbiM4DgHdzZ5x0Nhh:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=ws7JD89P4LkA:10 a=k_m-kdumAAAA:8 a=oTxuoe20AAAA:8 a=F-uf7WzqAAAA:8 a=t5q1d7kXETDNoOklJ0wA:9 a=gCjgY63S21cA:10 a=I07jy9_aCb0A:10 a=1_IYzRIC25EA:10 a=2aFmp3DG3lfw9CblUY6y:22 a=wodDjmlX-WzQHzcBi6vQ:22 a=Ax72tLxJmbnkO7j-OVzR:22 a=5WXwxYStDJFuYRuZHuqg:22 ::
+    100.00
+
+--1688504244-eximdsn-1325789025
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Gn5Pq50tGfldr :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=GInOUMBK c=1 sm=1 tr=0 ts=64a487b4 p=E28GbiM4DgHdzZ5x0Nhh:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=ws7JD89P4LkA:10 a=k_m-kdumAAAA:8 a=oTxuoe20AAAA:8 a=F-uf7WzqAAAA:8 a=t5q1d7kXETDNoOklJ0wA:9 a=gCjgY63S21cA:10 a=I07jy9_aCb0A:10 a=1_IYzRIC25EA:10 a=2aFmp3DG3lfw9CblUY6y:22 a=wodDjmlX-WzQHzcBi6vQ:22 a=Ax72tLxJmbnkO7j-OVzR:22 a=5WXwxYStDJFuYRuZHuqg:22 :: 100.00
+
+--1688504244-eximdsn-1325789025
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qGn5H-003itU-VY
+	for info@yoursite.com;
+	Tue, 04 Jul 2023 13:57:23 -0700
+To: info@yoursite.com
+Subject: New contact from Brandonsic
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 193.56.113.27
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 193.56.113.27
+From: Brandonsic <mcmatthews@sympatico.ca>
+Message-Id: <E1qGn5H-003itU-VY@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 04 Jul 2023 13:57:15 -0700
+
+Name: Brandonsic
+Email: mcmatthews@sympatico.ca
+
+Subject: New contact from Brandonsic
+
+Message:
+ChatGPT: Your Secret Weapon for $21,000/Month of Effortless Passive Income https://jongrotech.com/php/sub06_viewCnt.php?idx=119&site_url=http%253a%252f%252fonlinshopbest.sell.app%2Fproduct%2Fpassive-income-of-21000-per-month-with-chatgpt-is-easy-money%3F516999555
+
+
+--1688504244-eximdsn-1325789025--

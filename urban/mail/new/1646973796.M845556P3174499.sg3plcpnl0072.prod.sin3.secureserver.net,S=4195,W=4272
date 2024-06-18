@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id eHl+MGTTKmJjcDAAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 10 Mar 2022 21:43:16 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 10 Mar 2022 21:43:16 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nSX7U-00DKze-OL
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 10 Mar 2022 21:43:16 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nSX7U-00DKz5-1I@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1646973796-eximdsn-1497456320
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nSX7U-00DKze-OL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 10 Mar 2022 21:43:16 -0700
+
+--1646973796-eximdsn-1497456320
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 SX7Un1H5FWrsw :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=eOLWMFl1 c=1 sm=1 tr=0 ts=622ad364 p=1Pt91yShGSwA:10 p=uOt1W6MmAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=iRZporoAAAAA:8 a=1XWaLZrsAAAA:8 a=8OsRkbF-cskEs-4FIbEA:9 a=6jE0iXBFS0EA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=NOBgFS-JBQ2l-kSd6-zu:22 ::
+    100.00
+
+--1646973796-eximdsn-1497456320
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 SX7Un1H5FWrsw :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=eOLWMFl1 c=1 sm=1 tr=0 ts=622ad364 p=1Pt91yShGSwA:10 p=uOt1W6MmAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=iRZporoAAAAA:8 a=1XWaLZrsAAAA:8 a=8OsRkbF-cskEs-4FIbEA:9 a=6jE0iXBFS0EA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=NOBgFS-JBQ2l-kSd6-zu:22 :: 100.00
+
+--1646973796-eximdsn-1497456320
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nSX7U-00DKz5-1I
+	for info@yoursite.com; Thu, 10 Mar 2022 21:43:16 -0700
+To: info@yoursite.com
+Subject: New contact from Michaelbrulk
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 45.133.172.7
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 45.133.172.7
+From: Michaelbrulk <forget_it@umontreal.ca>
+Message-Id: <E1nSX7U-00DKz5-1I@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 10 Mar 2022 21:43:16 -0700
+
+Name: Michaelbrulk
+Email: forget_it@umontreal.ca
+
+Subject: New contact from Michaelbrulk
+
+Message:
+Good earnings up to $7600 per week   >>>>>>>>>>>>>>  https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2FcbGIPc&sa=D&786=468&usg=AFQjCNHUToAVTERs1XPU4mJx1eq1l7vSmg   <<<<<<<<<<<<<
+
+
+--1646973796-eximdsn-1497456320--

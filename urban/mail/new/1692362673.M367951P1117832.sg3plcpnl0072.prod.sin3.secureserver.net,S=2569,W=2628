@@ -1,0 +1,59 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id jApjFLFn32SIDhEAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 18 Aug 2023 05:44:33 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 18 Aug 2023 05:44:33 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qWyq9-004gnO-8c
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 18 Aug 2023 05:44:33 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qWyq1-004gZF-Jt@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qWyq9-004gnO-8c@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 18 Aug 2023 05:44:33 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qWyq1-004gZF-Jt
+	for info@yoursite.com;
+	Fri, 18 Aug 2023 05:44:25 -0700
+To: info@yoursite.com
+Subject: New contact from Hemafarderb
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 82.162.122.23
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 82.162.122.23
+From: Hemafarderb <yoko032023@gmail.com>
+Message-Id: <E1qWyq1-004gZF-Jt@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 18 Aug 2023 05:44:25 -0700
+
+Name: Hemafarderb
+Email: yoko032023@gmail.com
+
+Subject: New contact from Hemafarderb
+
+Message:
+Logistics company - Lazurit LLC provides a full range of foreign economic services for the delivery of goods from Southeast Asia to Russia. 
+ 
+Purchase of goods in Southeast Asia and delivery to Russia 
+International cargo transportation from Southeast Asia to Russia 
+Customs clearance of goods in Russia 
+Certification of goods and cars in Russia 
+ 
+We provide our customers with a decisive competitive advantage in the delivery of goods from Southeast Asia to Russia 
+ 
+https://lazuritllc.ru
+

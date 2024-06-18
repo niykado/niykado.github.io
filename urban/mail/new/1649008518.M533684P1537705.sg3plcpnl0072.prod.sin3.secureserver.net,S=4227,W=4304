@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id OBldH4bfSWKpdhcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 03 Apr 2022 10:55:18 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 03 Apr 2022 10:55:18 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nb4Ra-006T4Z-F2
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 03 Apr 2022 10:55:18 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nb4RZ-006T3f-7y@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1649008518-eximdsn-1020815181
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nb4Ra-006T4Z-F2@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 03 Apr 2022 10:55:18 -0700
+
+--1649008518-eximdsn-1020815181
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 b4RZnuxhfU5PD :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ErEXEQQA c=1 sm=1 tr=0 ts=6249df86 p=MFDnNoNNAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=z0gMJWrwH1QA:10 a=3yHAddQqVvgA:10 a=x7bEGLp0ZPQA:10 a=eREnS9nEMQ8A:10 a=pGLkceISAAAA:8 a=y58ym7fQj5LsFSFdK90A:9 a=uY2U8kTjv0UA:10 a=Hh0teiLyn0AA:10 a=NqJXN4ZQ42MA:10 a=LzQrcHr2kCUA:10 a=KjkNdZPOpIMA:10 a=zcCDhtp5qFsA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=nPSuk_WdmABjSiWDqhgt:22 ::
+    100.00
+
+--1649008518-eximdsn-1020815181
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 b4RZnuxhfU5PD :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ErEXEQQA c=1 sm=1 tr=0 ts=6249df86 p=MFDnNoNNAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=z0gMJWrwH1QA:10 a=3yHAddQqVvgA:10 a=x7bEGLp0ZPQA:10 a=eREnS9nEMQ8A:10 a=pGLkceISAAAA:8 a=y58ym7fQj5LsFSFdK90A:9 a=uY2U8kTjv0UA:10 a=Hh0teiLyn0AA:10 a=NqJXN4ZQ42MA:10 a=LzQrcHr2kCUA:10 a=KjkNdZPOpIMA:10 a=zcCDhtp5qFsA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=nPSuk_WdmABjSiWDqhgt:22 :: 100.00
+
+--1649008518-eximdsn-1020815181
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nb4RZ-006T3f-7y
+	for info@yoursite.com; Sun, 03 Apr 2022 10:55:17 -0700
+To: info@yoursite.com
+Subject: New contact from Robin Schmaltz
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.33.238
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.33.238
+From: Robin Schmaltz <KileyGruska65933@gmail.com>
+Message-Id: <E1nb4RZ-006T3f-7y@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 03 Apr 2022 10:55:17 -0700
+
+Name: Robin Schmaltz
+Email: KileyGruska65933@gmail.com
+
+Subject: New contact from Robin Schmaltz
+
+Message:
+Good job on the new site! Now go ahead and submit it to our free directory here https://bit.ly/submit-your-site-here
+
+
+--1649008518-eximdsn-1020815181--

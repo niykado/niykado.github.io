@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id eF0HFF0OJ2JR3jgAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 08 Mar 2022 01:05:49 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 08 Mar 2022 01:05:49 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nRUqr-00Fh9R-8P
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 08 Mar 2022 01:05:49 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nRUqq-00Fh8u-HE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1646726749-eximdsn-1226069701
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nRUqr-00Fh9R-8P@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 08 Mar 2022 01:05:49 -0700
+
+--1646726749-eximdsn-1226069701
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 RUqqnILxiWrsw :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=eOLWMFl1 c=1 sm=1 tr=0 ts=62270e5d p=1Pt91yShGSwA:10 p=csydK4GbAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=x7bEGLp0ZPQA:10 a=_XaOJJ19OeAA:10 a=EkRINoMoimm_1aXDftMA:9 a=EVNkGL_1AoEA:10 a=_EtYg8YTZD0A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=BVQVDakoBzaR3EMBJ4y8:22 ::
+    100.00
+
+--1646726749-eximdsn-1226069701
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 RUqqnILxiWrsw :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=eOLWMFl1 c=1 sm=1 tr=0 ts=62270e5d p=1Pt91yShGSwA:10 p=csydK4GbAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=o8Y5sQTvuykA:10 a=x7bEGLp0ZPQA:10 a=_XaOJJ19OeAA:10 a=EkRINoMoimm_1aXDftMA:9 a=EVNkGL_1AoEA:10 a=_EtYg8YTZD0A:10 a=5WXwxYStDJFuYRuZHuqg:22 a=BVQVDakoBzaR3EMBJ4y8:22 :: 100.00
+
+--1646726749-eximdsn-1226069701
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nRUqq-00Fh8u-HE
+	for info@yoursite.com; Tue, 08 Mar 2022 01:05:48 -0700
+To: info@yoursite.com
+Subject: New contact from Michaelbrulk
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 45.133.172.7
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 45.133.172.7
+From: Michaelbrulk <merveille.dilan@outlook.fr>
+Message-Id: <E1nRUqq-00Fh8u-HE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 08 Mar 2022 01:05:48 -0700
+
+Name: Michaelbrulk
+Email: merveille.dilan@outlook.fr
+
+Subject: New contact from Michaelbrulk
+
+Message:
+Paiements Г  tous les EuropГ©ens dГЁs maintenant Г  partir de 500 EUR par jour pour tous   >>>>>>>>>>>>>>  https://telegra.ph/A-partir-de-500-EUR-par-jour-pendant-la-crise-%C3%A0-partir-dun-seul-investissement-03-08-5?84467   <<<<<<<<<<<<<
+
+
+--1646726749-eximdsn-1226069701--

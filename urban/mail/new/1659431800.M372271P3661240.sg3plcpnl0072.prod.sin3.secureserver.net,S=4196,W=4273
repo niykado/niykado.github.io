@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 6PJvFHjr6GK43TcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 02 Aug 2022 02:16:40 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 02 Aug 2022 02:16:40 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oIo12-00FMUK-9R
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 02 Aug 2022 02:16:40 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oIo10-00FMTI-VO@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1659431800-eximdsn-1955981685
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oIo12-00FMUK-9R@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 02 Aug 2022 02:16:40 -0700
+
+--1659431800-eximdsn-1955981685
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Io11oD8pKNdIG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62e8eb78 p=POLhSXyBAAAA:8 p=inwWHJQ1ruEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=l2VdXGFtDNMA:10 a=pGLkceISAAAA:8 a=3OlMPRkYFFwFsGoneiQA:9 a=Q7NPptWHUhsA:10 a=zOQQDJvnx8wA:10 a=ZAK6qVehgnEA:10 a=wwAePvBONnjDQaqHVNx2:22 a=yMivMMERW4bTFFtrecx1:22 a=5WXwxYStDJFuYRuZHuqg:22 a=C1kbsokVQ9dPfs_UfjbE:22 ::
+    100.00
+
+--1659431800-eximdsn-1955981685
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Io11oD8pKNdIG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62e8eb78 p=POLhSXyBAAAA:8 p=inwWHJQ1ruEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=l2VdXGFtDNMA:10 a=pGLkceISAAAA:8 a=3OlMPRkYFFwFsGoneiQA:9 a=Q7NPptWHUhsA:10 a=zOQQDJvnx8wA:10 a=ZAK6qVehgnEA:10 a=wwAePvBONnjDQaqHVNx2:22 a=yMivMMERW4bTFFtrecx1:22 a=5WXwxYStDJFuYRuZHuqg:22 a=C1kbsokVQ9dPfs_UfjbE:22 :: 100.00
+
+--1659431800-eximdsn-1955981685
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oIo10-00FMTI-VO
+	for info@yoursite.com; Tue, 02 Aug 2022 02:16:39 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCigCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.244
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.244
+From: CrytoCigCig <jghei334@gmail.com>
+Message-Id: <E1oIo10-00FMTI-VO@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 02 Aug 2022 02:16:38 -0700
+
+Name: CrytoCigCig
+Email: jghei334@gmail.com
+
+Subject: New contact from CrytoCigCig
+
+Message:
+Money, money! Make more money with financial robot! https://bam.qbe-medienhaus.de/bam
+
+
+--1659431800-eximdsn-1955981685--

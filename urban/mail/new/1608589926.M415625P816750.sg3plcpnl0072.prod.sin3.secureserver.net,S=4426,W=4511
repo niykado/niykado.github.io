@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id uL5tFmYi4V9udgwAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 21 Dec 2020 15:32:06 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 21 Dec 2020 15:32:06 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1krTio-003Xyh-A8
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 21 Dec 2020 15:32:06 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1krTio-003XyU-5P@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1608589926-eximdsn-1346693633
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1krTio-003Xyh-A8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 21 Dec 2020 15:32:06 -0700
+
+--1608589926-eximdsn-1346693633
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 rTiokKDVwjdsw :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=drget3s4 c=1 sm=1 tr=0 ts=5fe12266 p=bLG2UHGcCZoA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=zTNgK-yGK50A:10 a=IarfmfqKrNYA:10 a=x7bEGLp0ZPQA:10 a=iBA4951_jp8A:10 a=pGLkceISAAAA:8 a=2ptvy_ltAAAA:8 a=O4Dw4-HnRgtt6CGLztcA:9 a=-3phJeZxe5oA:10 a=3k53MeZvH_gA:10 a=kG7EVIKK9x-QbXk3gTni:22 a=Dwtx5fVPl6kvejMMoid5:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 ::
+    100.00
+
+--1608589926-eximdsn-1346693633
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 rTiokKDVwjdsw :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=drget3s4 c=1 sm=1 tr=0 ts=5fe12266 p=bLG2UHGcCZoA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=zTNgK-yGK50A:10 a=IarfmfqKrNYA:10 a=x7bEGLp0ZPQA:10 a=iBA4951_jp8A:10 a=pGLkceISAAAA:8 a=2ptvy_ltAAAA:8 a=O4Dw4-HnRgtt6CGLztcA:9 a=-3phJeZxe5oA:10 a=3k53MeZvH_gA:10 a=kG7EVIKK9x-QbXk3gTni:22 a=Dwtx5fVPl6kvejMMoid5:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 :: 100.00
+
+--1608589926-eximdsn-1346693633
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1krTio-003XyU-5P
+	for info@yoursite.com; Mon, 21 Dec 2020 15:32:06 -0700
+To: info@yoursite.com
+Subject: New contact from James Lambert
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.61.112
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.61.112
+From: James Lambert <jlam73000@gmail.com>
+Message-Id: <E1krTio-003XyU-5P@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 21 Dec 2020 15:32:06 -0700
+
+Name: James Lambert
+Email: jlam73000@gmail.com
+
+Subject: New contact from James Lambert
+
+Message:
+Good day 
+ 
+I`m seeking for a reputable company/individual to partner with in a manner it would benefit both parties. The project is worth $24 Million so if interested, kindly contact me through this email support@dcuadvancefinanceltd.com for clarification. 
+ 
+I await your response. 
+ 
+Thanks, 
+ 
+James Lambert
+
+
+--1608589926-eximdsn-1346693633--

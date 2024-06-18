@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id +Fe+KGrnE2G6/ToAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 11 Aug 2021 08:06:18 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 11 Aug 2021 08:06:18 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mDpoA-00GJ1G-KL
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 11 Aug 2021 08:06:18 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mDpoA-00GJ0h-El@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1628694378-eximdsn-1834255697
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mDpoA-00GJ1G-KL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 11 Aug 2021 08:06:18 -0700
+
+--1628694378-eximdsn-1834255697
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 DpoAmnIfH9Rq6 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=duYet3s4 c=1 sm=1 tr=0 ts=6113e76a p=1mMw_Jz42KYA:10 p=p2-Pho_zVaQA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=MhDmnRu9jo8A:10 a=x7bEGLp0ZPQA:10 a=Ace_IGzxnvgA:10 a=pGLkceISAAAA:8 a=ANtKW9If0wosPzmT4WIA:9 a=XIMS_c_L-AsA:10 a=Y5MMuCxzWXmE70u75r3_:22 ::
+    100.00
+
+--1628694378-eximdsn-1834255697
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 DpoAmnIfH9Rq6 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=duYet3s4 c=1 sm=1 tr=0 ts=6113e76a p=1mMw_Jz42KYA:10 p=p2-Pho_zVaQA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=MhDmnRu9jo8A:10 a=x7bEGLp0ZPQA:10 a=Ace_IGzxnvgA:10 a=pGLkceISAAAA:8 a=ANtKW9If0wosPzmT4WIA:9 a=XIMS_c_L-AsA:10 a=Y5MMuCxzWXmE70u75r3_:22 :: 100.00
+
+--1628694378-eximdsn-1834255697
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mDpoA-00GJ0h-El
+	for info@yoursite.com; Wed, 11 Aug 2021 08:06:18 -0700
+To: info@yoursite.com
+Subject: New contact from Edward Freeman
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 192.3.28.247
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 192.3.28.247
+From: Edward Freeman <edfreeman231@gmail.com>
+Message-Id: <E1mDpoA-00GJ0h-El@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 11 Aug 2021 08:06:18 -0700
+
+Name: Edward Freeman
+Email: edfreeman231@gmail.com
+
+Subject: New contact from Edward Freeman
+
+Message:
+Greetings!
+
+If you're open to try new trends in productivity, let me tell you about this tool that most successful businesses use to reach out to their clients making their business more profitable and credible at the same time. It's an app! It can help you run the business, whether in terms of sales, marketing, management, or a combination of those. 
+
+If you already some ideas, I'd like to hear about I'll send you my portfolio ready to be viewed, and I can also give you a free consultation via the phone. Don't worry about the cost of my services since they're relatively inexpensive even for the smallest businesses.
+
+If you're interested in developing an app, or acquiring more info about it, please just reply and let me know when's the best time to contact you. Talk to you soon!
+
+Sincerely,
+Edward
+
+
+--1628694378-eximdsn-1834255697--

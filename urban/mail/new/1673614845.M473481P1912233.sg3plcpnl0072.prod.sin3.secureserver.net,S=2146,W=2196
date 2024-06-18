@@ -1,0 +1,50 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id aHhPG/1VwWOpLR0AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 13 Jan 2023 06:00:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 13 Jan 2023 06:00:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pGJfp-0083OH-Ck
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 13 Jan 2023 06:00:45 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pGJfa-008306-PC@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pGJfp-0083OH-Ck@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 13 Jan 2023 06:00:45 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pGJfa-008306-PC
+	for info@yoursite.com;
+	Fri, 13 Jan 2023 06:00:30 -0700
+To: info@yoursite.com
+Subject: New contact from CigWAife
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.81
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.81
+From: CigWAife <sam.childe@yahoo.com>
+Message-Id: <E1pGJfa-008306-PC@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 13 Jan 2023 06:00:30 -0700
+
+Name: CigWAife
+Email: sam.childe@yahoo.com
+
+Subject: New contact from CigWAife
+
+Message:
+Online Bot will bring you wealth and satisfaction. https://Cig.worldnews.biz.pl/hergo
+

@@ -1,0 +1,60 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id FFiIC8YWwmM89RIAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 13 Jan 2023 19:43:18 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 13 Jan 2023 19:43:18 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pGWVq-005DD3-42
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 13 Jan 2023 19:43:18 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pGWVi-005D8Y-Mn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pGWVq-005DD3-42@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 13 Jan 2023 19:43:18 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pGWVi-005D8Y-Mn
+	for info@yoursite.com;
+	Fri, 13 Jan 2023 19:43:10 -0700
+To: info@yoursite.com
+Subject: New contact from Raymond
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 216.24.213.88
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 216.24.213.88
+From: Raymond <s1.thecctvpro@gmail.com>
+Message-Id: <E1pGWVi-005D8Y-Mn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 13 Jan 2023 19:43:10 -0700
+
+Name: Raymond
+Email: s1.thecctvpro@gmail.com
+
+Subject: New contact from Raymond
+
+Message:
+Dear Sir/mdm, 
+Hope you are doing well 
+We supply 4G solar cameras, explosion-proof cameras and underwater cameras for commercial use. Use of applications: ships, construction sites, oil rigs and nuclear reactor etc.. 
+Do contact us for any enquiries and visit our website below 
+We also have nitrile gloves if you need some 
+Whatsapp: +65 87695655 
+Email: sales@thecctvpro.com 
+W: https://www.thecctvpro.com/ 
+If you wish to unsubscribe, do reply to our email. 
+regards, 
+Raymond
+

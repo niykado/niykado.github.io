@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 2DEXIDEC/WIXVgcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 17 Aug 2022 07:58:57 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 17 Aug 2022 07:58:57 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oOKVV-0023I4-Fa
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 17 Aug 2022 07:58:57 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oOKVU-0023Hd-L9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1660748337-eximdsn-437945566
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oOKVV-0023I4-Fa@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 17 Aug 2022 07:58:57 -0700
+
+--1660748337-eximdsn-437945566
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 OKVUoqXoeNdIG :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62fd0231 p=0KkXHadETFEA:10 p=68iWL7cNAAAA:8 p=L5cORrBtSBwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=x7bEGLp0ZPQA:10 a=6wZwyCE_t8sA:10 a=UqCG9HQmAAAA:8 a=nMdAazEpYoU-D5NKyOkA:9 a=G-wkyCQyMNwA:10 a=-_pQfSDsNesA:10 a=3jw4mY48O2sA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=2l1eRypGyWk5-Og43Kp1:22 ::
+    100.00
+
+--1660748337-eximdsn-437945566
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 OKVUoqXoeNdIG :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=62fd0231 p=0KkXHadETFEA:10 p=68iWL7cNAAAA:8 p=L5cORrBtSBwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=x7bEGLp0ZPQA:10 a=6wZwyCE_t8sA:10 a=UqCG9HQmAAAA:8 a=nMdAazEpYoU-D5NKyOkA:9 a=G-wkyCQyMNwA:10 a=-_pQfSDsNesA:10 a=3jw4mY48O2sA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=2l1eRypGyWk5-Og43Kp1:22 :: 100.00
+
+--1660748337-eximdsn-437945566
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oOKVU-0023Hd-L9
+	for info@yoursite.com; Wed, 17 Aug 2022 07:58:56 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.182
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.182
+From: CrytoCig <reyco2307@outlook.com>
+Message-Id: <E1oOKVU-0023Hd-L9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 17 Aug 2022 07:58:56 -0700
+
+Name: CrytoCig
+Email: reyco2307@outlook.com
+
+Subject: New contact from CrytoCig
+
+Message:
+Making money is very easy if you use the financial Robot. https://bam.rbertilsson.se/
+
+
+--1660748337-eximdsn-437945566--

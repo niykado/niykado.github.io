@@ -1,0 +1,89 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id OKweG2MLjGAaPDEAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 30 Apr 2021 06:51:31 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 30 Apr 2021 06:51:31 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lcTYJ-00Drua-Cq
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 30 Apr 2021 06:51:31 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lcTYJ-00Drse-7m@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1619790691-eximdsn-469905824
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lcTYJ-00Drua-Cq@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 30 Apr 2021 06:51:31 -0700
+
+--1619790691-eximdsn-469905824
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 cTYJlF0wpGEIh :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=OJniYQWB c=1 sm=1 tr=0 ts=608c0b63 p=KtLYSsCe23IA:10 p=XenZWE1Prub9RaJRRnYA:9 p=24eTcEWMsV8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=x7bEGLp0ZPQA:10 a=Pj8jaXHIKh0A:10 a=pGLkceISAAAA:8 a=yRfAu5bjJdYA:10 a=VFDAJLeJoEFJCRNWd8ta:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 ::
+    100.00
+
+--1619790691-eximdsn-469905824
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 cTYJlF0wpGEIh :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=OJniYQWB c=1 sm=1 tr=0 ts=608c0b63 p=KtLYSsCe23IA:10 p=XenZWE1Prub9RaJRRnYA:9 p=24eTcEWMsV8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=x7bEGLp0ZPQA:10 a=Pj8jaXHIKh0A:10 a=pGLkceISAAAA:8 a=yRfAu5bjJdYA:10 a=VFDAJLeJoEFJCRNWd8ta:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 :: 100.00
+
+--1619790691-eximdsn-469905824
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lcTYJ-00Drse-7m
+	for info@yoursite.com; Fri, 30 Apr 2021 06:51:31 -0700
+To: info@yoursite.com
+Subject: New contact from Ian Rutherford
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 198.20.176.238
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 198.20.176.238
+From: Ian Rutherford <IanRutherford433@gmail.com>
+Message-Id: <E1lcTYJ-00Drse-7m@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 30 Apr 2021 06:51:31 -0700
+
+Name: Ian Rutherford
+Email: IanRutherford433@gmail.com
+
+Subject: New contact from Ian Rutherford
+
+Message:
+Hello, 
+
+Do your online reviews give your customers confidence to buy from you?  Customers are very savvy these days and will cyber-stalk you before buying.  Your reviews need to be good in order for them to buy.  If you don't have enough good reviews, they will not trust you and buy from someone who does.  If you have bad reviews, they will go with someone that has good ones.  Most companies don't even realize the massive amount of sales they're missing out on by having bad reviews or not enough reviews.  
+
+We have helped many companies to improve their reputation online, by pushing negative reviews down in the search engines and reviews sites, and by getting many reviews removed completely.  We have a variety of tricks up our sleeve to clear up your reputation, and even more tricks to get you good reviews on an ongoing basis while suppressing negative reviews.  
+
+I would like to tell you more about our services and how they can help you.  Do you have time in the next few days for a consultation on what we can do for you, what the costs are, how long it will take, and what our services have done for our other clients?  We'd love to share the information with you and think it will help you whether you decide to use our services or not (there's no pressure).  
+
+Please just let me know if you'd like more info and we can setup a time to chat.  
+
+Many thanks!
+
+Ian Rutherford | Web Optimizer and Marketing Specialist
+
+
+--1619790691-eximdsn-469905824--

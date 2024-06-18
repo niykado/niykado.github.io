@@ -1,0 +1,68 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id YKN5FNVoImWXLwsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 08 Oct 2023 01:31:17 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 08 Oct 2023 01:31:17 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qpPC1-00351U-9Q
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sun, 08 Oct 2023 01:31:17 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qpPBt-0034z4-Oz@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696753877-eximdsn-257723729
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qpPC1-00351U-9Q@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 08 Oct 2023 01:31:17 -0700
+
+--1696753877-eximdsn-257723729
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    message has lines too long for transport
+
+--1696753877-eximdsn-257723729
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+
+--1696753877-eximdsn-257723729
+Content-type: text/rfc822-headers
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qpPBt-0034z4-Oz
+	for info@yoursite.com;
+	Sun, 08 Oct 2023 01:31:17 -0700
+To: info@yoursite.com
+Subject: New contact from Davidbon
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 89.149.87.118
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 89.149.87.118
+From: Davidbon <a.v.r.aa.m.ov.da.mir@gmail.com>
+Message-Id: <E1qpPBt-0034z4-Oz@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 08 Oct 2023 01:31:09 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-sh
+X-ENVIRONMENT: prod
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1696753877-eximdsn-257723729--

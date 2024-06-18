@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id EOKKChUU22QsdDoAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 14 Aug 2023 22:58:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 14 Aug 2023 22:58:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qVn4n-00G5GF-3q
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Mon, 14 Aug 2023 22:58:45 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qVn4f-00G5DJ-Ia@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qVn4n-00G5GF-3q@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 14 Aug 2023 22:58:45 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qVn4f-00G5DJ-Ia
+	for info@yoursite.com;
+	Mon, 14 Aug 2023 22:58:37 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Morgan
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 138.199.36.200
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 138.199.36.200
+From: Mike Morgan <mikeBootoug@gmail.com>
+Message-Id: <E1qVn4f-00G5DJ-Ia@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 14 Aug 2023 22:58:37 -0700
+
+Name: Mike Morgan
+Email: mikeBootoug@gmail.com
+
+Subject: New contact from Mike Morgan
+
+Message:
+Hi there, 
+ 
+I have reviewed your domain in MOZ and have observed that you may benefit from an increase in authority. 
+ 
+Our solution guarantees you a high-quality domain authority score within a period of three months. This will increase your organic visibility and strengthen your website authority, thus making it stronger against Google updates. 
+ 
+Check out our deals for more details. 
+https://www.monkeydigital.co/domain-authority-plan/ 
+ 
+NEW: Ahrefs Domain Rating 
+https://www.monkeydigital.co/ahrefs-seo/ 
+ 
+Thanks and regards 
+Mike Morgan
+

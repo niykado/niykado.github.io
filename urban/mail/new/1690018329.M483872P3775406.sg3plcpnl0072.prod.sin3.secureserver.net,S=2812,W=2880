@@ -1,0 +1,68 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 6MLKGxmiu2SumzkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 22 Jul 2023 02:32:09 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 22 Jul 2023 02:32:09 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qN8y9-00FqqA-DC
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sat, 22 Jul 2023 02:32:09 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qN8y1-00FqhD-E8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qN8y9-00FqqA-DC@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 22 Jul 2023 02:32:09 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qN8y1-00FqhD-E8
+	for info@yoursite.com;
+	Sat, 22 Jul 2023 02:32:01 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Jacobson
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 181.214.218.119
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 181.214.218.119
+From: Mike Jacobson <mikedafgaine@gmail.com>
+Message-Id: <E1qN8y1-00FqhD-E8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 22 Jul 2023 02:32:01 -0700
+
+Name: Mike Jacobson
+Email: mikedafgaine@gmail.com
+
+Subject: New contact from Mike Jacobson
+
+Message:
+Hi there, 
+ 
+My name is Mike from Monkey Digital, 
+ 
+Allow me to present to you a lifetime revenue opportunity of 35% 
+That's right, you can earn 35% of every order made by your affiliate for life. 
+ 
+Simply register with us, generate your affiliate links, and incorporate them on your website, and you are done. It takes only 5 minutes to set up everything, and the payouts are sent each month. 
+ 
+Click here to enroll with us today: 
+https://www.monkeydigital.org/affiliate-dashboard/ 
+ 
+Think about it, 
+Every website owner requires the use of search engine optimization (SEO) for their website. This endeavor holds significant potential for both parties involved. 
+ 
+Thanks and regards 
+Mike Jacobson
+ 
+Monkey Digital
+

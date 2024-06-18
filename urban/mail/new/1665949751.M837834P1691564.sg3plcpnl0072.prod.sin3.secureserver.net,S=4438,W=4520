@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id DN4GLzdgTGOszxkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sun, 16 Oct 2022 12:49:11 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sun, 16 Oct 2022 12:49:11 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ok9dH-00763B-NT
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sun, 16 Oct 2022 12:49:11 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ok9dH-00762u-I2@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1665949751-eximdsn-1580148415
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ok9dH-00763B-NT@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 16 Oct 2022 12:49:11 -0700
+
+--1665949751-eximdsn-1580148415
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 k9dHoN93Wzcmo :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=NssXMeRJ c=1 sm=1 tr=0 ts=634c6037 p=tEp_11aZ1xMA:10 p=C5Ebj_FeAAAA:8 p=8gV-OdUjAAAA:8 p=mNKprD7qAAAA:8 p=pVgy_NO6vSdUc28YSh8A:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=LTyC_-FI4ZUA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=PGC9aHXKduFEzRnJ-wvR:22 a=crFWJhUuhnoxNfvMJLuN:22 a=rOvHGtwsXJU8F41xEqQk:22 ::
+    100.00
+
+--1665949751-eximdsn-1580148415
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 k9dHoN93Wzcmo :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=NssXMeRJ c=1 sm=1 tr=0 ts=634c6037 p=tEp_11aZ1xMA:10 p=C5Ebj_FeAAAA:8 p=8gV-OdUjAAAA:8 p=mNKprD7qAAAA:8 p=pVgy_NO6vSdUc28YSh8A:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=LTyC_-FI4ZUA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=PGC9aHXKduFEzRnJ-wvR:22 a=crFWJhUuhnoxNfvMJLuN:22 a=rOvHGtwsXJU8F41xEqQk:22 :: 100.00
+
+--1665949751-eximdsn-1580148415
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ok9dH-00762u-I2
+	for info@yoursite.com; Sun, 16 Oct 2022 12:49:11 -0700
+To: info@yoursite.com
+Subject: New contact from Clarkzoord
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 181.215.176.24
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 181.215.176.24
+From: Clarkzoord <mymail@mymails.cmo>
+Message-Id: <E1ok9dH-00762u-I2@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sun, 16 Oct 2022 12:49:11 -0700
+
+Name: Clarkzoord
+Email: mymail@mymails.cmo
+
+Subject: New contact from Clarkzoord
+
+Message:
+The world is in crisis and some people are getting rich against all odds with the help of one smart robot. 
+http://app-qr-code-scanner.soulverity.com/news-2192 
+It is enough to invest at least $250 one time and this smart robot will make you passive income from $1000 per day. 
+http://app-800.exybris.com/news-8995 
+Over 94,833 people have already become multimillionaires over the past month thanks to the smart robot. See for yourself. 
+http://roku-app.vallagos.com/id-6579
+
+
+--1665949751-eximdsn-1580148415--

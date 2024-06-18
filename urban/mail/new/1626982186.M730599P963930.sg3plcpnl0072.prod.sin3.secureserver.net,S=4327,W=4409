@@ -1,0 +1,82 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 8DpBKirH+WBatQ4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 22 Jul 2021 12:29:46 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 22 Jul 2021 12:29:46 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1m6eOA-0048ME-L0
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 22 Jul 2021 12:29:46 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1m6eOA-0048Lx-Gn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1626982186-eximdsn-2023004882
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1m6eOA-0048ME-L0@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 22 Jul 2021 12:29:46 -0700
+
+--1626982186-eximdsn-2023004882
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 6eOAmLh18q21K :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=KO2fsHJo c=1 sm=1 tr=0 ts=60f9c72a p=zd-FAMWNNNyybIBXyZEA:9 p=RuCnUK7JcK8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=e_q4qTt1xDgA:10 a=1uzgfqWugF0A:10 a=x7bEGLp0ZPQA:10 a=KrWZf3ETm34A:10 a=mK_AVkanAAAA:8 a=pGLkceISAAAA:8 a=1oY3ehqXmUkA:10 a=bACvWrBOWhcA:10 a=W5haFPZ_BMuZFdsm7Bbc:22 a=3gWm3jAn84ENXaBijsEo:22 ::
+    100.00
+
+--1626982186-eximdsn-2023004882
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 6eOAmLh18q21K :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=KO2fsHJo c=1 sm=1 tr=0 ts=60f9c72a p=zd-FAMWNNNyybIBXyZEA:9 p=RuCnUK7JcK8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=e_q4qTt1xDgA:10 a=1uzgfqWugF0A:10 a=x7bEGLp0ZPQA:10 a=KrWZf3ETm34A:10 a=mK_AVkanAAAA:8 a=pGLkceISAAAA:8 a=1oY3ehqXmUkA:10 a=bACvWrBOWhcA:10 a=W5haFPZ_BMuZFdsm7Bbc:22 a=3gWm3jAn84ENXaBijsEo:22 :: 100.00
+
+--1626982186-eximdsn-2023004882
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1m6eOA-0048Lx-Gn
+	for info@yoursite.com; Thu, 22 Jul 2021 12:29:46 -0700
+To: info@yoursite.com
+Subject: New contact from David Song
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.49.236
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.49.236
+From: David Song <noreply@googlemail.com>
+Message-Id: <E1m6eOA-0048Lx-Gn@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 22 Jul 2021 12:29:46 -0700
+
+Name: David Song
+Email: noreply@googlemail.com
+
+Subject: New contact from David Song
+
+Message:
+Dear Sir/Madam, 
+This is a consultancy and brokerage Firm specializing in Growth Financial Loan. We wish to invest in any viable Project presented by your Management after reviews on your Business Project Presentation Plan. We look forward to your Swift response. 
+Email:davidsong2030@gmail.com. 
+ 
+Regards, 
+Mr.David Song
+
+
+--1626982186-eximdsn-2023004882--

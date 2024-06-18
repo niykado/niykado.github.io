@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 8zywJvOzIWSpvSEAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 27 Mar 2023 08:19:15 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 27 Mar 2023 08:19:15 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pgoct-009HF2-In
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Mon, 27 Mar 2023 08:19:15 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pgocm-009HDo-Kj@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1679930355-eximdsn-1133809170
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pgoct-009HF2-In@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 27 Mar 2023 08:19:15 -0700
+
+--1679930355-eximdsn-1133809170
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 goctpsFAQIrAj :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U8BUT8nu c=1 sm=1 tr=0 ts=6421b3f3 p=xtcUZ8nETGYA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=pSbXcd1meQYA:10 a=69EAbJreAAAA:8 a=pGLkceISAAAA:8 a=WgWfMFVStWT2nLclLyIA:9 a=R21m5ASuzFYA:10 a=7YHq0k0BT8wA:10 a=ZXulRonScM0A:10 a=3lkC--Q1T5iLKvJpSf1w:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=NIdf0PDP9WBdcxT_B3K9:22 ::
+    100.00
+
+--1679930355-eximdsn-1133809170
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 goctpsFAQIrAj :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U8BUT8nu c=1 sm=1 tr=0 ts=6421b3f3 p=xtcUZ8nETGYA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=pSbXcd1meQYA:10 a=69EAbJreAAAA:8 a=pGLkceISAAAA:8 a=WgWfMFVStWT2nLclLyIA:9 a=R21m5ASuzFYA:10 a=7YHq0k0BT8wA:10 a=ZXulRonScM0A:10 a=3lkC--Q1T5iLKvJpSf1w:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 a=NIdf0PDP9WBdcxT_B3K9:22 :: 100.00
+
+--1679930355-eximdsn-1133809170
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pgocm-009HDo-Kj
+	for info@yoursite.com;
+	Mon, 27 Mar 2023 08:19:15 -0700
+To: info@yoursite.com
+Subject: New contact from SABINE AGOTTE
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 191.101.217.131
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 191.101.217.131
+From: SABINE AGOTTE <isabellatrovato02@hotmail.com>
+Message-Id: <E1pgocm-009HDo-Kj@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 27 Mar 2023 08:19:08 -0700
+
+Name: SABINE AGOTTE
+Email: isabellatrovato02@hotmail.com
+
+Subject: New contact from SABINE AGOTTE
+
+Message:
+Sorry to have contacted you this way, I just saw your contact on the internet. Be a shareholder in an oil import company and a member of a large humanitarian association. I wish to support you financially in order to make a donation to create an association which helps the unemployed to find a job, as well as people in need in survival or other... I await your answer on the email above for bring things to light and more details . 
+Email: agotte1900@gmail.com 
+ 
+Thank you and God bless you. 
+Ms SABINE AGOTTE.
+
+
+--1679930355-eximdsn-1133809170--

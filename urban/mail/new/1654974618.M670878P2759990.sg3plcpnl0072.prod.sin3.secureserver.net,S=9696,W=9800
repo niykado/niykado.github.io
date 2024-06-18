@@ -1,0 +1,104 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id mAbpJ5ropGI2HSoAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 11 Jun 2022 12:10:18 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 11 Jun 2022 12:10:18 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1o06V0-00BbHX-JU
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 11 Jun 2022 12:10:18 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1o06Uz-00BbH8-SS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1654974618-eximdsn-608758693
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1o06V0-00BbHX-JU@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 11 Jun 2022 12:10:18 -0700
+
+--1654974618-eximdsn-608758693
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 06UzofhNAsYS1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QbujAuXv c=1 sm=1 tr=0 ts=62a4e89a p=Kx5Xnm5xkSUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=z3ULzVM9AAAA:8 a=p-y7AAWXAAAA:8 a=cLCRsAR0S1VTbiuQJDYA:9 a=_wZDzDl8i-gA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=aC2TUO9nyKtkVkuG-GoU:22 a=r8Emp6eAXSoZjUAiBdEW:22 ::
+    96.00
+
+--1654974618-eximdsn-608758693
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 06UzofhNAsYS1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QbujAuXv c=1 sm=1 tr=0 ts=62a4e89a p=Kx5Xnm5xkSUA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=JPEYwPQDsx4A:10 a=z3ULzVM9AAAA:8 a=p-y7AAWXAAAA:8 a=cLCRsAR0S1VTbiuQJDYA:9 a=_wZDzDl8i-gA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=aC2TUO9nyKtkVkuG-GoU:22 a=r8Emp6eAXSoZjUAiBdEW:22 :: 96.00
+
+--1654974618-eximdsn-608758693
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1o06Uz-00BbH8-SS
+	for info@yoursite.com; Sat, 11 Jun 2022 12:10:17 -0700
+To: info@yoursite.com
+Subject: New contact from JosephTeeni
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 81.163.108.84
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 81.163.108.84
+From: JosephTeeni <arkadiy_nikolaev_1988@inbox.ru>
+Message-Id: <E1o06Uz-00BbH8-SS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 11 Jun 2022 12:10:17 -0700
+
+Name: JosephTeeni
+Email: arkadiy_nikolaev_1988@inbox.ru
+
+Subject: New contact from JosephTeeni
+
+Message:
+Болгарка является весьма опасным инструментом <a href=https://avancompany.ru/>Смеси Строительные Сухие </a>
+   Чтобы обезопасить себя, перед резкой следует надеть перчатки, широкие защитные очки или экран <a href=https://avancompany.ru/suhie_smesi_i_zatirki>Ламинат Москва Купить </a>
+   Нужна плотная одежда, а обувь – кожаная <a href=https://avancompany.ru/svp>Окно Москва </a>
+ 
+Этим материалом облицовывают дворцы <a href=https://avancompany.ru/keramicheskaya-plitka-vannaya-komnata>Фирма По Пластиковым Окнам </a>
+   В Испании так делали уже сотни лет назад <a href=https://avancompany.ru/svp>Террасная Доска Купить В Москве </a>
+   Арабские правители, христианские короли использовали испанскую кафельную плитку для облицовки своих резиденций <a href=https://avancompany.ru/keramicheskaya-plitka-vannaya-komnata>Плитка В Ванную Комнату </a>
+   Аналоги современного кафеля применялись ещё в Древнем Риме при постройке домов патрициев <a href=https://avancompany.ru/okna>Плитка В Ванную </a>
+   С тех пор в промышленном производстве произошли грандиозные изменения <a href=https://avancompany.ru/kollekcionnaya_oblicovoc>Купить Керамогранитную Плитку </a>
+ 
+Плитка для пола должна быть более прочной, чтобы выдержать нагрузку от сантехник обладать противоскользящей поверхность быть устойчивой к воде и агрессивным моющим и чистящим средствам <a href=https://avancompany.ru/okna>Пластиковые Окна От Производителя Недорого </a>
+ 
+Плитку нужно зафиксировать на ровной поверхности <a href=https://avancompany.ru/terrakotovaya_plitka>Плитка Ванную </a>
+   На ее лицевой стороне чертится ровная линия <a href=https://avancompany.ru/kollekcionnaya_oblicovoc>Окна Цены Пластиковые </a>
+   Болгарку следует взять в руку так, чтобы резка происходила в направлении на себя <a href=https://avancompany.ru/protivoskolzyaschiy_profil>Окна Пвх Москва </a>
+   Обязательно надевайте защитные очки и маску, дабы защитить глаза и органы дыхания от керамической пыли <a href=https://avancompany.ru/keramicheskaya-plitka-vannaya-komnata>Плитка Для Ванной Цена </a>
+   Этот способ резки достаточно опасный и шумный <a href=https://avancompany.ru/svp>Купить Пвх Окна </a>
+   Во время работы образуется очень много пыли <a href=https://avancompany.ru/suhie_smesi_i_zatirki>Пластиковые Окна В Москве </a>
+   Без наличия опыта будет получаться много неточностей и ошибок <a href=https://avancompany.ru/suhie_smesi_i_zatirki>Керамическая Плитка Для Ванной </a>
+   Об этом следует помнить, все важные моменты рассмотрены в видео к уроку <a href=https://avancompany.ru/keramogranit_iz_kitaya>Пластиковые Окна Купить </a>
+ 
+Также среди прочего инструментария полезно иметь стальную проволоку диаметром несколько мень­ше толщины крестовины, согнутую по форме буквы , и плитка очень легко отнимается от стены <a href=https://avancompany.ru/okna>Купить Ламинат Недорого </a>
+   Особенно полезным этот крючок может быть в случае, если ошибка стала за­метна уже после укладки следующего ряда, и плитку более зацепить нельзя, а при попытке поддеть плит­ку ножом моментально повреждается эмаль у сосед­ней <a href=https://avancompany.ru/okna>Плитка В Ванной Комнате </a>
+ 
+Данный вид представляет собой керамогранит (См <a href=https://avancompany.ru/terrakotovaya_plitka>Пвх Окна </a>
+   ), не имеющий эмалированного покрытия <a href=https://avancompany.ru/>Окно Пластиковое Купить </a>
+   Готовый материал имеет низкий уровень впитывания воды, высокую износостойкость, прочность и морозостойкость, четкость дизайнерского изображения <a href=https://avancompany.ru/suhie_smesi_i_zatirki>Заказать Пластиковое Окно </a>
+   Внешняя часть греса может быть матовой, полированной и полуполированной <a href=https://avancompany.ru/svp>Ванна Плитка </a>
+
+
+--1654974618-eximdsn-608758693--

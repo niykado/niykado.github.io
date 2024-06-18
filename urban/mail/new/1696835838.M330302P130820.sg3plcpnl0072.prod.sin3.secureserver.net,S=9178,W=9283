@@ -1,0 +1,105 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id YC5UE/6oI2UE/wEAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 09 Oct 2023 00:17:18 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 09 Oct 2023 00:17:18 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qpkVy-000YSo-8R
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Mon, 09 Oct 2023 00:17:18 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qpkVq-000YQa-Hy@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1696835838-eximdsn-1553043327
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qpkVy-000YSo-8R@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 09 Oct 2023 00:17:18 -0700
+
+--1696835838-eximdsn-1553043327
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 pkVyqRrTlMm8c :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=UaGXCoeN c=1 sm=1 tr=0 ts=6523a8fe p=Tgwn2eQ_68RJWW0HTGGS:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=2S4b3wKJEVIA:10 a=pGLkceISAAAA:8 a=eG50428UAAAA:8 a=4Gf9D_I_69nCW_pH6d4A:9 a=g4bZ3b9kaGwA:10 a=TaBx9T4MpD8A:10 a=12DAfT11djsAGxBi1SW6:22 a=-IAdQ3GlfFZXLqU-3OcN:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 ::
+    100.00
+
+--1696835838-eximdsn-1553043327
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 pkVyqRrTlMm8c :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=UaGXCoeN c=1 sm=1 tr=0 ts=6523a8fe p=Tgwn2eQ_68RJWW0HTGGS:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=2S4b3wKJEVIA:10 a=pGLkceISAAAA:8 a=eG50428UAAAA:8 a=4Gf9D_I_69nCW_pH6d4A:9 a=g4bZ3b9kaGwA:10 a=TaBx9T4MpD8A:10 a=12DAfT11djsAGxBi1SW6:22 a=-IAdQ3GlfFZXLqU-3OcN:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 :: 100.00
+
+--1696835838-eximdsn-1553043327
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qpkVq-000YQa-Hy
+	for info@yoursite.com;
+	Mon, 09 Oct 2023 00:17:18 -0700
+To: info@yoursite.com
+Subject: New contact from Alvinsuire
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 89.149.87.118
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 89.149.87.118
+From: Alvinsuire <i.b.a.rk.ov08@gmail.com>
+Message-Id: <E1qpkVq-000YQa-Hy@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 09 Oct 2023 00:17:10 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-sh
+X-ENVIRONMENT: prod
+
+Name: Alvinsuire
+Email: i.b.a.rk.ov08@gmail.com
+
+Subject: New contact from Alvinsuire
+
+Message:
+Во время цифровой революции наш вебсайт представляет собой весомое пространство, где вы можете найти множество нужной информации, различных вероятностей и увлекательных контентов. В этом тексте мы поведаем вам пять ключевых оснований, отчего посещение нашего вебсайта стоит включить в вашу каждодневную рутину. 
+ 
+1. Образование и Информация 
+ 
+Наш сайт считается источником образовательного контента на самые разнообразные темы. У нас вы найдете статьи, видеоуроки, аудиозаписи, изыскания и всякое разное. Мы рвемся дать для вас важную и высококачественную информацию, кот-ая поможет для вас расширить средства знания и навыки. Будь вы студентом, специалистом или просто пытливым человеком, наш вебсайт обеспечит вас ценными познаниями. 
+ 
+2. Утехи и Культура 
+ 
+На нашем веб-сайте вы кроме того найдете разнообразные развлекательные материалы. Мы предоставляем доступ к аудиокнигам, фильмам, музыке, играм и многому другому. Здесь у вас появится возможность отдохнуть, расслабиться и насладиться культурными произведениями. Мы убеждены,  собственно что любой отыщет на нашем сайте что-то по нраву. 
+<a href=https://masterdoors.md/>https://masterdoors.md/</a> 
+ 
+3. Коммуникация и Общение 
+ 
+Наш сайт предоставляет возможность общения и обмена информацией с другими пользователями. Вы можете присоединиться к обсуждениям на форумах, разделиться средствами идеями в комментариях к статьям и знаться с единомышленниками через наши общества. Мы ценим обмен мнениями и считаем,  собственно что взаимодействие с другими пользователями проделывает наш вебсайт более интересным и обогащающим местом. 
+ 
+4. Ресурсы и Инструменты 
+ 
+Мы предоставляем различные ресурсы и инструменты, коие имеют все шансы быть полезными в вашей повседневной жизни. Это могут быть калькуляторы, конвертеры, шаблоны для работы, образовательные материалы и многое другое. Наши ресурсы разработаны с целью облегчить ваши задачи и сберечь ваше время. 
+ 
+5. Индивидуальные Способности 
+ 
+На нашем сайте мы стремимся предоставить для вас индивидуальные возможности в согласовании с вашими интересами и потребностями. Вы можете настраивать ваш профиль, подписываться на интересующие вас сегменты, делать свои собственные коллекции и всякое разное. Мы считаем,  собственно что любой юзер уникален, и ваше роль делает наш сайт более различным и интересным. 
+ 
+В окончание, посещение нашего вебсайта - это ваш источник к миру инфы, отдыха и возможностей. Мы рвемся дать для вас наилучший навык и ценим ваше участие. Предполагаем,  собственно что наш сайт станет вашим надежным спутником в мире онлайна, и вы найдете тут все,  собственно что для вас нужно. Не упустите возможность пользоваться всеми выгодами, которые предоставляет наш вебсайт, и поделитесь ими с друзьями и близкими. Благодарим вас за доверие и интерес к нашему веб-сайту!
+
+
+--1696835838-eximdsn-1553043327--

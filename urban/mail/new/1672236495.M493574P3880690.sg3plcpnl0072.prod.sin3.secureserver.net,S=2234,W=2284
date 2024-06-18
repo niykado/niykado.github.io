@@ -1,0 +1,50 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 7Cj5HM9NrGPyNjsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 28 Dec 2022 07:08:15 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 28 Dec 2022 07:08:15 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pAX6N-00GHXf-DT
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 28 Dec 2022 07:08:15 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pAX6G-00GHVB-0a@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1pAX6N-00GHXf-DT@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 28 Dec 2022 07:08:15 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pAX6G-00GHVB-0a
+	for info@yoursite.com;
+	Wed, 28 Dec 2022 07:08:08 -0700
+To: info@yoursite.com
+Subject: New contact from Rima Heritage
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 104.254.95.158
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 104.254.95.158
+From: Rima Heritage <MikaelaKaschak@gmail.com>
+Message-Id: <E1pAX6G-00GHVB-0a@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 28 Dec 2022 07:08:08 -0700
+
+Name: Rima Heritage
+Email: MikaelaKaschak@gmail.com
+
+Subject: New contact from Rima Heritage
+
+Message:
+Give your new site a boost, submit your site now to our free directory and start getting more clients https://bit.ly/submit_site_l1aa2sZgZ1G6
+

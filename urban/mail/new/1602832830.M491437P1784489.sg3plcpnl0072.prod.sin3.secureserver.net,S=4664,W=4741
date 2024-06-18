@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id CBg4G75JiV+pOhsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 16 Oct 2020 00:20:30 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 16 Oct 2020 00:20:30 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kTK2Q-007jnN-Cb
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 16 Oct 2020 00:20:30 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kTK2Q-007jn2-7g@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1602832830-eximdsn-1299428108
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kTK2Q-007jnN-Cb@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 16 Oct 2020 00:20:30 -0700
+
+--1602832830-eximdsn-1299428108
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 TK2Qk9Ir34PmQ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=4EnnfjD4AAAA:8 p=M7QSRG_9zlcA:10 p=gcorXNp_AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=KTz5nHi6d8YA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=e4YzOv3psHrRAg5myXgA:9 a=bDZBv36gXioA:10 a=5PHMV5j_T88A:10 a=kY-foELpw-QA:10 a=2z3msIMecrEA:10 a=hI0QeoVwDvIHF2SWZxp8:22 a=SC5j2M3soVWg5VwxjtHB:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 ::
+    100.00
+
+--1602832830-eximdsn-1299428108
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 TK2Qk9Ir34PmQ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=ebhDgIMH c=1 sm=1 tr=0 p=4EnnfjD4AAAA:8 p=M7QSRG_9zlcA:10 p=gcorXNp_AAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=KTz5nHi6d8YA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=afefHYAZSVUA:10 a=e4YzOv3psHrRAg5myXgA:9 a=bDZBv36gXioA:10 a=5PHMV5j_T88A:10 a=kY-foELpw-QA:10 a=2z3msIMecrEA:10 a=hI0QeoVwDvIHF2SWZxp8:22 a=SC5j2M3soVWg5VwxjtHB:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 :: 100.00
+
+--1602832830-eximdsn-1299428108
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kTK2Q-007jn2-7g
+	for info@yoursite.com; Fri, 16 Oct 2020 00:20:30 -0700
+To: info@yoursite.com
+Subject: New contact from PASSIVES EINKOMMEN IM INTERNET VON 8075 EUR PRO TAG - KEINE BERUFLICHEN FAHIGKEITEN: http://freeurlredirect.com/3jq50
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 156.146.63.163
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 156.146.63.163
+From: PASSIVES EINKOMMEN IM INTERNET VON 8075 EUR PRO TAG - KEINE BERUFLICHEN FAHIGKEITEN: http://freeurlredirect.com/3jq50 <YT-JoshiHdx@outlook.de>
+Message-Id: <E1kTK2Q-007jn2-7g@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 16 Oct 2020 00:20:30 -0700
+
+Name: PASSIVES EINKOMMEN IM INTERNET VON 8075 EUR PRO TAG - KEINE BERUFLICHEN FAHIGKEITEN: http://freeurlredirect.com/3jq50
+Email: YT-JoshiHdx@outlook.de
+
+Subject: New contact from PASSIVES EINKOMMEN IM INTERNET VON 8075 EUR PRO TAG - KEINE BERUFLICHEN FAHIGKEITEN: http://freeurlredirect.com/3jq50
+
+Message:
+ONLINE VERDIENEN VOR 5875 EURO PRO TAG - DIE BESTE SEITE, UM ONLINE GELD ZU VERDIENEN: http://wunkit.com/AOgjAA
+
+
+--1602832830-eximdsn-1299428108--

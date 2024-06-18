@@ -1,0 +1,114 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 0qmHKWVaJGQCSCkAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 29 Mar 2023 08:33:57 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 29 Mar 2023 08:33:57 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1phXoD-00BLnY-K3
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 29 Mar 2023 08:33:57 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1phXo5-00BLlZ-K9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1680104037-eximdsn-961985409
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1phXoD-00BLnY-K3@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 29 Mar 2023 08:33:57 -0700
+
+--1680104037-eximdsn-961985409
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 hXoDpXelgg15H :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=VL8b3fDX c=1 sm=1 tr=0 ts=64245a65 p=nolufaDRAAAA:20 p=bnqj_RMlwNLmEuaymhgH:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=zrwcUor1VtwA:10 a=K57tCgj2AAAA:8 a=3Imbq-76AAAA:8 a=L2q8U49StQ0XhjeElbsA:9 a=TLUw_z4OfgAA:10 a=i3OYiQ7bTDoA:10 a=IawXvI9lP1MA:10 a=u4LkpHgoXvQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=ZT_8zCgGubuJgGonBfBE:22 a=q5Vjzk8818JP_bk5kF59:22 a=o91XuNweQZwn2264eIRR:22 ::
+    100.00
+
+--1680104037-eximdsn-961985409
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 hXoDpXelgg15H :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=VL8b3fDX c=1 sm=1 tr=0 ts=64245a65 p=nolufaDRAAAA:20 p=bnqj_RMlwNLmEuaymhgH:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=k__wU0fu6RkA:10 a=x7bEGLp0ZPQA:10 a=zrwcUor1VtwA:10 a=K57tCgj2AAAA:8 a=3Imbq-76AAAA:8 a=L2q8U49StQ0XhjeElbsA:9 a=TLUw_z4OfgAA:10 a=i3OYiQ7bTDoA:10 a=IawXvI9lP1MA:10 a=u4LkpHgoXvQA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=ZT_8zCgGubuJgGonBfBE:22 a=q5Vjzk8818JP_bk5kF59:22 a=o91XuNweQZwn2264eIRR:22 :: 100.00
+
+--1680104037-eximdsn-961985409
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1phXo5-00BLlZ-K9
+	for info@yoursite.com;
+	Wed, 29 Mar 2023 08:33:57 -0700
+To: info@yoursite.com
+Subject: New contact from KATSU SARVICE
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 84.17.43.166
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 84.17.43.166
+From: KATSU SARVICE <beelivingstonhs@rediffmail.com>
+Message-Id: <E1phXo5-00BLlZ-K9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 29 Mar 2023 08:33:49 -0700
+
+Name: KATSU SARVICE
+Email: beelivingstonhs@rediffmail.com
+
+Subject: New contact from KATSU SARVICE
+
+Message:
+突然のご連絡失礼いたしました。 
+KATSU SARVICE 代表のYUNAと申します。 
+この度、Webマーケティング「クチコミ投稿」サービスの販売代理店様を募集することになり、そのご案内をお送りさせていただきます。 
+ 
+販売代理店に関する詳細 
+https://bit.ly/3JTlDxS 
+ 
+【「クチコミ投稿」サービスの販売とは？】 
+Web上のクチコミの評価、件数を上げるサービスです。 
+特に悪いクチコミが入っている拠点にとっては「今すぐ欲しい」と求められるサービスです。 
+どうやって上げるのか？具体的は方法はノウハウになるため詳しくご説明はできませんが、全国にいる弊社のカスタマーが一般人のアカウントとしてクチコミを増やす施策を行います。 
+このようなサービスが提供可能な会社は他になく「競合がいない」ため販売しやすいという最大の強みがあります。 
+ 
+【このような会社様におすすめ！】 
+・今の事業での売り上げが低迷している 
+・売りやすいサービスを探している 
+・営業の際の新たな引き出しサービスが欲しい 
+・BtoCのお店のクライアントに多く持っている 
+・オンラインで営業（完結）できるサービスをしたい 
+ 
+弊社はこの「クチコミ投稿」サービスをご提供し続け10年が経ちますが、今まではあまり代理店さまの募集は行なっておりませんでした。しかし、ニーズが年々上がってきており、以前にも増して求められてきているように感じます。 
+そこで今回、初めて代理店さまの募集を行うことにしました。 
+この仕事はクライアント様にとっては黒子のような存在としてサービス提供しているのですが、クライアント様に本当に喜んでもらえるサービスなので、ぜひとも皆様にも同じく、他にないサービスでご支援することで、本当に喜んでもらえる嬉しさをご実感していただければという思いでおります。 
+ 
+また、この代理店販売サービスは、資金0円で始められ、徹底した安心の営業サポートも付いておりますので、初心者の方でも安心して始められます。 
+さらに今月は、代理店登録の際にこのサービスのLPも1つ無料でお作りいたします！ 
+ 
+今後もっとWeb化が進み、営業手法やサービス自体も進化していかなくてはなりません。 
+このサービスは今後ももっと必要とされるサービスには間違いありませんので、是非とも一緒に積極的に販売していければと思います。 
+ 
+ご興味がありましたら、まずはお気軽にお話を聞かれてください。 
+サービスの詳しい情報はこちら 
+https://78dqn.hp.peraichi.com 
+上記よりお問い合わせをお願い致します。 
+ 
+最後までご覧いただきありがとうございました。
+
+
+--1680104037-eximdsn-961985409--

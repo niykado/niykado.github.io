@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id KOHrGUJbOmEYawsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 09 Sep 2021 12:06:42 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 09 Sep 2021 12:06:42 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mOPNi-0039kj-CL
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 09 Sep 2021 12:06:42 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mOPNh-0039kG-MQ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1631214402-eximdsn-50148013
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mOPNi-0039kj-CL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 09 Sep 2021 12:06:42 -0700
+
+--1631214402-eximdsn-50148013
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 OPNhmOTntQi3L :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=XZNMcK15 c=1 sm=1 tr=0 ts=613a5b42 p=khncB1kPAAAA:8 p=inTfwRb0y1AA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=7QKq2e-ADPsA:10 a=3gYbrPXOYg4A:10 a=x7bEGLp0ZPQA:10 a=oaF-Si3kc2kA:10 a=pGLkceISAAAA:8 a=-VAAsMu7fu0S46CYCuYA:9 a=9zmyoX9u3xUA:10 a=uG1NB4JbRt0A:10 a=eSxRx4fY_t8A:10 a=XgBTgIqXV5AA:10 a=-FEs8UIgK8oA:10 a=lpe7YjYHWwQA:10 a=NWVoK91CQyQA:10 a=Cd4hkutANWjNrmia25xt:22 a=k2Luha6SqJXw6bycSFTo:22 ::
+    100.00
+
+--1631214402-eximdsn-50148013
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 OPNhmOTntQi3L :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=XZNMcK15 c=1 sm=1 tr=0 ts=613a5b42 p=khncB1kPAAAA:8 p=inTfwRb0y1AA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=7QKq2e-ADPsA:10 a=3gYbrPXOYg4A:10 a=x7bEGLp0ZPQA:10 a=oaF-Si3kc2kA:10 a=pGLkceISAAAA:8 a=-VAAsMu7fu0S46CYCuYA:9 a=9zmyoX9u3xUA:10 a=uG1NB4JbRt0A:10 a=eSxRx4fY_t8A:10 a=XgBTgIqXV5AA:10 a=-FEs8UIgK8oA:10 a=lpe7YjYHWwQA:10 a=NWVoK91CQyQA:10 a=Cd4hkutANWjNrmia25xt:22 a=k2Luha6SqJXw6bycSFTo:22 :: 100.00
+
+--1631214402-eximdsn-50148013
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mOPNh-0039kG-MQ
+	for info@yoursite.com; Thu, 09 Sep 2021 12:06:41 -0700
+To: info@yoursite.com
+Subject: New contact from Frank Frishkorn
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.33.88
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.33.88
+From: Frank Frishkorn <LouHilts@gmail.com>
+Message-Id: <E1mOPNh-0039kG-MQ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 09 Sep 2021 12:06:41 -0700
+
+Name: Frank Frishkorn
+Email: LouHilts@gmail.com
+
+Subject: New contact from Frank Frishkorn
+
+Message:
+Here's How You Can Advertise Your Website For Free http://tvc.in/2wdqg
+
+
+--1631214402-eximdsn-50148013--

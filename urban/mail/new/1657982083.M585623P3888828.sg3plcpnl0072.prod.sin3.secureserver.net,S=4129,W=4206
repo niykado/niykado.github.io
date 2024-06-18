@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id YGnjHoPM0mK8VjsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 16 Jul 2022 07:34:43 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 16 Jul 2022 07:34:43 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oCisV-00GJev-Dh
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 16 Jul 2022 07:34:43 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oCisV-00GJeW-8F@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1657982083-eximdsn-598094357
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oCisV-00GJev-Dh@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 16 Jul 2022 07:34:43 -0700
+
+--1657982083-eximdsn-598094357
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 CisVoLdjq5T3Q :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=aYmkITkt c=1 sm=1 tr=0 ts=62d2cc83 p=-zNE0mdDAAAA:8 p=3APgK1qdWYwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=b-XH8jD9RvcA:10 a=CjxXgO3LAAAA:8 a=xH8LBMe2pGtbKp5tHtsA:9 a=-_PgRZ0gK3kA:10 a=WUpfOVi9cFoA:10 a=prF1o4xBg90A:10 a=KZWy5eq82iAA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=aJsIQ5V12yUaqPWanF2L:22 ::
+    100.00
+
+--1657982083-eximdsn-598094357
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 CisVoLdjq5T3Q :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=aYmkITkt c=1 sm=1 tr=0 ts=62d2cc83 p=-zNE0mdDAAAA:8 p=3APgK1qdWYwA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=b-XH8jD9RvcA:10 a=CjxXgO3LAAAA:8 a=xH8LBMe2pGtbKp5tHtsA:9 a=-_PgRZ0gK3kA:10 a=WUpfOVi9cFoA:10 a=prF1o4xBg90A:10 a=KZWy5eq82iAA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=aJsIQ5V12yUaqPWanF2L:22 :: 100.00
+
+--1657982083-eximdsn-598094357
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oCisV-00GJeW-8F
+	for info@yoursite.com; Sat, 16 Jul 2022 07:34:43 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCigCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.244
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.244
+From: CrytoCigCig <crumley101@yahoo.com>
+Message-Id: <E1oCisV-00GJeW-8F@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 16 Jul 2022 07:34:43 -0700
+
+Name: CrytoCigCig
+Email: crumley101@yahoo.com
+
+Subject: New contact from CrytoCigCig
+
+Message:
+Online Bot will bring you wealth and satisfaction. https://bam.elletvweb.it/gotodate/go
+
+
+--1657982083-eximdsn-598094357--

@@ -1,0 +1,50 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id vEkYIP98dWOOmAUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 16 Nov 2022 17:14:55 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 16 Nov 2022 17:14:55 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1ovSYR-001XOv-FN
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 16 Nov 2022 17:14:55 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ovSYK-001XMY-Jm@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1ovSYR-001XOv-FN@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 16 Nov 2022 17:14:55 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ovSYK-001XMY-Jm
+	for info@yoursite.com;
+	Wed, 16 Nov 2022 17:14:48 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.82
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.82
+From: CrytoCig <modyhathoot@yahoo.com>
+Message-Id: <E1ovSYK-001XMY-Jm@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 16 Nov 2022 17:14:48 -0700
+
+Name: CrytoCig
+Email: modyhathoot@yahoo.com
+
+Subject: New contact from CrytoCig
+
+Message:
+Watch your money grow while you invest with the Robot. Telegram - @Cryptaxbot
+

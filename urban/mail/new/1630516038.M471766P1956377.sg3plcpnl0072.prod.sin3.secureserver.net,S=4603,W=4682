@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id wAu/GkazL2EZ2h0AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 01 Sep 2021 10:07:18 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 01 Sep 2021 10:07:18 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1mLThm-008OuY-C2
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 01 Sep 2021 10:07:18 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mLTDL-007rhX-Ck@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1630516038-eximdsn-583624272
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mLThm-008OuY-C2@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 01 Sep 2021 10:07:18 -0700
+
+--1630516038-eximdsn-583624272
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 LThlm1wy1yl1o :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=RIF2o6u+ c=1 sm=1 tr=0 ts=612fb346 p=lxpamr7wim8A:10 p=q4WxTBXLAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=7QKq2e-ADPsA:10 a=x7bEGLp0ZPQA:10 a=xh3-VL_iYUYA:10 a=69EAbJreAAAA:8 a=1XWaLZrsAAAA:8 a=GQPjToX4mYsNX1zo1fEA:9 a=9a7IAd4TBhYA:10 a=taqqA9HS3RcA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=S3qaeZTlevurEZ6noQLa:22 ::
+    100.00
+
+--1630516038-eximdsn-583624272
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 LThlm1wy1yl1o :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=RIF2o6u+ c=1 sm=1 tr=0 ts=612fb346 p=lxpamr7wim8A:10 p=q4WxTBXLAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=7QKq2e-ADPsA:10 a=x7bEGLp0ZPQA:10 a=xh3-VL_iYUYA:10 a=69EAbJreAAAA:8 a=1XWaLZrsAAAA:8 a=GQPjToX4mYsNX1zo1fEA:9 a=9a7IAd4TBhYA:10 a=taqqA9HS3RcA:10 a=H4NpI0-O6QQA:10 a=-FEs8UIgK8oA:10 a=j8Bw8kB3-YoA:10 a=NWVoK91CQyQA:10 a=S3qaeZTlevurEZ6noQLa:22 :: 100.00
+
+--1630516038-eximdsn-583624272
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mLTDL-007rhX-Ck
+	for info@yoursite.com; Wed, 01 Sep 2021 09:35:51 -0700
+To: info@yoursite.com
+Subject: New contact from Greggevile
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 91.90.123.93
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 91.90.123.93
+From: Greggevile <rubencampuzano623@hotmail.com>
+Message-Id: <E1mLTDL-007rhX-Ck@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 01 Sep 2021 09:35:51 -0700
+
+Name: Greggevile
+Email: rubencampuzano623@hotmail.com
+
+Subject: New contact from Greggevile
+
+Message:
+Hi. 
+In the next 2 months, SafeMoon will grow by 100,000% -140,000%, this is your chance to become a millionaire even if you buy SafeMoon for only $ 10 https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc5v9Ot&sa=D&Hd=Bd&usg=AFQjCNH10I83qGZGD2DuZ4pF9OSq-zp0Ag 
+I have already purchased $ 1000. You, too, can become a crypto millionaire and buy this coin from us in Pancake on favorable terms https://www.google.com/url?q=https%3A%2F%2Fvk.cc%2Fc5v9Ot&sa=D&Ke=Sa&usg=AFQjCNH10I83qGZGD2DuZ4pF9OSq-zp0Ag
+
+
+--1630516038-eximdsn-583624272--

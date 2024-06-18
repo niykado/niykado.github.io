@@ -1,0 +1,83 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id UJFrNRAEeWBNPB4AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 15 Apr 2021 20:27:12 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 15 Apr 2021 20:27:12 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lXF8S-008Mhg-R7
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 15 Apr 2021 20:27:12 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lXF8S-008MhN-Mb@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1618543632-eximdsn-873111220
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lXF8S-008Mhg-R7@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 15 Apr 2021 20:27:12 -0700
+
+--1618543632-eximdsn-873111220
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 XF8SlM8nETJb2 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=XuE/hXJ9 c=1 sm=1 tr=0 ts=60790410 p=dwa8ppZfji8A:10 p=erUGQ2zpYfgA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=x7bEGLp0ZPQA:10 a=CvZNBSFr0zAA:10 a=pGLkceISAAAA:8 a=7U_8smYR2gRilI4rcaYA:9 a=HoWjIbqQxrEA:10 a=xxDey0LlCZQl-WDWY7hI:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 ::
+    100.00
+
+--1618543632-eximdsn-873111220
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 XF8SlM8nETJb2 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=XuE/hXJ9 c=1 sm=1 tr=0 ts=60790410 p=dwa8ppZfji8A:10 p=erUGQ2zpYfgA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=3YhXtTcJ-WEA:10 a=x7bEGLp0ZPQA:10 a=CvZNBSFr0zAA:10 a=pGLkceISAAAA:8 a=7U_8smYR2gRilI4rcaYA:9 a=HoWjIbqQxrEA:10 a=xxDey0LlCZQl-WDWY7hI:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 :: 100.00
+
+--1618543632-eximdsn-873111220
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lXF8S-008MhN-Mb
+	for info@yoursite.com; Thu, 15 Apr 2021 20:27:12 -0700
+To: info@yoursite.com
+Subject: New contact from Mary Smith
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 23.236.210.155
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 23.236.210.155
+From: Mary Smith <marysmith2684@gmail.com>
+Message-Id: <E1lXF8S-008MhN-Mb@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 15 Apr 2021 20:27:12 -0700
+
+Name: Mary Smith
+Email: marysmith2684@gmail.com
+
+Subject: New contact from Mary Smith
+
+Message:
+Hello,
+
+While potential clients are searching for products/services online, they would often skip checking the next pages of search results since the most relevant and more credible websites are already being delivered in front of them. Appearing on the first page on web searches will boost the amount of business that you do on your website. As a freelance SEO specialist, this is my top priority for clients that I am working with. I make sure that they come up when certain keywords are being searched in Google or Bing so that their businesses will boom. I can do this for your website too, if you're interested. 
+
+If you're interested, I can provide you with a free consultation as well if you'd like that. Kindly reply to let me know if you are so we can schedule. I hope to speak with you soon.
+
+Mary Smith
+
+
+--1618543632-eximdsn-873111220--

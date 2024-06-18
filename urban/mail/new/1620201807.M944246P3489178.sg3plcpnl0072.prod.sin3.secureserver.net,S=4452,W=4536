@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id IJUwOE9RkmCaPTUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 05 May 2021 01:03:27 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 05 May 2021 01:03:27 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1leCVD-00FLZa-SR
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 05 May 2021 01:03:27 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1leCVD-00FLZC-Nj@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1620201807-eximdsn-1953125759
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1leCVD-00FLZa-SR@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 05 May 2021 01:03:27 -0700
+
+--1620201807-eximdsn-1953125759
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 eCVDlQ6Rso5Ae :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=DJlKXwBb c=1 sm=1 tr=0 ts=6092514f p=3CSMDgkAOWEA:10 p=20pImzdiAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=5FLXtPjwQuUA:10 a=AHep6k8xKd0A:10 a=x7bEGLp0ZPQA:10 a=Cud1yXtpDb4A:10 a=pGLkceISAAAA:8 a=4ijZy3CTqx8S7wZOuT4A:9 a=COrqesCkkcAA:10 a=l3YUOYr8-L8A:10 a=d5XghkvGkWAA:10 a=-IN36TJrjJEc4kySkDRg:22 a=jFTedWD1-Z2U3AS90QmR:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 ::
+    100.00
+
+--1620201807-eximdsn-1953125759
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 eCVDlQ6Rso5Ae :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=DJlKXwBb c=1 sm=1 tr=0 ts=6092514f p=3CSMDgkAOWEA:10 p=20pImzdiAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=5FLXtPjwQuUA:10 a=AHep6k8xKd0A:10 a=x7bEGLp0ZPQA:10 a=Cud1yXtpDb4A:10 a=pGLkceISAAAA:8 a=4ijZy3CTqx8S7wZOuT4A:9 a=COrqesCkkcAA:10 a=l3YUOYr8-L8A:10 a=d5XghkvGkWAA:10 a=-IN36TJrjJEc4kySkDRg:22 a=jFTedWD1-Z2U3AS90QmR:22 a=pHzHmUro8NiASowvMSCR:22 a=xoEH_sTeL_Rfw54TyV31:22 :: 100.00
+
+--1620201807-eximdsn-1953125759
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1leCVD-00FLZC-Nj
+	for info@yoursite.com; Wed, 05 May 2021 01:03:27 -0700
+To: info@yoursite.com
+Subject: New contact from Gabriel Angelo
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 185.206.225.235
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 185.206.225.235
+From: Gabriel Angelo <ga.7.652.7.1.9@gmail.com>
+Message-Id: <E1leCVD-00FLZC-Nj@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 05 May 2021 01:03:27 -0700
+
+Name: Gabriel Angelo
+Email: ga.7.652.7.1.9@gmail.com
+
+Subject: New contact from Gabriel Angelo
+
+Message:
+Dear Entrepreneur, 
+ 
+I'm Gabriel Angelo, My Company can bridge fund for your new or ongoing Business. Do let me know when you receive this message for further procedure. 
+ 
+You can reach me using this email address: gabriel_angelo@nestalconsultants.com 
+ 
+Regards, 
+Gabriel Angelo
+
+
+--1620201807-eximdsn-1953125759--

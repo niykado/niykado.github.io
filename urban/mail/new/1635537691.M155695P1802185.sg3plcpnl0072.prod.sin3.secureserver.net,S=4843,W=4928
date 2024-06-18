@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id ODHpBxtTfGHJfxsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 29 Oct 2021 13:01:31 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 29 Oct 2021 13:01:31 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mgY4B-007cIc-20
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 29 Oct 2021 13:01:31 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mgY4A-007cGt-Az@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1635537691-eximdsn-1760902462
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mgY4B-007cIc-20@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 29 Oct 2021 13:01:31 -0700
+
+--1635537691-eximdsn-1760902462
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 gY4AmibIErYup :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=If1C5Uma c=1 sm=1 tr=0 ts=617c531b p=8xul_Y5Ej9FbKKxnFYsA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=gKqpvWE7c4wA:10 a=x7bEGLp0ZPQA:10 a=UriRvQhJIVgA:10 a=pGLkceISAAAA:8 a=JsImsIRQY_YA:10 a=zGai9TOfqHcA:10 a=ICbOahOI4v4Cym63-tAs:22 ::
+    100.00
+
+--1635537691-eximdsn-1760902462
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 gY4AmibIErYup :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=If1C5Uma c=1 sm=1 tr=0 ts=617c531b p=8xul_Y5Ej9FbKKxnFYsA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=8gfv0ekSlNoA:10 a=gKqpvWE7c4wA:10 a=x7bEGLp0ZPQA:10 a=UriRvQhJIVgA:10 a=pGLkceISAAAA:8 a=JsImsIRQY_YA:10 a=zGai9TOfqHcA:10 a=ICbOahOI4v4Cym63-tAs:22 :: 100.00
+
+--1635537691-eximdsn-1760902462
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mgY4A-007cGt-Az
+	for info@yoursite.com; Fri, 29 Oct 2021 13:01:30 -0700
+To: info@yoursite.com
+Subject: New contact from Mckelvey Palmer
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 45.72.73.77
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 45.72.73.77
+From: Mckelvey Palmer <palmermckelvey687@gmail.com>
+Message-Id: <E1mgY4A-007cGt-Az@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 29 Oct 2021 13:01:30 -0700
+
+Name: Mckelvey Palmer
+Email: palmermckelvey687@gmail.com
+
+Subject: New contact from Mckelvey Palmer
+
+Message:
+Hi there! 
+
+I'm a web developer who helps small businesses like yours grow with the use of their site. I sent you this email because I'd like to know if you're interested in affordable but high-quality web design services. I'm an expert with the WordPress website platform, and I'm also skilled with many other platforms and shopping carts as well. 
+
+If you already have some design ideas in mind, I'd like to know them and help you implement all of it to the site. I've also got some ideas (of which I'd love for you to hear) that will make use of what existing elements you have on your site and make it even better. I could also build you a completely new site with all the modern features that your business will need if that's what you prefer. I'll provide you with a free consultation over the phone in the next few days if you are interested. 
+
+I'd really like to be of assistance and make the site better, so please reply about the best time to contact you. Talk to you soon!
+
+ - Mckelvey
+
+
+--1635537691-eximdsn-1760902462--

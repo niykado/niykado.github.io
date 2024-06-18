@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id O9VzDOt0e2KIEywAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 11 May 2022 01:33:47 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 11 May 2022 01:33:47 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nohn1-00CAiB-4T
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 11 May 2022 01:33:47 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nohn0-00CAhY-3a@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1652258027-eximdsn-1077664939
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nohn1-00CAiB-4T@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 11 May 2022 01:33:47 -0700
+
+--1652258027-eximdsn-1077664939
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ohn0naWk2vRk9 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=MZ6pB7zf c=1 sm=1 tr=0 ts=627b74eb p=dBk__9Q7iFYA:10 p=X945MjlOAAAA:20 p=Qs_xYKN5AAAA:20 p=hu8ViNWLsAAA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oZkIemNP1mAA:10 a=x7bEGLp0ZPQA:10 a=QB0SoY5mVBoA:10 a=pGLkceISAAAA:8 a=zswNeCCFxPYxDcu0JdkA:9 a=7y9DscNcCHwA:10 a=Ctq1nZ25JsYA:10 a=IawXvI9lP1MA:10 a=q3Rj-1DVtNQA:10 a=-FEs8UIgK8oA:10 a=z7SGdM8njkAA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=xpSGKU6U1SVh5qdWtkae:22 ::
+    100.00
+
+--1652258027-eximdsn-1077664939
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 ohn0naWk2vRk9 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=MZ6pB7zf c=1 sm=1 tr=0 ts=627b74eb p=dBk__9Q7iFYA:10 p=X945MjlOAAAA:20 p=Qs_xYKN5AAAA:20 p=hu8ViNWLsAAA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oZkIemNP1mAA:10 a=x7bEGLp0ZPQA:10 a=QB0SoY5mVBoA:10 a=pGLkceISAAAA:8 a=zswNeCCFxPYxDcu0JdkA:9 a=7y9DscNcCHwA:10 a=Ctq1nZ25JsYA:10 a=IawXvI9lP1MA:10 a=q3Rj-1DVtNQA:10 a=-FEs8UIgK8oA:10 a=z7SGdM8njkAA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=xpSGKU6U1SVh5qdWtkae:22 :: 100.00
+
+--1652258027-eximdsn-1077664939
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nohn0-00CAhY-3a
+	for info@yoursite.com; Wed, 11 May 2022 01:33:46 -0700
+To: info@yoursite.com
+Subject: New contact from Robbnak
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 103.152.17.15
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 103.152.17.15
+From: Robbnak <ro.b.er.t.bro.wn.m.o.o.n.man.s@gmail.com>
+Message-Id: <E1nohn0-00CAhY-3a@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 11 May 2022 01:33:46 -0700
+
+Name: Robbnak
+Email: ro.b.er.t.bro.wn.m.o.o.n.man.s@gmail.com
+
+Subject: New contact from Robbnak
+
+Message:
+<a href=https://bit.ly/3we9uwW>A new video is waiting! Click to watch!</a> 
+<a href=https://bit.ly/3we9uwW><img src="https://i.ibb.co/qyXwBDc/beautiful-people-2.png"></a>
+
+
+--1652258027-eximdsn-1077664939--

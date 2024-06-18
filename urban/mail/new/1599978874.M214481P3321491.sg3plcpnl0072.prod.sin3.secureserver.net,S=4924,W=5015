@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 4MsMC3q9XV+TrjIAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 12 Sep 2020 23:34:34 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 12 Sep 2020 23:34:34 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kHLas-00E9ac-3Z
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Sat, 12 Sep 2020 23:34:34 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kHLar-00E9aG-VE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1599978874-eximdsn-2146427277
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kHLas-00E9ac-3Z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 12 Sep 2020 23:34:34 -0700
+
+--1599978874-eximdsn-2146427277
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 HLask2c5xrfOs :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.3 cv=A+wSwJeG c=1 sm=1 tr=0 p=W9rkzUrhjK8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=WeaXS8dT8CAA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=8fXQ1cg5qKKqzOCCDs4A:9 a=qEIL4q2G514A:10 a=hU_MhpFRBb8A:10 a=aW5GtbDQDSd3DGFfD4r6:22 a=8locFnt10FOjm7W426Ri:22 ::
+    96.00
+
+--1599978874-eximdsn-2146427277
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 HLask2c5xrfOs :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.3 cv=A+wSwJeG c=1 sm=1 tr=0 p=W9rkzUrhjK8A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=WeaXS8dT8CAA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=reM5J-MqmosA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=8fXQ1cg5qKKqzOCCDs4A:9 a=qEIL4q2G514A:10 a=hU_MhpFRBb8A:10 a=aW5GtbDQDSd3DGFfD4r6:22 a=8locFnt10FOjm7W426Ri:22 :: 96.00
+
+--1599978874-eximdsn-2146427277
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kHLar-00E9aG-VE
+	for info@yoursite.com; Sat, 12 Sep 2020 23:34:33 -0700
+To: info@yoursite.com
+Subject: New contact from Joshualearl
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.120.156.20
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.120.156.20
+From: Joshualearl <no-replyJemodeseMase@gmail.com>
+Message-Id: <E1kHLar-00E9aG-VE@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 12 Sep 2020 23:34:33 -0700
+
+Name: Joshualearl
+Email: no-replyJemodeseMase@gmail.com
+
+Subject: New contact from Joshualearl
+
+Message:
+Hеllо!  urbanlocomote.com 
+ 
+Did yоu knоw thаt it is pоssiblе tо sеnd lеttеr tоtаlly lеgаl? 
+Wе prоffеr а nеw wаy оf sеnding аppеаl thrоugh fееdbасk fоrms. Suсh fоrms аrе lосаtеd оn mаny sitеs. 
+Whеn suсh lеttеrs аrе sеnt, nо pеrsоnаl dаtа is usеd, аnd mеssаgеs аrе sеnt tо fоrms spесifiсаlly dеsignеd tо rесеivе mеssаgеs аnd аppеаls. 
+аlsо, mеssаgеs sеnt thrоugh соntасt Fоrms dо nоt gеt intо spаm bесаusе suсh mеssаgеs аrе соnsidеrеd impоrtаnt. 
+Wе оffеr yоu tо tеst оur sеrviсе fоr frее. Wе will sеnd up tо 50,000 mеssаgеs fоr yоu. 
+Thе соst оf sеnding оnе milliоn mеssаgеs is 49 USD. 
+ 
+This mеssаgе is сrеаtеd аutоmаtiсаlly. Plеаsе usе thе соntасt dеtаils bеlоw tо соntасt us. 
+ 
+Contact us. 
+Telegram - @FeedbackMessages 
+Skype  live:contactform_18 
+WhatsApp - +375259112693
+
+
+--1599978874-eximdsn-2146427277--

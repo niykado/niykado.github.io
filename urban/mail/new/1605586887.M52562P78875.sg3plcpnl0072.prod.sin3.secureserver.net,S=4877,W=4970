@@ -1,0 +1,93 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id AGoSAcdPs18bNAEAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 16 Nov 2020 21:21:27 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 16 Nov 2020 21:21:27 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1kesUg-000Q7w-Ul
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 16 Nov 2020 21:21:26 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1kesUg-000Q7h-PL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1605586886-eximdsn-613127884
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1kesUg-000Q7w-Ul@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 16 Nov 2020 21:21:26 -0700
+
+--1605586886-eximdsn-613127884
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 esUgkN7YlFQ5F :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=G7bZr/o5 c=1 sm=1 tr=0 ts=5fb34fc6 p=dCxSKgNEAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=WeaXS8dT8CAA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=nNwsprhYR40A:10 a=QMQYkBPgogEA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=v8VPVSrKtW-103oKph4A:9 a=qEIL4q2G514A:10 a=xydDDwc_VAQA:10 a=hU_MhpFRBb8A:10 a=aW5GtbDQDSd3DGFfD4r6:22 a=13FI71N3Gza6EOyhgcTP:22 a=8locFnt10FOjm7W426Ri:22 ::
+    100.00
+
+--1605586886-eximdsn-613127884
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 esUgkN7YlFQ5F :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=G7bZr/o5 c=1 sm=1 tr=0 ts=5fb34fc6 p=dCxSKgNEAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=x7bEGLp0ZPQA:10 a=WeaXS8dT8CAA:10 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=nNwsprhYR40A:10 a=QMQYkBPgogEA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=v8VPVSrKtW-103oKph4A:9 a=qEIL4q2G514A:10 a=xydDDwc_VAQA:10 a=hU_MhpFRBb8A:10 a=aW5GtbDQDSd3DGFfD4r6:22 a=13FI71N3Gza6EOyhgcTP:22 a=8locFnt10FOjm7W426Ri:22 :: 100.00
+
+--1605586886-eximdsn-613127884
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1kesUg-000Q7h-PL
+	for info@yoursite.com; Mon, 16 Nov 2020 21:21:26 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Lamberts
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 89.187.168.145
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 89.187.168.145
+From: Mike Lamberts <no-replyJemodeseMase@gmail.com>
+Message-Id: <E1kesUg-000Q7h-PL@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 16 Nov 2020 21:21:26 -0700
+
+Name: Mike Lamberts
+Email: no-replyJemodeseMase@gmail.com
+
+Subject: New contact from Mike Lamberts
+
+Message:
+Hi! 
+ 
+You may know that Moz has recently invested a lot of time, research, and money in a new-and-improved Domain Authority. People who use Domain Authority (DA) naturally want to improve their score, which will increase their website`s SEO value and revenue 
+ 
+Domain Authority is designed to be an indicator of success. 
+What do you want your website to stand for? Having a DA50+ will show everyone that  you have a successful business that’s worth taking into consideration. 
+ 
+Increase your website`s SEO metrics and start earning more money. 
+ 
+Get your urbanlocomote.com to have an outstanding 50/100 Domain Authority with us today 
+https://www.moz-boost.com/ 
+ 
+or email us for more information to support@moz-boost.com 
+ 
+ 
+thank you 
+Mike Lamberts
+
+
+--1605586886-eximdsn-613127884--

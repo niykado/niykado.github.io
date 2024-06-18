@@ -1,0 +1,62 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 6BYuHjEZBWX4EBcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 15 Sep 2023 19:55:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 15 Sep 2023 19:55:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qhLTF-006LX0-EW
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Fri, 15 Sep 2023 19:55:45 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qhLT7-006LVs-OY@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qhLTF-006LX0-EW@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 15 Sep 2023 19:55:45 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qhLT7-006LVs-OY
+	for info@yoursite.com;
+	Fri, 15 Sep 2023 19:55:37 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Higgins
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 86.106.74.252
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 86.106.74.252
+From: Mike Higgins <peterBootoug@gmail.com>
+Message-Id: <E1qhLT7-006LVs-OY@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 15 Sep 2023 19:55:37 -0700
+
+Name: Mike Higgins
+Email: peterBootoug@gmail.com
+
+Subject: New contact from Mike Higgins
+
+Message:
+Hi there 
+ 
+I have just took a look on your SEO for  urbanlocomote.com for its SEO Trend and saw that your website could use a push. 
+ 
+We will improve your ranks organically and safely, using only state of the art AI and whitehat methods, while providing monthly reports and outstanding support. 
+ 
+More info: 
+https://www.digital-x-press.com/unbeatable-seo/ 
+ 
+ 
+Regards 
+Mike Higgins
+Digital X SEO Experts
+

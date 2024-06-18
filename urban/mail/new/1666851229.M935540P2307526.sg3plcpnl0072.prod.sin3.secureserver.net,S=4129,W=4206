@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id qDxONp0hWmPGNSMAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 26 Oct 2022 23:13:49 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 26 Oct 2022 23:13:49 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1onw9F-009lMb-Rm
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 26 Oct 2022 23:13:49 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1onw9F-009lMJ-MS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1666851229-eximdsn-1005569385
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1onw9F-009lMb-Rm@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 26 Oct 2022 23:13:49 -0700
+
+--1666851229-eximdsn-1005569385
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 nw9FodBXRdXWf :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=d6UzizvE c=1 sm=1 tr=0 ts=635a219d p=WgBfrkN2FkIA:10 p=gL-8XG5mAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=x7bEGLp0ZPQA:10 a=YtyEA-Dc6qcA:10 a=AAvYLDLOAAAA:8 a=jriCQNJuwk3WkZMzixIA:9 a=8AgmTMytItUA:10 a=kd5F0pYV43cA:10 a=LdEKfPlYV_MA:10 a=A67HCtwimaPCBMKx_tRB:22 a=5WXwxYStDJFuYRuZHuqg:22 ::
+    100.00
+
+--1666851229-eximdsn-1005569385
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 nw9FodBXRdXWf :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=d6UzizvE c=1 sm=1 tr=0 ts=635a219d p=WgBfrkN2FkIA:10 p=gL-8XG5mAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=x7bEGLp0ZPQA:10 a=YtyEA-Dc6qcA:10 a=AAvYLDLOAAAA:8 a=jriCQNJuwk3WkZMzixIA:9 a=8AgmTMytItUA:10 a=kd5F0pYV43cA:10 a=LdEKfPlYV_MA:10 a=A67HCtwimaPCBMKx_tRB:22 a=5WXwxYStDJFuYRuZHuqg:22 :: 100.00
+
+--1666851229-eximdsn-1005569385
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1onw9F-009lMJ-MS
+	for info@yoursite.com; Wed, 26 Oct 2022 23:13:49 -0700
+To: info@yoursite.com
+Subject: New contact from Davidobjek
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 191.101.209.27
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 191.101.209.27
+From: Davidobjek <ellen924@msn.com>
+Message-Id: <E1onw9F-009lMJ-MS@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 26 Oct 2022 23:13:49 -0700
+
+Name: Davidobjek
+Email: ellen924@msn.com
+
+Subject: New contact from Davidobjek
+
+Message:
+A SIMPLE STUDENT FROM SYDNEY EARNED $7934866 ON CRYPTOCURRENCY https://telegra.ph/Sydney-student-earns-7934866-with-crypto-in-3-months-10-26-6438?id-news-49134924
+
+
+--1666851229-eximdsn-1005569385--

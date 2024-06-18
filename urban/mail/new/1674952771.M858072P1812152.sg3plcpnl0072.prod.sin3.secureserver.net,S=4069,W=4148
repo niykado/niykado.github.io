@@ -1,0 +1,79 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 8AzvMUPA1WO4phsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 28 Jan 2023 17:39:31 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 28 Jan 2023 17:39:31 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pLvjH-007bah-PI
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sat, 28 Jan 2023 17:39:31 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pLvj7-007bQP-I9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1674952771-eximdsn-897770268
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pLvjH-007bah-PI@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 28 Jan 2023 17:39:31 -0700
+
+--1674952771-eximdsn-897770268
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 LvjHpIa6Y6Yk5 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bautEsDB c=1 sm=1 tr=0 ts=63d5c043 p=jISFACKVAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RvmDmJFTN0MA:10 a=vwVCB-M793wA:10 a=U6ZITF8HAAAA:8 a=FhGYkDNW7VEnqCKUTLYA:9 a=YKkUixMjMSEA:10 a=E9nTA3txNVYA:10 a=bqWfakX4hoAA:10 a=5T-6IWf-GZUA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=OEKzvPQh7UF3DEgjw1yj:22 a=LRfmlLtFVaozYgdCUJLm:22 ::
+    100.00
+
+--1674952771-eximdsn-897770268
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 LvjHpIa6Y6Yk5 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bautEsDB c=1 sm=1 tr=0 ts=63d5c043 p=jISFACKVAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RvmDmJFTN0MA:10 a=vwVCB-M793wA:10 a=U6ZITF8HAAAA:8 a=FhGYkDNW7VEnqCKUTLYA:9 a=YKkUixMjMSEA:10 a=E9nTA3txNVYA:10 a=bqWfakX4hoAA:10 a=5T-6IWf-GZUA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=OEKzvPQh7UF3DEgjw1yj:22 a=LRfmlLtFVaozYgdCUJLm:22 :: 100.00
+
+--1674952771-eximdsn-897770268
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pLvj7-007bQP-I9
+	for info@yoursite.com;
+	Sat, 28 Jan 2023 17:39:31 -0700
+To: info@yoursite.com
+Subject: New contact from CigWAife
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 37.139.53.81
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 37.139.53.81
+From: CigWAife <klhsdfbksdafh@hmamail.com>
+Message-Id: <E1pLvj7-007bQP-I9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 28 Jan 2023 17:39:21 -0700
+
+Name: CigWAife
+Email: klhsdfbksdafh@hmamail.com
+
+Subject: New contact from CigWAife
+
+Message:
+One click of the robot can bring you thousands of bucks. https://fqxtzbiyr.com/14?r=35846
+
+
+--1674952771-eximdsn-897770268--

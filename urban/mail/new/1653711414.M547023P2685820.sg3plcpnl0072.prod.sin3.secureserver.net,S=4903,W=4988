@@ -1,0 +1,85 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id iLQ6HzaikWJ8+ygAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 27 May 2022 21:16:54 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 27 May 2022 21:16:54 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1nunsk-00BGig-Eh
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 27 May 2022 21:16:54 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1nunsj-00BGiC-O1@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1653711414-eximdsn-1933987473
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1nunsk-00BGig-Eh@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 27 May 2022 21:16:54 -0700
+
+--1653711414-eximdsn-1933987473
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 unsjn1qXMFiVn :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=QrKbYX+d c=1 sm=1 tr=0 ts=6291a236 p=RNe1RR2qXlPQJvUckzUA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oZkIemNP1mAA:10 a=V9Qz_1SHo-UA:10 a=pGLkceISAAAA:8 a=aBFtbSOXhbMA:10 a=zFOr_Y9-yAoA:10 a=eGF5wNUix9gA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=UE2f1hbRndwJPh72YtD4:22 ::
+    100.00
+
+--1653711414-eximdsn-1933987473
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 unsjn1qXMFiVn :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=QrKbYX+d c=1 sm=1 tr=0 ts=6291a236 p=RNe1RR2qXlPQJvUckzUA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=oZkIemNP1mAA:10 a=V9Qz_1SHo-UA:10 a=pGLkceISAAAA:8 a=aBFtbSOXhbMA:10 a=zFOr_Y9-yAoA:10 a=eGF5wNUix9gA:10 a=5WXwxYStDJFuYRuZHuqg:22 a=UE2f1hbRndwJPh72YtD4:22 :: 100.00
+
+--1653711414-eximdsn-1933987473
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1nunsj-00BGiC-O1
+	for info@yoursite.com; Fri, 27 May 2022 21:16:53 -0700
+To: info@yoursite.com
+Subject: New contact from Charlotte Gabriel
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 188.126.94.212
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 188.126.94.212
+From: Charlotte Gabriel <charlottegabriel@stayhome.li>
+Message-Id: <E1nunsj-00BGiC-O1@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 27 May 2022 21:16:53 -0700
+
+Name: Charlotte Gabriel
+Email: charlottegabriel@stayhome.li
+
+Subject: New contact from Charlotte Gabriel
+
+Message:
+Hello, 
+ 
+I'm Charlotte Gabriel, An online trading Coash. I want you to know that online trading (Crypto, Forex and Binary option) is a good thing if you have a good trading strategy, I use to lose a lot of funds in online trading before I got to where I am today. If you need assistance on how to trade and recover back all the money you have lost to your broker and want to be a successful online trader like me, write to me via email below to get an amazing strategy. 
+ 
+If you are having problems withdrawing your profit from your Crypto, Forex or Binary option trading account even when you were given a bonus, just contact me, I have worked with some Trade, Regulatory Agencies for 9years, and I have helped a lot of people get back their lost funds from their stubborn brokers successfully and I won't stop until I have helped as many as possible. For more info you can contact me via my email address: charlgabriel05@gmail.com 
+ 
+Kind Regards, 
+Charlotte Gabriel. 
+Trading Consultant.
+
+
+--1653711414-eximdsn-1933987473--

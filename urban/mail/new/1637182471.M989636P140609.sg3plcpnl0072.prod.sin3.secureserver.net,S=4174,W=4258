@@ -1,0 +1,84 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id zDQPOQdslWFBJQIAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 17 Nov 2021 13:54:31 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 17 Nov 2021 13:54:31 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1mnRwt-000aZL-Sc
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 17 Nov 2021 13:54:31 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1mnRws-000aQd-U8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1637182471-eximdsn-1158184952
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mnRwt-000aZL-Sc@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 17 Nov 2021 13:54:31 -0700
+
+--1637182471-eximdsn-1158184952
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 nRwtm3A6JJX0k :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61956c07 p=ZsY74wDmlv4A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=vIxV3rELxO4A:10 a=5SIyCaPvNw8A:10 a=x7bEGLp0ZPQA:10 a=KxV_Qds0Pc0A:10 a=pGLkceISAAAA:8 a=QNOdPIOeQpUm-FLSXEgA:9 a=g8VZnT9FfAQA:10 a=X4Gk40MQ9UhMaicLRBh8:22 ::
+    100.00
+
+--1637182471-eximdsn-1158184952
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 nRwtm3A6JJX0k :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bYiu7MDB c=1 sm=1 tr=0 ts=61956c07 p=ZsY74wDmlv4A:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=vIxV3rELxO4A:10 a=5SIyCaPvNw8A:10 a=x7bEGLp0ZPQA:10 a=KxV_Qds0Pc0A:10 a=pGLkceISAAAA:8 a=QNOdPIOeQpUm-FLSXEgA:9 a=g8VZnT9FfAQA:10 a=X4Gk40MQ9UhMaicLRBh8:22 :: 100.00
+
+--1637182471-eximdsn-1158184952
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1mnRws-000aQd-U8
+	for info@yoursite.com; Wed, 17 Nov 2021 13:54:30 -0700
+To: info@yoursite.com
+Subject: New contact from Karen Quinn
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 192.186.130.82
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 192.186.130.82
+From: Karen Quinn <quinnkaren280@gmail.com>
+Message-Id: <E1mnRws-000aQd-U8@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 17 Nov 2021 13:54:30 -0700
+
+Name: Karen Quinn
+Email: quinnkaren280@gmail.com
+
+Subject: New contact from Karen Quinn
+
+Message:
+Hi,
+
+I wanted to see if you are interested in getting your site to the top of the search engines.  I am a search engine optimizer and very good at what I do.  Getting to the top of the search engines for your keywords is the very best thing you can do to increase sales dramatically.  
+
+Let me know I'd love to help.  
+
+Best Regards,
+Karen Quinn
+
+
+--1637182471-eximdsn-1158184952--

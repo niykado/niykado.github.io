@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id sJeeHvvZnWCfmyQAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 13 May 2021 19:01:31 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 13 May 2021 19:01:31 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lhN8t-00AJSG-En
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 13 May 2021 19:01:31 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lhN8t-00AJMl-9f@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1620957691-eximdsn-1815565312
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lhN8t-00AJSG-En@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 13 May 2021 19:01:31 -0700
+
+--1620957691-eximdsn-1815565312
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 hN8tlQgCoW90H :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Z6opoFdA c=1 sm=1 tr=0 ts=609dd9fb p=B0QWK7DqAAAA:8 p=qC0yV8Qi480mOOkRs9YA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=5FLXtPjwQuUA:10 a=0Nrjrp6nOJ4A:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=897i1ZuaVO8A:10 a=OU95s2UHaigA:10 a=zbqbycQrsOAA:10 a=uI0pZMzLa8eeB1_62HcO:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 ::
+    100.00
+
+--1620957691-eximdsn-1815565312
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 hN8tlQgCoW90H :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Z6opoFdA c=1 sm=1 tr=0 ts=609dd9fb p=B0QWK7DqAAAA:8 p=qC0yV8Qi480mOOkRs9YA:9 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=5FLXtPjwQuUA:10 a=0Nrjrp6nOJ4A:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=897i1ZuaVO8A:10 a=OU95s2UHaigA:10 a=zbqbycQrsOAA:10 a=uI0pZMzLa8eeB1_62HcO:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=pHzHmUro8NiASowvMSCR:22 a=nt3jZW36AmriUCFCBwmW:22 :: 100.00
+
+--1620957691-eximdsn-1815565312
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lhN8t-00AJMl-9f
+	for info@yoursite.com; Thu, 13 May 2021 19:01:31 -0700
+To: info@yoursite.com
+Subject: New contact from Jon Burd
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 154.13.1.159
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 154.13.1.159
+From: Jon Burd <no-replyRhind@gmail.com>
+Message-Id: <E1lhN8t-00AJMl-9f@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 13 May 2021 19:01:31 -0700
+
+Name: Jon Burd
+Email: no-replyRhind@gmail.com
+
+Subject: New contact from Jon Burd
+
+Message:
+Hello, 
+We provide funding through our venture capital company to both start-up and existing companies either looking for funding for expansion or to accelerate growth in their company. 
+ 
+We have a structured joint venture investment plan in which we are interested in an annual return on investment not more than 10% ROI. 
+ 
+We are also currently structuring a convertible debt and loan financing of 3% interest repayable annually with no early repayment penalties. 
+ 
+If you have a business plan or executive summary I can review to understand a much better idea of your business and what you are looking to do, this will assist in determining the best possible investment structure we can pursue and discuss more extensively. 
+ 
+If you are interested in any of the above, kindly respond to us via this email andrew.goldenberg@castleprojectservicesltd.com 
+ 
+I wait to hear from you. 
+ 
+Sincerely, 
+ 
+Jon Burd 
+ 
+Investment/Wealth Manager 
+ 
+Gulf Connect Ltd. 
+E-Mail: andrew.goldenberg@castleprojectservicesltd.com
+
+
+--1620957691-eximdsn-1815565312--

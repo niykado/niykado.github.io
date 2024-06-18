@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id qB8oEKSOYGMCLxMAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 31 Oct 2022 20:12:36 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 31 Oct 2022 20:12:36 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ophhc-005I9R-76
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Mon, 31 Oct 2022 20:12:36 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ophhc-005I99-1x@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1667272356-eximdsn-121778627
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ophhc-005I9R-76@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 31 Oct 2022 20:12:36 -0700
+
+--1667272356-eximdsn-121778627
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 phhcozGurt4ga :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ENPAkXVC c=1 sm=1 tr=0 ts=63608ea4 p=-WLsIgcZq34A:10 p=joqg5jJjAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=8E1uLDLib0qMNCZvwDEA:9 a=OY6q-ax8qmwA:10 a=khsEsYAenXcA:10 a=2S8QcaqUaGAA:10 a=NtGf5XOHTpEA:10 a=5WXwxYStDJFuYRuZHuqg:22 ::
+    100.00
+
+--1667272356-eximdsn-121778627
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 phhcozGurt4ga :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ENPAkXVC c=1 sm=1 tr=0 ts=63608ea4 p=-WLsIgcZq34A:10 p=joqg5jJjAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=8E1uLDLib0qMNCZvwDEA:9 a=OY6q-ax8qmwA:10 a=khsEsYAenXcA:10 a=2S8QcaqUaGAA:10 a=NtGf5XOHTpEA:10 a=5WXwxYStDJFuYRuZHuqg:22 :: 100.00
+
+--1667272356-eximdsn-121778627
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ophhc-005I99-1x
+	for info@yoursite.com; Mon, 31 Oct 2022 20:12:36 -0700
+To: info@yoursite.com
+Subject: New contact from Russelldof
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 212.102.63.140
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 212.102.63.140
+From: Russelldof <praesident@lc-donau-neckar.de>
+Message-Id: <E1ophhc-005I99-1x@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 31 Oct 2022 20:12:36 -0700
+
+Name: Russelldof
+Email: praesident@lc-donau-neckar.de
+
+Subject: New contact from Russelldof
+
+Message:
+DON'T MISS YOUR CHANCE TO GET RICH THIS YEAR...   >>>  https://telegra.ph/How-two-brothers-from-a-poor-family-made-90000000-in-7-months-from-250-in-cryptocurrency-10-31-1205   <<<
+
+
+--1667272356-eximdsn-121778627--

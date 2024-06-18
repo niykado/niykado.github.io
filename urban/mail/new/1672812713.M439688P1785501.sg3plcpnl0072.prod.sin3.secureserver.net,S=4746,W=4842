@@ -1,0 +1,96 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id eFCDGKkYtWOdPhsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 03 Jan 2023 23:11:53 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 03 Jan 2023 23:11:53 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1pCx0D-007X9z-BQ
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Tue, 03 Jan 2023 23:11:53 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1pCx04-007X73-Sk@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1672812713-eximdsn-89986443
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1pCx0D-007X9z-BQ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 03 Jan 2023 23:11:53 -0700
+
+--1672812713-eximdsn-89986443
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Cx0CpkrbOq9DD :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=VtTlQc6n c=1 sm=1 tr=0 ts=63b518a9 p=6Bp8IhW0XcEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=1BaD8y4kAAAA:8 a=c5OZ_U_QBRSR2cnQWywA:9 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=-FEs8UIgK8oA:10 a=vexicnJHVZC5-rvN4z9Y:22 a=5WXwxYStDJFuYRuZHuqg:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=cRYJZdyqU1EvkJ8DXzHF:22 ::
+    100.00
+
+--1672812713-eximdsn-89986443
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Cx0CpkrbOq9DD :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=VtTlQc6n c=1 sm=1 tr=0 ts=63b518a9 p=6Bp8IhW0XcEA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RvmDmJFTN0MA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=1BaD8y4kAAAA:8 a=c5OZ_U_QBRSR2cnQWywA:9 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=-FEs8UIgK8oA:10 a=vexicnJHVZC5-rvN4z9Y:22 a=5WXwxYStDJFuYRuZHuqg:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=cRYJZdyqU1EvkJ8DXzHF:22 :: 100.00
+
+--1672812713-eximdsn-89986443
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1pCx04-007X73-Sk
+	for info@yoursite.com;
+	Tue, 03 Jan 2023 23:11:52 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Day
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 149.34.242.226
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 149.34.242.226
+From: Mike Day <no-replyRhind@gmail.com>
+Message-Id: <E1pCx04-007X73-Sk@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 03 Jan 2023 23:11:44 -0700
+
+Name: Mike Day
+Email: no-replyRhind@gmail.com
+
+Subject: New contact from Mike Day
+
+Message:
+Hi there 
+ 
+Just checked your urbanlocomote.com in ahrefs and saw that you could use an authority boost. 
+ 
+With our service you will get a guaranteed ahrefs score within just 3 months time. This will increase the organic visibility and strengthen your website authority, thus getting it stronger against G updates as well. 
+ 
+For more information, please check our offers 
+https://www.monkeydigital.co/domain-authority-plan/ 
+ 
+NEW: Semrush DA is now possible 
+https://www.monkeydigital.co/semrush-da/ 
+ 
+Thanks and regards 
+Mike Day
+ 
+ 
+ 
+PS: For a limited time, we`ll add ahrefs UR50+ for free.
+
+
+--1672812713-eximdsn-89986443--

@@ -1,0 +1,106 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id yZyuGpIaOGV+cgsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 24 Oct 2023 12:27:14 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 24 Oct 2023 12:27:14 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qvN3a-00399w-C7
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Tue, 24 Oct 2023 12:27:14 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qvN3R-003982-IA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698175634-eximdsn-1634345672
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qvN3a-00399w-C7@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 24 Oct 2023 12:27:14 -0700
+
+--1698175634-eximdsn-1634345672
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 vN3ZqAS3SABMT :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=M5mLaQ8s c=1 sm=1 tr=0 ts=65381a92 p=J5tIyc4kWa0xQ5uwWo4A:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=BmUsZLKhDggA:10 a=pGLkceISAAAA:8 a=mFXKaaxNAAAA:8 a=POi-pcEDLzPkx317MYEA:9 a=L1SqQxU89DYA:10 a=DeOo-YuWeXsA:10 a=EwR60gXXQXsA:10 a=qpOkq22oQqwXfL1APKyy:22 a=DtrFIIWJfJYNUECKL9i9:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 ::
+    100.00
+
+--1698175634-eximdsn-1634345672
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 vN3ZqAS3SABMT :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=M5mLaQ8s c=1 sm=1 tr=0 ts=65381a92 p=J5tIyc4kWa0xQ5uwWo4A:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=BmUsZLKhDggA:10 a=pGLkceISAAAA:8 a=mFXKaaxNAAAA:8 a=POi-pcEDLzPkx317MYEA:9 a=L1SqQxU89DYA:10 a=DeOo-YuWeXsA:10 a=EwR60gXXQXsA:10 a=qpOkq22oQqwXfL1APKyy:22 a=DtrFIIWJfJYNUECKL9i9:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 :: 100.00
+
+--1698175634-eximdsn-1634345672
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qvN3R-003982-IA
+	for info@yoursite.com;
+	Tue, 24 Oct 2023 12:27:13 -0700
+To: info@yoursite.com
+Subject: New contact from Buddybem
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 89.149.87.43
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 89.149.87.43
+From: Buddybem <r.o.be.mayn@gmail.com>
+Message-Id: <E1qvN3R-003982-IA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 24 Oct 2023 12:27:05 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-sh
+X-ENVIRONMENT: prod
+
+Name: Buddybem
+Email: r.o.be.mayn@gmail.com
+
+Subject: New contact from Buddybem
+
+Message:
+океан автомобилистов в современном мире не думают о своих скатах до тех пор, пока не столкнутся с проблемами. 
+ 
+Иной раз, когда протектор оказывается сильно тонким, то "обувь" для автомобилей приходит в неустойчивое состояние . не забывайте! Одной из главных покупок, которые совершают автомобилисты, как раз является "обувь" для автомобилей. 
+ 
+Согласно пожеланиям наших специалистов, постоянная смена шин вашего легкового автомобиля важна для безопасности на магистрали . 
+<a href=https://www.ssmexpert.md/forum/13-197-1>https://www.ssmexpert.md/forum/13-197-1</a> 
+ 
+ 
+заказ новых скатов может оказаться тяжелой проблемой. Вы сталкиваетесь с большим ассортиментом брендов, размеров и моделей покрышек , таким образом моментально можно потеряться. 
+ 
+в надежде получить блаженство от вождения, покупайте скаты, которые не противоречат вашему стилю вождения. 
+ 
+У вас вопросы в заказе нужных покрышек для вашей тачки? наша бригада опытных знатоков поможет вам своими навыками. 
+ 
+Вам нравится плавная езда? Или вы предпочитаете чувствовать каждый поворот? Принято! наши безупречные специалисты быстро порекомендуют вам идеальные скаты! 
+ 
+много факторов вредят вашим шинам. Начиная от износа и заканчивая превышением скорости. 
+ 
+если вы закажите  неправильные скаты, то вы можете ухудшить производительность вашей ласточки и его искусство справляться с любыми погодными условиями. Колеса вашего легкового автомобиля старательно работают каждый раз, когда вы выезжаете на твердую поверхность. 
+ 
+лучший метод выяснить, наступили ли времена покупать новые шины для вашего автомобиля, — это возложить их обследование опытныму человеку. 
+ 
+в нашем магазине вы сможете приметить шины мировых марок и брендов! И все по приемлемым ценам! Поможем подобрать необходимые вам! 
+ 
+наш сервисный центр ставит на первое место приоритеты клиента. в связи с этим сотни владельцев авто полагаются на нас! Мы гарантируем качество! заходите! И убедитесь сами!
+
+
+--1698175634-eximdsn-1634345672--

@@ -1,0 +1,89 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id VGfwONlSSmPRAiEAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Fri, 14 Oct 2022 23:27:37 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Fri, 14 Oct 2022 23:27:38 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1ojae1-0094nb-RZ
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Fri, 14 Oct 2022 23:27:37 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ojae1-0094nK-MA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1665815257-eximdsn-573166730
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ojae1-0094nb-RZ@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 14 Oct 2022 23:27:37 -0700
+
+--1665815257-eximdsn-573166730
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 jae1okBMmt4ga :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ENPAkXVC c=1 sm=1 tr=0 ts=634a52d9 p=dN6geztanb0A:10 p=zHpWxBXUAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=SROi4XwDMHp6sRTwm6kA:9 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=wwAePvBONnjDQaqHVNx2:22 a=5WXwxYStDJFuYRuZHuqg:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=WjuA4xAsMSqlkExi-WCR:22 ::
+    100.00
+
+--1665815257-eximdsn-573166730
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 jae1okBMmt4ga :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ENPAkXVC c=1 sm=1 tr=0 ts=634a52d9 p=dN6geztanb0A:10 p=zHpWxBXUAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=Qawa6l4ZSaYA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=SROi4XwDMHp6sRTwm6kA:9 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=wwAePvBONnjDQaqHVNx2:22 a=5WXwxYStDJFuYRuZHuqg:22 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=WjuA4xAsMSqlkExi-WCR:22 :: 100.00
+
+--1665815257-eximdsn-573166730
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ojae1-0094nK-MA
+	for info@yoursite.com; Fri, 14 Oct 2022 23:27:37 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Higgins
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 149.34.242.209
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 149.34.242.209
+From: Mike Higgins <no-replyRhind@gmail.com>
+Message-Id: <E1ojae1-0094nK-MA@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Fri, 14 Oct 2022 23:27:37 -0700
+
+Name: Mike Higgins
+Email: no-replyRhind@gmail.com
+
+Subject: New contact from Mike Higgins
+
+Message:
+Hi there 
+ 
+I Just checked your urbanlocomote.com ranks and saw that your site is trending down for some time. 
+ 
+If you are looking for a trend reversal, we have the right solution for you 
+ 
+We are offering affordable Content Marketing plans with humanly written SEO content 
+ 
+For more information, please check our offers 
+https://www.digital-x-press.com/product/content-marketing/ 
+ 
+Thanks and regards 
+Mike Higgins
+
+
+--1665815257-eximdsn-573166730--

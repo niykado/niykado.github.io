@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id NhJ1GecyyGSRxS8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Mon, 31 Jul 2023 15:17:11 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Mon, 31 Jul 2023 15:17:11 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qQbCR-00D8SB-Bc
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Mon, 31 Jul 2023 15:17:11 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qQbCH-00D8Ko-I9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1690841831-eximdsn-854700619
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qQbCR-00D8SB-Bc@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 31 Jul 2023 15:17:11 -0700
+
+--1690841831-eximdsn-854700619
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 QbCQq3aFdoZlL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=GoSEuG5C c=1 sm=1 tr=0 ts=64c832e7 p=XWogZDsdt2Izq18BQLPC:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=ws7JD89P4LkA:10 a=pRtpBzd0AAAA:8 a=2FJKfyarAAAA:8 a=idWGpeJKSPh6HpZKGOkA:9 a=PRpDppDLrCsA:10 a=1dyFSpsROCwA:10 a=o_-S5_3XExThB0f1gRlR:22 a=ADJeGkFe9MtbTrGq1CLm:22 a=5WXwxYStDJFuYRuZHuqg:22 ::
+    100.00
+
+--1690841831-eximdsn-854700619
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 QbCQq3aFdoZlL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=GoSEuG5C c=1 sm=1 tr=0 ts=64c832e7 p=XWogZDsdt2Izq18BQLPC:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=ws7JD89P4LkA:10 a=pRtpBzd0AAAA:8 a=2FJKfyarAAAA:8 a=idWGpeJKSPh6HpZKGOkA:9 a=PRpDppDLrCsA:10 a=1dyFSpsROCwA:10 a=o_-S5_3XExThB0f1gRlR:22 a=ADJeGkFe9MtbTrGq1CLm:22 a=5WXwxYStDJFuYRuZHuqg:22 :: 100.00
+
+--1690841831-eximdsn-854700619
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qQbCH-00D8Ko-I9
+	for info@yoursite.com;
+	Mon, 31 Jul 2023 15:17:10 -0700
+To: info@yoursite.com
+Subject: New contact from Stevennut
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 128.140.43.148
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 128.140.43.148
+From: Stevennut <sudogo7788@ro.ru>
+Message-Id: <E1qQbCH-00D8Ko-I9@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Mon, 31 Jul 2023 15:17:01 -0700
+
+Name: Stevennut
+Email: sudogo7788@ro.ru
+
+Subject: New contact from Stevennut
+
+Message:
+Багатьох гурманів  цікавить <a href=https://ego-forni.com/>піца на дровах</a>. Для цього потрібна 
+<a href=https://ego-forni.com/>піч для піци</a>. 	 
+І якщо Вам необхідно приготувати не тільки <a href=https://ego-forni.com/>піцу, то піч</a> дасть вам низку інших переваг.Господині оцінять <a href=https://ego-forni.com/>піч для випічки хліба на дровах</a>.У ній хліб виходить зі скоринкою особливо хрусткою і золотистою. 		Одним із різновидів є <a href=https://ego-forni.com/>помпейська піч для піци</a>. Існує також унікальне   <a href=https://ego-forni.com/>обладнання для приготування піци</a>, в домашніх умовах.
+
+
+--1690841831-eximdsn-854700619--

@@ -1,0 +1,78 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id eHcUH3F0uWBWKD8AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 03 Jun 2021 17:31:45 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 03 Jun 2021 17:31:45 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1loxkX-00HOFU-Ex
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 03 Jun 2021 17:31:45 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1loxkX-00HOFA-A5@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622766705-eximdsn-677562785
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1loxkX-00HOFU-Ex@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 03 Jun 2021 17:31:45 -0700
+
+--1622766705-eximdsn-677562785
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 oxkXlzXO6HCHn :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=I52g+Psg c=1 sm=1 tr=0 ts=60b97471 p=LI6tp5Y-q4oA:10 p=mqgycEJHAAAA:8 p=ujaRp_JABp5q5eRIuusA:9 p=f7sZhapIGGwA:10 p=iA3H7sIOZ-0A:10 p=vrF6DBkdzSrddZMqbp2Y:22 p=XqUHKNvCZiTMfBGuLePt:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=x7bEGLp0ZPQA:10 a=hBfExlssFXYA:10 a=pGLkceISAAAA:8 a=CCqCjQObRHkA:10 a=qiWi7Edwir4A:10 a=IPcZcscSuAkA:10 a=NWVoK91CQyQA:10 a=sKH-qsvN_ta0jZ7MadaQ:22 a=kau_QmN_OZN-Pao055Dj:22 a=p-dnK0njbqwfn1k4-x12:22 a=rLkV7i5x5X597yo9dRWc:22 ::
+    100.00
+
+--1622766705-eximdsn-677562785
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 oxkXlzXO6HCHn :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=I52g+Psg c=1 sm=1 tr=0 ts=60b97471 p=LI6tp5Y-q4oA:10 p=mqgycEJHAAAA:8 p=ujaRp_JABp5q5eRIuusA:9 p=f7sZhapIGGwA:10 p=iA3H7sIOZ-0A:10 p=vrF6DBkdzSrddZMqbp2Y:22 p=XqUHKNvCZiTMfBGuLePt:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=x7bEGLp0ZPQA:10 a=hBfExlssFXYA:10 a=pGLkceISAAAA:8 a=CCqCjQObRHkA:10 a=qiWi7Edwir4A:10 a=IPcZcscSuAkA:10 a=NWVoK91CQyQA:10 a=sKH-qsvN_ta0jZ7MadaQ:22 a=kau_QmN_OZN-Pao055Dj:22 a=p-dnK0njbqwfn1k4-x12:22 a=rLkV7i5x5X597yo9dRWc:22 :: 100.00
+
+--1622766705-eximdsn-677562785
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1loxkX-00HOFA-A5
+	for info@yoursite.com; Thu, 03 Jun 2021 17:31:45 -0700
+To: info@yoursite.com
+Subject: New contact from Marcomor
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 5.79.219.166
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 5.79.219.166
+From: Marcomor <ahmedkirillov5@gmail.com>
+Message-Id: <E1loxkX-00HOFA-A5@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 03 Jun 2021 17:31:45 -0700
+
+Name: Marcomor
+Email: ahmedkirillov5@gmail.com
+
+Subject: New contact from Marcomor
+
+Message:
+You received a money transfer of $ 89.44! PREPAYMENT! To receive funds, go to the payment page 
+<a href=http://5.79.219.166:8080/work/drac/>Detail</a>:  Official bank site/url]  Official bank site <a href="http://5.79.219.166:8080/work/drac/">Official bank site</a>
+
+
+--1622766705-eximdsn-677562785--

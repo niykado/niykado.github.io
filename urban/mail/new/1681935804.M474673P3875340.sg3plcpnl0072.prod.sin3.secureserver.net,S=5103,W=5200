@@ -1,0 +1,97 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 1OSFG7xNQGQMIjsAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 19 Apr 2023 13:23:24 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 19 Apr 2023 13:23:24 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1ppEKq-00GG9O-Cg
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Wed, 19 Apr 2023 13:23:24 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1ppEKi-00GG6Z-IY@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1681935804-eximdsn-812252649
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1ppEKq-00GG9O-Cg@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 19 Apr 2023 13:23:24 -0700
+
+--1681935804-eximdsn-812252649
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 pEKqpON92OvHt :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=EpAU7wQA c=1 sm=1 tr=0 ts=64404dbc p=GATARFsaAAAA:20 p=d53qJU3dAAAA:20 p=J-jC0eEn2J3XIeldmITz:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=rshaNGKIrJcA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=NjrwVOeBWqJRvjhVzpMA:9 a=6fDkMJdJkSEA:10 a=bRh1DUrgmrcA:10 a=-FEs8UIgK8oA:10 a=6caXgDboUmCG5VEl3amy:22 a=5WXwxYStDJFuYRuZHuqg:22 a=fd8BezSa2ySTVFnoALwy:22 a=aW5GtbDQDSd3DGFfD4r6:22 ::
+    100.00
+
+--1681935804-eximdsn-812252649
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 pEKqpON92OvHt :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=EpAU7wQA c=1 sm=1 tr=0 ts=64404dbc p=GATARFsaAAAA:20 p=d53qJU3dAAAA:20 p=J-jC0eEn2J3XIeldmITz:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=dKHAf1wccvYA:10 a=x7bEGLp0ZPQA:10 a=rshaNGKIrJcA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=NjrwVOeBWqJRvjhVzpMA:9 a=6fDkMJdJkSEA:10 a=bRh1DUrgmrcA:10 a=-FEs8UIgK8oA:10 a=6caXgDboUmCG5VEl3amy:22 a=5WXwxYStDJFuYRuZHuqg:22 a=fd8BezSa2ySTVFnoALwy:22 a=aW5GtbDQDSd3DGFfD4r6:22 :: 100.00
+
+--1681935804-eximdsn-812252649
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1ppEKi-00GG6Z-IY
+	for info@yoursite.com;
+	Wed, 19 Apr 2023 13:23:24 -0700
+To: info@yoursite.com
+Subject: New contact from JosephCrype
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 92.204.174.87
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 92.204.174.87
+From: JosephCrype <no.reply.Lars-ErikNilsson@gmail.com>
+Message-Id: <E1ppEKi-00GG6Z-IY@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 19 Apr 2023 13:23:16 -0700
+
+Name: JosephCrype
+Email: no.reply.Lars-ErikNilsson@gmail.com
+
+Subject: New contact from JosephCrype
+
+Message:
+Yo! urbanlocomote.com 
+ 
+Do you know that it is possible to send a letter in a completely legitimate way? We introduce a novel method of sending messages via feedback forms. Many websites contain these types of forms. 
+When such proposals are sent, no personal data is used, and messages are sent to forms specifically designed to receive messages and appeals securely. Messages through Feedback Forms are highly unlikely to be labeled as spam, since they are deemed important. 
+Enjoy our service for free today! 
+We can transmit up to 50,000 messages on your behalf. 
+ 
+The cost of sending one million messages is $59. 
+ 
+This letter is automatically generated. 
+Please use the contact details below to get in touch with us. 
+ 
+Contact us. 
+Telegram - https://t.me/FeedbackFormEU 
+Skype  live:feedbackform2019 
+WhatsApp  +375259112693 
+WhatsApp  https://wa.me/+375259112693 
+ 
+We only use chat for communication.
+
+
+--1681935804-eximdsn-812252649--

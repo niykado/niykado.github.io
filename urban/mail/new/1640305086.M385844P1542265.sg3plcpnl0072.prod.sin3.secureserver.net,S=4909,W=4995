@@ -1,0 +1,86 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id wFpQEr4RxWF5iBcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 23 Dec 2021 17:18:06 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 23 Dec 2021 17:18:06 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1n0YHe-006TDn-7P
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Thu, 23 Dec 2021 17:18:06 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1n0YHe-006TDN-2t@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1640305086-eximdsn-1985119176
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1n0YHe-006TDn-7P@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 23 Dec 2021 17:18:06 -0700
+
+--1640305086-eximdsn-1985119176
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 0YHenHCap7CIh :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=L8DY/8f8 c=1 sm=1 tr=0 ts=61c511be p=hFoi6wvqAAAA:20 p=PdEZna1pAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=e1sikkbFEt0A:10 a=x7bEGLp0ZPQA:10 a=L4R9nj5A8yAA:10 a=pGLkceISAAAA:8 a=jU4qhlNgAAAA:8 a=bOYPPSpGADKn6XYiNZsA:9 a=-WZTanT7V-kA:10 a=MkLkCkxH2GIA:10 a=C4cAHZKfJjMA:10 a=aRgMq3ixQcIA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=fwNO0AVcnUZMake-X1xQ:22 ::
+    100.00
+
+--1640305086-eximdsn-1985119176
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 0YHenHCap7CIh :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=L8DY/8f8 c=1 sm=1 tr=0 ts=61c511be p=hFoi6wvqAAAA:20 p=PdEZna1pAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=IOMw9HtfNCkA:10 a=e1sikkbFEt0A:10 a=x7bEGLp0ZPQA:10 a=L4R9nj5A8yAA:10 a=pGLkceISAAAA:8 a=jU4qhlNgAAAA:8 a=bOYPPSpGADKn6XYiNZsA:9 a=-WZTanT7V-kA:10 a=MkLkCkxH2GIA:10 a=C4cAHZKfJjMA:10 a=aRgMq3ixQcIA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=fwNO0AVcnUZMake-X1xQ:22 :: 100.00
+
+--1640305086-eximdsn-1985119176
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1n0YHe-006TDN-2t
+	for info@yoursite.com; Thu, 23 Dec 2021 17:18:06 -0700
+To: info@yoursite.com
+Subject: New contact from CLOVER AMBASSADOR
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 138.199.59.158
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 138.199.59.158
+From: CLOVER AMBASSADOR <cloverambassador@gmail.com>
+Message-Id: <E1n0YHe-006TDN-2t@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 23 Dec 2021 17:18:06 -0700
+
+Name: CLOVER AMBASSADOR
+Email: cloverambassador@gmail.com
+
+Subject: New contact from CLOVER AMBASSADOR
+
+Message:
+Dear ESG Manager, 
+ 
+We would like to explore opportunities to collaborate on one of the 3 major initiatives of Clover Climate Alliance for 2022. 
+(1) Mobilise 1 million Gen-Z and Millennial Climate Champions; a citizens’ assembly to fight Climate Change. The power of the crowd is the new kid on the block. 
+(2) Save Indonesia’s Forests - a pilot (Asset Tokenisation) US$100m Climate Hedge Fund regulated in Singapore;  https://bit.ly/3ohUHgq 
+(3) Build Circular Community Farms to uplift the poverty of 25 million farmers, by going green and organic, at the base of the pyramid in Indonesia. https://lnkd.in/dCWvXVDq 
+TOGETHER WE CAN SHAPE THE FUTURE! 
+https://www.linkedin.com/posts/clover-chief-patrick_the-clover-update-december-6-2021-activity-6876904294201745408-xCK0 
+Best regards, 
+Chief
+
+
+--1640305086-eximdsn-1985119176--

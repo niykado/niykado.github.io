@@ -1,0 +1,109 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id fAZmL6P/PGXb4CcAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Sat, 28 Oct 2023 05:33:39 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Sat, 28 Oct 2023 05:33:39 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qwiVX-00AxsY-NK
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Sat, 28 Oct 2023 05:33:39 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qwiVP-00AxgJ-3R@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1698496419-eximdsn-1300762949
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1qwiVX-00AxsY-NK@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 28 Oct 2023 05:33:39 -0700
+
+--1698496419-eximdsn-1300762949
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 wiVXqHHn4Xcug :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=He3SDAI8 c=1 sm=1 tr=0 ts=653cffa3 p=CCcmxEj3j7TL0G7Y3GaJ:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=wA49rafBHX8A:10 a=pGLkceISAAAA:8 a=RNq1NLOEAAAA:8 a=z0p9_yQtm9zpKYe9Iz4A:9 a=_-uh6JBagnMA:10 a=ExpmFifcf-cA:10 a=mPDb4w9WR3gA:10 a=clIqKIo5-UwA:10 a=MVMEqZ-Jqs1b9xwMRRUM:22 a=J9XlWROTSyhObOVJye_U:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 ::
+    100.00
+
+--1698496419-eximdsn-1300762949
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 wiVXqHHn4Xcug :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=He3SDAI8 c=1 sm=1 tr=0 ts=653cffa3 p=CCcmxEj3j7TL0G7Y3GaJ:22 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=bhdUkHdE2iEA:10 a=x7bEGLp0ZPQA:10 a=wA49rafBHX8A:10 a=pGLkceISAAAA:8 a=RNq1NLOEAAAA:8 a=z0p9_yQtm9zpKYe9Iz4A:9 a=_-uh6JBagnMA:10 a=ExpmFifcf-cA:10 a=mPDb4w9WR3gA:10 a=clIqKIo5-UwA:10 a=MVMEqZ-Jqs1b9xwMRRUM:22 a=J9XlWROTSyhObOVJye_U:22 a=5WXwxYStDJFuYRuZHuqg:22 a=wwAePvBONnjDQaqHVNx2:22 :: 100.00
+
+--1698496419-eximdsn-1300762949
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qwiVP-00AxgJ-3R
+	for info@yoursite.com;
+	Sat, 28 Oct 2023 05:33:39 -0700
+To: info@yoursite.com
+Subject: New contact from MiltonNop
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 178.18.44.42
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 178.18.44.42
+From: MiltonNop <k.on.s.t.a.s.h.t@gmail.com>
+Message-Id: <E1qwiVP-00AxgJ-3R@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Sat, 28 Oct 2023 05:33:31 -0700
+X-BRAND: GoDaddy
+X-PRODUCT: cpanel-sh
+X-ENVIRONMENT: prod
+
+Name: MiltonNop
+Email: k.on.s.t.a.s.h.t@gmail.com
+
+Subject: New contact from MiltonNop
+
+Message:
+Автомобиль - это не просто средство передвижения. Для многих из нас он стал надежным спутником в ежедневной жизни. Он доставляет нас на работу, разрешает осуществлять длительные путешествия, выручает в чрезвычайных ситуациях и дарит нам свободу передвижения. Но даже самый беспроигрышный автомобиль периодически настятельно просит проф ухода, и именно тут в игру вступает автосервис. 
+ 
+1. Техобслуживание 
+ 
+Автосервис - это место, где проф механики берут на себя заботу о состоянии вашего автомашины. Постоянное техобслуживание позволяет предотвращать огромное количество заморочек и наращивать срок службы вашего авто. Подмена масла, ревизия трансмиссии, антифриза, тормозной жидкости - все это проделывает вашу машину надежной и безопасной. 
+ 
+2. Ремонт и Восстановление 
+ 
+В жизни случаются непредвиденные истории, и ваш автомобиль может пригодиться ремонт. Автосервис дает предложения по диагностике и ремонту мотора, коробки, тормозов, электрики и прочих систем. Профессиональные мастера помогут выявить и устранить поломке, вернув вашему авто боевую готовность. 
+<a href=https://www.mitsu.ro/forum_new/memberlist.php?mode=viewprofile&u=30830>https://www.mitsu.ro/forum_new/memberlist.php?mode=viewprofile&u=30830</a> 
+ 
+3. Безопасность и Надежность 
+ 
+Поддерживая автомобиль в неплохом техническом состоянии, вы гарантируете свою защищенность и безопасность окружающих. Достоверная транспортная система - это залог, что ваш автомобиль не представляет угрозы на магистрали. Также, автосервис может помочь блюсти стандарты безопасности и экологичности. 
+ 
+4. Бережливость Времени и Средств 
+ 
+Кое-какие имеют все шансы считать, что обращение к автосервису - вспомогательные издержки, хотя это далеко не так. Постоянное сервис и предотвращение дорогих ремонтов могут существенно сберечь ваши средства в длительной возможности. к тому же, надежный автомашину сберегает ваше время и нервы. 
+ 
+5. Гарантия и Качество 
+ 
+Автосервисы трудятся согласно высоким эталонам и нередко деют гарантии на собственную работу. Это дает для вас уверенность в качестве предоставляемых предложений и честности тарифов. Многие автосервисы используют оригинальные запчасти, что обеспечивает длинный срок службы. 
+ 
+6. Удобство и Комфорт 
+ 
+Современные автосервисы предлагают клиентам огромное количество удобств. Вам продоставляется возможность записаться на обслуживание онлайн, пользоваться заменой масла дома либо оставить автомобиль на стоянке и получить его уже отремонтированным. Все это проделывает обслуживание авто  очень максимально комфортным. 
+ 
+В итоге, автосервис - это не просто пространство ремонта, это ваш надежный компаньон в уходе за вашим автомашиной. Заботясь о своей машине, вы кроме того заботитесь о собственной защищенности, экономите деньги и время. Так что не забывайте о регулярном обслуживании и при необходимости обращайтесь в надежный автосервис. Ваш автомашину и ваши нервишки произнесут для вас спасибо.
+
+
+--1698496419-eximdsn-1300762949--

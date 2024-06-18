@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id wB5UE/hKxGIytDUAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 05 Jul 2022 07:30:16 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 05 Jul 2022 07:30:16 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1o8jZA-00EnCt-8K
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 05 Jul 2022 07:30:16 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1o8jZA-00EnCX-2u@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1657031416-eximdsn-1103604390
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1o8jZA-00EnCt-8K@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 05 Jul 2022 07:30:16 -0700
+
+--1657031416-eximdsn-1103604390
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 8jZAoaKVa5T3Q :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=aYmkITkt c=1 sm=1 tr=0 ts=62c44af8 p=d5HOGMgjAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=2qZ--C-wPR0A:10 a=x7bEGLp0ZPQA:10 a=Intym64BKPYA:10 a=pGLkceISAAAA:8 a=4geuCn1_MbhUwdBvpxIA:9 a=9kPUsag_JLcA:10 a=FQv7ApixO4QA:10 a=MG93lXIl6r4A:10 a=WweUvCBg1jYA:10 a=CpAdkPF-KQ0A:10 a=A67HCtwimaPCBMKx_tRB:22 a=cml5jpU9hngmp0Kqa1PM:22 a=5WXwxYStDJFuYRuZHuqg:22 ::
+    100.00
+
+--1657031416-eximdsn-1103604390
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 8jZAoaKVa5T3Q :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=aYmkITkt c=1 sm=1 tr=0 ts=62c44af8 p=d5HOGMgjAAAA:20 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=RgO8CyIxsXoA:10 a=2qZ--C-wPR0A:10 a=x7bEGLp0ZPQA:10 a=Intym64BKPYA:10 a=pGLkceISAAAA:8 a=4geuCn1_MbhUwdBvpxIA:9 a=9kPUsag_JLcA:10 a=FQv7ApixO4QA:10 a=MG93lXIl6r4A:10 a=WweUvCBg1jYA:10 a=CpAdkPF-KQ0A:10 a=A67HCtwimaPCBMKx_tRB:22 a=cml5jpU9hngmp0Kqa1PM:22 a=5WXwxYStDJFuYRuZHuqg:22 :: 100.00
+
+--1657031416-eximdsn-1103604390
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1o8jZA-00EnCX-2u
+	for info@yoursite.com; Tue, 05 Jul 2022 07:30:16 -0700
+To: info@yoursite.com
+Subject: New contact from Max Stoffer
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 174.94.48.106
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 174.94.48.106
+From: Max Stoffer <BrettCarullo@gmail.com>
+Message-Id: <E1o8jZA-00EnCX-2u@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 05 Jul 2022 07:30:16 -0700
+
+Name: Max Stoffer
+Email: BrettCarullo@gmail.com
+
+Subject: New contact from Max Stoffer
+
+Message:
+Congrats on your new site, get it listed here for free and we'll start sending people to your site https://bit.ly/submityoursitefreehere
+
+
+--1657031416-eximdsn-1103604390--

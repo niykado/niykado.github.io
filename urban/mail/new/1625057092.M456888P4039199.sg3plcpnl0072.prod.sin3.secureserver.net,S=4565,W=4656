@@ -1,0 +1,91 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id 4GCvGURn3GAfoj0AiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Wed, 30 Jun 2021 05:44:52 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Wed, 30 Jun 2021 05:44:52 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	id 1lyZaG-00H8uY-Bl
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Wed, 30 Jun 2021 05:44:52 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1lyZaG-00H8uH-79@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1625057092-eximdsn-840899919
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lyZaG-00H8uY-Bl@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 30 Jun 2021 05:44:52 -0700
+
+--1625057092-eximdsn-840899919
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 yZaGlMu8kiTv7 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SOmH6MjH c=1 sm=1 tr=0 ts=60dc6744 p=pA_sFyTDAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=XrKLH1IlNXAA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=x8rnO9ZPtMeOu2N_8YcA:9 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=HqXucLz_qscA:10 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=2ZbH_4QD1x_0AajjOXbT:22 ::
+    100.00
+
+--1625057092-eximdsn-840899919
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 yZaGlMu8kiTv7 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SOmH6MjH c=1 sm=1 tr=0 ts=60dc6744 p=pA_sFyTDAAAA:8 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=LbHYU8K7A3cA:10 a=JiS923ttTH8A:10 a=r6YtysWOX24A:10 a=XrKLH1IlNXAA:10 a=x7bEGLp0ZPQA:10 a=A6MTeqIkC4wA:10 a=pGLkceISAAAA:8 a=2NotPyG-AAAA:8 a=x8rnO9ZPtMeOu2N_8YcA:9 a=897i1ZuaVO8A:10 a=zbqbycQrsOAA:10 a=HqXucLz_qscA:10 a=xRHXaE_JXJjo7iDnB1Hg:22 a=aW5GtbDQDSd3DGFfD4r6:22 a=2ZbH_4QD1x_0AajjOXbT:22 :: 100.00
+
+--1625057092-eximdsn-840899919
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.93)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1lyZaG-00H8uH-79
+	for info@yoursite.com; Wed, 30 Jun 2021 05:44:52 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Hamphrey
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 191.101.209.134
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 191.101.209.134
+From: Mike Hamphrey <no-replyRhind@gmail.com>
+Message-Id: <E1lyZaG-00H8uH-79@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Wed, 30 Jun 2021 05:44:52 -0700
+
+Name: Mike Hamphrey
+Email: no-replyRhind@gmail.com
+
+Subject: New contact from Mike Hamphrey
+
+Message:
+Hi there 
+ 
+Increase your urbanlocomote.com Moz DA Score with us and get more visibility and exposure for your website. 
+We have tons of client`s feedbacks that this simple boost doubled their sales in a matter of weeks. 
+ 
+More info: 
+https://www.monkeydigital.org/product/moz-da50-seo-plan/ 
+ 
+NEW: 
+https://www.monkeydigital.org/product/ahrefs-dr50-ur70-seo-plan/ 
+https://www.monkeydigital.org/product/trust-flow-seo-package/ 
+ 
+ 
+thank you 
+Mike Hamphrey
+
+
+--1625057092-eximdsn-840899919--

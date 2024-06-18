@@ -1,0 +1,63 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id SMuLEHC0HmWARSoAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Thu, 05 Oct 2023 06:04:48 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Thu, 05 Oct 2023 06:04:48 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	id 1qoO24-00Bchg-6z
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net;
+	Thu, 05 Oct 2023 06:04:48 -0700
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1qoO1u-00Bcf0-BM@sg3plcpnl0072.prod.sin3.secureserver.net>
+Subject: Mail failure - rejected by local scanning code
+Message-Id: <E1qoO24-00Bchg-6z@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 05 Oct 2023 06:04:48 -0700
+
+A message that you sent was rejected by the local scanning code that
+checks incoming messages on this system. The following error was given:
+
+  This message was classified as SPAM and may not be delivered
+
+------ This is a copy of your message, including all the headers. ------
+
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.95)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1qoO1u-00Bcf0-BM
+	for info@yoursite.com;
+	Thu, 05 Oct 2023 06:04:38 -0700
+To: info@yoursite.com
+Subject: New contact from Mike Audley
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 31.171.152.137
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 31.171.152.137
+From: Mike Audley <mikeJemodeseMase@gmail.com>
+Message-Id: <E1qoO1u-00Bcf0-BM@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Thu, 05 Oct 2023 06:04:38 -0700
+
+Name: Mike Audley
+Email: mikeJemodeseMase@gmail.com
+
+Subject: New contact from Mike Audley
+
+Message:
+Hi there 
+ 
+Just checked your urbanlocomote.com baclink profile, I noticed a moderate percentage of toxic links pointing to your website 
+ 
+We will investigate each link for its toxicity and perform a professional clean up for you free of charge. 
+ 
+Start recovering your ranks today: 
+https://www.hilkom-digital.de/professional-linksprofile-clean-up-service/ 
+ 
+ 
+Regards 
+Mike Audley
+Hilkom Digital SEO Experts 
+https://www.hilkom-digital.de/
+

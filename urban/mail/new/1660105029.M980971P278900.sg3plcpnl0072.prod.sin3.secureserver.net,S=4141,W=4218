@@ -1,0 +1,77 @@
+Return-Path: <>
+Delivered-To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Received: from sg3plcpnl0072.prod.sin3.secureserver.net
+	by sg3plcpnl0072.prod.sin3.secureserver.net with LMTP
+	id MFiOOUUx82J0QQQAiYwtQA
+	(envelope-from <>)
+	for <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>; Tue, 09 Aug 2022 21:17:09 -0700
+Return-path: <>
+Envelope-to: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+Delivery-date: Tue, 09 Aug 2022 21:17:09 -0700
+Received: from mailnull by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	id 1oLd9Z-001CDE-TH
+	for qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net; Tue, 09 Aug 2022 21:17:09 -0700
+X-Failed-Recipients: info@yoursite.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@sg3plcpnl0072.prod.sin3.secureserver.net>
+To: qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net
+References: <E1oLd9Y-001CC7-Ok@sg3plcpnl0072.prod.sin3.secureserver.net>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1660105029-eximdsn-278135360
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1oLd9Z-001CDE-TH@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 09 Aug 2022 21:17:09 -0700
+
+--1660105029-eximdsn-278135360
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  info@yoursite.com
+    host sg2nlshrout-v02.shr.prod.sin2.secureserver.net [182.50.132.241]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 Ld9Yof3RhBPB1 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U59Xscnu c=1 sm=1 tr=0 ts=62f33145 p=KNL8W2pmAAAA:8 p=27tPmq9gA1QA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=s9uvW8kN6goA:10 a=69EAbJreAAAA:8 a=ZVfgE6cF08X_I67bnOYA:9 a=6DKEdJDhY1wA:10 a=SPNGlHY0zhoA:10 a=zgTRFxSSlaAA:10 a=wwAePvBONnjDQaqHVNx2:22 a=5WXwxYStDJFuYRuZHuqg:22 a=bsOvI_6jlOsyfzhHIrpz:22 ::
+    100.00
+
+--1660105029-eximdsn-278135360
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; sg3plcpnl0072.prod.sin3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;info@yoursite.com
+Status: 5.0.0
+Remote-MTA: dns; sg2nlshrout-v02.shr.prod.sin2.secureserver.net
+Diagnostic-Code: smtp; 552 5.2.0 Ld9Yof3RhBPB1 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U59Xscnu c=1 sm=1 tr=0 ts=62f33145 p=KNL8W2pmAAAA:8 p=27tPmq9gA1QA:10 a=s2cdutnEBrb98YN3LqBYkw==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=gQX1269ULFhLm4Thdby34LUHVW0=:19 a=JiS923ttTH8A:10 a=biHskzXt2R4A:10 a=wUvUh0OveUIA:10 a=x7bEGLp0ZPQA:10 a=s9uvW8kN6goA:10 a=69EAbJreAAAA:8 a=ZVfgE6cF08X_I67bnOYA:9 a=6DKEdJDhY1wA:10 a=SPNGlHY0zhoA:10 a=zgTRFxSSlaAA:10 a=wwAePvBONnjDQaqHVNx2:22 a=5WXwxYStDJFuYRuZHuqg:22 a=bsOvI_6jlOsyfzhHIrpz:22 :: 100.00
+
+--1660105029-eximdsn-278135360
+Content-type: message/rfc822
+
+Return-path: <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>
+Received: from qp462iemk0aw by sg3plcpnl0072.prod.sin3.secureserver.net with local (Exim 4.94.2)
+	(envelope-from <qp462iemk0aw@sg3plcpnl0072.prod.sin3.secureserver.net>)
+	id 1oLd9Y-001CC7-Ok
+	for info@yoursite.com; Tue, 09 Aug 2022 21:17:08 -0700
+To: info@yoursite.com
+Subject: New contact from CrytoCigCig
+X-PHP-Script: urbanlocomote.com/assets/mail.php for 46.161.11.244
+X-PHP-Filename: /home/qp462iemk0aw/public_html/assets/mail.php REMOTE_ADDR: 46.161.11.244
+From: CrytoCigCig <shannaneilson@hotmail.com>
+Message-Id: <E1oLd9Y-001CC7-Ok@sg3plcpnl0072.prod.sin3.secureserver.net>
+Date: Tue, 09 Aug 2022 21:17:08 -0700
+
+Name: CrytoCigCig
+Email: shannaneilson@hotmail.com
+
+Subject: New contact from CrytoCigCig
+
+Message:
+Financial independence is what everyone needs. https://bam.echinat.de/bam
+
+
+--1660105029-eximdsn-278135360--
