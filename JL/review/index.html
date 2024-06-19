@@ -39,6 +39,10 @@
         .stars {
             display: inline-block;
             font-size: 24px;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .stars.highlighted {
             color: #f4c150;
         }
         .review-form {
@@ -89,14 +93,19 @@
     <div class="header">
         <div class="title">Jayalakshmi Silks</div>
         <div class="subtitle">Share your experience</div>
-        <div class="rating-container">
-            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="rating-container" id="rating-container">
+            <span class="stars" data-rating="1">&#9733;</span>
+            <span class="stars" data-rating="2">&#9733;</span>
+            <span class="stars" data-rating="3">&#9733;</span>
+            <span class="stars" data-rating="4">&#9733;</span>
+            <span class="stars" data-rating="5">&#9733;</span>
         </div>
     </div>
 
     <form class="review-form" action="https://create.reviewus.in/submit_review" method="post">
         <input type="hidden" name="_token" value="KjSdYFfxEaOcoePUMTz3peuoCkUJyBTJuSWb1KqK">
         <input type="hidden" name="refer" value="5ARger0qFvTqg8k6pW1NFgs3OH4kL8">
+        <input type="hidden" id="rating" name="rating" value="0">
 
         <div class="form-group">
             <label for="reviewer_name">Your Name</label>
@@ -105,12 +114,12 @@
 
         <div class="form-group">
             <label for="reviewer_no">Your Contact Number</label>
-            <input type="text" id="reviewer_no" name="reviewer_no" class="form-control" placeholder="Enter Your Contact Number" required>
+            <input type="text" id="reviewer_no" name="reviewer_no" class="form-control" placeholder="Enter Your Contact Number" pattern="\d{10}" title="Please enter a valid 10-digit phone number" required>
         </div>
 
         <div class="form-group">
             <label for="text_area">Your Review</label>
-            <textarea id="text_area" name="text_area" class="form-control" rows="5" placeholder="Share your thoughts..." required></textarea>
+            <textarea id="text_area" name="text_area" class="form-control" rows="5" placeholder="Share your thoughts..." minlength="10" required></textarea>
         </div>
 
         <button type="submit" class="submit-btn">Submit Review</button>
@@ -120,6 +129,44 @@
         &copy; 2024 Jayalakshmi Silks Pvt Ltd
     </div>
 </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const stars = document.querySelectorAll('.stars');
+        let rating = 0;
+
+        stars.forEach(star => {
+            star.addEventListener('mouseover', handleHover);
+            star.addEventListener('mouseout', handleOut);
+            star.addEventListener('click', handleClick);
+        });
+
+        function handleHover(e) {
+            const ratingValue = e.target.getAttribute('data-rating');
+            highlightStars(ratingValue);
+        }
+
+        function handleOut() {
+            highlightStars(rating);
+        }
+
+        function handleClick(e) {
+            rating = e.target.getAttribute('data-rating');
+            document.getElementById('rating').value = rating;
+            highlightStars(rating);
+        }
+
+        function highlightStars(ratingValue) {
+            stars.forEach(star => {
+                if (star.getAttribute('data-rating') <= ratingValue) {
+                    star.classList.add('highlighted');
+                } else {
+                    star.classList.remove('highlighted');
+                }
+            });
+        }
+    });
+</script>
 
 </body>
 </html>
